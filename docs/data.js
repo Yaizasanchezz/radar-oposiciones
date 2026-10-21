@@ -1,1 +1,620 @@
-window.RADAR = {"actualizado": "", "hoy": "", "ambitos": {}, "oposiciones": []};
+window.RADAR = {
+ "actualizado": "2026-10-21 10:53",
+ "hoy": "2026-10-21",
+ "ambitos": {
+  "estatal": "Estado (AGE)",
+  "comunidad_madrid": "Comunidad de Madrid",
+  "ayuntamiento_alcorcon": "Ayto. Alcorcón",
+  "ayuntamiento_madrid": "Ayto. Madrid"
+ },
+ "oposiciones": [
+  {
+   "id": 7,
+   "puesto": "Técnico/a Superior de Gestión Cultural",
+   "cuerpo": "Administración Especial, subescala Técnica, clase Superior",
+   "organismo": "ADMINISTRACIÓN LOCAL",
+   "ambito": "ayuntamiento_alcorcon",
+   "ambitoNombre": "Ayto. Alcorcón",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "concurso-oposicion",
+   "plazas": 1,
+   "accesible": "dudoso",
+   "motivoAccesible": "El extracto no indica el subgrupo ni la titulación exigida; la subescala técnica de clase superior suele corresponder a A1, que exige título universitario, por lo que es probable que no sea accesible. Confirmar en las bases.",
+   "titulacion": "No indicada en el extracto; consultar las bases del BOCM nº 234",
+   "requisitos": "Consultar las bases publicadas en el BOCM nº 234 de 1-10-2026",
+   "estado": "abierta",
+   "publicado": "2026-10-07",
+   "publicadoBOE": "2026-10-07",
+   "inicioPlazo": "2026-10-08",
+   "finPlazo": "2026-10-27",
+   "plazoTexto": "20 días naturales",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.ayto-alcorcon.es/",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-20868",
+     "fecha": "2026-10-07",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20868",
+     "titulo": "Resolución de 2 de octubre de 2026, del Ayuntamiento de Alcorcón (Madrid), referente a la convocatoria para proveer una plaza.",
+     "tipo": "extracto"
+    }
+   ],
+   "resumen": "El Ayuntamiento de Alcorcón convoca una plaza de Técnico/a Superior de Gestión Cultural (Concejalía de Mayores) por concurso-oposición, turno libre, con bases publicadas en el BOCM nº 234 de 1-10-2026. El plazo es de 20 días naturales desde el día siguiente a la publicación en el BOE (7-10-2026), por lo que finalizaría aproximadamente el 27-10-2026.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Plaza única con fase de concurso y oposición; el temario y los ejercicios no constan en este extracto, por lo que la valoración es orientativa."
+   },
+   "aspirantes": {
+    "estimacion": "50–150 (≈ 50–150 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de plazas únicas de técnico superior en ayuntamientos de tamaño medio-grande; no se conocen ediciones anteriores de esta convocatoria."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 1,
+   "puesto": "Técnico/a Superior en Imagen para el Diagnóstico y Medicina Nuclear",
+   "cuerpo": "Técnico/a Superior en Imagen para el Diagnóstico y Medicina Nuclear (personal estatutario fijo, INGESA)",
+   "organismo": "MINISTERIO DE SANIDAD",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "desconocido",
+   "sistema": "concurso-oposicion",
+   "plazas": 8,
+   "accesible": "dudoso",
+   "motivoAccesible": "El texto no indica el subgrupo y exige un título concreto de FP de imagen para el diagnóstico, que no coincide con DAM ni Marketing y Publicidad; conviene verificar el subgrupo antes de presentarse.",
+   "titulacion": "Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear, o FP de segundo grado Rama Sanitaria especialidad Radiodiagnóstico, o titulación equivalente",
+   "requisitos": "Nacionalidad española (o de la UE o acogidos a tratados con libre circulación); capacidad funcional; no haber sido separado de la Administración ni inhabilitado; certificado negativo del Registro Central de Delincuentes Sexuales; no ser titular de plaza en la misma categoría; homologación si la titulación es extranjera; tasa salvo exención.",
+   "estado": "abierta",
+   "publicado": "2026-10-05",
+   "publicadoBOE": "2026-10-05",
+   "inicioPlazo": "2026-10-06",
+   "finPlazo": "2026-11-04",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-20628",
+     "fecha": "2026-10-05",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20628",
+     "titulo": "Resolución de 25 de septiembre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo, por concurso-oposición, por el sistema general de acceso libre, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Técnico/a Superior en Imagen para el Diagnóstico y Medicina Nuclear.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Concurso-oposición del INGESA para 8 plazas de Técnico/a Superior en Imagen para el Diagnóstico y Medicina Nuclear (turno libre, 1 reservada a discapacidad). El plazo de 20 días hábiles está abierto desde el 6 de octubre de 2026 y, descontando el festivo del 12 de octubre, cierra hacia el 2 de noviembre; el título exigido es específico de imagen, no coincide con tus titulaciones.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 50,
+    "bloques": [
+     {
+      "nombre": "Marco normativo y sanitario general (temas 1-10)",
+      "num_temas": 10,
+      "resumen": "Constitución, Ley General de Sanidad, Estatuto Marco, bioética, protección de datos, igualdad, dependencia y prevención de riesgos laborales."
+     },
+     {
+      "nombre": "Física, equipos y formación de imagen (temas 13 y 19-26)",
+      "num_temas": 9,
+      "resumen": "Garantía de calidad, radiaciones ionizantes, física de rayos X, equipos de radiología convencional e imagen digital."
+     },
+     {
+      "nombre": "Anatomía y técnicas radiológicas convencionales (temas 27-39)",
+      "num_temas": 13,
+      "resumen": "Anatomía radiológica de extremidades, tórax, abdomen, cráneo, pelvis y columna, pediatría y exploraciones con contraste."
+     },
+     {
+      "nombre": "Técnicas avanzadas y contrastes (temas 40-44)",
+      "num_temas": 5,
+      "resumen": "TAC, resonancia magnética, contrastes y sus reacciones adversas, y ecografía."
+     },
+     {
+      "nombre": "Protección radiológica y normativa (temas 11, 14-17, 46-50)",
+      "num_temas": 10,
+      "resumen": "Riesgos del aparataje, radioprotección, dosimetría, protección del paciente y reglamentos de radiaciones y dosimetría."
+     },
+     {
+      "nombre": "Ética, documentación y desarrollo profesional (temas 12, 18, 45)",
+      "num_temas": 3,
+      "resumen": "Responsabilidad civil y aspectos éticos, documentación sanitaria y formación continuada."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único de la fase de oposición (eliminatorio)",
+     "descripcion": "Test de 50 preguntas (más 5 de reserva) y dos supuestos prácticos de 4 preguntas cada uno (más 1 de reserva), con 3 respuestas por pregunta y una sola correcta; 120 minutos; los errores restan un cuarto del valor; se supera con el 50 % de la puntuación máxima (100 puntos)."
+    },
+    {
+     "nombre": "Fase de concurso (no eliminatoria)",
+     "descripcion": "Valoración de méritos con un máximo de 100 puntos: experiencia profesional (hasta 60), formación (hasta 30) y otros méritos (hasta 10); se presenta la documentación en 15 días hábiles tras las calificaciones de la oposición."
+    }
+   ],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Temario muy extenso (50 temas) con mucha parte técnica de radiología, test con penalización y supuestos prácticos; además de 8 plazas, el examen se realiza en Ceuta."
+   },
+   "aspirantes": {
+    "estimacion": "300-600 (aprox. 40-75 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicas de plazas sanitarias del INGESA con titulación de FP de imagen; no hay datos de ediciones anteriores en el texto."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 4,
+   "puesto": "Titulado/a Administrativo/a Administración Sanitaria",
+   "cuerpo": "Personal estatutario fijo, categoría Titulado/a Administrativo/a Administración Sanitaria (INGESA)",
+   "organismo": "MINISTERIO DE SANIDAD",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "C1",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "concurso-oposicion",
+   "plazas": 2,
+   "accesible": "si",
+   "motivoAccesible": "Hay turno libre y la titulación exigida (Bachiller o FP de Grado Superior) coincide con su perfil. La promoción interna solo es accesible si ya es personal estatutario fijo del INGESA.",
+   "titulacion": "Bachiller o Formación Profesional de Grado Superior, o equivalente, con formación finalizada a la fecha de fin de solicitudes",
+   "requisitos": "Nacionalidad española (con excepciones para nacionales de la UE y familiares); 18 años cumplidos y capacidad funcional; no haber sido separado de la Administración; no ser titular de plaza en la misma categoría. Las 3 plazas de promoción interna exigen ser personal estatutario fijo en INGESA con al menos 2 años de antigüedad en la categoría, y certificado del anexo III. Cada persona solo puede optar a un sistema: libre o promoción interna.",
+   "estado": "abierta",
+   "publicado": "2026-10-06",
+   "publicadoBOE": "2026-10-06",
+   "inicioPlazo": "2026-10-07",
+   "finPlazo": "2026-11-05",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-20766",
+     "fecha": "2026-10-06",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20766",
+     "titulo": "Resolución de 25 de septiembre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo, por concurso-oposición, por el sistema general de acceso libre y por promoción interna, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Titulado/a Administrativo/a Administración Sanitaria.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del INGESA (Ministerio de Sanidad) de concurso-oposición para 2 plazas de acceso libre y 3 por promoción interna de Titulado/a Administrativo/a Administración Sanitaria, con titulación de Bachiller o FP de Grado Superior. El plazo de solicitudes es de 20 días hábiles desde el 7 de octubre de 2026 y se presenta por el servicio IPS del Punto de Acceso General.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 44,
+    "bloques": [
+     {
+      "nombre": "Parte general: Constitución, UE, asistencia sanitaria y organización",
+      "num_temas": 5,
+      "resumen": "Constitución Española, Unión Europea, derecho a la asistencia sanitaria, Ceuta y Melilla y Seguridad Social."
+     },
+     {
+      "nombre": "Parte general: Sanidad, discapacidad, igualdad y Estatuto Marco",
+      "num_temas": 10,
+      "resumen": "Acuerdos de gestión del INGESA, Ley General de Sanidad, discapacidad, violencia de género, igualdad efectiva, dependencia y Estatuto Marco."
+     },
+     {
+      "nombre": "Parte especial: Normativa sanitaria y empleo público",
+      "num_temas": 2,
+      "resumen": "Ley de Cohesión del SNS y Estatuto Básico del Empleado Público."
+     },
+     {
+      "nombre": "Parte especial: Fuentes del derecho y procedimiento administrativo",
+      "num_temas": 7,
+      "resumen": "Fuentes del Derecho, Ley 39/2015 de Procedimiento Administrativo Común (interesados, plazos, actos, registros, recursos) y Ley 40/2015 de Régimen Jurídico del Sector Público."
+     },
+     {
+      "nombre": "Parte especial: Personal estatutario, Seguridad Social y presupuesto",
+      "num_temas": 10,
+      "resumen": "Plan de Ordenación de Recursos Humanos del INGESA, régimen disciplinario, incompatibilidades, retribuciones, Seguridad Social y Ley General Presupuestaria."
+     },
+     {
+      "nombre": "Parte especial: Contratación, paciente e informática",
+      "num_temas": 4,
+      "resumen": "Ley de Contratos del Sector Público, contratos de obras, suministros y servicios, sistemas de información del INGESA y Ley 41/2002 de autonomía del paciente."
+     },
+     {
+      "nombre": "Parte especial: Informática y ofimática",
+      "num_temas": 4,
+      "resumen": "Sistemas informáticos y seguridad básica, procesadores de texto, bases de datos, hojas de cálculo, internet y administración electrónica."
+     },
+     {
+      "nombre": "Parte especial: Protección de datos y transparencia",
+      "num_temas": 2,
+      "resumen": "LO 3/2018 de protección de datos y garantía de derechos digitales, y Ley 19/2013 de transparencia."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único de oposición (eliminatorio)",
+     "descripcion": "Test de 50 preguntas más 5 de reserva (acceso libre; en promoción interna, 45 más 4 de reserva) y dos supuestos prácticos de 4 preguntas cada uno más 1 de reserva. Tres respuestas por pregunta, una correcta; el error resta un cuarto. Tiempo máximo de 120 minutos. Puntuación máxima de 100 puntos; hay que alcanzar al menos la mitad para superarlo."
+    },
+    {
+     "nombre": "Fase de concurso (méritos)",
+     "descripcion": "Valoración de méritos sobre un máximo de 100 puntos según el baremo del anexo IV: experiencia profesional (hasta 60), formación (hasta 30) y otros méritos (hasta 10). Solo se valora para quienes superan la oposición, con 15 días hábiles para presentar la documentación. La puntuación del concurso no sirve para alcanzar el mínimo de la oposición."
+    }
+   ],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Son 44 temas, muchos de normativa de procedimiento administrativo, personal y sanidad, con un test de 50 preguntas y casos prácticos en 120 minutos. El tiempo y la amplitud del programa lo hacen exigente."
+   },
+   "aspirantes": {
+    "estimacion": "Estimación orientativa: 500–1.000 aspirantes en total (≈100–200 por plaza)",
+    "explicacion": "Es una estimación basada en ratios típicas de convocatorias de INGESA para categorías administrativas de subgrupo C1 con plazas en todo el ámbito del Instituto. No se han consultado ediciones anteriores de esta oposición concreta."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 5,
+   "puesto": "Auxiliar Administrativo",
+   "cuerpo": "Grupo Auxiliar de la Función Administrativa de las Instituciones Sanitarias del INGESA",
+   "organismo": "MINISTERIO DE SANIDAD",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "C2",
+   "grupoLaboral": null,
+   "personal": "desconocido",
+   "sistema": "concurso-oposicion",
+   "plazas": 31,
+   "accesible": "si",
+   "motivoAccesible": "Subgrupo C2 en turno libre y titulación exigida de ESO o FP de Grado Medio, que la opositora supera con su Grado Superior.",
+   "titulacion": "Graduado en ESO, Formación Profesional de Grado Medio o equivalente, a la fecha de fin del plazo de solicitudes",
+   "requisitos": "Nacionalidad española (o de la UE en las condiciones de la base 3.2), 18 años cumplidos y no superar la edad de jubilación, capacidad funcional, no haber sido separado de la Administración ni inhabilitado, no ser titular de plaza en la misma categoría y certificado negativo del Registro Central de delincuentes sexuales. Cupo de 4 plazas para discapacidad igual o superior al 33 %. El examen se realiza en Ceuta o Melilla, a elegir en la solicitud.",
+   "estado": "abierta",
+   "publicado": "2026-10-06",
+   "publicadoBOE": "2026-10-06",
+   "inicioPlazo": "2026-10-07",
+   "finPlazo": "2026-11-05",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-20768",
+     "fecha": "2026-10-06",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20768",
+     "titulo": "Resolución de 25 de septiembre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo, por concurso-oposición, por el sistema general de acceso libre, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Grupo Auxiliar de la Función Administrativa.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del INGESA (Ministerio de Sanidad) de concurso-oposición por acceso libre para 31 plazas de Grupo Auxiliar de la Función Administrativa, con 4 reservadas a discapacidad; la opositora cumple la titulación exigida (ESO o FP Grado Medio). El plazo de 20 días hábiles está abierto desde el 7 de octubre de 2026 y terminaría aproximadamente el 4 de noviembre de 2026 (cálculo orientativo, sin excluir festivos autonómicos o locales).",
+   "temario": {
+    "disponible": true,
+    "num_temas": 34,
+    "bloques": [
+     {
+      "nombre": "Parte general: Constitución, Unión Europea, sanidad y Estatuto Marco",
+      "num_temas": 15,
+      "resumen": "Constitución y derechos fundamentales, Unión Europea, asistencia sanitaria, Ley General de Sanidad, Real Decreto 118/2023 del INGESA, discapacidad, igualdad, violencia de género y Estatuto Marco del personal estatutario."
+     },
+     {
+      "nombre": "Parte especial: procedimiento administrativo, datos, Seguridad Social y presupuesto",
+      "num_temas": 13,
+      "resumen": "Régimen Jurídico del Sector Público, Ley 39/2015 de Procedimiento Administrativo, registro electrónico, acto administrativo, presupuesto, Seguridad Social, contratos del sector público, protección de datos, autonomía del paciente, prevención de riesgos y transparencia."
+     },
+     {
+      "nombre": "Ofimática e Internet",
+      "num_temas": 6,
+      "resumen": "Informática básica y ciberseguridad, Windows 11, Word 365, Excel 365, Outlook 365 e Internet."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único de oposición (eliminatorio)",
+     "descripcion": "Test de 50 preguntas más 5 de reserva y dos supuestos prácticos de 4 preguntas cada uno más 1 de reserva, con tres respuestas por pregunta y una sola correcta. Tiempo máximo de 120 minutos. Cada fallo resta un cuarto del valor de la respuesta correcta. Puntuación máxima de 100 puntos; hace falta al menos la mitad para superarlo."
+    },
+    {
+     "nombre": "Fase de concurso (méritos)",
+     "descripcion": "Valoración de méritos sobre un máximo de 100 puntos según el baremo del anexo III: experiencia (60), formación (30) y otros méritos (10). Solo se valora a quien ha superado la oposición. Se aplica sobre la fecha del día anterior a la publicación en el BOE."
+    }
+   ],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "El temario es amplio (34 temas) y mezcla derecho, sanidad e informática, pero el test es de tres opciones con penalización moderada y las materias son de nivel auxiliar."
+   },
+   "aspirantes": {
+    "estimacion": "3.000–6.000 (≈ 100–190 por plaza)",
+    "explicacion": "Estimación orientativa, sin datos de ediciones anteriores de esta convocatoria. Se basa en ratios habituales de plazas de auxiliar administrativo sanitario con 31 plazas y examen en Ceuta o Melilla."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 6,
+   "puesto": "Pinche",
+   "cuerpo": "Personal estatutario fijo, categoría de Pinche (Instituciones Sanitarias del INGESA)",
+   "organismo": "MINISTERIO DE SANIDAD",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "AP",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "concurso-oposicion",
+   "plazas": 2,
+   "accesible": "si",
+   "motivoAccesible": "Requiere solo certificado de escolaridad o equivalente, inferior a su Técnico Superior, y es de turno libre.",
+   "titulacion": "Certificado de Escolaridad o equivalente (base 3.10)",
+   "requisitos": "Nacionalidad española o de la UE/convenios; capacidad funcional; edad mínima 18 años y no superar la edad de jubilación; no haber sido separado de la Administración ni inhabilitado; no ser titular de plaza en la misma categoría; no tener condena por delitos contra la libertad o indemnidad sexual (certificado del Registro Central de Delincuentes Sexuales); abonar la tasa salvo exención.",
+   "estado": "abierta",
+   "publicado": "2026-10-06",
+   "publicadoBOE": "2026-10-06",
+   "inicioPlazo": "2026-10-07",
+   "finPlazo": "2026-11-05",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-20769",
+     "fecha": "2026-10-06",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20769",
+     "titulo": "Resolución de 25 de septiembre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo, por concurso-oposición, por el sistema general de acceso libre, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Pinche.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del INGESA (BOE 6 de octubre de 2026) de concurso-oposición libre para 2 plazas de Pinche de personal estatutario fijo, con examen tipo test en Ceuta y requisito de certificado de escolaridad. El plazo de 20 días hábiles empezó el 7 de octubre y, contando los festivos nacionales, terminaría hacia el 4 de noviembre de 2026 (estimación propia).",
+   "temario": {
+    "disponible": true,
+    "num_temas": 12,
+    "bloques": [
+     {
+      "nombre": "Marco normativo e institucional",
+      "num_temas": 4,
+      "resumen": "Derecho a la protección de la salud en la Constitución, Ley General de Sanidad, RD 118/2023 que regula el INGESA y Estatuto Marco del personal estatutario."
+     },
+     {
+      "nombre": "Higiene y normativa de cocina hospitalaria",
+      "num_temas": 3,
+      "resumen": "Condiciones de la cocina hospitalaria centralizada, sistema de análisis de peligros y puntos de control crítico (Reglamento 852/2004) y requisitos de higiene de establecimientos (RD 1021/2022)."
+     },
+     {
+      "nombre": "Alimentación, nutrición y dietas",
+      "num_temas": 1,
+      "resumen": "Nutrientes, dietas terapéuticas hospitalarias, alergias e intolerancias y alérgenos de declaración obligatoria."
+     },
+     {
+      "nombre": "Manipulación, elaboración y riesgos alimentarios",
+      "num_temas": 4,
+      "resumen": "Buenas prácticas de manipulación, sistemas de elaboración (cocina caliente, fría, de ensamblaje o al vacío), acondicionamiento de materias primas y contaminaciones, enfermedades alimentarias y comidas testigo."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único, eliminatorio (fase de oposición)",
+     "descripcion": "Test de 30 preguntas más 3 de reserva, con 3 respuestas por pregunta y una sola correcta; tiempo máximo de 90 minutos; cada error resta un cuarto del valor de la respuesta correcta; puntuación máxima de 100 y se supera con al menos la mitad."
+    },
+    {
+     "nombre": "Fase de concurso (no eliminatoria)",
+     "descripcion": "Valoración de méritos sobre 100 puntos: experiencia profesional (hasta 60), formación (hasta 30) y otros méritos (hasta 10). Solo se aplica tras superar la oposición y no suma para el mínimo de esa fase."
+    }
+   ],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Temario de 12 temas, de los que 4 son normativa general, y un test de 30 preguntas con penalización. Es un nivel de dificultad moderado para la categoría."
+   },
+   "aspirantes": {
+    "estimacion": "150–400 (≈75–200 por plaza)",
+    "explicacion": "Estimación orientativa basada en que se trata de una categoría de acceso sin titulación elevada y solo 2 plazas. No hay datos de ediciones anteriores, así que es una aproximación."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 8,
+   "puesto": "Cocinero/a",
+   "cuerpo": "Personal estatutario fijo, categoría de Cocinero/a de las Instituciones Sanitarias del INGESA",
+   "organismo": "MINISTERIO DE SANIDAD",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "C2",
+   "grupoLaboral": null,
+   "personal": "desconocido",
+   "sistema": "concurso-oposicion",
+   "plazas": 1,
+   "accesible": "si",
+   "motivoAccesible": "Subgrupo C2, turno libre y titulación exigida de Bachiller o FP de grado superior, que coincide con el Técnico Superior que posee la opositora.",
+   "titulacion": "Título de Bachiller o Formación Profesional de grado superior o equivalente, a la fecha de fin del plazo de solicitudes",
+   "requisitos": "Nacionalidad española (con las excepciones para nacionales de la UE y asimilados); tener 18 años y no superar la edad de jubilación; capacidad funcional; no ser titular de plaza en la misma categoría en el SNS; no haber sido separado de la Administración; certificación negativa del Registro Central de delincuentes sexuales; abonar la tasa salvo exención; titulaciones extranjeras con homologación o equivalencia.",
+   "estado": "abierta",
+   "publicado": "2026-10-20",
+   "publicadoBOE": "2026-10-20",
+   "inicioPlazo": "2026-10-21",
+   "finPlazo": "2026-11-17",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-21821",
+     "fecha": "2026-10-20",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21821",
+     "titulo": "Resolución de 7 de octubre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo, por concurso-oposición, por el sistema general de acceso libre, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Cocinero/a.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del INGESA de concurso-oposición libre para 1 plaza de personal estatutario fijo de Cocinero/a en las Instituciones Sanitarias, con examen en Ceuta. El plazo de solicitudes es de 20 días hábiles desde el 21 de octubre de 2026, hasta el 17 de noviembre de 2026.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 45,
+    "bloques": [
+     {
+      "nombre": "Parte general: Constitución, UE y sanidad",
+      "num_temas": 7,
+      "resumen": "Constitución Española, Unión Europea, asistencia sanitaria a extranjeros, Ceuta y Melilla, organización del INGESA, Real Decreto 118/2023 y Ley General de Sanidad."
+     },
+     {
+      "nombre": "Parte general: discapacidad, igualdad y violencia",
+      "num_temas": 6,
+      "resumen": "Derechos de las personas con discapacidad, acceso al empleo público de personas con discapacidad, violencia de género, Ley de igualdad y Ley de dependencia."
+     },
+     {
+      "nombre": "Parte general: Estatuto Marco",
+      "num_temas": 2,
+      "resumen": "Ley 55/2003 del Estatuto Marco: principios, clasificación del personal, derechos y deberes, provisión de plazas y carrera profesional."
+     },
+     {
+      "nombre": "Parte especial: cocina y organización del servicio",
+      "num_temas": 11,
+      "resumen": "Condiciones de la cocina, organización del servicio de hostelería, maquinaria y tecnología culinaria, distribución del trabajo, técnicas culinarias, gestión de materias primas y sistemas de producción."
+     },
+     {
+      "nombre": "Parte especial: seguridad alimentaria, dietética y prevención",
+      "num_temas": 19,
+      "resumen": "Higiene y normativa alimentaria, intoxicaciones, APPCC, comidas testigo, plan de limpieza, alergias, dietas terapéuticas, protección ambiental, plan de emergencia y prevención de riesgos laborales en hostelería."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único de oposición (eliminatorio)",
+     "descripcion": "Test de 50 preguntas más 5 de reserva, con 3 respuestas alternativas cada una, y dos supuestos prácticos de 4 preguntas cada uno más 1 de reserva. Tiempo máximo de 120 minutos. Cada error resta un cuarto del valor de la respuesta correcta. Puntuación máxima de 100 puntos; para superarlo hay que alcanzar al menos 50. Después, fase de concurso de méritos (máximo 100 puntos, con baremo de experiencia, formación y otros méritos) que se suma a la oposición."
+    }
+   ],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Son 45 temas, de los que 15 son de normativa general y sanidad y 30 de cocina y seguridad alimentaria. El test tiene 50 preguntas con penalización por error y 120 minutos, con un ejercicio único y eliminatorio, lo que exige preparación seria pero es asequible para un perfil de FP de grado superior."
+   },
+   "aspirantes": {
+    "estimacion": "150–400 (≈150–400 por plaza)",
+    "explicacion": "Estimación orientativa: no hay datos de ediciones anteriores en el anuncio. Es una plaza única con examen en Ceuta, lo que reduce la afluencia respecto a convocatorias con varias plazas o sedes en la península."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 2,
+   "puesto": "Técnico/a (División de Material Móvil)",
+   "cuerpo": "Técnico/a de la División de Material Móvil de la Dirección de Explotación Ferroviaria de Metro de Madrid, S. A.",
+   "organismo": "METRO DE MADRID, S. A.",
+   "ambito": "comunidad_madrid",
+   "ambitoNombre": "Comunidad de Madrid",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": null,
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 2,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación ni el grupo profesional, por lo que no se puede confirmar que sea accesible con un Técnico Superior de FP.",
+   "titulacion": "No consta en el anuncio.",
+   "requisitos": "No constan en el anuncio. Se constituye además una bolsa de diez personas candidatas en reserva con validez de dos años para futuras contrataciones de Técnico/a en la misma división.",
+   "estado": "consultar",
+   "publicado": "2026-10-06",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.comunidad.madrid/servicios/empleo/oposiciones-administracion-servicios-comunidad-madrid",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261006-4",
+     "fecha": "2026-10-06",
+     "url": "https://www.bocm.es/bocm-20261006-4",
+     "titulo": "Convocatoria proceso selectivo – Anuncio de 1 de octubre de 2026, por el que se hace pública la convocatoria de un proceso selectivo para cubrir dos puestos de trabajo de Técnico/a en la División de Material Móvil de la Dirección de Explotación Ferroviaria de Metro de Madrid, S. A., mediante un contrato laboral indefinido y a jornada completa",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Metro de Madrid, S. A. convoca dos puestos de Técnico/a en la División de Material Móvil (contrato laboral indefinido, jornada completa) y crea una bolsa de diez personas en reserva con validez de dos años. El anuncio no indica plazo, titulación exigida, pruebas ni enlace de inscripción, así que hay que consultar la web de Metro de Madrid (metromadrid.es).",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "No hay datos sobre pruebas ni temario; el nivel se estima por ser un proceso laboral de empresa pública con plazas limitadas, sin poder valorar el contenido."
+   },
+   "aspirantes": {
+    "estimacion": "No estimable con el anuncio (orientativamente, decenas a pocos cientos de candidaturas)",
+    "explicacion": "Estimación orientativa: el anuncio no indica requisitos ni pruebas, y dos plazas de contrato indefinido en una empresa pública de Madrid suelen atraer un número moderado de candidaturas."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 3,
+   "puesto": "Titulado/a superior (Depuración)",
+   "cuerpo": "Personal de Canal de Isabel II, S. A., M. P. (puesto indefinido de nuevo ingreso)",
+   "organismo": "CONSEJERÍA DE MEDIO AMBIENTE, AGRICULTURA  E INTERIOR",
+   "ambito": "comunidad_madrid",
+   "ambitoNombre": "Comunidad de Madrid",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 4,
+   "accesible": "dudoso",
+   "motivoAccesible": "La denominación 'titulado/a superior' apunta a una titulación universitaria, lo que la haría no accesible, pero los requisitos no se han publicado todavía, así que hay que revisar las bases.",
+   "titulacion": "No especificada en este anuncio; la denominación 'titulado/a superior' suele exigir titulación universitaria.",
+   "requisitos": "No especificados en este anuncio; se publicarán en las bases de la convocatoria.",
+   "estado": "consultar",
+   "publicado": "2026-10-06",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": "El anuncio indica que la convocatoria completa se publicará en el BOCM a partir del día hábil siguiente a su comunicación, por lo que el plazo de solicitudes aún no está abierto. Hay que esperar a esa publicación y a las bases para conocer requisitos y fechas.",
+   "urlInscripcion": "https://www.convocatoriascanaldeisabelsegunda.es",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261006-7",
+     "fecha": "2026-10-06",
+     "url": "https://www.bocm.es/bocm-20261006-7",
+     "titulo": "Canal de Isabel II, S. A., M. P. 7 Convocatoria proceso selectivo – Anuncio de 28 de septiembre del 2026, de Canal de Isabel II, S. A., M. P., por el que hace pública la convocatoria de proceso selectivo para la cobertura de puestos indefinidos por turno libre de 4 plazas",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Canal de Isabel II, S. A., M. P. anuncia un proceso selectivo para cubrir 4 plazas indefinidas de titulado/a superior (Depuración) por turno libre. Las bases completas aún no se han publicado y se difundirán en el BOCM y en la web de la empresa.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Estimación sin programa ni ejercicios publicados. Al tratarse de un puesto de titulado superior en una empresa pública, es previsible un proceso con pruebas técnicas y de conocimientos, de dificultad media."
+   },
+   "aspirantes": {
+    "estimacion": "400–1.200 (≈ 100–300 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de puestos de titulado superior en empresas públicas con pocas plazas. No hay datos de ediciones anteriores de este proceso."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  }
+ ]
+};
