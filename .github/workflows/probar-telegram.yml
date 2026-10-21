@@ -1,0 +1,39 @@
+name: Probar Telegram
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enviar mensaje de prueba
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.error
+          token, chat = os.environ["TOKEN"].strip(), os.environ["CHAT"].strip()
+          if not token or not chat:
+              raise SystemExit("❌ Falta algún secreto: TELEGRAM_BOT_TOKEN o TELEGRAM_CHAT_ID está vacío.")
+          if ":" not in token:
+              raise SystemExit("❌ El token no tiene el formato correcto (debe llevar dos puntos ':').")
+          print("Chat ID guardado:", chat)
+          datos = json.dumps({"chat_id": chat, "text": "🌸 Prueba del radar de oposiciones: ¡Telegram funciona!"}).encode()
+          req = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendMessage", data=datos,
+                                       headers={"Content-Type": "application/json"})
+          try:
+              urllib.request.urlopen(req, timeout=30)
+              print("✅ Mensaje enviado. Mira tu Telegram.")
+          except urllib.error.HTTPError as e:
+              desc = json.loads(e.read()).get("description", "")
+              print("❌ Telegram responde:", e.code, desc)
+              if e.code == 401:
+                  print("→ El token está mal copiado. Vuelve a copiarlo de @BotFather.")
+              elif "chat not found" in desc.lower():
+                  print("→ El Chat ID está mal o no has pulsado 'Iniciar' en el chat de tu bot.")
+              elif "blocked" in desc.lower():
+                  print("→ Has bloqueado al bot: desbloquéalo en Telegram.")
+              raise SystemExit(1)
+          PY
