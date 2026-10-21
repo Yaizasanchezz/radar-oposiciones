@@ -60,7 +60,9 @@ class Config:
     # --- secretos (variables de entorno, nunca en el YAML) ---
     @property
     def anthropic_api_key(self) -> str:
-        return os.environ.get("ANTHROPIC_API_KEY", "").strip()
+        crudo = os.environ.get("ANTHROPIC_API_KEY", "")
+        m = re.search(r"sk-ant-[A-Za-z0-9_\-]+", re.sub(r"\s+", "", crudo))
+        return m.group(0) if m else crudo.strip()
 
     @property
     def telegram_token(self) -> str:
