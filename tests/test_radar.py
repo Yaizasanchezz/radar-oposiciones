@@ -51,6 +51,25 @@ class TestFiltros(unittest.TestCase):
         for t in no:
             self.assertFalse(filtros.parece_convocatoria(t), t)
 
+    def test_titulos_reales_que_no_abren_plazo(self):
+        # Vistos en la primera ejecución real (octubre de 2026)
+        no = [
+            "Aspirantes proceso selectivo — Resolución de 21 de septiembre de 2026, mediante la que se "
+            "procede a la exclusión de aspirantes de las pruebas selectivas",
+            "Resolución proceso selectivo – Resolución por la que se requiere documentación acreditativa",
+            "Comisión permanente de selección – Resolución por la que se encomienda la realización del proceso selectivo",
+            "Orden PJC/1040/2026, por la que se corrigen errores en la Orden PJC/999/2026",
+            "Convocatoria proceso selectivo – Resolución por la que se procede a la ampliación del número de "
+            "plazas correspondientes al proceso selectivo",
+            "Resolución por la que se aprueba la relación definitiva de personas admitidas y excluidas, y se "
+            "anuncia fecha y lugar de celebración del ejercicio único, del proceso selectivo",
+        ]
+        for t in no:
+            self.assertFalse(filtros.parece_convocatoria(t), t)
+        self.assertTrue(filtros.parece_convocatoria(
+            "Convocatoria proceso selectivo – Orden 2056/2026, por la que se convocan pruebas selectivas "
+            "para el ingreso, por el sistema general de acceso libre, en el Cuerpo de Técnicos"))
+
     def test_ambito_boe(self):
         self.assertEqual(filtros.ambito_boe("MINISTERIO DEL INTERIOR", "x", CFG), "estatal")
         self.assertEqual(filtros.ambito_boe(

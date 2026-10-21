@@ -38,8 +38,17 @@ _NO = re.compile(
     r"profesorado|personal docente e investigador|ayudante doctor|"
     r"facultativo especialista|medico|enfermer|jueces|magistrad|notari|registrador|"
     r"emplazamiento|recurso contencioso|\bcese\b|jubilacion|subvencion|"
-    r"relacion de puestos de trabajo|adjudica"
+    r"relacion de puestos de trabajo|adjudica|"
+    # listas, correcciones y trámites de procesos ya convocados (vistos en el BOE/BOCM reales)
+    r"admitid[oa]s|aspirantes propuest|exclusion de aspirantes|calificaciones|corrig|"
+    r"ampliacion del numero de plazas|modifica el numero de plazas|declara la urgencia|"
+    r"requiere documentacion|modifica la composicion|reservista voluntario|letrados|"
+    r"relacion de (personas )?aprobad"
 )
+
+# Categorías del sumario del BOCM que nunca abren un plazo
+_NO_CATEGORIA = re.compile(r"^(aspirantes proceso selectivo|resolucion proceso selectivo|"
+                           r"comision permanente|tribunal|nombramiento)")
 
 _SOLO_PROMOCION_INTERNA = re.compile(r"promocion interna")
 _LIBRE = re.compile(r"acceso libre|turno libre|sistema general de acceso libre|libre\b")
@@ -47,7 +56,7 @@ _LIBRE = re.compile(r"acceso libre|turno libre|sistema general de acceso libre|l
 
 def parece_convocatoria(titulo: str) -> bool:
     t = normalizar(titulo)
-    if not _SI.search(t) or _NO.search(t):
+    if _NO_CATEGORIA.match(t) or not _SI.search(t) or _NO.search(t):
         return False
     if _SOLO_PROMOCION_INTERNA.search(t) and not _LIBRE.search(t):
         return False

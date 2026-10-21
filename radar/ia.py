@@ -216,6 +216,20 @@ def _bases_bocm(texto: str) -> dict:
     return {"numero": int(m.group(1)), "fecha": fecha.isoformat()}
 
 
+def _puesto_basico(titulo: str, texto: str) -> str:
+    """Intenta sacar la denominación de la plaza sin IA."""
+    m = re.search(r"\b(?:en el|en la|del|de la|de los)\s+((?:Cuerpo|Escala|categor[ií]a)[^,.;(]{3,90})",
+                  titulo, re.I)
+    if m:
+        return m.group(1).strip()
+    m = re.search(r"plazas? de ([A-ZÁÉÍÓÚ][\w/ áéíóúñÁÉÍÓÚÑ-]{3,60}?)"
+                  r"(?=[,.;:(]| pertenecientes?| de la [Ee]scala| [Ee]scala| [Ss]ubescala| mediante| encuadrad| del [Gg]rupo| [Gg]rupo)",
+                  texto)
+    if m:
+        return m.group(1).strip()
+    return re.sub(r"^[–\-\s]+", "", titulo)[:120]
+
+
 def analizar_basico(anuncio: Anuncio, texto: str, cfg: Config) -> dict:
     t = texto
     tl = t.lower()
@@ -241,7 +255,7 @@ def analizar_basico(anuncio: Anuncio, texto: str, cfg: Config) -> dict:
     temas = [int(x) for x in re.findall(r"(?:^|\n)\s*tema\s+(\d{1,3})\b", tl)]
     accesible = "si" if subgrupo in cfg.subgrupos else ("no" if subgrupo in ("A1", "A2", "B") else "dudoso")
     proceso = {
-        "puesto": anuncio.titulo[:120], "cuerpo_escala": "", "subgrupo": subgrupo,
+        "puesto": _puesto_basico(anuncio.titulo, t), "cuerpo_escala": "", "subgrupo": subgrupo,
         "grupo_laboral_equivalente": None, "personal": "desconocido",
         "turno_libre": "promoción interna" not in tl or "libre" in tl,
         "plazas_libre": None, "plazas_total": int(mp.group(1)) if mp else None,
