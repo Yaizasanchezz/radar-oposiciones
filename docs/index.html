@@ -43,7 +43,19 @@
       automáticas: confirma siempre en la convocatoria oficial antes de inscribirte.</p>
   </footer>
 
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <script>
+    // Carga siempre la versión más reciente de los datos (evita que el navegador muestre una copia vieja)
+    (function () {
+      var v = Date.now();
+      var d = document.createElement("script");
+      d.src = "data.js?v=" + v;
+      d.onload = d.onerror = function () {
+        var a = document.createElement("script");
+        a.src = "app.js?v=" + v;
+        document.body.appendChild(a);
+      };
+      document.body.appendChild(d);
+    })();
+  </script>
 </body>
 </html>
