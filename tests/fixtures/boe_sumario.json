@@ -1,0 +1,163 @@
+{
+  "status": {"code": "200", "text": "ok"},
+  "data": {
+    "sumario": {
+      "metadatos": {"publicacion": "BOE", "fecha_publicacion": "20261021"},
+      "diario": [
+        {
+          "numero": "254",
+          "sumario_diario": {"identificador": "BOE-S-2026-254", "url_pdf": {"szBytes": "1", "szKBytes": "1", "texto": "https://www.boe.es/boe/dias/2026/10/21/pdfs/BOE-S-2026-254.pdf"}},
+          "seccion": [
+            {
+              "codigo": "1",
+              "nombre": "I. Disposiciones generales",
+              "departamento": {
+                "codigo": "9583",
+                "nombre": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+                "epigrafe": {
+                  "nombre": "Oferta de empleo público",
+                  "item": {
+                    "identificador": "BOE-A-2026-90001",
+                    "titulo": "Real Decreto 900/2026, de 14 de octubre, por el que se aprueba la oferta de empleo público para el año 2026.",
+                    "url_pdf": {"szBytes": "1", "szKBytes": "1", "pagina_inicial": "1", "pagina_final": "9", "texto": "https://www.boe.es/boe/dias/2026/10/21/pdfs/BOE-A-2026-90001.pdf"},
+                    "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-90001",
+                    "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-90001"
+                  }
+                }
+              }
+            },
+            {
+              "codigo": "2B",
+              "nombre": "II. Autoridades y personal. - B. Oposiciones y concursos",
+              "departamento": [
+                {
+                  "codigo": "9583",
+                  "nombre": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+                  "epigrafe": [
+                    {
+                      "nombre": "Cuerpo General Auxiliar de la Administración del Estado",
+                      "item": {
+                        "identificador": "BOE-A-2026-90010",
+                        "control": "2026/1",
+                        "titulo": "Resolución de 15 de octubre de 2026, de la Secretaría de Estado de Función Pública, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo General Auxiliar de la Administración del Estado.",
+                        "url_pdf": {"szBytes": "1", "szKBytes": "1", "pagina_inicial": "1", "pagina_final": "20", "texto": "https://www.boe.es/boe/dias/2026/10/21/pdfs/BOE-A-2026-90010.pdf"},
+                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-90010",
+                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-90010"
+                      }
+                    },
+                    {
+                      "nombre": "Funcionarios de la Administración del Estado",
+                      "item": [
+                        {
+                          "identificador": "BOE-A-2026-90011",
+                          "titulo": "Resolución de 14 de octubre de 2026, de la Subsecretaría, por la que se convoca concurso general para la provisión de puestos de trabajo.",
+                          "url_pdf": {"texto": "https://www.boe.es/x.pdf"},
+                          "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-90011",
+                          "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-90011"
+                        },
+                        {
+                          "identificador": "BOE-A-2026-90012",
+                          "titulo": "Resolución de 14 de octubre de 2026, por la que se convoca proceso selectivo para ingreso, por el sistema de promoción interna, en el Cuerpo General Administrativo de la Administración del Estado.",
+                          "url_pdf": {"texto": "https://www.boe.es/y.pdf"},
+                          "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-90012",
+                          "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-90012"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "codigo": "9001",
+                  "nombre": "UNIVERSIDADES",
+                  "epigrafe": {
+                    "nombre": "Personal de administración y servicios",
+                    "item": {
+                      "identificador": "BOE-A-2026-90020",
+                      "titulo": "Resolución de 10 de octubre de 2026, de la Universidad Rey Juan Carlos, por la que se convocan pruebas selectivas para ingreso en la Escala Auxiliar.",
+                      "url_pdf": {"texto": "https://www.boe.es/z.pdf"},
+                      "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-90020",
+                      "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-90020"
+                    }
+                  }
+                },
+                {
+                  "codigo": "8010",
+                  "nombre": "COMUNIDAD AUTÓNOMA DE ANDALUCÍA",
+                  "epigrafe": {
+                    "nombre": "Personal funcionario",
+                    "item": {
+                      "identificador": "BOE-A-2026-90030",
+                      "titulo": "Resolución de 9 de octubre de 2026, por la que se convocan pruebas selectivas para ingreso en el Cuerpo General de Administrativos.",
+                      "url_pdf": {"texto": "https://www.boe.es/a.pdf"},
+                      "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-90030",
+                      "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-90030"
+                    }
+                  }
+                },
+                {
+                  "codigo": "6110",
+                  "nombre": "ADMINISTRACIÓN LOCAL",
+                  "epigrafe": {
+                    "nombre": "Personal funcionario y laboral",
+                    "item": [
+                      {
+                        "identificador": "BOE-A-2026-90040",
+                        "titulo": "Resolución de 8 de octubre de 2026, del Ayuntamiento de Alcorcón (Madrid), referente a la convocatoria para proveer varias plazas.",
+                        "url_pdf": {"texto": "https://www.boe.es/b.pdf"},
+                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-90040",
+                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-90040"
+                      },
+                      {
+                        "identificador": "BOE-A-2026-90041",
+                        "titulo": "Resolución de 8 de octubre de 2026, del Ayuntamiento de Madridejos (Toledo), referente a la convocatoria para proveer una plaza.",
+                        "url_pdf": {"texto": "https://www.boe.es/c.pdf"},
+                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-90041",
+                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-90041"
+                      },
+                      {
+                        "identificador": "BOE-A-2026-90042",
+                        "titulo": "Resolución de 9 de octubre de 2026, del Ayuntamiento de Madrid, referente a la convocatoria para proveer varias plazas.",
+                        "url_pdf": {"texto": "https://www.boe.es/d.pdf"},
+                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-90042",
+                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-90042"
+                      },
+                      {
+                        "identificador": "BOE-A-2026-90043",
+                        "titulo": "Resolución de 9 de octubre de 2026, del Ayuntamiento de Getafe (Madrid), referente a la convocatoria para proveer varias plazas.",
+                        "url_pdf": {"texto": "https://www.boe.es/e.pdf"},
+                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-90043",
+                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-90043"
+                      },
+                      {
+                        "identificador": "BOE-A-2026-90044",
+                        "titulo": "Resolución de 10 de octubre de 2026, del Ayuntamiento de Alcorcón (Madrid), por la que se aprueba la lista definitiva de admitidos y excluidos.",
+                        "url_pdf": {"texto": "https://www.boe.es/f.pdf"},
+                        "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-90044",
+                        "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-90044"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "codigo": "3",
+              "nombre": "III. Otras disposiciones",
+              "departamento": {
+                "codigo": "1",
+                "nombre": "MINISTERIO DE HACIENDA",
+                "item": {
+                  "identificador": "BOE-A-2026-90050",
+                  "titulo": "Resolución por la que se convocan subvenciones.",
+                  "url_pdf": {"texto": "https://www.boe.es/g.pdf"},
+                  "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-90050",
+                  "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-90050"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+name: Radar diario de oposiciones
+
+on:
+  schedule:
+    # Todos los días a las 06:47 UTC (08:47 en verano / 07:47 en invierno en Madrid),
+    # cuando el BOE y el BOCM del día ya están publicados.
+    - cron: "47 6 * * *"
+  workflow_dispatch:        # botón "Run workflow" para ejecutarlo a mano
+
+permissions:
+  contents: write           # para guardar la base de datos y la web en el repositorio
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar el radar
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RADAR_URL_WEB: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python -m radar.main
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data/radar.db docs/data.js
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "Radar: actualización $(date -u +%Y-%m-%d)"
+            git push
+          fi

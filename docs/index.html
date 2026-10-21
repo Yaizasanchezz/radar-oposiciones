@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Radar de oposiciones</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='44' fill='%23e0457b'/><circle cx='50' cy='50' r='26' fill='none' stroke='white' stroke-width='7'/><circle cx='50' cy='50' r='8' fill='white'/></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="envoltorio">
+      <h1>Radar de oposiciones</h1>
+      <p class="subtitulo" id="subtitulo">C1 · C2 · Agrupaciones Profesionales</p>
+      <p class="actualizado" id="actualizado"></p>
+      <div class="contadores" id="contadores"></div>
+    </div>
+  </header>
+
+  <main class="envoltorio">
+    <section class="filtros" aria-label="Filtros">
+      <div class="chips" id="chipsEstado" role="tablist"></div>
+      <div class="fila-filtros">
+        <input type="search" id="buscar" placeholder="Buscar (auxiliar, policía, informática…)" aria-label="Buscar">
+        <select id="filtroAmbito" aria-label="Administración"><option value="">Todas las administraciones</option></select>
+        <select id="filtroSubgrupo" aria-label="Subgrupo">
+          <option value="">Todos los grupos</option>
+          <option value="C1">C1</option><option value="C2">C2</option>
+          <option value="AP">AP</option><option value="LABORAL">Laboral</option>
+        </select>
+        <label class="check"><input type="checkbox" id="soloAfines"> Solo afines a mí</label>
+      </div>
+    </section>
+
+    <section id="lista" class="lista" aria-live="polite"></section>
+  </main>
+
+  <footer class="pie envoltorio">
+    <p>Datos del <a href="https://www.boe.es/datosabiertos/" rel="noopener">BOE</a> y del
+      <a href="https://www.bocm.es/" rel="noopener">BOCM</a>, revisados una vez al día.
+      Temarios, dificultad, aspirantes y fechas de cierre son resúmenes y estimaciones
+      automáticas: confirma siempre en la convocatoria oficial antes de inscribirte.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.bocm.es/listado-de-sumarios" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boletín Oficial de la Comunidad de Madrid</title>
+    <link>https://www.bocm.es/listado-de-sumarios</link>
+    <description>Listado de los últimos veinte sumarios del Boletín Oficial de la Comunidad de Madrid</description>
+    <language>es</language>
+    <item>
+      <title>Boletín Nº 251 del 21 Octubre 2026</title>
+      <link>https://www.bocm.es/boletin-completo/BOCM-20261021/251</link>
+      <description>&lt;div&gt;&lt;a href=&quot;/bocm-20261021-1&quot;&gt;BOCM-20261021-1&lt;/a&gt;&lt;/div&gt;</description>
+      <pubDate>2026-10-21T00:00:00</pubDate>
+      <guid isPermaLink="true">https://www.bocm.es/boletin-completo/BOCM-20261021/251</guid>
+    </item>
+    <item>
+      <title>Boletín Nº 250 del 20 Octubre 2026</title>
+      <link>https://www.bocm.es/boletin-completo/BOCM-20261020/250</link>
+      <description>&lt;div&gt;&lt;a href=&quot;/bocm-20261020-1&quot;&gt;BOCM-20261020-1&lt;/a&gt;&lt;/div&gt;</description>
+      <pubDate>2026-10-20T00:00:00</pubDate>
+      <guid isPermaLink="true">https://www.bocm.es/boletin-completo/BOCM-20261020/250</guid>
+    </item>
+    <item>
+      <title>Boletín Nº 249 del 19 Octubre 2026</title>
+      <link>https://www.bocm.es/boletin-completo/BOCM-20261019/249</link>
+      <description></description>
+      <pubDate>2026-10-19T00:00:00</pubDate>
+      <guid isPermaLink="true">https://www.bocm.es/boletin-completo/BOCM-20261019/249</guid>
+    </item>
+    <item>
+      <title>Boletín Nº 248 del 17 Octubre 2026</title>
+      <link>https://www.bocm.es/boletin-completo/BOCM-20261017/248</link>
+      <description></description>
+      <pubDate>2026-10-17T00:00:00</pubDate>
+      <guid isPermaLink="true">https://www.bocm.es/boletin-completo/BOCM-20261017/248</guid>
+    </item>
+  </channel>
+</rss>

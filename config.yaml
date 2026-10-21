@@ -1,0 +1,75 @@
+# ============================================================
+#  Radar de Oposiciones · configuración
+#  Todo lo que quieras cambiar está aquí. No hace falta tocar el código.
+# ============================================================
+
+# --- Tu perfil -------------------------------------------------
+perfil:
+  # Con un Técnico Superior (FP Grado Superior) puedes acceder a C1, C2
+  # y Agrupaciones Profesionales (antiguo grupo E, sin titulación), además
+  # de las categorías laborales equivalentes.
+  subgrupos: [C1, C2, AP]
+  titulacion: "Título de Técnico Superior de Formación Profesional (Grado Superior)"
+  # Si una plaza C1 exige un título concreto (p. ej. "Técnico Superior en
+  # Educación Infantil"), la IA lo marcará como "dudoso" salvo que coincida
+  # con alguno de estos. Pon aquí el nombre exacto de tu(s) título(s):
+  mis_titulos:
+    - "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)"
+    - "Técnico Superior en Marketing y Publicidad"
+  # Palabras que hacen que una oposición salga marcada como "afín a ti"
+  palabras_afines: [informática, informático, sistemas, programación, desarrollo,
+                    aplicaciones, tecnologías de la información, web, marketing,
+                    comunicación, redes sociales, publicidad, diseño]
+
+# --- Qué boletines y administraciones vigilar -------------------
+ambitos:
+  estatal: true            # Administración General del Estado (BOE)
+  comunidad_madrid: true   # Comunidad de Madrid (BOCM + BOE)
+
+# Ayuntamientos a vigilar. "nombre" es como aparece en BOE/BOCM.
+# Para añadir uno, copia un bloque y cambia los datos (p. ej. Móstoles,
+# Leganés, Getafe, Fuenlabrada...). Cuantos más pongas, más trabajo diario
+# y más llamadas a la IA (sigue siendo barato).
+ayuntamientos:
+  - nombre: Alcorcón
+    clave: ayuntamiento_alcorcon
+    url_inscripcion: "https://www.ayto-alcorcon.es/"
+  - nombre: Madrid
+    clave: ayuntamiento_madrid
+    url_inscripcion: "https://www.madrid.es/oposiciones"
+  # - nombre: Móstoles
+  #   clave: ayuntamiento_mostoles
+  #   url_inscripcion: "https://www.mostoles.es/"
+
+# Universidades públicas de Madrid (plazas de PTGAS/PAS C1 y C2). Desactivado
+# por defecto; ponlo a true si te interesan.
+universidades_madrid: false
+
+# --- Enlaces de inscripción por defecto --------------------------
+# Si la IA encuentra en las bases un enlace concreto, se usa ese.
+inscripcion_por_defecto:
+  estatal: "https://administracion.gob.es/PAG/ips"
+  comunidad_madrid: "https://www.comunidad.madrid/servicios/empleo/oposiciones-administracion-servicios-comunidad-madrid"
+
+# --- IA (Claude API) --------------------------------------------
+ia:
+  activada: true                 # sin clave ANTHROPIC_API_KEY funciona en modo básico
+  modelo: claude-haiku-5-5       # el más barato, suficiente para extraer datos
+  max_caracteres_texto: 200000   # recorta textos enormes (mantiene el coste bajo)
+
+# --- Funcionamiento ---------------------------------------------
+ejecucion:
+  dias_atras_primera_vez: 21     # la primera ejecución revisa las últimas 3 semanas
+  dias_atras_normal: 4           # cada día repasa unos días atrás por si falló alguno
+  pausa_boe_segundos: 2
+  pausa_bocm_segundos: 10        # el BOCM pide 10 s entre peticiones (robots.txt)
+  avisar_dias_antes_cierre: 3    # recordatorio por Telegram antes de que cierre
+  ocultar_cerradas_tras_dias: 60 # las cerradas se ocultan de la web pasado este tiempo
+
+# Festivos que afectan al cálculo de días hábiles (además de sábados, domingos,
+# festivos nacionales fijos, Jueves y Viernes Santo y el 2 de mayo, que se
+# calculan solos). Añade cada año los traslados de la Comunidad de Madrid
+# (se publican en el BOCM hacia septiembre del año anterior).
+festivos_extra:
+  - 2026-11-02   # traslado de Todos los Santos (calendario CAM 2026)
+  - 2026-12-07   # traslado del Día de la Constitución (calendario CAM 2026)

@@ -1,0 +1,139 @@
+"""Carga de config.yaml y rutas del proyecto."""
+from __future__ import annotations
+
+import datetime as dt
+import os
+from dataclasses import dataclass, field
+from pathlib import Path
+
+import yaml
+
+RAIZ = Path(__file__).resolve().parent.parent
+RUTA_CONFIG = RAIZ / "config.yaml"
+RUTA_DB = RAIZ / "data" / "radar.db"
+RUTA_WEB = RAIZ / "docs"
+
+def ahora_madrid() -> dt.datetime:
+    """Fecha y hora actuales en Madrid (los servidores de GitHub van en UTC)."""
+    try:
+        from zoneinfo import ZoneInfo
+
+        return dt.datetime.now(ZoneInfo("Europe/Madrid")).replace(tzinfo=None)
+    except Exception:  # pragma: no cover - sistemas sin datos de zonas horarias
+        return dt.datetime.now(dt.timezone.utc).replace(tzinfo=None) + dt.timedelta(hours=1)
+
+
+def hoy_madrid() -> dt.date:
+    return ahora_madrid().date()
+
+
+@dataclass
+class Ayuntamiento:
+    nombre: str
+    clave: str
+    url_inscripcion: str = ""
+
+
+@dataclass
+class Config:
+    subgrupos: list[str]
+    titulacion: str
+    mis_titulos: list[str]
+    palabras_afines: list[str]
+    estatal: bool
+    comunidad_madrid: bool
+    ayuntamientos: list[Ayuntamiento]
+    universidades_madrid: bool
+    inscripcion_por_defecto: dict[str, str]
+    ia_activada: bool
+    ia_modelo: str
+    ia_max_caracteres: int
+    dias_atras_primera_vez: int
+    dias_atras_normal: int
+    pausa_boe: float
+    pausa_bocm: float
+    avisar_dias_antes_cierre: int
+    ocultar_cerradas_tras_dias: int
+    festivos_extra: list[dt.date] = field(default_factory=list)
+
+    # --- secretos (variables de entorno, nunca en el YAML) ---
+    @property
+    def anthropic_api_key(self) -> str:
+        return os.environ.get("ANTHROPIC_API_KEY", "").strip()
+
+    @property
+    def telegram_token(self) -> str:
+        return os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+
+    @property
+    def telegram_chat_id(self) -> str:
+        return os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+
+    @property
+    def url_web(self) -> str:
+        return os.environ.get("RADAR_URL_WEB", "").strip()
+
+    def ayuntamiento_por_clave(self, clave: str) -> Ayuntamiento | None:
+        return next((a for a in self.ayuntamientos if a.clave == clave), None)
+
+    def url_inscripcion_defecto(self, ambito: str) -> str:
+        if ambito in self.inscripcion_por_defecto:
+            return self.inscripcion_por_defecto[ambito]
+        ayto = self.ayuntamiento_por_clave(ambito)
+        return ayto.url_inscripcion if ayto else ""
+
+    def ambitos_validos(self) -> list[str]:
+        v = []
+        if self.estatal:
+            v.append("estatal")
+        if self.comunidad_madrid:
+            v.append("comunidad_madrid")
+        v += [a.clave for a in self.ayuntamientos]
+        if self.universidades_madrid:
+            v.append("universidad_madrid")
+        return v
+
+    def nombre_ambito(self, clave: str) -> str:
+        fijos = {
+            "estatal": "Estado (AGE)",
+            "comunidad_madrid": "Comunidad de Madrid",
+            "universidad_madrid": "Universidad (Madrid)",
+        }
+        if clave in fijos:
+            return fijos[clave]
+        ayto = self.ayuntamiento_por_clave(clave)
+        return f"Ayto. {ayto.nombre}" if ayto else clave
+
+
+def _fecha(v) -> dt.date:
+    return v if isinstance(v, dt.date) else dt.date.fromisoformat(str(v))
+
+
+def cargar(ruta: Path = RUTA_CONFIG) -> Config:
+    with open(ruta, encoding="utf-8") as f:
+        c = yaml.safe_load(f) or {}
+    perfil = c.get("perfil", {})
+    amb = c.get("ambitos", {})
+    ia = c.get("ia", {})
+    ej = c.get("ejecucion", {})
+    return Config(
+        subgrupos=[s.upper() for s in perfil.get("subgrupos", ["C1", "C2", "AP"])],
+        titulacion=perfil.get("titulacion", "Técnico Superior"),
+        mis_titulos=list(perfil.get("mis_titulos") or []),
+        palabras_afines=[p.lower() for p in perfil.get("palabras_afines") or []],
+        estatal=bool(amb.get("estatal", True)),
+        comunidad_madrid=bool(amb.get("comunidad_madrid", True)),
+        ayuntamientos=[Ayuntamiento(**a) for a in c.get("ayuntamientos") or []],
+        universidades_madrid=bool(c.get("universidades_madrid", False)),
+        inscripcion_por_defecto=dict(c.get("inscripcion_por_defecto") or {}),
+        ia_activada=bool(ia.get("activada", True)),
+        ia_modelo=ia.get("modelo", "claude-haiku-5-5"),
+        ia_max_caracteres=int(ia.get("max_caracteres_texto", 200000)),
+        dias_atras_primera_vez=int(ej.get("dias_atras_primera_vez", 30)),
+        dias_atras_normal=int(ej.get("dias_atras_normal", 4)),
+        pausa_boe=float(ej.get("pausa_boe_segundos", 2)),
+        pausa_bocm=float(ej.get("pausa_bocm_segundos", 10)),
+        avisar_dias_antes_cierre=int(ej.get("avisar_dias_antes_cierre", 3)),
+        ocultar_cerradas_tras_dias=int(ej.get("ocultar_cerradas_tras_dias", 60)),
+        festivos_extra=[_fecha(d) for d in c.get("festivos_extra") or []],
+    )
