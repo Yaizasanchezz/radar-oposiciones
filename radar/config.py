@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import datetime as dt
 import os
+import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -63,11 +64,15 @@ class Config:
 
     @property
     def telegram_token(self) -> str:
-        return os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+        # Tolera que se haya pegado con texto o espacios alrededor ("Use this token...: 123:ABC")
+        crudo = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+        m = re.search(r"\d{5,}:[A-Za-z0-9_-]{20,}", crudo.replace(" ", ""))
+        return m.group(0) if m else crudo.strip()
 
     @property
     def telegram_chat_id(self) -> str:
-        return os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+        m = re.search(r"-?\d{5,}", os.environ.get("TELEGRAM_CHAT_ID", ""))
+        return m.group(0) if m else ""
 
     @property
     def url_web(self) -> str:

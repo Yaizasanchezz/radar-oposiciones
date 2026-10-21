@@ -14,7 +14,14 @@ jobs:
         run: |
           python3 - <<'PY'
           import json, os, urllib.request, urllib.error
-          token, chat = os.environ["TOKEN"].strip(), os.environ["CHAT"].strip()
+          import re
+          crudo_t, crudo_c = os.environ["TOKEN"], os.environ["CHAT"]
+          mt = re.search(r"\d{5,}:[A-Za-z0-9_-]{20,}", crudo_t.replace(" ", ""))
+          mc = re.search(r"-?\d{5,}", crudo_c)
+          token = mt.group(0) if mt else crudo_t.strip()
+          chat = mc.group(0) if mc else crudo_c.strip()
+          if crudo_t.strip() != token:
+              print("⚠️ El token guardado tenía espacios o texto de más; lo limpio automáticamente.")
           if not token or not chat:
               raise SystemExit("❌ Falta algún secreto: TELEGRAM_BOT_TOKEN o TELEGRAM_CHAT_ID está vacío.")
           if ":" not in token:
