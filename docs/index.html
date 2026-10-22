@@ -2,51 +2,74 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Radar de oposiciones</title>
   <meta name="robots" content="noindex">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='44' fill='%23e0457b'/><circle cx='50' cy='50' r='26' fill='none' stroke='white' stroke-width='7'/><circle cx='50' cy='50' r='8' fill='white'/></svg>">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="theme-color" content="#fff7fa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1c1117" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='44' fill='%23d63f75'/><circle cx='50' cy='50' r='26' fill='none' stroke='white' stroke-width='7'/><circle cx='50' cy='50' r='8' fill='white'/></svg>">
+  <link rel="apple-touch-icon" href="icono.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
   <header class="cabecera">
-    <div class="envoltorio">
-      <h1>Radar de oposiciones</h1>
-      <p class="subtitulo" id="subtitulo">C1 · C2 · Agrupaciones Profesionales</p>
-      <p class="actualizado" id="actualizado"></p>
-      <div class="contadores" id="contadores"></div>
+    <div class="cabecera-fila">
+      <div>
+        <h1>Oposiciones</h1>
+        <p class="actualizado" id="actualizado"></p>
+      </div>
+      <button class="boton-boletines" id="abrirBoletines" aria-haspopup="dialog">Boletines</button>
     </div>
+    <nav class="administraciones" id="administraciones" aria-label="Administración"></nav>
   </header>
 
-  <main class="envoltorio">
-    <section class="filtros" aria-label="Filtros">
-      <div class="chips" id="chipsEstado" role="tablist"></div>
-      <div class="fila-filtros">
-        <input type="search" id="buscar" placeholder="Buscar (auxiliar, policía, informática…)" aria-label="Buscar">
-        <select id="filtroAmbito" aria-label="Administración"><option value="">Todas las administraciones</option></select>
-        <select id="filtroSubgrupo" aria-label="Subgrupo">
-          <option value="">Todos los grupos</option>
-          <option value="C1">C1</option><option value="C2">C2</option>
-          <option value="AP">AP</option><option value="LABORAL">Laboral</option>
-        </select>
-        <label class="check"><input type="checkbox" id="soloAfines"> Solo afines a mí</label>
-      </div>
-    </section>
+  <main class="contenido">
+    <div class="barra-estado">
+      <div class="segmentos" id="segmentos" role="tablist" aria-label="Estado del plazo"></div>
+      <button class="icono" id="abrirBuscar" aria-label="Buscar" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="buscador" id="buscador" hidden>
+      <input type="search" id="buscar" placeholder="Auxiliar, policía, informática…" aria-label="Buscar oposiciones">
+      <label class="interruptor"><input type="checkbox" id="soloAfines"> Solo afines a mí</label>
+    </div>
 
-    <section id="lista" class="lista" aria-live="polite"></section>
+    <p class="resumen-filtro" id="resumenFiltro" aria-live="polite"></p>
+    <ul class="lista" id="lista"></ul>
+
+    <footer class="pie">
+      Datos del BOE, el BOCM, el portal de empleo de Castilla-La Mancha y el BOP de Toledo, revisados
+      cada mañana. Temarios, dificultad, aspirantes y fechas de cierre son estimaciones automáticas:
+      confírmalos en la convocatoria antes de inscribirte. Las oposiciones archivadas se guardan en
+      este dispositivo.
+    </footer>
   </main>
 
-  <footer class="pie envoltorio">
-    <p>Datos del <a href="https://www.boe.es/datosabiertos/" rel="noopener">BOE</a>, el
-      <a href="https://www.bocm.es/" rel="noopener">BOCM</a>, el
-      <a href="https://empleopublico.castillalamancha.es/" rel="noopener">portal de empleo de Castilla-La Mancha</a>
-      y el <a href="https://bop.diputoledo.es/" rel="noopener">BOP de Toledo</a>, revisados una vez al día.
-      Temarios, dificultad, aspirantes y fechas de cierre son resúmenes y estimaciones
-      automáticas: confirma siempre en la convocatoria oficial antes de inscribirte.</p>
-  </footer>
+  <dialog class="hoja" id="hojaBoletines" aria-labelledby="tituloBoletines">
+    <div class="hoja-cabecera">
+      <h2 id="tituloBoletines">Boletines y portales oficiales</h2>
+      <button class="cerrar" data-cerrar aria-label="Cerrar">×</button>
+    </div>
+    <p class="hoja-intro">Para mirarlos tú directamente. El DOCM y el BOP de Toledo no dejan que el radar los lea, así que conviene echarles un vistazo de vez en cuando.</p>
+    <ul class="enlaces" id="enlacesBoletines"></ul>
+  </dialog>
+
+  <dialog class="hoja" id="hojaAytos" aria-labelledby="tituloAytos">
+    <div class="hoja-cabecera">
+      <h2 id="tituloAytos">Ayuntamientos que vigilo</h2>
+      <button class="cerrar" data-cerrar aria-label="Cerrar">×</button>
+    </div>
+    <ul class="aytos" id="listaAytos"></ul>
+    <p class="hoja-nota">¿Quieres añadir otro? Pídeselo a Claude o añádelo en <code>config.yaml</code>.</p>
+  </dialog>
+
+  <div class="aviso-flotante" id="avisoFlotante" role="status" hidden></div>
 
   <script>
-    // Carga siempre la versión más reciente de los datos (evita que el navegador muestre una copia vieja)
     (function () {
       var v = Date.now();
       var d = document.createElement("script");

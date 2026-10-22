@@ -34,6 +34,7 @@ class Ayuntamiento:
     clave: str
     url_inscripcion: str = ""
     boletin: str = "bocm"   # bocm | bop_toledo
+    url_empleo: str = ""
 
     @property
     def region(self) -> str:

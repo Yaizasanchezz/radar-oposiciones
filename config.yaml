@@ -32,6 +32,7 @@ ambitos:
 # "boletin": dónde publica sus bases (bocm = Comunidad de Madrid,
 # bop_toledo = Boletín Oficial de la Provincia de Toledo). El plazo de los
 # ayuntamientos se abre con el extracto en el BOE, que se lee siempre.
+# "url_empleo" es la página de empleo público que enlaza la web en "Ayuntamientos".
 # Para añadir uno, copia un bloque y cambia los datos.
 ayuntamientos:
   # --- Comunidad de Madrid ---
@@ -39,35 +40,43 @@ ayuntamientos:
     clave: ayuntamiento_alcorcon
     boletin: bocm
     url_inscripcion: "https://www.ayto-alcorcon.es/"
+    url_empleo: "https://www.ayto-alcorcon.es/"
   - nombre: Madrid
     clave: ayuntamiento_madrid
     boletin: bocm
     url_inscripcion: "https://www.madrid.es/oposiciones"
+    url_empleo: "https://www.madrid.es/oposiciones"
   - nombre: Aranjuez
     clave: ayuntamiento_aranjuez
     boletin: bocm
     url_inscripcion: "https://sede.aranjuez.es/"
+    url_empleo: "https://www.aranjuez.es/transparencia/empleo-publico/"
   - nombre: Ciempozuelos
     clave: ayuntamiento_ciempozuelos
     boletin: bocm
     url_inscripcion: "https://sede.ayto-ciempozuelos.org/eAdmin/Sede.do"
+    url_empleo: "https://ayto-ciempozuelos.org/index.php/convocatorias-de-empleo-publico/"
   - nombre: Valdemoro
     clave: ayuntamiento_valdemoro
     boletin: bocm
     url_inscripcion: "https://www.valdemoro.es/"
+    url_empleo: "https://www.valdemoro.es/"
   - nombre: Pinto
     clave: ayuntamiento_pinto
     boletin: bocm
     url_inscripcion: "https://www.ayto-pinto.es/"
+    url_empleo: "https://www.ayto-pinto.es/"
   # --- Provincia de Toledo (Castilla-La Mancha) ---
   - nombre: Seseña
     clave: ayuntamiento_sesena
     boletin: bop_toledo
     url_inscripcion: "https://ayto-sesena.sedelectronica.es/info.0"
+    url_empleo: "https://www.ayto-sesena.org/"
   - nombre: Illescas
     clave: ayuntamiento_illescas
     boletin: bop_toledo
     url_inscripcion: "https://www.illescas.es/"
+    url_empleo: "https://www.illescas.es/"
 
 # Universidades públicas de Madrid (plazas de PTGAS/PAS C1 y C2). Desactivado
 # por defecto; ponlo a true si te interesan.

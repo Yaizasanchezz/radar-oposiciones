@@ -4,6 +4,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 from pathlib import Path
+from urllib.parse import quote_plus
 
 from .config import Config, ahora_madrid
 from .db import DB
@@ -61,6 +62,13 @@ def exportar(db: DB, cfg: Config, hoy: dt.date, ruta: Path) -> int:
         "actualizado": ahora_madrid().strftime("%Y-%m-%d %H:%M"),
         "hoy": hoy.isoformat(),
         "ambitos": {c: cfg.nombre_ambito(c) for c in cfg.ambitos_validos()},
+        "ayuntamientos": [{
+            "clave": a.clave, "nombre": a.nombre, "boletin": a.boletin,
+            "urlEmpleo": a.url_empleo or a.url_inscripcion,
+            "urlBoletin": ("https://bop.diputoledo.es/webEbop/ebop.jsp?search=true&sort=publication_date+desc"
+                           "&publisher_facet=" + quote_plus("AYUNTAMIENTO DE " + a.nombre.upper()))
+                          if a.boletin == "bop_toledo" else "https://www.bocm.es/ultimo-bocm",
+        } for a in cfg.ayuntamientos],
         "oposiciones": items,
     }
     ruta.parent.mkdir(parents=True, exist_ok=True)
