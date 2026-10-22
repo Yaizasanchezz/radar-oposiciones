@@ -248,6 +248,7 @@
         const n = cuenta(a.clave);
         html.push(`<li class="ayto"><button class="ayto-ver" data-ayto="${a.clave}"><strong>${esc(a.nombre)}</strong>` +
           `<span>${n ? `${n} ${n === 1 ? "oposición activa" : "oposiciones activas"}` : "Nada activo ahora"}</span></button>` +
+          (a.boletin === "bop_toledo" && url(a.urlBoletin) ? `<a href="${esc(a.urlBoletin)}" target="_blank" rel="noopener" title="Sus anuncios en el BOP de Toledo">BOP</a>` : "") +
           (url(a.urlEmpleo) ? `<a href="${esc(a.urlEmpleo)}" target="_blank" rel="noopener">Web</a>` : "") + "</li>");
       }
     }
