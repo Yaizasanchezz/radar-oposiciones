@@ -1,11 +1,18 @@
 window.RADAR = {
- "actualizado": "2026-10-21 10:53",
- "hoy": "2026-10-21",
+ "actualizado": "2026-10-22 09:33",
+ "hoy": "2026-10-22",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
+  "castilla_la_mancha": "Castilla-La Mancha",
   "ayuntamiento_alcorcon": "Ayto. Alcorcón",
-  "ayuntamiento_madrid": "Ayto. Madrid"
+  "ayuntamiento_madrid": "Ayto. Madrid",
+  "ayuntamiento_aranjuez": "Ayto. Aranjuez",
+  "ayuntamiento_ciempozuelos": "Ayto. Ciempozuelos",
+  "ayuntamiento_valdemoro": "Ayto. Valdemoro",
+  "ayuntamiento_pinto": "Ayto. Pinto",
+  "ayuntamiento_sesena": "Ayto. Seseña",
+  "ayuntamiento_illescas": "Ayto. Illescas"
  },
  "oposiciones": [
   {
@@ -424,6 +431,60 @@ window.RADAR = {
    "modo": "ia"
   },
   {
+   "id": 10,
+   "puesto": "Policía Local",
+   "cuerpo": "Administración Especial, subescala Servicios especiales, clase Policía Local y sus auxiliares",
+   "organismo": "ADMINISTRACIÓN LOCAL",
+   "ambito": "ayuntamiento_sesena",
+   "ambitoNombre": "Ayto. Seseña",
+   "subgrupo": "C1",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "oposicion",
+   "plazas": 3,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida ni el subgrupo; el subgrupo habitual de Policía Local es C1, pero hay que confirmarlo en las bases antes de presentar la solicitud.",
+   "titulacion": "No consta en el anuncio; revisar en las bases del BOP de Toledo nº 187 y su rectificación.",
+   "requisitos": "No consta en el anuncio; revisar en las bases.",
+   "estado": "abierta",
+   "publicado": "2026-10-13",
+   "publicadoBOE": "2026-10-13",
+   "inicioPlazo": "2026-10-14",
+   "finPlazo": "2026-11-11",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ayto-sesena.sedelectronica.es/info.0",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-21279",
+     "fecha": "2026-10-13",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21279",
+     "titulo": "Resolución de 7 de octubre de 2026, del Ayuntamiento de Seseña (Toledo), referente a la convocatoria para proveer varias plazas.",
+     "tipo": "extracto"
+    }
+   ],
+   "resumen": "Convocatoria de tres plazas de Policía Local del Ayuntamiento de Seseña por oposición en turno libre. El plazo de 20 días hábiles empieza el día siguiente a esta publicación en el BOE; las bases completas están en el BOP de Toledo nº 187, rectificadas en el nº 192.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Estimación: las oposiciones de Policía Local combinan pruebas físicas, psicotécnicas y un temario amplio, aunque el número exacto de temas y ejercicios no consta en este anuncio."
+   },
+   "aspirantes": {
+    "estimacion": "150–300 (≈ 50–100 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de convocatorias de Policía Local en municipios medianos de la provincia de Toledo, no en datos oficiales de esta convocatoria."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
    "id": 8,
    "puesto": "Cocinero/a",
    "cuerpo": "Personal estatutario fijo, categoría de Cocinero/a de las Instituciones Sanitarias del INGESA",
@@ -503,6 +564,119 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "150–400 (≈150–400 por plaza)",
     "explicacion": "Estimación orientativa: no hay datos de ediciones anteriores en el anuncio. Es una plaza única con examen en Ceuta, lo que reduce la afluencia respecto a convocatorias con varias plazas o sedes en la península."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 12,
+   "puesto": "Conserje",
+   "cuerpo": "Personal laboral - Conserje (Grupo 5, AP)",
+   "organismo": "Ayuntamiento de Valdemoro",
+   "ambito": "ayuntamiento_valdemoro",
+   "ambitoNombre": "Ayto. Valdemoro",
+   "subgrupo": "AP",
+   "grupoLaboral": "Grupo 5 (AP)",
+   "personal": "laboral",
+   "sistema": "oposicion",
+   "plazas": 5,
+   "accesible": "dudoso",
+   "motivoAccesible": "El texto no indica la titulación exigida; hay que comprobarla en las bases publicadas en el BOCM n.º 305 de 2025.",
+   "titulacion": "No consta en esta rectificación; debe consultarse en las bases (c.p.v. EU7LR-AQFSU-F1OSK).",
+   "requisitos": "Constitución de bolsa de empleo. Fase de oposición con máximo de 60 puntos.",
+   "estado": "consultar",
+   "publicado": "2026-10-16",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.valdemoro.es/",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261016-77",
+     "fecha": "2026-10-16",
+     "url": "https://www.bocm.es/bocm-20261016-77",
+     "titulo": "– Valdemoro. Ofertas de empleo. Proceso selectivo",
+     "tipo": "otro"
+    }
+   ],
+   "resumen": "Rectificación de errores en las bases del proceso selectivo para cubrir 5 plazas de Conserje (personal laboral, Grupo 5 AP, turno libre) del Ayuntamiento de Valdemoro. Cambia la forma de calcular la nota del segundo ejercicio: pasa de la media a la suma de los dos supuestos, con máximo 20 puntos.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [
+    {
+     "nombre": "Segundo ejercicio",
+     "descripcion": "Dos supuestos prácticos. Tras la rectificación, la calificación es la suma de la nota de ambos supuestos, con un máximo de 20 puntos."
+    }
+   ],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Son solo 5 plazas de categoría básica y la fase de oposición tiene 60 puntos en total. Los ejercicios son sencillos, aunque el detalle de las pruebas figura en las bases y no en este anuncio."
+   },
+   "aspirantes": {
+    "estimacion": "150–400 (≈30–80 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios habituales de plazas de conserje en ayuntamientos de la Comunidad de Madrid. No hay datos de ediciones anteriores en el anuncio."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 11,
+   "puesto": "Operario/a de deportes",
+   "cuerpo": "Personal laboral, grupo profesional 10 (OEP 2024)",
+   "organismo": "Ayuntamiento de Pinto",
+   "ambito": "ayuntamiento_pinto",
+   "ambitoNombre": "Ayto. Pinto",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo profesional 10 (equivalencia con C1/C2/AP no indicada en el anuncio)",
+   "personal": "laboral",
+   "sistema": "oposicion",
+   "plazas": 2,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida ni la equivalencia del grupo profesional 10; hay que consultar las bases para confirmar si es accesible con un Técnico Superior.",
+   "titulacion": "No indicada en este anuncio; se menciona 'titulación de acceso' como requisito de admisión",
+   "requisitos": "Documento de identidad, justificante de pago o exención de tasa y, en su caso, justificante de demandante de empleo. El resto de requisitos figura en las bases, que no se publican en este anuncio.",
+   "estado": "consultar",
+   "publicado": "2026-10-15",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.ayto-pinto.es/",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261015-70",
+     "fecha": "2026-10-15",
+     "url": "https://www.bocm.es/bocm-20261015-70",
+     "titulo": "– Pinto. Ofertas de empleo. Proceso selectivo",
+     "tipo": "otro"
+    }
+   ],
+   "resumen": "Lista definitiva de admitidos (56) y excluidos (5) de la oposición libre para dos plazas de Operario/a de deportes (personal laboral, grupo profesional 10) del Ayuntamiento de Pinto, OEP 2024, además de la designación del tribunal calificador. El plazo de solicitudes ya ha cerrado, así que no es una convocatoria abierta.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Plazas de personal laboral de categoría básica con dos plazas. El anuncio no detalla temario ni ejercicios, así que la valoración es orientativa."
+   },
+   "aspirantes": {
+    "estimacion": "56 admitidos (≈28 por plaza) en esta lista definitiva",
+    "explicacion": "Cifra de admitidos de este listado, no del total de solicitudes ni de presentados. Es una estimación orientativa."
    },
    "afin": false,
    "nuevo": true,
@@ -611,6 +785,60 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "400–1.200 (≈ 100–300 por plaza)",
     "explicacion": "Estimación orientativa basada en ratios típicos de puestos de titulado superior en empresas públicas con pocas plazas. No hay datos de ediciones anteriores de este proceso."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 9,
+   "puesto": "Técnico/a Auxiliar de Emergencias",
+   "cuerpo": "Personal laboral: Técnico/a Auxiliar de Emergencias (OEP 2025)",
+   "organismo": "Ayuntamiento de Pinto",
+   "ambito": "ayuntamiento_pinto",
+   "ambitoNombre": "Ayto. Pinto",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": null,
+   "personal": "laboral",
+   "sistema": "oposicion",
+   "plazas": 2,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida (solo se menciona la 'titulación de acceso' en las exclusiones), por lo que hay que comprobar en las bases si es compatible con un Técnico Superior.",
+   "titulacion": "No consta en este anuncio; hay que consultarla en las bases.",
+   "requisitos": "Permiso de conducir (aparece entre los motivos de exclusión del listado).",
+   "estado": "consultar",
+   "publicado": "2026-10-06",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.ayto-pinto.es/",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261006-53",
+     "fecha": "2026-10-06",
+     "url": "https://www.bocm.es/bocm-20261006-53",
+     "titulo": "– Pinto. Ofertas de empleo. Proceso selectivo",
+     "tipo": "otro"
+    }
+   ],
+   "resumen": "Lista definitiva de admitidos y excluidos y designación del Tribunal para dos plazas de Técnico/a Auxiliar de Emergencias (personal laboral, oposición libre, OEP 2025) del Ayuntamiento de Pinto. El plazo de inscripción ya está cerrado, así que este anuncio no permite presentar solicitud.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Son dos plazas de personal laboral por oposición libre; el temario y los ejercicios no vienen en este anuncio, así que la valoración es orientativa."
+   },
+   "aspirantes": {
+    "estimacion": "≈ 30 (≈ 15 por plaza)",
+    "explicacion": "Estimación orientativa basada en esta lista: 24 admitidos y 6 excluidos, es decir, unos 30 solicitantes para 2 plazas. No es un dato oficial de la convocatoria."
    },
    "afin": false,
    "nuevo": true,
