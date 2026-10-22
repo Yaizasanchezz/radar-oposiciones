@@ -1,18 +1,6 @@
 {
- "ejecucion": "2026-10-22T09:33",
+ "ejecucion": "2026-10-22T14:29",
  "fuentes": {
-  "BOE": {
-   "ok": 18,
-   "errores": 0,
-   "candidatos": 29,
-   "avisos": []
-  },
-  "BOCM": {
-   "ok": 18,
-   "errores": 0,
-   "candidatos": 9,
-   "avisos": []
-  },
   "BOP Toledo": {
    "ok": 0,
    "errores": 1,
@@ -25,7 +13,7 @@
   "JCCM": {
    "ok": 1,
    "errores": 0,
-   "candidatos": 32,
+   "candidatos": 0,
    "avisos": []
   }
  }

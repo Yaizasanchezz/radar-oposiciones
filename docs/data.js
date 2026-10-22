@@ -1,5 +1,5 @@
 window.RADAR = {
- "actualizado": "2026-10-22 09:50",
+ "actualizado": "2026-10-22 14:29",
  "hoy": "2026-10-22",
  "ambitos": {
   "estatal": "Estado (AGE)",
