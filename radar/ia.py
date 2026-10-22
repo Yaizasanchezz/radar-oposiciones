@@ -97,14 +97,15 @@ INSTRUCCIONES = """Eres un asistente experto en oposiciones en España. Lees anu
 (BOE, BOCM, BOP de Toledo, portal de empleo de la Junta de Castilla-La Mancha) y extraes datos para una opositora con este perfil:
 - Titulación: {titulacion}. Títulos concretos: {titulos}.
 - Puede acceder a los subgrupos: {subgrupos} (y categorías laborales equivalentes, p. ej. \
-grupos III, IV y V o E1-E3 del personal laboral; NO a A1, A2 ni B).
+grupos II a V o E1-E3 del personal laboral cuando no piden carrera; el grupo B exige \
+precisamente un Técnico Superior; NO a A1 ni A2, que exigen título universitario).
 
 Reglas:
 1. Crea un elemento en "procesos" por cada cuerpo/escala/categoría distinta del anuncio (un \
 ayuntamiento puede convocar varias plazas a la vez). Si es una Oferta de Empleo Público, \
-incluye SOLO los cuerpos/categorías de C1, C2, AP o equivalentes laborales.
+incluye SOLO los cuerpos/categorías de B, C1, C2, AP o equivalentes laborales.
 2. "accesible": "si" si el subgrupo es accesible, hay turno libre y la titulación exigida \
-puede ser Bachiller, Técnico, Técnico Superior, ESO o ninguna. "no" si es A1/A2/B, solo \
+puede ser Bachiller, Técnico, Técnico Superior, ESO o ninguna. "no" si es A1/A2, solo \
 promoción interna o exige un título universitario. "dudoso" si exige un título concreto de \
 FP que no coincide con los suyos u otro requisito poco claro. Explica el motivo en una frase.
 3. Plazo: "cuenta_desde" = "esta_publicacion" cuando el plazo de solicitudes empieza al día \

@@ -39,7 +39,8 @@ _RE_FECHA = re.compile(r"\b(\d{2})/(\d{2})/(\d{4})\b")
 
 # Grupos por el título del proceso ("2025 - Cuerpo AUXILIAR - Auxiliar - Turno Libre")
 _ACCESIBLE = re.compile(r"cuerpo auxiliar|cuerpo ejecutivo|grupo (iii|iv|v)\b|policia local|"
-                        r"agrupaciones? profesional|subgrupo c[12]|\bc[12]\b|grupo c\b|grupo e\b")
+                        r"agrupaciones? profesional|subgrupo c[12]|\bc[12]\b|grupo c\b|grupo e\b|"
+                        r"subgrupo b\b|grupo b\b")
 _NO_ACCESIBLE = re.compile(r"cuerpo superior|cuerpo tecnico|grupo (i|ii)\b|\ba[12]\b|"
                            r"secretaria|intervencion|tesoreria|letrados|investigacion")
 

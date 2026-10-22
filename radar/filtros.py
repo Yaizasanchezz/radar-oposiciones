@@ -141,7 +141,7 @@ def ambito_bocm(seccion: str, titulo: str, organismo: str, cfg: Config) -> str |
 # Solo marcas de grupo/titulación (no palabras sueltas como "oficial", que aparece
 # en "Boletín Oficial" y dejaría pasarlo todo).
 _RE_GRUPO_OK = re.compile(
-    r"subgrupo,? c ?1\b|subgrupo,? c ?2\b|grupo c\b|grupo c[12]\b|\(c[12]\)|"
+    r"subgrupo,? c ?1\b|subgrupo,? c ?2\b|grupo c\b|grupo c[12]\b|\(c[12]\)|grupo b\b|subgrupo b\b|"
     r"agrupaci[oó]n(es)? profesional(es)?|grupo e\b|"
     r"grupo (profesional )?(iii|iv|v|3|4|5|e ?[0-3]|d ?[1-3])\b|"
     r"bachiller|titulo de tecnico|tecnico superior|tecnico especialista|"

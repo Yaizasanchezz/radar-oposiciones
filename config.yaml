@@ -5,10 +5,11 @@
 
 # --- Tu perfil -------------------------------------------------
 perfil:
-  # Con un Técnico Superior (FP Grado Superior) puedes acceder a C1, C2
-  # y Agrupaciones Profesionales (antiguo grupo E, sin titulación), además
-  # de las categorías laborales equivalentes.
-  subgrupos: [C1, C2, AP]
+  # Con un Técnico Superior (FP Grado Superior) puedes acceder al grupo B
+  # (es justo su titulación, aunque hay pocas plazas), a C1, C2 y Agrupaciones
+  # Profesionales (antiguo grupo E, sin titulación), además de las categorías
+  # laborales equivalentes. A1 y A2 piden carrera universitaria.
+  subgrupos: [B, C1, C2, AP]
   titulacion: "Título de Técnico Superior de Formación Profesional (Grado Superior)"
   # Si una plaza C1 exige un título concreto (p. ej. "Técnico Superior en
   # Educación Infantil"), la IA lo marcará como "dudoso" salvo que coincida
