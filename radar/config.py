@@ -33,6 +33,11 @@ class Ayuntamiento:
     nombre: str
     clave: str
     url_inscripcion: str = ""
+    boletin: str = "bocm"   # bocm | bop_toledo
+
+    @property
+    def region(self) -> str:
+        return "clm" if self.boletin == "bop_toledo" else "madrid"
 
 
 @dataclass
@@ -43,6 +48,7 @@ class Config:
     palabras_afines: list[str]
     estatal: bool
     comunidad_madrid: bool
+    castilla_la_mancha: bool
     ayuntamientos: list[Ayuntamiento]
     universidades_madrid: bool
     inscripcion_por_defecto: dict[str, str]
@@ -53,6 +59,8 @@ class Config:
     dias_atras_normal: int
     pausa_boe: float
     pausa_bocm: float
+    pausa_otros: float
+    jccm_dias_convocatoria: int
     avisar_dias_antes_cierre: int
     ocultar_cerradas_tras_dias: int
     festivos_extra: list[dt.date] = field(default_factory=list)
@@ -95,6 +103,8 @@ class Config:
             v.append("estatal")
         if self.comunidad_madrid:
             v.append("comunidad_madrid")
+        if self.castilla_la_mancha:
+            v.append("castilla_la_mancha")
         v += [a.clave for a in self.ayuntamientos]
         if self.universidades_madrid:
             v.append("universidad_madrid")
@@ -104,12 +114,25 @@ class Config:
         fijos = {
             "estatal": "Estado (AGE)",
             "comunidad_madrid": "Comunidad de Madrid",
+            "castilla_la_mancha": "Castilla-La Mancha",
             "universidad_madrid": "Universidad (Madrid)",
         }
         if clave in fijos:
             return fijos[clave]
         ayto = self.ayuntamiento_por_clave(clave)
         return f"Ayto. {ayto.nombre}" if ayto else clave
+
+    def region(self, ambito: str) -> str:
+        """Región de festivos de un ámbito: 'madrid', 'clm' o 'estado'."""
+        if ambito == "castilla_la_mancha":
+            return "clm"
+        if ambito in ("comunidad_madrid", "universidad_madrid"):
+            return "madrid"
+        ayto = self.ayuntamiento_por_clave(ambito)
+        return ayto.region if ayto else "estado"
+
+    def ayuntamientos_de(self, boletin: str) -> list[Ayuntamiento]:
+        return [a for a in self.ayuntamientos if a.boletin == boletin]
 
 
 def _fecha(v) -> dt.date:
@@ -130,6 +153,7 @@ def cargar(ruta: Path = RUTA_CONFIG) -> Config:
         palabras_afines=[p.lower() for p in perfil.get("palabras_afines") or []],
         estatal=bool(amb.get("estatal", True)),
         comunidad_madrid=bool(amb.get("comunidad_madrid", True)),
+        castilla_la_mancha=bool(amb.get("castilla_la_mancha", False)),
         ayuntamientos=[Ayuntamiento(**a) for a in c.get("ayuntamientos") or []],
         universidades_madrid=bool(c.get("universidades_madrid", False)),
         inscripcion_por_defecto=dict(c.get("inscripcion_por_defecto") or {}),
@@ -140,6 +164,8 @@ def cargar(ruta: Path = RUTA_CONFIG) -> Config:
         dias_atras_normal=int(ej.get("dias_atras_normal", 4)),
         pausa_boe=float(ej.get("pausa_boe_segundos", 2)),
         pausa_bocm=float(ej.get("pausa_bocm_segundos", 10)),
+        pausa_otros=float(ej.get("pausa_otros_segundos", 3)),
+        jccm_dias_convocatoria=int(ej.get("jccm_dias_convocatoria", 60)),
         avisar_dias_antes_cierre=int(ej.get("avisar_dias_antes_cierre", 3)),
         ocultar_cerradas_tras_dias=int(ej.get("ocultar_cerradas_tras_dias", 60)),
         festivos_extra=[_fecha(d) for d in c.get("festivos_extra") or []],

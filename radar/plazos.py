@@ -16,7 +16,9 @@ import calendar
 import datetime as dt
 from functools import lru_cache
 
-_FIJOS = [(1, 1), (1, 6), (5, 1), (5, 2), (8, 15), (10, 12), (11, 1), (12, 6), (12, 8), (12, 25)]
+_FIJOS = [(1, 1), (1, 6), (5, 1), (8, 15), (10, 12), (11, 1), (12, 6), (12, 8), (12, 25)]
+# Día de la comunidad autónoma (los traslados de cada año van en festivos_extra)
+_REGIONALES = {"madrid": [(5, 2)], "clm": [(5, 31)], "estado": [(5, 2)]}
 
 
 def domingo_de_pascua(anio: int) -> dt.date:
@@ -36,20 +38,25 @@ def domingo_de_pascua(anio: int) -> dt.date:
 
 
 @lru_cache(maxsize=None)
-def _festivos_base(anio: int) -> frozenset[dt.date]:
+def _festivos_base(anio: int, region: str = "madrid") -> frozenset[dt.date]:
     pascua = domingo_de_pascua(anio)
-    dias = {dt.date(anio, m, d) for m, d in _FIJOS}
-    dias.add(pascua - dt.timedelta(days=3))  # Jueves Santo (Comunidad de Madrid)
+    dias = {dt.date(anio, m, d) for m, d in _FIJOS + _REGIONALES.get(region, [])}
+    dias.add(pascua - dt.timedelta(days=3))  # Jueves Santo (Madrid y Castilla-La Mancha)
     dias.add(pascua - dt.timedelta(days=2))  # Viernes Santo
     return frozenset(dias)
 
 
 class Calendario:
-    def __init__(self, festivos_extra: list[dt.date] | None = None):
+    def __init__(self, festivos_extra: list[dt.date] | None = None, region: str = "madrid"):
         self.extra = set(festivos_extra or [])
+        self.region = region
+
+    def para(self, region: str) -> "Calendario":
+        """Mismo calendario con los festivos de otra comunidad autónoma."""
+        return self if region == self.region else Calendario(list(self.extra), region)
 
     def es_inhabil(self, d: dt.date) -> bool:
-        return d.weekday() >= 5 or d in _festivos_base(d.year) or d in self.extra
+        return d.weekday() >= 5 or d in _festivos_base(d.year, self.region) or d in self.extra
 
     def siguiente_habil(self, d: dt.date) -> dt.date:
         while self.es_inhabil(d):

@@ -25,21 +25,48 @@ perfil:
 ambitos:
   estatal: true            # Administración General del Estado (BOE)
   comunidad_madrid: true   # Comunidad de Madrid (BOCM + BOE)
+  castilla_la_mancha: true # Junta de Castilla-La Mancha (portal de empleo público + BOE)
 
-# Ayuntamientos a vigilar. "nombre" es como aparece en BOE/BOCM.
-# Para añadir uno, copia un bloque y cambia los datos (p. ej. Móstoles,
-# Leganés, Getafe, Fuenlabrada...). Cuantos más pongas, más trabajo diario
-# y más llamadas a la IA (sigue siendo barato).
+# Ayuntamientos a vigilar. "nombre" es como aparece en BOE/BOCM/BOP.
+# "boletin": dónde publica sus bases (bocm = Comunidad de Madrid,
+# bop_toledo = Boletín Oficial de la Provincia de Toledo). El plazo de los
+# ayuntamientos se abre con el extracto en el BOE, que se lee siempre.
+# Para añadir uno, copia un bloque y cambia los datos.
 ayuntamientos:
+  # --- Comunidad de Madrid ---
   - nombre: Alcorcón
     clave: ayuntamiento_alcorcon
+    boletin: bocm
     url_inscripcion: "https://www.ayto-alcorcon.es/"
   - nombre: Madrid
     clave: ayuntamiento_madrid
+    boletin: bocm
     url_inscripcion: "https://www.madrid.es/oposiciones"
-  # - nombre: Móstoles
-  #   clave: ayuntamiento_mostoles
-  #   url_inscripcion: "https://www.mostoles.es/"
+  - nombre: Aranjuez
+    clave: ayuntamiento_aranjuez
+    boletin: bocm
+    url_inscripcion: "https://sede.aranjuez.es/"
+  - nombre: Ciempozuelos
+    clave: ayuntamiento_ciempozuelos
+    boletin: bocm
+    url_inscripcion: "https://sede.ayto-ciempozuelos.org/eAdmin/Sede.do"
+  - nombre: Valdemoro
+    clave: ayuntamiento_valdemoro
+    boletin: bocm
+    url_inscripcion: "https://www.valdemoro.es/"
+  - nombre: Pinto
+    clave: ayuntamiento_pinto
+    boletin: bocm
+    url_inscripcion: "https://www.ayto-pinto.es/"
+  # --- Provincia de Toledo (Castilla-La Mancha) ---
+  - nombre: Seseña
+    clave: ayuntamiento_sesena
+    boletin: bop_toledo
+    url_inscripcion: "https://ayto-sesena.sedelectronica.es/info.0"
+  - nombre: Illescas
+    clave: ayuntamiento_illescas
+    boletin: bop_toledo
+    url_inscripcion: "https://www.illescas.es/"
 
 # Universidades públicas de Madrid (plazas de PTGAS/PAS C1 y C2). Desactivado
 # por defecto; ponlo a true si te interesan.
@@ -50,6 +77,7 @@ universidades_madrid: false
 inscripcion_por_defecto:
   estatal: "https://administracion.gob.es/PAG/ips"
   comunidad_madrid: "https://www.comunidad.madrid/servicios/empleo/oposiciones-administracion-servicios-comunidad-madrid"
+  castilla_la_mancha: "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes"
 
 # --- IA (Claude API) --------------------------------------------
 ia:
@@ -63,13 +91,15 @@ ejecucion:
   dias_atras_normal: 4           # cada día repasa unos días atrás por si falló alguno
   pausa_boe_segundos: 2
   pausa_bocm_segundos: 10        # el BOCM pide 10 s entre peticiones (robots.txt)
+  pausa_otros_segundos: 3        # portal de la Junta de CLM y BOP de Toledo
+  jccm_dias_convocatoria: 60     # solo procesos de la Junta convocados hace menos de esto
   avisar_dias_antes_cierre: 3    # recordatorio por Telegram antes de que cierre
   ocultar_cerradas_tras_dias: 60 # las cerradas se ocultan de la web pasado este tiempo
 
 # Festivos que afectan al cálculo de días hábiles (además de sábados, domingos,
-# festivos nacionales fijos, Jueves y Viernes Santo y el 2 de mayo, que se
-# calculan solos). Añade cada año los traslados de la Comunidad de Madrid
-# (se publican en el BOCM hacia septiembre del año anterior).
+# festivos nacionales fijos y Jueves y Viernes Santo, que se calculan solos).
+# El 2 de mayo (Comunidad de Madrid) y el 31 de mayo (Castilla-La Mancha) se
+# aplican según la administración. Añade cada año los traslados de festivos.
 festivos_extra:
   - 2026-11-02   # traslado de Todos los Santos (calendario CAM 2026)
   - 2026-12-07   # traslado del Día de la Constitución (calendario CAM 2026)

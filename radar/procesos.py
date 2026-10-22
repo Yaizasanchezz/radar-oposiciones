@@ -119,6 +119,7 @@ def registrar(db: DB, cfg: Config, cal: Calendario, anuncio: Anuncio, analisis: 
     enlace = {"fuente": anuncio.fuente, "id": anuncio.id, "fecha": anuncio.fecha.isoformat(),
               "url": anuncio.url, "titulo": anuncio.titulo, "tipo": tipo_pub}
 
+    cal = cal.para(cfg.region(anuncio.ambito))
     inicio = fin = None
     if plazo.get("cuenta_desde") == "esta_publicacion":
         if plazo.get("dias") and plazo.get("tipo") != "desconocido":

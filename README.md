@@ -1,12 +1,19 @@
 # 🌸 Radar de oposiciones
 
-Vigila cada mañana el **BOE** y el **BOCM**, encuentra las oposiciones a las que puedes
+Vigila cada mañana el **BOE**, el **BOCM**, el **portal de empleo público de Castilla-La Mancha**
+y el **BOP de Toledo**, encuentra las oposiciones a las que puedes
 presentarte con un **Técnico Superior** (subgrupos **C1, C2** y **Agrupaciones Profesionales**,
 y sus equivalentes laborales), las guarda en una pequeña base de datos, publica una web
 sencilla en tonos rosas y te avisa por **Telegram** cuando sale algo nuevo.
 
-Ámbitos incluidos de serie: **Estado**, **Comunidad de Madrid**, **Ayuntamiento de Madrid** y
-**Ayuntamiento de Alcorcón** (añadir más es una línea en `config.yaml`).
+Ámbitos incluidos:
+- **Estado** (BOE)
+- **Comunidad de Madrid** (BOCM + BOE)
+- **Junta de Castilla-La Mancha** (portal de empleo público de la Junta + BOE)
+- **Ayuntamientos de Madrid:** Madrid, Alcorcón, Aranjuez, Ciempozuelos, Valdemoro y Pinto (bases en el BOCM, plazo con el extracto del BOE)
+- **Ayuntamientos de Toledo:** Seseña e Illescas (bases en el BOP de Toledo, plazo con el extracto del BOE)
+
+Añadir más es copiar tres líneas en `config.yaml`.
 
 ## Qué te enseña de cada oposición
 
@@ -29,6 +36,8 @@ antes del cierre. La primera vez solo manda un resumen (no 40 mensajes seguidos)
 GitHub Actions (cada día 06:47 UTC)
   ├─ BOE: API oficial de datos abiertos → sección II.B + Ofertas de Empleo Público
   ├─ BOCM: sumario diario → Comunidad de Madrid (Autoridades y personal) + tus ayuntamientos
+  ├─ Portal de empleo público de la Junta de CLM → procesos C1/C2/laboral III-V recién convocados
+  ├─ BOP de Toledo (si su robots.txt lo permite) → bases de Seseña e Illescas
   ├─ Filtros rápidos (descarta traslados, libre designación, listas de admitidos, docentes…)
   ├─ Claude (IA) lee cada convocatoria y devuelve un JSON: grupo, plazas, plazo, temario…
   ├─ SQLite (data/radar.db): junta OEP + bases + extracto en una sola oposición, sin repetir
@@ -123,6 +132,15 @@ python -m unittest discover -s tests   # pruebas sin conexión
 ```
 
 ## Lo que conviene saber
+
+- **DOCM y BOP de Toledo**: el DOCM prohíbe en su `robots.txt` que programas automáticos lean
+  el sumario y los documentos, así que para la Junta de Castilla-La Mancha se usa su portal de
+  empleo público (las mismas convocatorias, con su temario). El BOP de Toledo también parece
+  restringirlo: el radar lo intenta y, si no le dejan, lo anota en `data/estado.json` y sigue con
+  el BOE, que es donde se abre el plazo de Seseña e Illescas (perderás solo el aviso anticipado
+  de las bases y el temario, que tendrás en el enlace del BOE).
+- **Al añadir ayuntamientos o comunidades** en `config.yaml`, la siguiente ejecución vuelve a
+  revisar las últimas 3 semanas y te manda un único resumen por Telegram.
 
 - **Las fechas de cierre son estimaciones muy fiables, no oficiales**: se calculan con las
   reglas de la Ley 39/2015 y los festivos nacionales y de la Comunidad, pero no los locales.

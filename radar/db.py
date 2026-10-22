@@ -57,6 +57,10 @@ CREATE TABLE IF NOT EXISTS fechas_revisadas (
     resultado TEXT,
     PRIMARY KEY (fuente, fecha)
 );
+CREATE TABLE IF NOT EXISTS meta (
+    clave TEXT PRIMARY KEY,
+    valor TEXT
+);
 CREATE TABLE IF NOT EXISTS avisos (
     proceso_id INTEGER NOT NULL,
     tipo TEXT NOT NULL,             -- nueva | abierta | cierra_pronto
@@ -79,6 +83,20 @@ class DB:
 
     def esta_vacia(self) -> bool:
         return self.con.execute("SELECT COUNT(*) FROM fechas_revisadas").fetchone()[0] == 0
+
+    # --- meta -------------------------------------------------------------
+    def meta(self, clave: str) -> str | None:
+        fila = self.con.execute("SELECT valor FROM meta WHERE clave=?", (clave,)).fetchone()
+        return fila["valor"] if fila else None
+
+    def poner_meta(self, clave: str, valor: str):
+        self.con.execute("INSERT OR REPLACE INTO meta VALUES (?,?)", (clave, valor))
+        self.con.commit()
+
+    def olvidar_fechas_desde(self, desde: dt.date):
+        """Para volver a revisar días pasados (p. ej. al añadir ayuntamientos)."""
+        self.con.execute("DELETE FROM fechas_revisadas WHERE fecha >= ?", (desde.isoformat(),))
+        self.con.commit()
 
     # --- fechas -----------------------------------------------------------
     def fecha_revisada(self, fuente: str, fecha: dt.date) -> bool:

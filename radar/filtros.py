@@ -87,6 +87,8 @@ def ambito_boe(departamento: str, titulo: str, cfg: Config) -> str | None:
         return None
     if dep == "comunidad de madrid":
         return "comunidad_madrid" if cfg.comunidad_madrid else None
+    if "castilla-la mancha" in dep or "castilla la mancha" in dep:
+        return "castilla_la_mancha" if cfg.castilla_la_mancha else None
     if dep == "universidades":
         if cfg.universidades_madrid and _universidad_madrid(tit):
             return "universidad_madrid"
@@ -121,7 +123,7 @@ def ambito_bocm(seccion: str, titulo: str, organismo: str, cfg: Config) -> str |
         categoria = normalizar(m.group(2)) if m else ""
         if categoria and not re.search(r"ofertas? de empleo|personal", categoria):
             return None
-        for a in cfg.ayuntamientos:
+        for a in cfg.ayuntamientos_de("bocm"):
             if municipio == normalizar(a.nombre):
                 return a.clave
         return None

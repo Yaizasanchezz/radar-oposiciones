@@ -44,7 +44,8 @@ ESQUEMA = _obj({
         "fecha_fin_explicita": _n("string"),
     }),
     "referencia_bases": _n("string"),
-    "bases_bocm": _obj({
+    "bases_publicadas": _obj({
+        "boletin": {"type": "string", "enum": ["BOCM", "BOP_TOLEDO", "OTRO", "NINGUNO"]},
         "numero": _n("integer"),
         "fecha": _n("string"),
     }),
@@ -93,7 +94,7 @@ ESQUEMA = _obj({
 })
 
 INSTRUCCIONES = """Eres un asistente experto en oposiciones en España. Lees anuncios oficiales \
-(BOE, BOCM) y extraes datos para una opositora con este perfil:
+(BOE, BOCM, BOP de Toledo, portal de empleo de la Junta de Castilla-La Mancha) y extraes datos para una opositora con este perfil:
 - Titulación: {titulacion}. Títulos concretos: {titulos}.
 - Puede acceder a los subgrupos: {subgrupos} (y categorías laborales equivalentes, p. ej. \
 grupos III, IV y V o E1-E3 del personal laboral; NO a A1, A2 ni B).
@@ -126,8 +127,10 @@ menos). Deja claro que es una estimación.
 extracto): cuándo se espera que se abra y por qué (p. ej. "las OEP del Estado suelen \
 convocarse en 6-12 meses").
 8. "url_inscripcion": el enlace exacto para presentar la solicitud si aparece en el texto.
-   "bases_bocm": si el anuncio dice que las bases se publicaron en el Boletín Oficial de la \
-Comunidad de Madrid, su número y fecha (AAAA-MM-DD); si no, null en ambos.
+   "bases_publicadas": si el anuncio dice que las bases se publicaron en otro boletín, cuál \
+(BOCM = Boletín Oficial de la Comunidad de Madrid; BOP_TOLEDO = Boletín Oficial de la \
+Provincia de Toledo; OTRO para cualquier otro), con su número y fecha (AAAA-MM-DD). Si no \
+remite a otro boletín: "NINGUNO" y null en número y fecha.
 9. Escribe todo en español claro y breve. No inventes datos que no estén en el texto salvo \
 la dificultad, los aspirantes y la apertura estimada, que son estimaciones."""
 
@@ -151,6 +154,7 @@ def analizar_con_claude(anuncio: Anuncio, texto: str, cfg: Config) -> dict:
         f"Fecha de hoy: {dt.date.today():%Y-%m-%d}\n"
         f"Boletín: {anuncio.fuente} del {anuncio.fecha:%Y-%m-%d} ({anuncio.id})\n"
         f"Organismo: {anuncio.organismo}\n"
+        + (f"NOTA: {anuncio.extra['nota']}\n" if anuncio.extra.get("nota") else "") +
         f"Título: {anuncio.titulo}\n\n"
         f"TEXTO DEL ANUNCIO:\n{_recortar(texto, cfg.ia_max_caracteres)}"
     )
@@ -206,14 +210,16 @@ _MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agost
           "septiembre", "octubre", "noviembre", "diciembre"]
 
 
-def _bases_bocm(texto: str) -> dict:
-    """Busca 'Boletín Oficial de la Comunidad de Madrid» número 240, de 9 de octubre de 2026'."""
-    m = re.search(r"Comunidad de Madrid\W{0,3}\s*(?:n[uú]mero|n\.?\s?[ºo°])\s*(\d+),?\s*de\s*(?:fecha\s*)?"
-                  r"(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})", texto, re.I)
-    if not m or m.group(3).lower() not in _MESES:
-        return {"numero": None, "fecha": None}
-    fecha = dt.date(int(m.group(4)), _MESES.index(m.group(3).lower()) + 1, int(m.group(2)))
-    return {"numero": int(m.group(1)), "fecha": fecha.isoformat()}
+def _bases_publicadas(texto: str) -> dict:
+    """Busca 'Boletín Oficial de la Comunidad de Madrid» número 240, de 9 de octubre de 2026'
+    o 'Boletín Oficial de la Provincia de Toledo» número 187, de 30 de septiembre de 2026'."""
+    for boletin, nombre in (("BOCM", r"Comunidad de Madrid"), ("BOP_TOLEDO", r"Provincia de Toledo")):
+        m = re.search(nombre + r"\W{0,3}\s*(?:n[uú]mero|n[uú]m\.|n\.?\s?[ºo°])\s*(\d+),?\s*de\s*(?:fecha\s*)?"
+                      r"(?:\w+,?\s+)?(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})", texto, re.I)
+        if m and m.group(3).lower() in _MESES:
+            fecha = dt.date(int(m.group(4)), _MESES.index(m.group(3).lower()) + 1, int(m.group(2)))
+            return {"boletin": boletin, "numero": int(m.group(1)), "fecha": fecha.isoformat()}
+    return {"boletin": "NINGUNO", "numero": None, "fecha": None}
 
 
 def _puesto_basico(titulo: str, texto: str) -> str:
@@ -272,7 +278,7 @@ def analizar_basico(anuncio: Anuncio, texto: str, cfg: Config) -> dict:
     }
     return {
         "tipo_publicacion": "convocatoria", "resumen": anuncio.titulo,
-        "plazo": plazo, "referencia_bases": None, "bases_bocm": _bases_bocm(t),
+        "plazo": plazo, "referencia_bases": None, "bases_publicadas": _bases_publicadas(t),
         "apertura_estimada": None, "procesos": [proceso], "_modo": "basico",
     }
 

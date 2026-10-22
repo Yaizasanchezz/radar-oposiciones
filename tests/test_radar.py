@@ -15,7 +15,7 @@ sys.path.insert(0, str(RAIZ))
 
 from radar import config, filtros, ia, procesos, web  # noqa: E402
 from radar.db import DB  # noqa: E402
-from radar.fuentes import Anuncio, bocm, boe  # noqa: E402
+from radar.fuentes import Anuncio, bocm, boe, bop_toledo, jccm  # noqa: E402
 from radar.plazos import Calendario, domingo_de_pascua  # noqa: E402
 
 FIX = RAIZ / "tests" / "fixtures"
@@ -476,6 +476,130 @@ class TestIntegracion(unittest.TestCase):
             self.assertEqual([e["id"] for e in json.loads(filas[0]["enlaces"])],
                              ["BOCM-20261009-50", "BOE-A-2026-90040"])
             db.cerrar()
+
+
+# ---------------------------------------------------------------------------
+class TestFuentesNuevas(unittest.TestCase):
+    def test_ambitos_nuevos(self):
+        self.assertEqual(filtros.ambito_boe("COMUNIDAD AUTÓNOMA DE CASTILLA-LA MANCHA", "x", CFG),
+                         "castilla_la_mancha")
+        self.assertEqual(filtros.ambito_boe(
+            "ADMINISTRACIÓN LOCAL", "Resolución del Ayuntamiento de Seseña (Toledo), referente", CFG),
+            "ayuntamiento_sesena")
+        self.assertEqual(filtros.ambito_boe(
+            "ADMINISTRACIÓN LOCAL", "Resolución del Ayuntamiento de Aranjuez (Madrid)", CFG),
+            "ayuntamiento_aranjuez")
+        self.assertEqual(filtros.ambito_bocm("local", "– Valdemoro. Ofertas de empleo. Bases", "", CFG),
+                         "ayuntamiento_valdemoro")
+        self.assertEqual(filtros.ambito_bocm("local", "– Pinto. Personal. Bases proceso selectivo", "", CFG),
+                         "ayuntamiento_pinto")
+        self.assertIsNone(filtros.ambito_bocm("local", "– Pinto. Urbanismo. Plan", "", CFG))
+        self.assertEqual(CFG.region("ayuntamiento_sesena"), "clm")
+        self.assertEqual(CFG.nombre_ambito("castilla_la_mancha"), "Castilla-La Mancha")
+
+    def test_festivos_por_region(self):
+        mad, clm = Calendario(region="madrid"), Calendario(region="clm")
+        self.assertTrue(mad.es_inhabil(dt.date(2028, 5, 2)))   # martes, Día de la Comunidad de Madrid
+        self.assertFalse(clm.es_inhabil(dt.date(2028, 5, 2)))
+        self.assertTrue(clm.es_inhabil(dt.date(2028, 5, 31)))  # miércoles, Día de Castilla-La Mancha
+        self.assertFalse(mad.es_inhabil(dt.date(2028, 5, 31)))
+
+    def test_jccm_listado(self):
+        procs = jccm.procesos_de_listado(leer("jccm_listado.html"))
+        self.assertEqual(len(procs), 4)
+        self.assertEqual([jccm.accesible_por_titulo(u.split("/")[-1].replace("-", " ")) for u, _ in procs],
+                         [True, False, True, True])
+
+    def test_jccm_pagina(self):
+        url = "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2026-cuerpo-auxiliar-auxiliar-turno-libre"
+        p = jccm.pagina_proceso(leer("jccm_proceso.html"), url)
+        self.assertEqual(p["titulo"], "2026 - Cuerpo AUXILIAR - Auxiliar - Turno Libre")
+        self.assertIn("180", p["texto"])
+        conv = jccm.documento_convocatoria(p["documentos"])
+        self.assertEqual((conv["fecha"], conv["url"].rsplit("/", 1)[-1]),
+                         (dt.date(2026, 10, 15), "convocatoria_libre_funcionarios.pdf"))
+        self.assertTrue(jccm.documento_temario(p["documentos"])["url"].endswith("c2_cuerpo_auxiliar.pdf"))
+
+    def test_jccm_obtener(self):
+        class C:
+            pedidas = []
+            def get(self, url, **k):
+                self.pedidas.append(url)
+                if url.endswith("/turno-libre"):
+                    return RespuestaFalsa(leer("jccm_listado.html"))
+                if "2026-cuerpo-auxiliar" in url:
+                    return RespuestaFalsa(leer("jccm_proceso.html"))
+                if "/turno-libre/" in url:
+                    return RespuestaFalsa("<main><h1>Otro</h1><div>18/12/2024 <a href='/c.pdf'>Convocatoria</a></div></main>")
+                return RespuestaFalsa("<html></html>")
+        c = C()
+        lista = jccm.obtener_anuncios(c, CFG, lambda i: False, dt.date(2026, 10, 22))
+        por_id = {a.id: a for a in lista}
+        self.assertNotIn("JCCM-2026-cuerpo-superior-juridica-turno-libre", por_id)  # A1: ni se descarga
+        self.assertFalse(any("juridica" in u for u in c.pedidas))
+        aux = por_id["JCCM-2026-cuerpo-auxiliar-auxiliar-turno-libre"]
+        self.assertEqual((aux.fecha, aux.extra["antigua"], aux.ambito), (dt.date(2026, 10, 15), False, "castilla_la_mancha"))
+        self.assertTrue(por_id["JCCM-2023-2024-cuerpo-ejecutivo-administrativos-turno-libre"].extra["antigua"])
+
+    def test_bop_toledo(self):
+        lista = bop_toledo.entradas_resumen(leer("bop_resumen.html"), CFG, dt.date(2026, 10, 21))
+        self.assertEqual([(a.id, a.ambito) for a in lista], [("BOPTO-2026-4801", "ayuntamiento_sesena")])
+        self.assertIn("insert_number=4801", lista[0].url_pdf)
+        self.assertTrue(bop_toledo.url_resumen(dt.date(2026, 10, 21)).endswith(
+            "publication_date=21/10/2026&publication_date_to=21/10/2026"))
+
+    def test_bop_bloqueado_por_robots_no_rompe(self):
+        from radar import main as principal
+        from radar.http import BloqueadoPorRobots
+
+        class C(ClienteFalso):
+            def get(self, url, **k):
+                if "diputoledo" in url:
+                    raise BloqueadoPorRobots(url)
+                if "castillalamancha" in url:
+                    return RespuestaFalsa("<html></html>")
+                return super().get(url, **k)
+        with tempfile.TemporaryDirectory() as tmp:
+            db = DB(Path(tmp) / "t.db")
+            est = principal.Estado()
+            anuncios, revisadas, errores = principal.recoger_anuncios(
+                C(), CFG, db, [dt.date(2026, 10, 21)], dt.date(2026, 10, 21), est)
+            self.assertTrue(est.fuentes["BOP Toledo"].get("robots"))
+            self.assertTrue(est.alguna_ok())
+            self.assertIn(("BOE", dt.date(2026, 10, 21)), revisadas)
+            db.cerrar()
+
+    def test_ambitos_nuevos_reescanean_y_resumen(self):
+        from radar import main as principal
+
+        class C(ClienteFalso):
+            def get(self, url, **k):
+                if "diputoledo" in url or "castillalamancha" in url:
+                    return RespuestaFalsa("<html></html>")
+                return super().get(url, **k)
+
+        with tempfile.TemporaryDirectory() as tmp:
+            ruta_db = Path(tmp) / "radar.db"
+            db = DB(ruta_db)
+            db.marcar_fecha("BOE", dt.date(2026, 10, 21), "0 candidatos")  # BD de la versión anterior
+            db.marcar_fecha("BOCM", dt.date(2026, 10, 21), "0 candidatos")
+            db.cerrar()
+            enviados = []
+            with mock.patch.object(principal, "RUTA_DB", ruta_db), \
+                    mock.patch.object(principal, "RUTA_WEB", Path(tmp) / "docs"), \
+                    mock.patch.object(principal, "Cliente", C), \
+                    mock.patch.object(principal, "hoy_madrid", lambda: dt.date(2026, 10, 21)), \
+                    mock.patch.object(principal.ia, "analizar", analisis_falso), \
+                    mock.patch.object(principal.telegram, "enviar", lambda cfg, t: enviados.append(t) or True):
+                principal.main(["--dias", "1"])
+            self.assertEqual(len(enviados), 1)
+            self.assertIn("Radar ampliado", enviados[0])
+            self.assertIn("Aranjuez", enviados[0])
+            db = DB(ruta_db)
+            self.assertGreater(len(db.procesos()), 0)  # el 21/10 se volvió a revisar
+            self.assertIn("ayuntamiento_sesena", json.loads(db.meta("ambitos")))
+            db.cerrar()
+            self.assertTrue((Path(tmp) / "estado.json").exists())
 
 
 if __name__ == "__main__":
