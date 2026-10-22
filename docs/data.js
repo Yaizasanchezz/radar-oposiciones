@@ -1,5 +1,5 @@
 window.RADAR = {
- "actualizado": "2026-10-22 09:33",
+ "actualizado": "2026-10-22 09:50",
  "hoy": "2026-10-22",
  "ambitos": {
   "estatal": "Estado (AGE)",
@@ -14,6 +14,64 @@ window.RADAR = {
   "ayuntamiento_sesena": "Ayto. Seseña",
   "ayuntamiento_illescas": "Ayto. Illescas"
  },
+ "ayuntamientos": [
+  {
+   "clave": "ayuntamiento_alcorcon",
+   "nombre": "Alcorcón",
+   "boletin": "bocm",
+   "urlEmpleo": "https://www.ayto-alcorcon.es/",
+   "urlBoletin": "https://www.bocm.es/ultimo-bocm"
+  },
+  {
+   "clave": "ayuntamiento_madrid",
+   "nombre": "Madrid",
+   "boletin": "bocm",
+   "urlEmpleo": "https://www.madrid.es/oposiciones",
+   "urlBoletin": "https://www.bocm.es/ultimo-bocm"
+  },
+  {
+   "clave": "ayuntamiento_aranjuez",
+   "nombre": "Aranjuez",
+   "boletin": "bocm",
+   "urlEmpleo": "https://www.aranjuez.es/transparencia/empleo-publico/",
+   "urlBoletin": "https://www.bocm.es/ultimo-bocm"
+  },
+  {
+   "clave": "ayuntamiento_ciempozuelos",
+   "nombre": "Ciempozuelos",
+   "boletin": "bocm",
+   "urlEmpleo": "https://ayto-ciempozuelos.org/index.php/convocatorias-de-empleo-publico/",
+   "urlBoletin": "https://www.bocm.es/ultimo-bocm"
+  },
+  {
+   "clave": "ayuntamiento_valdemoro",
+   "nombre": "Valdemoro",
+   "boletin": "bocm",
+   "urlEmpleo": "https://www.valdemoro.es/",
+   "urlBoletin": "https://www.bocm.es/ultimo-bocm"
+  },
+  {
+   "clave": "ayuntamiento_pinto",
+   "nombre": "Pinto",
+   "boletin": "bocm",
+   "urlEmpleo": "https://www.ayto-pinto.es/",
+   "urlBoletin": "https://www.bocm.es/ultimo-bocm"
+  },
+  {
+   "clave": "ayuntamiento_sesena",
+   "nombre": "Seseña",
+   "boletin": "bop_toledo",
+   "urlEmpleo": "https://www.ayto-sesena.org/",
+   "urlBoletin": "https://bop.diputoledo.es/webEbop/ebop.jsp?search=true&sort=publication_date+desc&publisher_facet=AYUNTAMIENTO+DE+SESE%C3%91A"
+  },
+  {
+   "clave": "ayuntamiento_illescas",
+   "nombre": "Illescas",
+   "boletin": "bop_toledo",
+   "urlEmpleo": "https://www.illescas.es/",
+   "urlBoletin": "https://bop.diputoledo.es/webEbop/ebop.jsp?search=true&sort=publication_date+desc&publisher_facet=AYUNTAMIENTO+DE+ILLESCAS"
+  }
+ ],
  "oposiciones": [
   {
    "id": 7,
