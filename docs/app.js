@@ -265,6 +265,28 @@
     ].join("");
   }
 
+  function pintarTAI() {
+    const g = (t) => `<li class="grupo-enlaces">${t}</li>`;
+    const e = (href, titulo, desc) => `<li><a href="${esc(href)}" target="_blank" rel="noopener"><strong>${titulo}</strong><span>${desc}</span></a></li>`;
+    const boe = (id) => `https://www.boe.es/buscar/act.php?id=${id}`;
+    const enRadar = ops.filter((o) => /inform[aá]tic|\btai\b/i.test(`${o.puesto || ""} ${o.cuerpo || ""} ${o.titulo || ""}`)).length;
+    $("enlacesTAI").innerHTML = [
+      `<li><button class="ayto-ver" data-buscar="informática"><strong>Ver plazas de informática en el radar</strong><span>${enRadar ? `${enRadar} en la lista ahora` : "Ahora mismo ninguna; aparecerán aquí"}</span></button></li>`,
+      g("Oficial"),
+      e("https://www.inap.es/es/seleccion/procesos-selectivos-de-cuerposescalas-generales/cuerpo-de-tecnicos-auxiliares-de-informatica-de-la-administracion-del-estado", "INAP: proceso selectivo TAI", "Convocatorias anteriores (con el temario en el anexo) y exámenes reales"),
+      e("https://administracion.gob.es/PAG/ips", "Inscripción (IPS)", "Aquí te inscribirás cuando abra el plazo"),
+      g("Normativa del temario (bloque legal y de seguridad)"),
+      e(boe("BOE-A-2022-7191"), "Esquema Nacional de Seguridad", "Real Decreto 311/2022; cae casi siempre"),
+      e(boe("BOE-A-2010-1331"), "Esquema Nacional de Interoperabilidad", "Real Decreto 4/2010"),
+      e(boe("BOE-A-2018-16673"), "Ley Orgánica de Protección de Datos", "LOPDGDD 3/2018"),
+      e("https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679", "Reglamento General de Protección de Datos", "RGPD (UE) 2016/679"),
+      e(boe("BOE-A-2013-12887"), "Ley de Transparencia", "Ley 19/2013"),
+      g("Para practicar"),
+      e("https://www.opositatest.com/", "OpositaTest", "Busca «Técnico Auxiliar de Informática»: test por bloques"),
+      e("https://redopositor.com/blog/es-oposiciones-tai-informatica-2026/", "Guía TAI 2026 (Redopositor)", "Requisitos, estructura del examen y plazas"),
+    ].join("");
+  }
+
   function pintarAytos() {
     const lista = datos.ayuntamientos || [];
     const cuenta = (c) => ops.filter((o) => o.ambito === c && !archivadas.has(String(o.id)) && SEGMENTO[o.estado] !== "cerradas").length;
@@ -309,7 +331,7 @@
 
   // ---------- eventos ----------
   document.addEventListener("click", (ev) => {
-    const t = ev.target.closest("[data-adm],[data-seg],[data-abrir],[data-archivar],[data-deshacer],[data-ayto],[data-cerrar],[data-adm-reset]");
+    const t = ev.target.closest("[data-adm],[data-seg],[data-abrir],[data-archivar],[data-deshacer],[data-ayto],[data-cerrar],[data-adm-reset],[data-buscar]");
     if (!t) return;
     if (t.dataset.adm) {
       if (t.dataset.adm === "aytos") { pintarAytos(); abrirHoja("hojaAytos"); return; }
@@ -327,6 +349,11 @@
       archivar(t.dataset.archivar);
     } else if (t.dataset.deshacer) {
       archivar(t.dataset.deshacer); $("avisoFlotante").hidden = true;
+    } else if (t.dataset.buscar) {
+      cerrarHoja(t.closest("dialog"));
+      vista.adm = "todas"; vista.seg = null; vista.texto = t.dataset.buscar; abierta = null;
+      $("buscador").hidden = false; $("abrirBuscar").setAttribute("aria-expanded", "true");
+      $("buscar").value = t.dataset.buscar; pintar();
     } else if (t.hasAttribute("data-cerrar")) {
       cerrarHoja(t.closest("dialog"));
     }
@@ -336,7 +363,7 @@
     h.addEventListener("click", (ev) => { if (ev.target === h) cerrarHoja(h); }); // tocar fuera cierra
   }
 
-  const PINTAR_HOJA = { hojaBoletines: pintarBoletines, hojaTemario: pintarTemario, hojaEstudio: pintarEstudio };
+  const PINTAR_HOJA = { hojaBoletines: pintarBoletines, hojaTemario: pintarTemario, hojaEstudio: pintarEstudio, hojaTAI: pintarTAI };
   for (const b of document.querySelectorAll("[data-hoja]")) {
     b.addEventListener("click", () => { PINTAR_HOJA[b.dataset.hoja](); abrirHoja(b.dataset.hoja); });
   }

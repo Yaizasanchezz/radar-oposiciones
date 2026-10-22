@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <header class="cabecera">
@@ -26,6 +26,7 @@
       <button class="acceso" data-hoja="hojaBoletines" aria-haspopup="dialog">Boletines</button>
       <button class="acceso" data-hoja="hojaTemario" aria-haspopup="dialog">Temario</button>
       <button class="acceso" data-hoja="hojaEstudio" aria-haspopup="dialog">Estudio</button>
+      <button class="acceso" data-hoja="hojaTAI" aria-haspopup="dialog">TAI</button>
     </div>
     <nav class="administraciones" id="administraciones" aria-label="Administración"></nav>
   </header>
@@ -78,6 +79,15 @@
     </div>
     <p class="hoja-intro">Test para practicar cada día y exámenes reales para medirte. Si una respuesta de un test te parece rara, compruébala en el texto del BOE.</p>
     <ul class="enlaces" id="enlacesEstudio"></ul>
+  </dialog>
+
+  <dialog class="hoja" id="hojaTAI" aria-labelledby="tituloTAI">
+    <div class="hoja-cabecera">
+      <h2 id="tituloTAI">TAI · Técnicos Auxiliares de Informática</h2>
+      <button class="cerrar" data-cerrar aria-label="Cerrar">×</button>
+    </div>
+    <p class="hoja-intro">Cuerpo C1 del Estado. OEP 2026: 1.000 plazas de turno libre. La convocatoria se espera para finales de año; el radar te avisará por Telegram en cuanto salga en el BOE.</p>
+    <ul class="enlaces" id="enlacesTAI"></ul>
   </dialog>
 
   <dialog class="hoja" id="hojaAytos" aria-labelledby="tituloAytos">
