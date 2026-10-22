@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
   <header class="cabecera">
@@ -21,7 +21,11 @@
         <h1>Oposiciones</h1>
         <p class="actualizado" id="actualizado"></p>
       </div>
-      <button class="boton-boletines" id="abrirBoletines" aria-haspopup="dialog">Boletines</button>
+    </div>
+    <div class="accesos">
+      <button class="acceso" data-hoja="hojaBoletines" aria-haspopup="dialog">Boletines</button>
+      <button class="acceso" data-hoja="hojaTemario" aria-haspopup="dialog">Temario</button>
+      <button class="acceso" data-hoja="hojaEstudio" aria-haspopup="dialog">Estudio</button>
     </div>
     <nav class="administraciones" id="administraciones" aria-label="Administración"></nav>
   </header>
@@ -56,6 +60,24 @@
     </div>
     <p class="hoja-intro">Para mirarlos tú directamente. El DOCM y el BOP de Toledo no dejan que el radar los lea, así que conviene echarles un vistazo de vez en cuando.</p>
     <ul class="enlaces" id="enlacesBoletines"></ul>
+  </dialog>
+
+  <dialog class="hoja" id="hojaTemario" aria-labelledby="tituloTemario">
+    <div class="hoja-cabecera">
+      <h2 id="tituloTemario">Temario común</h2>
+      <button class="cerrar" data-cerrar aria-label="Cerrar">×</button>
+    </div>
+    <p class="hoja-intro">Textos oficiales y actualizados del BOE. Entran en casi todas las oposiciones de B, C1 y C2, sea cual sea la administración.</p>
+    <ul class="enlaces" id="enlacesTemario"></ul>
+  </dialog>
+
+  <dialog class="hoja" id="hojaEstudio" aria-labelledby="tituloEstudio">
+    <div class="hoja-cabecera">
+      <h2 id="tituloEstudio">Estudio</h2>
+      <button class="cerrar" data-cerrar aria-label="Cerrar">×</button>
+    </div>
+    <p class="hoja-intro">Test para practicar cada día y exámenes reales para medirte. Si una respuesta de un test te parece rara, compruébala en el texto del BOE.</p>
+    <ul class="enlaces" id="enlacesEstudio"></ul>
   </dialog>
 
   <dialog class="hoja" id="hojaAytos" aria-labelledby="tituloAytos">

@@ -72,15 +72,25 @@ h1 {
 }
 .actualizado { margin: 4px 0 0; font-size: .8rem; color: var(--tinta-suave); }
 
-.boton-boletines {
+/* accesos rápidos: boletines, temario y estudio */
+.accesos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  max-width: 720px;
+  margin: 12px auto 0;
+  padding: 0 16px;
+}
+.acceso {
   border: 1px solid var(--linea);
   background: var(--superficie);
-  border-radius: 999px;
-  padding: 7px 14px;
-  font-size: .85rem;
+  border-radius: 12px;
+  padding: 9px 6px;
+  font-size: .88rem;
   font-weight: 600;
   cursor: pointer;
 }
+.acceso:hover { border-color: var(--rosa); }
 
 /* pestañas de administración: deslizables en el móvil */
 .administraciones {

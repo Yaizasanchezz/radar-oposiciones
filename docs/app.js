@@ -235,6 +235,36 @@
     ].join("");
   }
 
+  function pintarTemario() {
+    const g = (t) => `<li class="grupo-enlaces">${t}</li>`;
+    const e = (href, titulo, desc) => `<li><a href="${esc(href)}" target="_blank" rel="noopener"><strong>${titulo}</strong><span>${desc}</span></a></li>`;
+    const boe = (id) => `https://www.boe.es/buscar/act.php?id=${id}`;
+    $("enlacesTemario").innerHTML = [
+      g("En casi todas"),
+      e(boe("BOE-A-1978-31229"), "Constitución Española", "Texto completo y actualizado, desde el primer artículo"),
+      e(boe("BOE-A-2015-10565"), "Ley 39/2015, del Procedimiento Administrativo Común", "Plazos, recursos, notificaciones"),
+      e(boe("BOE-A-2015-10566"), "Ley 40/2015, de Régimen Jurídico del Sector Público", "Cómo funcionan las administraciones"),
+      g("También muy frecuentes"),
+      e(boe("BOE-A-2015-11719"), "Estatuto Básico del Empleado Público", "Derechos y deberes de los funcionarios"),
+      e(boe("BOE-A-1985-5392"), "Ley 7/1985, de Bases del Régimen Local", "Imprescindible para ayuntamientos"),
+    ].join("");
+  }
+
+  function pintarEstudio() {
+    const g = (t) => `<li class="grupo-enlaces">${t}</li>`;
+    const e = (href, titulo, desc) => `<li><a href="${esc(href)}" target="_blank" rel="noopener"><strong>${titulo}</strong><span>${desc}</span></a></li>`;
+    $("enlacesEstudio").innerHTML = [
+      g("Test para practicar"),
+      e("https://www.opositatest.com/", "OpositaTest", "Test por temas y por títulos; parte gratis y parte de pago"),
+      e("https://redopositor.com/test-constitucion-espanola/", "Redopositor", "Test gratuitos de la Constitución"),
+      e("https://www.preparaoposiciones.com/blog/tags/test-gratis/", "PreparaOposiciones", "Test gratis de varias oposiciones"),
+      g("Exámenes oficiales"),
+      e("https://www.inap.es/es/seleccion/procesos-selectivos-de-cuerposescalas-generales/cuerpo-general-auxiliar-de-la-administracion-del-estado", "INAP: Auxiliar Administrativo del Estado", "Exámenes reales con plantilla de respuestas (C2)"),
+      e("https://www.inap.es/es/seleccion/procesos-selectivos-de-cuerposescalas-generales/cuerpo-general-administrativo-de-la-administracion-del-estado", "INAP: Administrativo del Estado", "Exámenes de convocatorias anteriores (C1)"),
+      e("https://www.inap.es/es/seleccion/material-de-apoyo-para-oposiciones", "INAP: material de apoyo", "Recursos oficiales para opositores"),
+    ].join("");
+  }
+
   function pintarAytos() {
     const lista = datos.ayuntamientos || [];
     const cuenta = (c) => ops.filter((o) => o.ambito === c && !archivadas.has(String(o.id)) && SEGMENTO[o.estado] !== "cerradas").length;
@@ -306,7 +336,10 @@
     h.addEventListener("click", (ev) => { if (ev.target === h) cerrarHoja(h); }); // tocar fuera cierra
   }
 
-  $("abrirBoletines").addEventListener("click", () => { pintarBoletines(); abrirHoja("hojaBoletines"); });
+  const PINTAR_HOJA = { hojaBoletines: pintarBoletines, hojaTemario: pintarTemario, hojaEstudio: pintarEstudio };
+  for (const b of document.querySelectorAll("[data-hoja]")) {
+    b.addEventListener("click", () => { PINTAR_HOJA[b.dataset.hoja](); abrirHoja(b.dataset.hoja); });
+  }
   $("abrirBuscar").addEventListener("click", () => {
     const b = $("buscador");
     b.hidden = !b.hidden;
