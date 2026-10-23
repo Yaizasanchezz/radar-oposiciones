@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-10-22 14:29",
- "hoy": "2026-10-22",
+ "actualizado": "2026-10-23 14:10",
+ "hoy": "2026-10-23",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -622,6 +622,60 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "150–400 (≈150–400 por plaza)",
     "explicacion": "Estimación orientativa: no hay datos de ediciones anteriores en el anuncio. Es una plaza única con examen en Ceuta, lo que reduce la afluencia respecto a convocatorias con varias plazas o sedes en la península."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 13,
+   "puesto": "Ayudante/a fontanero/a",
+   "cuerpo": "No indicado en el anuncio (puesto de ayudante/a fontanero/a)",
+   "organismo": "Ayuntamiento de Alcorcón",
+   "ambito": "ayuntamiento_alcorcon",
+   "ambitoNombre": "Ayto. Alcorcón",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "desconocido",
+   "sistema": "concurso-oposicion",
+   "plazas": 2,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio solo publica la lista provisional de admitidos y excluidos y no indica el grupo ni la titulación exigida, por lo que no se puede confirmar la accesibilidad.",
+   "titulacion": "No indicada en este anuncio",
+   "requisitos": "No indicados en este anuncio; consultar las bases de la convocatoria.",
+   "estado": "proxima",
+   "publicado": "2026-10-23",
+   "publicadoBOE": null,
+   "inicioPlazo": "2026-10-26",
+   "finPlazo": "2026-11-09",
+   "plazoTexto": "10 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.ayto-alcorcon.es/",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261023-62",
+     "fecha": "2026-10-23",
+     "url": "https://www.bocm.es/bocm-20261023-62",
+     "titulo": "– Alcorcón. Ofertas de empleo. Proceso selectivo",
+     "tipo": "otro"
+    }
+   ],
+   "resumen": "Lista provisional de aspirantes admitidos y excluidos para 2 plazas de ayudante/a fontanero/a por concurso-oposición libre en el Ayuntamiento de Alcorcón. Quien esté excluido o no aparezca en la lista puede subsanar en 10 días hábiles desde la publicación.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Estimación: sistema de concurso-oposición para un puesto de oficio con 2 plazas; el temario y los ejercicios no se conocen a partir de este anuncio."
+   },
+   "aspirantes": {
+    "estimacion": "40–120 (≈ 20–60 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios habituales de plazas sueltas de ayuntamientos de tamaño medio-grande; no hay datos de ediciones anteriores en el anuncio."
    },
    "afin": false,
    "nuevo": true,
