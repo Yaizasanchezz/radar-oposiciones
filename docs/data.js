@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-10-23 14:10",
- "hoy": "2026-10-23",
+ "actualizado": "2026-10-24 13:49",
+ "hoy": "2026-10-24",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -124,7 +124,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios típicos de plazas únicas de técnico superior en ayuntamientos de tamaño medio-grande; no se conocen ediciones anteriores de esta convocatoria."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -218,7 +218,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios típicas de plazas sanitarias del INGESA con titulación de FP de imagen; no hay datos de ediciones anteriores en el texto."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -322,7 +322,7 @@ window.RADAR = {
     "explicacion": "Es una estimación basada en ratios típicas de convocatorias de INGESA para categorías administrativas de subgrupo C1 con plazas en todo el ámbito del Instituto. No se han consultado ediciones anteriores de esta oposición concreta."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -401,7 +401,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, sin datos de ediciones anteriores de esta convocatoria. Se basa en ratios habituales de plazas de auxiliar administrativo sanitario con 31 plazas y examen en Ceuta o Melilla."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -485,7 +485,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en que se trata de una categoría de acceso sin titulación elevada y solo 2 plazas. No hay datos de ediciones anteriores, así que es una aproximación."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -624,7 +624,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa: no hay datos de ediciones anteriores en el anuncio. Es una plaza única con examen en Ceuta, lo que reduce la afluencia respecto a convocatorias con varias plazas o sedes en la península."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -845,7 +845,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa: el anuncio no indica requisitos ni pruebas, y dos plazas de contrato indefinido en una empresa pública de Madrid suelen atraer un número moderado de candidaturas."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -899,7 +899,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios típicos de puestos de titulado superior en empresas públicas con pocas plazas. No hay datos de ediciones anteriores de este proceso."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
