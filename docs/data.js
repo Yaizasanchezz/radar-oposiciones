@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-10-24 13:49",
- "hoy": "2026-10-24",
+ "actualizado": "2026-10-25 13:14",
+ "hoy": "2026-10-25",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -539,7 +539,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios típicos de convocatorias de Policía Local en municipios medianos de la provincia de Toledo, no en datos oficiales de esta convocatoria."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -737,7 +737,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios habituales de plazas de conserje en ayuntamientos de la Comunidad de Madrid. No hay datos de ediciones anteriores en el anuncio."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -791,7 +791,7 @@ window.RADAR = {
     "explicacion": "Cifra de admitidos de este listado, no del total de solicitudes ni de presentados. Es una estimación orientativa."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -953,7 +953,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en esta lista: 24 admitidos y 6 excluidos, es decir, unos 30 solicitantes para 2 plazas. No es un dato oficial de la convocatoria."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   }
  ]
