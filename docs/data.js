@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-10-27 13:42",
- "hoy": "2026-10-27",
+ "actualizado": "2026-10-28 14:34",
+ "hoy": "2026-10-28",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -73,60 +73,6 @@ window.RADAR = {
   }
  ],
  "oposiciones": [
-  {
-   "id": 7,
-   "puesto": "Técnico/a Superior de Gestión Cultural",
-   "cuerpo": "Administración Especial, subescala Técnica, clase Superior",
-   "organismo": "ADMINISTRACIÓN LOCAL",
-   "ambito": "ayuntamiento_alcorcon",
-   "ambitoNombre": "Ayto. Alcorcón",
-   "subgrupo": "DESCONOCIDO",
-   "grupoLaboral": null,
-   "personal": "funcionario",
-   "sistema": "concurso-oposicion",
-   "plazas": 1,
-   "accesible": "dudoso",
-   "motivoAccesible": "El extracto no indica el subgrupo ni la titulación exigida; la subescala técnica de clase superior suele corresponder a A1, que exige título universitario, por lo que es probable que no sea accesible. Confirmar en las bases.",
-   "titulacion": "No indicada en el extracto; consultar las bases del BOCM nº 234",
-   "requisitos": "Consultar las bases publicadas en el BOCM nº 234 de 1-10-2026",
-   "estado": "abierta",
-   "publicado": "2026-10-07",
-   "publicadoBOE": "2026-10-07",
-   "inicioPlazo": "2026-10-08",
-   "finPlazo": "2026-10-27",
-   "plazoTexto": "20 días naturales",
-   "aperturaEstimada": null,
-   "urlInscripcion": "https://www.ayto-alcorcon.es/",
-   "tasa": null,
-   "enlaces": [
-    {
-     "fuente": "BOE",
-     "id": "BOE-A-2026-20868",
-     "fecha": "2026-10-07",
-     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20868",
-     "titulo": "Resolución de 2 de octubre de 2026, del Ayuntamiento de Alcorcón (Madrid), referente a la convocatoria para proveer una plaza.",
-     "tipo": "extracto"
-    }
-   ],
-   "resumen": "El Ayuntamiento de Alcorcón convoca una plaza de Técnico/a Superior de Gestión Cultural (Concejalía de Mayores) por concurso-oposición, turno libre, con bases publicadas en el BOCM nº 234 de 1-10-2026. El plazo es de 20 días naturales desde el día siguiente a la publicación en el BOE (7-10-2026), por lo que finalizaría aproximadamente el 27-10-2026.",
-   "temario": {
-    "disponible": false,
-    "num_temas": null,
-    "bloques": []
-   },
-   "ejercicios": [],
-   "dificultad": {
-    "nivel": 3,
-    "explicacion": "Plaza única con fase de concurso y oposición; el temario y los ejercicios no constan en este extracto, por lo que la valoración es orientativa."
-   },
-   "aspirantes": {
-    "estimacion": "50–150 (≈ 50–150 por plaza)",
-    "explicacion": "Estimación orientativa basada en ratios típicos de plazas únicas de técnico superior en ayuntamientos de tamaño medio-grande; no se conocen ediciones anteriores de esta convocatoria."
-   },
-   "afin": false,
-   "nuevo": false,
-   "modo": "ia"
-  },
   {
    "id": 1,
    "puesto": "Técnico/a Superior en Imagen para el Diagnóstico y Medicina Nuclear",
@@ -682,6 +628,114 @@ window.RADAR = {
    "modo": "ia"
   },
   {
+   "id": 15,
+   "puesto": "Administrativo/a de Obra y Mantenimiento",
+   "cuerpo": "Personal laboral fijo, Grupo IV (Técnicos, Administrativos y Recepción), nivel 4-A",
+   "organismo": "MINISTERIO DE HACIENDA",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo IV, nivel 4-A",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 2,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida; hay que comprobarla en las bases para confirmar si es compatible con un Técnico Superior.",
+   "titulacion": "No consta en el anuncio; figura en las bases de la convocatoria.",
+   "requisitos": "Presentar el Modelo de Solicitud de Admisión (anexo III) y el Modelo de Alegación de Méritos (anexo IV), disponibles en la web de la entidad y en la sede social del Consorcio (Ronda de Vigilancia s/n, recinto interior de la Zona Franca de Cádiz).",
+   "estado": "proxima",
+   "publicado": "2026-10-28",
+   "publicadoBOE": "2026-10-28",
+   "inicioPlazo": "2026-10-29",
+   "finPlazo": "2026-11-26",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.zonafrancacadiz.com/convocatoria-empleo-publico/",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-22556",
+     "fecha": "2026-10-28",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22556",
+     "titulo": "Resolución de 19 de octubre de 2026, de la Delegación Especial del Estado en el Consorcio Zona Franca de Cádiz, por la que se convoca proceso selectivo, por el sistema general de acceso libre, para la provisión de plazas de personal laboral fijo, Administrativo/a de Obra y Mantenimiento.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "El Consorcio Zona Franca de Cádiz convoca por acceso libre dos plazas de personal laboral fijo de Administrativo/a de Obra y Mantenimiento (Grupo IV, nivel 4-A, OEP 2026). El plazo de solicitudes es de veinte días hábiles desde la publicación en el BOE, y las bases están en la web de la entidad.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Plazas de personal laboral de nivel medio-bajo, sin temario ni ejercicios publicados en el anuncio; la dificultad dependerá de las pruebas que fijen las bases."
+   },
+   "aspirantes": {
+    "estimacion": "100–300 (≈50–150 por plaza)",
+    "explicacion": "Estimación orientativa basada en el tipo de puesto y en el carácter de la entidad; no se dispone de datos de ediciones anteriores."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 14,
+   "puesto": "Oficial/a cerrajero/a",
+   "cuerpo": "Oficial/a cerrajero/a (Oferta de Empleo Público 2024)",
+   "organismo": "Ayuntamiento de Alcorcón",
+   "ambito": "ayuntamiento_alcorcon",
+   "ambitoNombre": "Ayto. Alcorcón",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "desconocido",
+   "sistema": "concurso-oposicion",
+   "plazas": 1,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida ni el grupo o subgrupo, por lo que hay que revisar las bases en la web municipal.",
+   "titulacion": "No indicada en el anuncio; consultar las bases",
+   "requisitos": "No indicados en el anuncio; consultar las bases",
+   "estado": "consultar",
+   "publicado": "2026-10-28",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.ayto-alcorcon.es/",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261028-22",
+     "fecha": "2026-10-28",
+     "url": "https://www.bocm.es/bocm-20261028-22",
+     "titulo": "– Alcorcón. Ofertas de empleo. Proceso selectivo",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "El Ayuntamiento de Alcorcón convoca 1 plaza de oficial/a cerrajero/a por concurso-oposición en turno libre (Oferta de Empleo Público 2024). El anuncio no indica titulación, grupo ni plazo; las bases completas están en la web municipal.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Estimación: concurso-oposición de oficio con una sola plaza; sin datos sobre temario ni ejercicios en el anuncio."
+   },
+   "aspirantes": {
+    "estimacion": "30–80 (≈ 30–80 por plaza)",
+    "explicacion": "Estimación orientativa basada en la oferta de una plaza municipal de oficio; no hay datos de ediciones anteriores en el anuncio."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
    "id": 12,
    "puesto": "Conserje",
    "cuerpo": "Personal laboral - Conserje (Grupo 5, AP)",
@@ -951,6 +1005,60 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "≈ 30 (≈ 15 por plaza)",
     "explicacion": "Estimación orientativa basada en esta lista: 24 admitidos y 6 excluidos, es decir, unos 30 solicitantes para 2 plazas. No es un dato oficial de la convocatoria."
+   },
+   "afin": false,
+   "nuevo": false,
+   "modo": "ia"
+  },
+  {
+   "id": 7,
+   "puesto": "Técnico/a Superior de Gestión Cultural",
+   "cuerpo": "Administración Especial, subescala Técnica, clase Superior",
+   "organismo": "ADMINISTRACIÓN LOCAL",
+   "ambito": "ayuntamiento_alcorcon",
+   "ambitoNombre": "Ayto. Alcorcón",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "concurso-oposicion",
+   "plazas": 1,
+   "accesible": "dudoso",
+   "motivoAccesible": "El extracto no indica el subgrupo ni la titulación exigida; la subescala técnica de clase superior suele corresponder a A1, que exige título universitario, por lo que es probable que no sea accesible. Confirmar en las bases.",
+   "titulacion": "No indicada en el extracto; consultar las bases del BOCM nº 234",
+   "requisitos": "Consultar las bases publicadas en el BOCM nº 234 de 1-10-2026",
+   "estado": "cerrada",
+   "publicado": "2026-10-07",
+   "publicadoBOE": "2026-10-07",
+   "inicioPlazo": "2026-10-08",
+   "finPlazo": "2026-10-27",
+   "plazoTexto": "20 días naturales",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.ayto-alcorcon.es/",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-20868",
+     "fecha": "2026-10-07",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20868",
+     "titulo": "Resolución de 2 de octubre de 2026, del Ayuntamiento de Alcorcón (Madrid), referente a la convocatoria para proveer una plaza.",
+     "tipo": "extracto"
+    }
+   ],
+   "resumen": "El Ayuntamiento de Alcorcón convoca una plaza de Técnico/a Superior de Gestión Cultural (Concejalía de Mayores) por concurso-oposición, turno libre, con bases publicadas en el BOCM nº 234 de 1-10-2026. El plazo es de 20 días naturales desde el día siguiente a la publicación en el BOE (7-10-2026), por lo que finalizaría aproximadamente el 27-10-2026.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Plaza única con fase de concurso y oposición; el temario y los ejercicios no constan en este extracto, por lo que la valoración es orientativa."
+   },
+   "aspirantes": {
+    "estimacion": "50–150 (≈ 50–150 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de plazas únicas de técnico superior en ayuntamientos de tamaño medio-grande; no se conocen ediciones anteriores de esta convocatoria."
    },
    "afin": false,
    "nuevo": false,
