@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-10-28 14:34",
- "hoy": "2026-10-28",
+ "actualizado": "2026-10-29 14:45",
+ "hoy": "2026-10-29",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -643,7 +643,7 @@ window.RADAR = {
    "motivoAccesible": "El anuncio no indica la titulación exigida; hay que comprobarla en las bases para confirmar si es compatible con un Técnico Superior.",
    "titulacion": "No consta en el anuncio; figura en las bases de la convocatoria.",
    "requisitos": "Presentar el Modelo de Solicitud de Admisión (anexo III) y el Modelo de Alegación de Méritos (anexo IV), disponibles en la web de la entidad y en la sede social del Consorcio (Ronda de Vigilancia s/n, recinto interior de la Zona Franca de Cádiz).",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-10-28",
    "publicadoBOE": "2026-10-28",
    "inicioPlazo": "2026-10-29",
