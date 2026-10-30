@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-10-29 14:45",
- "hoy": "2026-10-29",
+ "actualizado": "2026-10-30 14:38",
+ "hoy": "2026-10-30",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -676,6 +676,244 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "100–300 (≈50–150 por plaza)",
     "explicacion": "Estimación orientativa basada en el tipo de puesto y en el carácter de la entidad; no se dispone de datos de ediciones anteriores."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 16,
+   "puesto": "Técnico/a Superior en Higiene Bucodental",
+   "cuerpo": "Técnico/a Superior en Higiene Bucodental de las Instituciones Sanitarias del INGESA (personal estatutario fijo)",
+   "organismo": "MINISTERIO DE SANIDAD",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "B",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "concurso-oposicion",
+   "plazas": 1,
+   "accesible": "dudoso",
+   "motivoAccesible": "Subgrupo B accesible en principio, pero exige el título concreto de Técnico Superior en Higiene Bucodental, que no coincide con los títulos de DAM ni de Marketing y Publicidad.",
+   "titulacion": "Formación Profesional de Técnico Superior en Higiene Bucodental, o titulación equivalente, en posesión o en condiciones de obtenerla a la fecha de fin del plazo de solicitudes.",
+   "requisitos": "Nacionalidad española (con excepciones para nacionales de la UE y familiares en las condiciones previstas); capacidad funcional; edad y no exceder la de jubilación; no haber sido separado del servicio por expediente disciplinario; no ser titular de plaza en la misma categoría; certificado negativo del Registro Central de delincuentes sexuales; abono de tasa salvo exención.",
+   "estado": "proxima",
+   "publicado": "2026-10-30",
+   "publicadoBOE": "2026-10-30",
+   "inicioPlazo": "2026-11-03",
+   "finPlazo": "2026-11-30",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-22740",
+     "fecha": "2026-10-30",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22740",
+     "titulo": "Resolución de 13 de octubre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo, por concurso-oposición, por el sistema general de acceso libre, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Técnico/a Superior en Higiene Bucodental.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del INGESA de 1 plaza de acceso libre de Técnico/a Superior en Higiene Bucodental (personal estatutario fijo, concurso-oposición), con plazo de 20 días hábiles desde el día siguiente a la publicación en el BOE y examen en Ceuta. Exige el título de Técnico Superior en Higiene Bucodental, que no coincide con tus títulos (DAM o Marketing y Publicidad).",
+   "temario": {
+    "disponible": true,
+    "num_temas": 48,
+    "bloques": [
+     {
+      "nombre": "Parte general",
+      "num_temas": 10,
+      "resumen": "Constitución Española, Ley General de Sanidad, Ley de Cohesión del SNS, profesiones sanitarias, Estatuto Marco, RGPD y LOPDGDD, igualdad y violencia de género, dependencia y prevención de riesgos laborales."
+     },
+     {
+      "nombre": "Anatomía, fisiología e inmunología bucodental (T16-T25)",
+      "num_temas": 10,
+      "resumen": "Músculos masticatorios, articulación temporomandibular, oclusión, prevención de traumatismos, aparato digestivo, célula, embriología facial, anatomía dental, flora microbiana e inmunidad."
+     },
+     {
+      "nombre": "Prevención, higiene y patología bucodental (T13-T15 y T26-T37)",
+      "num_temas": 15,
+      "resumen": "Esterilización y desinfección, índices de salud oral, prevención en odontología, placa dental, caries, enfermedad periodontal, infecciones odontogénicas, mucosa oral, cáncer oral, cepillado, dentífricos, clorhexidina, selladores, remineralización y dieta."
+     },
+     {
+      "nombre": "Enfermedades transmisibles y papel del Técnico en Atención Primaria (T38-T39)",
+      "num_temas": 2,
+      "resumen": "Hepatitis, VIH y otras infecciones por fluidos; funciones del Técnico Superior en Higiene Bucodental en Atención Primaria y educación para la salud."
+     },
+     {
+      "nombre": "Instrumental, equipamiento, radiología y seguridad (T40-T46)",
+      "num_temas": 7,
+      "resumen": "Materiales y unidad dental, instrumentación, funciones en consulta y aislamiento, radiología y protección radiológica, ergonomía, riesgos profesionales y gestión de residuos sanitarios."
+     },
+     {
+      "nombre": "Organización, gestión y formación (T11-T12 y T47-T48)",
+      "num_temas": 4,
+      "resumen": "Calidad asistencial e indicadores, organización de Atención Especializada y Primaria, gestión de áreas de trabajo y formación continuada y carrera profesional en el INGESA."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Fase de oposición: ejercicio único eliminatorio",
+     "descripcion": "Test de 50 preguntas más 5 de reserva y dos supuestos prácticos de 4 preguntas cada uno más 1 de reserva. Tres respuestas por pregunta con una sola correcta; cada error resta un cuarto del valor. Duración máxima de 120 minutos. Puntuación máxima de 100; se supera con al menos 50 puntos. Examen en Ceuta."
+    },
+    {
+     "nombre": "Fase de concurso (méritos, no es examen)",
+     "descripcion": "Baremo de hasta 100 puntos: experiencia profesional (máx. 60), formación reglada y continuada (máx. 30) y otros méritos como investigación o superación de oposiciones (máx. 10). Se acreditan méritos tras aprobar la oposición, en quince días hábiles."
+    }
+   ],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Temario muy extenso (48 temas) con mucho contenido clínico-odontológico específico, test con penalización y supuestos prácticos, aunque es una única plaza."
+   },
+   "aspirantes": {
+    "estimacion": "200-500 (aprox. 200-500 por plaza)",
+    "explicacion": "Estimación orientativa sin datos de ediciones anteriores: convocatoria nacional del INGESA para una categoría sanitaria técnica con una sola plaza y examen en Ceuta, por lo que la cifra real puede variar mucho."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 17,
+   "puesto": "Celador/a",
+   "cuerpo": "Celador/a de las Instituciones Sanitarias del INGESA (personal estatutario fijo)",
+   "organismo": "MINISTERIO DE SANIDAD",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "AP",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "concurso-oposicion",
+   "plazas": 41,
+   "accesible": "si",
+   "motivoAccesible": "El subgrupo AP es accesible, hay turno libre y la titulación exigida es el certificado de escolaridad, por lo que un Técnico Superior cumple el requisito.",
+   "titulacion": "Certificado de Escolaridad o equivalente, con la formación exigida finalizada a la fecha de fin del plazo de solicitudes",
+   "requisitos": "Nacionalidad española (con excepciones para nacionales UE, cónyuges y familiares, y otros supuestos del Tratado de libre circulación); 18 años y no superar la edad de jubilación; capacidad funcional; no estar separado del servicio ni inhabilitado; no haber sido condenado por delitos contra la libertad e indemnidad sexual; no ser titular de plaza de la misma categoría; títulos extranjeros con homologación o equivalencia.",
+   "estado": "proxima",
+   "publicado": "2026-10-30",
+   "publicadoBOE": "2026-10-30",
+   "inicioPlazo": "2026-11-03",
+   "finPlazo": "2026-11-30",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-22741",
+     "fecha": "2026-10-30",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22741",
+     "titulo": "Resolución de 16 de octubre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo, por concurso-oposición, por el sistema general de acceso libre, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Celador/a.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del INGESA (Ministerio de Sanidad) para 41 plazas de Celador/a de personal estatutario fijo por concurso-oposición, turno libre (5 reservadas a discapacidad). El plazo es de 20 días hábiles desde el día siguiente a la publicación en el BOE, con solicitud electrónica a través de IPS.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 15,
+    "bloques": [
+     {
+      "nombre": "Parte general",
+      "num_temas": 7,
+      "resumen": "Constitución y derechos fundamentales, Estatutos de Ceuta y Melilla, normativa de discapacidad y dependencia, violencia de género e igualdad LGTBI, Estatuto Marco del personal estatutario, estructura y RRHH del INGESA, y autonomía del paciente (Ley 41/2002)."
+     },
+     {
+      "nombre": "Parte especial",
+      "num_temas": 8,
+      "resumen": "Funciones del celador en cada servicio (hospitalización, quirófano, urgencias, primaria, consultas), trabajo en equipo y comunicación, almacén y distribución, movilización y traslado de pacientes, manejo de documentación clínica y prevención de riesgos laborales."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único de la fase de oposición (eliminatorio)",
+     "descripcion": "Test de 30 preguntas más 3 de reserva, con 3 respuestas alternativas y una sola correcta. Tiempo máximo de 90 minutos. Cada acierto suma y cada error resta un cuarto del valor. Se supera con al menos la mitad de la puntuación máxima (100 puntos)."
+    },
+    {
+     "nombre": "Fase de concurso (méritos)",
+     "descripcion": "Valoración de méritos sobre un máximo de 100 puntos según el baremo del anexo III: experiencia profesional (hasta 60), formación (hasta 30) y otros méritos (hasta 10). Se suma a la oposición para la calificación final."
+    }
+   ],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "El temario tiene 15 temas, con una parte general amplia (legislación y Estatuto Marco) y el test penaliza los errores. La prueba es un único test de 30 preguntas, y la fase de concurso favorece a quien ya tenga experiencia en el SNS."
+   },
+   "aspirantes": {
+    "estimacion": "1.500–3.500 (≈ 35–85 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de convocatorias de celadores del SNS/INGESA, no en datos de ediciones anteriores verificados."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 18,
+   "puesto": "Lavandero/a-Planchador/a",
+   "cuerpo": "Personal estatutario fijo, categoría Lavandero/a-Planchador/a (INGESA)",
+   "organismo": "MINISTERIO DE SANIDAD",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "desconocido",
+   "sistema": "concurso-oposicion",
+   "plazas": 6,
+   "accesible": "si",
+   "motivoAccesible": "Turno libre y solo exige Certificado de Escolaridad o equivalente, sin titulación universitaria ni FP concreta. El anuncio no indica el subgrupo, que debe confirmarse.",
+   "titulacion": "Certificado de Escolaridad o equivalente, con la formación exigida finalizada a la fecha de fin del plazo de solicitudes",
+   "requisitos": "Nacionalidad española (o de la UE y asimilados según base 3.2), 18 años, capacidad funcional, no ser titular de plaza en la misma categoría, no haber sido separado de la Administración, certificado negativo del Registro Central de delincuentes sexuales y pago de tasa salvo exención",
+   "estado": "proxima",
+   "publicado": "2026-10-30",
+   "publicadoBOE": "2026-10-30",
+   "inicioPlazo": "2026-11-03",
+   "finPlazo": "2026-11-30",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-22742",
+     "fecha": "2026-10-30",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22742",
+     "titulo": "Resolución de 16 de octubre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo, por concurso-oposición, por el sistema general de acceso libre, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Lavandero/a-Planchador/a.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del INGESA (Ministerio de Sanidad) de concurso-oposición por acceso libre para 6 plazas de personal estatutario fijo de Lavandero/a-Planchador/a, con el Certificado de Escolaridad como única titulación exigida. El plazo de 20 días hábiles empieza el 31/10/2026; si no hay festivos aplicables, terminaría el 27/11/2026, fecha que el texto no fija expresamente.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 11,
+    "bloques": [
+     {
+      "nombre": "Parte general",
+      "num_temas": 4,
+      "resumen": "Derecho a la protección de la salud en la Constitución, Ley General de Sanidad, Real Decreto 118/2023 del INGESA y Estatuto Marco del personal estatutario."
+     },
+     {
+      "nombre": "Parte especial",
+      "num_temas": 7,
+      "resumen": "Organización de la lavandería hospitalaria, zona sucia y zona limpia, maquinaria (lavadoras, secadoras, calandras, plegadoras), tipos de ropa hospitalaria, procesos de lavado y desinfección, detergentes y prevención de riesgos laborales."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único de la fase de oposición (eliminatorio)",
+     "descripcion": "Test de 30 preguntas más 3 de reserva, con 3 respuestas alternativas cada una y una sola correcta, en 90 minutos. Cada error resta un cuarto del valor de la respuesta correcta. Se supera con al menos el 50% de la puntuación máxima. La fase de concurso (méritos según anexo III, máximo 100 puntos) se valora después y suma a la oposición."
+    }
+   ],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Temario de 11 temas, de los que 4 son generales y 7 específicos de lavandería, con un único test de 30 preguntas. Es una categoría de acceso básico, aunque el concurso de méritos y la penalización por error exigen preparación."
+   },
+   "aspirantes": {
+    "estimacion": "200–500 (≈ 35–85 por plaza)",
+    "explicacion": "Estimación orientativa, sin datos de convocatorias anteriores de esta categoría en el texto. Se basa en ratios típicos de plazas de categorías básicas del INGESA, que suelen tener menos competencia que las de Estado C2 o Policía."
    },
    "afin": false,
    "nuevo": true,
