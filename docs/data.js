@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-10-30 14:38",
- "hoy": "2026-10-30",
+ "actualizado": "2026-10-31 14:06",
+ "hoy": "2026-10-31",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -678,7 +678,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en el tipo de puesto y en el carácter de la entidad; no se dispone de datos de ediciones anteriores."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -970,7 +970,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en la oferta de una plaza municipal de oficio; no hay datos de ediciones anteriores en el anuncio."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
