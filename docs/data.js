@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-01 14:48",
- "hoy": "2026-11-01",
+ "actualizado": "2026-11-02 17:34",
+ "hoy": "2026-11-02",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -772,7 +772,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa sin datos de ediciones anteriores: convocatoria nacional del INGESA para una categoría sanitaria técnica con una sola plaza y examen en Ceuta, por lo que la cifra real puede variar mucho."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -846,7 +846,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios típicos de convocatorias de celadores del SNS/INGESA, no en datos de ediciones anteriores verificados."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -914,6 +914,65 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "200–500 (≈ 35–85 por plaza)",
     "explicacion": "Estimación orientativa, sin datos de convocatorias anteriores de esta categoría en el texto. Se basa en ratios típicos de plazas de categorías básicas del INGESA, que suelen tener menos competencia que las de Estado C2 o Policía."
+   },
+   "afin": false,
+   "nuevo": false,
+   "modo": "ia"
+  },
+  {
+   "id": 19,
+   "puesto": "Cuerpo General Administrativo (acceso libre)",
+   "cuerpo": "Cuerpo General Administrativo de la Administración del Estado",
+   "organismo": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "C1",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "oposicion",
+   "plazas": null,
+   "accesible": "si",
+   "motivoAccesible": "Proceso ya finalizado: es un C1 de acceso libre y el texto no indica titulación universitaria; los C1 suelen exigir Bachiller o Técnico, pero debe confirmarse en la convocatoria.",
+   "titulacion": "No consta en esta resolución; la convocatoria de 18/12/2025 no se reproduce aquí",
+   "requisitos": "Presentar copia auténtica de la titulación exigida y, en su caso, documentación de nacionalidad no española (declaración jurada, NIE). Plazo: 20 días hábiles desde el día siguiente a la publicación en el BOE.",
+   "estado": "consultar",
+   "publicado": "2026-11-02",
+   "publicadoBOE": "2026-11-02",
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://administracion.gob.es/PAG/ips",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-22916",
+     "fecha": "2026-11-02",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22916",
+     "titulo": "Resolución de 27 de octubre de 2026, de la Secretaría de Estado de Función Pública, por la que se publica la relación de aspirantes que han superado el proceso selectivo para ingreso, por el sistema de acceso libre, en el Cuerpo General Administrativo de la Administración del Estado, convocado por Resolución de 18 de diciembre de 2025.",
+     "tipo": "otro"
+    }
+   ],
+   "resumen": "Resolución que publica la relación definitiva de 2.511 aspirantes que han superado el ejercicio único de ingreso libre en el Cuerpo General Administrativo de la AGE (C1), convocado el 18/12/2025. Los aprobados de la lista de Anexo II deben aportar documentación en 20 días hábiles desde el día siguiente a la publicación en el BOE.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único (Parte 1 y Parte 2)",
+     "descripcion": "Prueba única con dos partes calificadas por aciertos y errores, más una puntuación total (T.P.S.) que se suma para el orden final. El texto no detalla número de preguntas ni tiempos. Se aplica la norma común 13.5 de la convocatoria."
+    }
+   ],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Proceso ya cerrado. La nota de corte de la lista ronda los 52 puntos sobre el total de cada aspirante y el volumen de aprobados (2.511) indica una competencia alta en acceso libre C1."
+   },
+   "aspirantes": {
+    "estimacion": "No consta el número de presentados; 2.511 aprobados en esta lista",
+    "explicacion": "Dato no informado en el anuncio. Cifra orientativa basada solo en la relación de aprobados publicada."
    },
    "afin": false,
    "nuevo": true,
