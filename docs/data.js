@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-02 17:34",
- "hoy": "2026-11-02",
+ "actualizado": "2026-11-03 08:27",
+ "hoy": "2026-11-03",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -697,7 +697,7 @@ window.RADAR = {
    "motivoAccesible": "Subgrupo B accesible en principio, pero exige el título concreto de Técnico Superior en Higiene Bucodental, que no coincide con los títulos de DAM ni de Marketing y Publicidad.",
    "titulacion": "Formación Profesional de Técnico Superior en Higiene Bucodental, o titulación equivalente, en posesión o en condiciones de obtenerla a la fecha de fin del plazo de solicitudes.",
    "requisitos": "Nacionalidad española (con excepciones para nacionales de la UE y familiares en las condiciones previstas); capacidad funcional; edad y no exceder la de jubilación; no haber sido separado del servicio por expediente disciplinario; no ser titular de plaza en la misma categoría; certificado negativo del Registro Central de delincuentes sexuales; abono de tasa salvo exención.",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-10-30",
    "publicadoBOE": "2026-10-30",
    "inicioPlazo": "2026-11-03",
@@ -791,7 +791,7 @@ window.RADAR = {
    "motivoAccesible": "El subgrupo AP es accesible, hay turno libre y la titulación exigida es el certificado de escolaridad, por lo que un Técnico Superior cumple el requisito.",
    "titulacion": "Certificado de Escolaridad o equivalente, con la formación exigida finalizada a la fecha de fin del plazo de solicitudes",
    "requisitos": "Nacionalidad española (con excepciones para nacionales UE, cónyuges y familiares, y otros supuestos del Tratado de libre circulación); 18 años y no superar la edad de jubilación; capacidad funcional; no estar separado del servicio ni inhabilitado; no haber sido condenado por delitos contra la libertad e indemnidad sexual; no ser titular de plaza de la misma categoría; títulos extranjeros con homologación o equivalencia.",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-10-30",
    "publicadoBOE": "2026-10-30",
    "inicioPlazo": "2026-11-03",
@@ -865,7 +865,7 @@ window.RADAR = {
    "motivoAccesible": "Turno libre y solo exige Certificado de Escolaridad o equivalente, sin titulación universitaria ni FP concreta. El anuncio no indica el subgrupo, que debe confirmarse.",
    "titulacion": "Certificado de Escolaridad o equivalente, con la formación exigida finalizada a la fecha de fin del plazo de solicitudes",
    "requisitos": "Nacionalidad española (o de la UE y asimilados según base 3.2), 18 años, capacidad funcional, no ser titular de plaza en la misma categoría, no haber sido separado de la Administración, certificado negativo del Registro Central de delincuentes sexuales y pago de tasa salvo exención",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-10-30",
    "publicadoBOE": "2026-10-30",
    "inicioPlazo": "2026-11-03",
@@ -917,65 +917,6 @@ window.RADAR = {
    },
    "afin": false,
    "nuevo": false,
-   "modo": "ia"
-  },
-  {
-   "id": 19,
-   "puesto": "Cuerpo General Administrativo (acceso libre)",
-   "cuerpo": "Cuerpo General Administrativo de la Administración del Estado",
-   "organismo": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
-   "ambito": "estatal",
-   "ambitoNombre": "Estado (AGE)",
-   "subgrupo": "C1",
-   "grupoLaboral": null,
-   "personal": "funcionario",
-   "sistema": "oposicion",
-   "plazas": null,
-   "accesible": "si",
-   "motivoAccesible": "Proceso ya finalizado: es un C1 de acceso libre y el texto no indica titulación universitaria; los C1 suelen exigir Bachiller o Técnico, pero debe confirmarse en la convocatoria.",
-   "titulacion": "No consta en esta resolución; la convocatoria de 18/12/2025 no se reproduce aquí",
-   "requisitos": "Presentar copia auténtica de la titulación exigida y, en su caso, documentación de nacionalidad no española (declaración jurada, NIE). Plazo: 20 días hábiles desde el día siguiente a la publicación en el BOE.",
-   "estado": "consultar",
-   "publicado": "2026-11-02",
-   "publicadoBOE": "2026-11-02",
-   "inicioPlazo": null,
-   "finPlazo": null,
-   "plazoTexto": "",
-   "aperturaEstimada": null,
-   "urlInscripcion": "https://administracion.gob.es/PAG/ips",
-   "tasa": null,
-   "enlaces": [
-    {
-     "fuente": "BOE",
-     "id": "BOE-A-2026-22916",
-     "fecha": "2026-11-02",
-     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22916",
-     "titulo": "Resolución de 27 de octubre de 2026, de la Secretaría de Estado de Función Pública, por la que se publica la relación de aspirantes que han superado el proceso selectivo para ingreso, por el sistema de acceso libre, en el Cuerpo General Administrativo de la Administración del Estado, convocado por Resolución de 18 de diciembre de 2025.",
-     "tipo": "otro"
-    }
-   ],
-   "resumen": "Resolución que publica la relación definitiva de 2.511 aspirantes que han superado el ejercicio único de ingreso libre en el Cuerpo General Administrativo de la AGE (C1), convocado el 18/12/2025. Los aprobados de la lista de Anexo II deben aportar documentación en 20 días hábiles desde el día siguiente a la publicación en el BOE.",
-   "temario": {
-    "disponible": false,
-    "num_temas": null,
-    "bloques": []
-   },
-   "ejercicios": [
-    {
-     "nombre": "Ejercicio único (Parte 1 y Parte 2)",
-     "descripcion": "Prueba única con dos partes calificadas por aciertos y errores, más una puntuación total (T.P.S.) que se suma para el orden final. El texto no detalla número de preguntas ni tiempos. Se aplica la norma común 13.5 de la convocatoria."
-    }
-   ],
-   "dificultad": {
-    "nivel": 4,
-    "explicacion": "Proceso ya cerrado. La nota de corte de la lista ronda los 52 puntos sobre el total de cada aspirante y el volumen de aprobados (2.511) indica una competencia alta en acceso libre C1."
-   },
-   "aspirantes": {
-    "estimacion": "No consta el número de presentados; 2.511 aprobados en esta lista",
-    "explicacion": "Dato no informado en el anuncio. Cifra orientativa basada solo en la relación de aprobados publicada."
-   },
-   "afin": false,
-   "nuevo": true,
    "modo": "ia"
   },
   {

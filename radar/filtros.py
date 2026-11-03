@@ -43,7 +43,9 @@ _NO = re.compile(
     r"admitid[oa]s|aspirantes propuest|exclusion de aspirantes|calificaciones|corrig|"
     r"ampliacion del numero de plazas|modifica el numero de plazas|declara la urgencia|"
     r"requiere documentacion|modifica la composicion|reservista voluntario|letrados|"
-    r"relacion de (personas )?aprobad"
+    r"relacion de (personas )?aprobad|han superado|superad[oa]s? (el|los|las|la) (proceso|prueba|ejercicio|fase)|"
+    r"convocad[oa]s? por (resolucion|orden|acuerdo|decreto)|funcionarios en practicas|"
+    r"nota de corte|plantilla de respuestas|puntuaciones"
 )
 
 # Categorías del sumario del BOCM que nunca abren un plazo

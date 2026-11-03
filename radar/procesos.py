@@ -114,6 +114,8 @@ def registrar(db: DB, cfg: Config, cal: Calendario, anuncio: Anuncio, analisis: 
     """Guarda/actualiza los procesos de un anuncio. Devuelve eventos [(id, 'nueva'|'abierta')]."""
     eventos = []
     tipo_pub = analisis.get("tipo_publicacion", "otro")
+    if tipo_pub == "otro":
+        return eventos  # listas, aprobados, trámites…: no abren plazo ni crean oposiciones
     plazo = analisis.get("plazo") or {}
     ahora = ahora_madrid().isoformat(timespec="seconds")
     enlace = {"fuente": anuncio.fuente, "id": anuncio.id, "fecha": anuncio.fecha.isoformat(),

@@ -604,3 +604,12 @@ class TestFuentesNuevas(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def test_aprobados_de_proceso_anterior_no_es_convocatoria():
+    from radar import filtros
+    t = ("Resolución de 27 de octubre de 2026, de la Secretaría de Estado de Función Pública, por la que se "
+         "publica la relación de aspirantes que han superado el proceso selectivo para ingreso, por el sistema "
+         "de acceso libre, en el Cuerpo General Administrativo de la Administración del Estado, convocado por "
+         "Resolución de 18 de diciembre de 2025.")
+    assert not filtros.parece_convocatoria(t)
