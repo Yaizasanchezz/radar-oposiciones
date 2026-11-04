@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-03 15:41",
- "hoy": "2026-11-03",
+ "actualizado": "2026-11-04 15:54",
+ "hoy": "2026-11-04",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
