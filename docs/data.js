@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-04 15:54",
- "hoy": "2026-11-04",
+ "actualizado": "2026-11-05 15:59",
+ "hoy": "2026-11-05",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -73,100 +73,6 @@ window.RADAR = {
   }
  ],
  "oposiciones": [
-  {
-   "id": 1,
-   "puesto": "Técnico/a Superior en Imagen para el Diagnóstico y Medicina Nuclear",
-   "cuerpo": "Técnico/a Superior en Imagen para el Diagnóstico y Medicina Nuclear (personal estatutario fijo, INGESA)",
-   "organismo": "MINISTERIO DE SANIDAD",
-   "ambito": "estatal",
-   "ambitoNombre": "Estado (AGE)",
-   "subgrupo": "DESCONOCIDO",
-   "grupoLaboral": null,
-   "personal": "desconocido",
-   "sistema": "concurso-oposicion",
-   "plazas": 8,
-   "accesible": "dudoso",
-   "motivoAccesible": "El texto no indica el subgrupo y exige un título concreto de FP de imagen para el diagnóstico, que no coincide con DAM ni Marketing y Publicidad; conviene verificar el subgrupo antes de presentarse.",
-   "titulacion": "Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear, o FP de segundo grado Rama Sanitaria especialidad Radiodiagnóstico, o titulación equivalente",
-   "requisitos": "Nacionalidad española (o de la UE o acogidos a tratados con libre circulación); capacidad funcional; no haber sido separado de la Administración ni inhabilitado; certificado negativo del Registro Central de Delincuentes Sexuales; no ser titular de plaza en la misma categoría; homologación si la titulación es extranjera; tasa salvo exención.",
-   "estado": "abierta",
-   "publicado": "2026-10-05",
-   "publicadoBOE": "2026-10-05",
-   "inicioPlazo": "2026-10-06",
-   "finPlazo": "2026-11-04",
-   "plazoTexto": "20 días hábiles",
-   "aperturaEstimada": null,
-   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
-   "tasa": null,
-   "enlaces": [
-    {
-     "fuente": "BOE",
-     "id": "BOE-A-2026-20628",
-     "fecha": "2026-10-05",
-     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20628",
-     "titulo": "Resolución de 25 de septiembre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo, por concurso-oposición, por el sistema general de acceso libre, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Técnico/a Superior en Imagen para el Diagnóstico y Medicina Nuclear.",
-     "tipo": "convocatoria"
-    }
-   ],
-   "resumen": "Concurso-oposición del INGESA para 8 plazas de Técnico/a Superior en Imagen para el Diagnóstico y Medicina Nuclear (turno libre, 1 reservada a discapacidad). El plazo de 20 días hábiles está abierto desde el 6 de octubre de 2026 y, descontando el festivo del 12 de octubre, cierra hacia el 2 de noviembre; el título exigido es específico de imagen, no coincide con tus titulaciones.",
-   "temario": {
-    "disponible": true,
-    "num_temas": 50,
-    "bloques": [
-     {
-      "nombre": "Marco normativo y sanitario general (temas 1-10)",
-      "num_temas": 10,
-      "resumen": "Constitución, Ley General de Sanidad, Estatuto Marco, bioética, protección de datos, igualdad, dependencia y prevención de riesgos laborales."
-     },
-     {
-      "nombre": "Física, equipos y formación de imagen (temas 13 y 19-26)",
-      "num_temas": 9,
-      "resumen": "Garantía de calidad, radiaciones ionizantes, física de rayos X, equipos de radiología convencional e imagen digital."
-     },
-     {
-      "nombre": "Anatomía y técnicas radiológicas convencionales (temas 27-39)",
-      "num_temas": 13,
-      "resumen": "Anatomía radiológica de extremidades, tórax, abdomen, cráneo, pelvis y columna, pediatría y exploraciones con contraste."
-     },
-     {
-      "nombre": "Técnicas avanzadas y contrastes (temas 40-44)",
-      "num_temas": 5,
-      "resumen": "TAC, resonancia magnética, contrastes y sus reacciones adversas, y ecografía."
-     },
-     {
-      "nombre": "Protección radiológica y normativa (temas 11, 14-17, 46-50)",
-      "num_temas": 10,
-      "resumen": "Riesgos del aparataje, radioprotección, dosimetría, protección del paciente y reglamentos de radiaciones y dosimetría."
-     },
-     {
-      "nombre": "Ética, documentación y desarrollo profesional (temas 12, 18, 45)",
-      "num_temas": 3,
-      "resumen": "Responsabilidad civil y aspectos éticos, documentación sanitaria y formación continuada."
-     }
-    ]
-   },
-   "ejercicios": [
-    {
-     "nombre": "Ejercicio único de la fase de oposición (eliminatorio)",
-     "descripcion": "Test de 50 preguntas (más 5 de reserva) y dos supuestos prácticos de 4 preguntas cada uno (más 1 de reserva), con 3 respuestas por pregunta y una sola correcta; 120 minutos; los errores restan un cuarto del valor; se supera con el 50 % de la puntuación máxima (100 puntos)."
-    },
-    {
-     "nombre": "Fase de concurso (no eliminatoria)",
-     "descripcion": "Valoración de méritos con un máximo de 100 puntos: experiencia profesional (hasta 60), formación (hasta 30) y otros méritos (hasta 10); se presenta la documentación en 15 días hábiles tras las calificaciones de la oposición."
-    }
-   ],
-   "dificultad": {
-    "nivel": 4,
-    "explicacion": "Temario muy extenso (50 temas) con mucha parte técnica de radiología, test con penalización y supuestos prácticos; además de 8 plazas, el examen se realiza en Ceuta."
-   },
-   "aspirantes": {
-    "estimacion": "300-600 (aprox. 40-75 por plaza)",
-    "explicacion": "Estimación orientativa basada en ratios típicas de plazas sanitarias del INGESA con titulación de FP de imagen; no hay datos de ediciones anteriores en el texto."
-   },
-   "afin": false,
-   "nuevo": false,
-   "modo": "ia"
-  },
   {
    "id": 4,
    "puesto": "Titulado/a Administrativo/a Administración Sanitaria",
@@ -920,6 +826,76 @@ window.RADAR = {
    "modo": "ia"
   },
   {
+   "id": 20,
+   "puesto": "Oficial/Oficiala Tercera de Oficios Auxiliares (Cocina-Comedor)",
+   "cuerpo": "Personal laboral fijo de la Agencia Estatal Boletín Oficial del Estado, nivel retributivo 8, Convenio Colectivo 2010-2012",
+   "organismo": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo Profesional IV, Subgrupo II",
+   "personal": "laboral",
+   "sistema": "oposicion",
+   "plazas": 2,
+   "accesible": "si",
+   "motivoAccesible": "Exige ESO o FP de Técnico, y el título de Técnico Superior cumple ese requisito. Hay turno libre y el acceso es por oposición.",
+   "titulacion": "Graduado en Educación Secundaria, Educación General Básica o Formación Profesional de Técnico o Técnico Auxiliar, o equivalentes",
+   "requisitos": "Carné de manipulador de alimentos (lo indica el Anexo I como condición del puesto). Plazas adscritas a la Secretaría General.",
+   "estado": "proxima",
+   "publicado": "2026-11-05",
+   "publicadoBOE": "2026-11-05",
+   "inicioPlazo": "2026-11-06",
+   "finPlazo": "2026-12-03",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": 11.66,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-23196",
+     "fecha": "2026-11-05",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23196",
+     "titulo": "Resolución de 28 de octubre de 2026, de la Dirección de la Agencia Estatal Boletín Oficial del Estado, por la que se convoca proceso selectivo para la provisión, por el sistema general de acceso libre, de plazas de Oficial/Oficiala Tercera de Oficios Auxiliares en la Secretaría General.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria de dos plazas de Oficial/Oficiala Tercera de Oficios Auxiliares (Cocina-Comedor) por acceso libre en la Agencia Estatal Boletín Oficial del Estado, personal laboral fijo, mediante oposición tipo test. Las solicitudes se presentan por vía electrónica en 20 días hábiles desde el día siguiente a la publicación en el BOE.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 15,
+    "bloques": [
+     {
+      "nombre": "Bloque A. Temas generales",
+      "num_temas": 5,
+      "resumen": "Constitución Española de 1978, Convenio Colectivo de la AEBOE 2010-2012, régimen jurídico del personal laboral y funcionario, prevención de riesgos laborales e igualdad, violencia de género y discapacidad."
+     },
+     {
+      "nombre": "Bloque B. Temas específicos",
+      "num_temas": 10,
+      "resumen": "Organización de cocina y maquinaria, aprovisionamiento y conservación de alimentos, técnicas de preparación, higiene alimentaria y APPCC, alérgenos y limpieza y desinfección de locales y equipos."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único (tipo test, obligatorio y eliminatorio)",
+     "descripcion": "Duración máxima de 90 minutos, calificación de 0 a 80 puntos, con preguntas de cuatro respuestas de las que una es correcta. Primera parte: hasta 20 preguntas del Bloque A (máximo 20 puntos). Segunda parte: 60 preguntas del Bloque B (máximo 60 puntos). Cada error descuenta un tercio de punto y las respuestas en blanco no penalizan. Para superar la fase hay que aprobar ambas partes; el Tribunal fija la puntuación mínima, que es el 30 % de la máxima por parte. Desempate por la mayor puntuación en la segunda parte."
+    }
+   ],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Son 15 temas y 80 preguntas tipo test en 90 minutos, con penalización por error y un umbral mínimo en cada parte. La exigencia es media por el volumen de temario específico, aunque el nivel de las preguntas no parece muy alto."
+   },
+   "aspirantes": {
+    "estimacion": "200–500 (≈100–250 por plaza)",
+    "explicacion": "Estimación orientativa, no basada en ediciones anteriores conocidas de esta convocatoria. Se toma como referencia la demanda habitual de plazas laborales de organismos estatales de nivel bajo con requisito de ESO o FP de Técnico, en Madrid."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
    "id": 14,
    "puesto": "Oficial/a cerrajero/a",
    "cuerpo": "Oficial/a cerrajero/a (Oferta de Empleo Público 2024)",
@@ -1297,6 +1273,100 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "50–150 (≈ 50–150 por plaza)",
     "explicacion": "Estimación orientativa basada en ratios típicos de plazas únicas de técnico superior en ayuntamientos de tamaño medio-grande; no se conocen ediciones anteriores de esta convocatoria."
+   },
+   "afin": false,
+   "nuevo": false,
+   "modo": "ia"
+  },
+  {
+   "id": 1,
+   "puesto": "Técnico/a Superior en Imagen para el Diagnóstico y Medicina Nuclear",
+   "cuerpo": "Técnico/a Superior en Imagen para el Diagnóstico y Medicina Nuclear (personal estatutario fijo, INGESA)",
+   "organismo": "MINISTERIO DE SANIDAD",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "desconocido",
+   "sistema": "concurso-oposicion",
+   "plazas": 8,
+   "accesible": "dudoso",
+   "motivoAccesible": "El texto no indica el subgrupo y exige un título concreto de FP de imagen para el diagnóstico, que no coincide con DAM ni Marketing y Publicidad; conviene verificar el subgrupo antes de presentarse.",
+   "titulacion": "Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear, o FP de segundo grado Rama Sanitaria especialidad Radiodiagnóstico, o titulación equivalente",
+   "requisitos": "Nacionalidad española (o de la UE o acogidos a tratados con libre circulación); capacidad funcional; no haber sido separado de la Administración ni inhabilitado; certificado negativo del Registro Central de Delincuentes Sexuales; no ser titular de plaza en la misma categoría; homologación si la titulación es extranjera; tasa salvo exención.",
+   "estado": "cerrada",
+   "publicado": "2026-10-05",
+   "publicadoBOE": "2026-10-05",
+   "inicioPlazo": "2026-10-06",
+   "finPlazo": "2026-11-04",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-20628",
+     "fecha": "2026-10-05",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20628",
+     "titulo": "Resolución de 25 de septiembre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo, por concurso-oposición, por el sistema general de acceso libre, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Técnico/a Superior en Imagen para el Diagnóstico y Medicina Nuclear.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Concurso-oposición del INGESA para 8 plazas de Técnico/a Superior en Imagen para el Diagnóstico y Medicina Nuclear (turno libre, 1 reservada a discapacidad). El plazo de 20 días hábiles está abierto desde el 6 de octubre de 2026 y, descontando el festivo del 12 de octubre, cierra hacia el 2 de noviembre; el título exigido es específico de imagen, no coincide con tus titulaciones.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 50,
+    "bloques": [
+     {
+      "nombre": "Marco normativo y sanitario general (temas 1-10)",
+      "num_temas": 10,
+      "resumen": "Constitución, Ley General de Sanidad, Estatuto Marco, bioética, protección de datos, igualdad, dependencia y prevención de riesgos laborales."
+     },
+     {
+      "nombre": "Física, equipos y formación de imagen (temas 13 y 19-26)",
+      "num_temas": 9,
+      "resumen": "Garantía de calidad, radiaciones ionizantes, física de rayos X, equipos de radiología convencional e imagen digital."
+     },
+     {
+      "nombre": "Anatomía y técnicas radiológicas convencionales (temas 27-39)",
+      "num_temas": 13,
+      "resumen": "Anatomía radiológica de extremidades, tórax, abdomen, cráneo, pelvis y columna, pediatría y exploraciones con contraste."
+     },
+     {
+      "nombre": "Técnicas avanzadas y contrastes (temas 40-44)",
+      "num_temas": 5,
+      "resumen": "TAC, resonancia magnética, contrastes y sus reacciones adversas, y ecografía."
+     },
+     {
+      "nombre": "Protección radiológica y normativa (temas 11, 14-17, 46-50)",
+      "num_temas": 10,
+      "resumen": "Riesgos del aparataje, radioprotección, dosimetría, protección del paciente y reglamentos de radiaciones y dosimetría."
+     },
+     {
+      "nombre": "Ética, documentación y desarrollo profesional (temas 12, 18, 45)",
+      "num_temas": 3,
+      "resumen": "Responsabilidad civil y aspectos éticos, documentación sanitaria y formación continuada."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único de la fase de oposición (eliminatorio)",
+     "descripcion": "Test de 50 preguntas (más 5 de reserva) y dos supuestos prácticos de 4 preguntas cada uno (más 1 de reserva), con 3 respuestas por pregunta y una sola correcta; 120 minutos; los errores restan un cuarto del valor; se supera con el 50 % de la puntuación máxima (100 puntos)."
+    },
+    {
+     "nombre": "Fase de concurso (no eliminatoria)",
+     "descripcion": "Valoración de méritos con un máximo de 100 puntos: experiencia profesional (hasta 60), formación (hasta 30) y otros méritos (hasta 10); se presenta la documentación en 15 días hábiles tras las calificaciones de la oposición."
+    }
+   ],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Temario muy extenso (50 temas) con mucha parte técnica de radiología, test con penalización y supuestos prácticos; además de 8 plazas, el examen se realiza en Ceuta."
+   },
+   "aspirantes": {
+    "estimacion": "300-600 (aprox. 40-75 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicas de plazas sanitarias del INGESA con titulación de FP de imagen; no hay datos de ediciones anteriores en el texto."
    },
    "afin": false,
    "nuevo": false,
