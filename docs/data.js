@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-06 15:40",
- "hoy": "2026-11-06",
+ "actualizado": "2026-11-07 14:35",
+ "hoy": "2026-11-07",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -629,60 +629,6 @@ window.RADAR = {
    "modo": "ia"
   },
   {
-   "id": 23,
-   "puesto": "Técnico/a Superior de la Rama Social",
-   "cuerpo": "Administración Especial, subescala Servicios especiales",
-   "organismo": "ADMINISTRACIÓN LOCAL",
-   "ambito": "ayuntamiento_madrid",
-   "ambitoNombre": "Ayto. Madrid",
-   "subgrupo": "DESCONOCIDO",
-   "grupoLaboral": null,
-   "personal": "funcionario",
-   "sistema": "oposicion",
-   "plazas": 20,
-   "accesible": "dudoso",
-   "motivoAccesible": "El anuncio no indica subgrupo ni titulación. La denominación de Técnico Superior en la administración local suele corresponder a subgrupo A1 con título universitario, lo que no sería accesible; hay que verificarlo en las bases.",
-   "titulacion": "No especificada en el anuncio; consultar las bases",
-   "requisitos": "Consultar las bases publicadas en el BOAM número 10154 de 24 de junio de 2026.",
-   "estado": "proxima",
-   "publicado": "2026-11-06",
-   "publicadoBOE": "2026-11-06",
-   "inicioPlazo": "2026-11-09",
-   "finPlazo": "2026-12-04",
-   "plazoTexto": "20 días hábiles",
-   "aperturaEstimada": null,
-   "urlInscripcion": "https://www.madrid.es/oposiciones",
-   "tasa": null,
-   "enlaces": [
-    {
-     "fuente": "BOE",
-     "id": "BOE-A-2026-23305",
-     "fecha": "2026-11-06",
-     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23305",
-     "titulo": "Resolución de 22 de octubre de 2026, del Ayuntamiento de Madrid, referente a la convocatoria para proveer varias plazas.",
-     "tipo": "extracto"
-    }
-   ],
-   "resumen": "El Ayuntamiento de Madrid convoca 20 plazas de Técnico/a Superior de la Rama Social (Administración Especial, subescala Servicios especiales) por oposición libre. El plazo de solicitudes es de veinte días hábiles desde el día siguiente a la publicación de este anuncio en el BOE, y las bases completas están en el boletín municipal.",
-   "temario": {
-    "disponible": false,
-    "num_temas": null,
-    "bloques": []
-   },
-   "ejercicios": [],
-   "dificultad": {
-    "nivel": 4,
-    "explicacion": "Estimación: el temario y los ejercicios no vienen en el anuncio. Si el puesto es de nivel técnico superior, el programa suele ser extenso y las pruebas exigentes."
-   },
-   "aspirantes": {
-    "estimacion": "1.000–2.500 (≈50–125 por plaza)",
-    "explicacion": "Estimación orientativa, no dato oficial. Se basa en que es una convocatoria de 20 plazas en la capital, con ratios habituales en plazas técnicas municipales de Madrid."
-   },
-   "afin": false,
-   "nuevo": true,
-   "modo": "ia"
-  },
-  {
    "id": 21,
    "puesto": "Grupo Administrativo de la Función Administrativa",
    "cuerpo": "Personal estatutario fijo, Grupo Administrativo de la Función Administrativa (Grupo C, Subgrupo C1), SERMAS",
@@ -698,7 +644,7 @@ window.RADAR = {
    "motivoAccesible": "Subgrupo C1 con turno libre y titulación de Bachiller o Formación Profesional de Grado Superior, que coincide con tu título de Técnico Superior.",
    "titulacion": "Bachiller, Formación Profesional de Grado Superior o titulación equivalente (o en condiciones de obtenerla antes de que acabe el plazo de solicitudes)",
    "requisitos": "16 años, no superar la edad de jubilación, nacionalidad española o de la UE (con extensiones previstas), capacidad funcional, no haber sido separado del servicio ni inhabilitado, no ser ya personal estatutario fijo en la categoría, certificado negativo de delitos sexuales, pago de tasa o exención. Cupo de discapacidad de 19 plazas con grado igual o superior al 33 por 100.",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-11-06",
    "publicadoBOE": null,
    "inicioPlazo": "2026-11-07",
@@ -761,7 +707,7 @@ window.RADAR = {
    "motivoAccesible": "Es subgrupo C2 con turno libre y la titulación exigida es FP de Grado Medio o ESO, que tu Técnico Superior supera.",
    "titulacion": "Formación Profesional de Grado Medio, Educación Secundaria Obligatoria (ESO) o titulación equivalente",
    "requisitos": "Acceso a personal estatutario fijo (no tener ya la condición de fijo en la categoría); no haber sido condenado por delitos contra la libertad e indemnidad sexuales; capacidad funcional; pago de la tasa o exención. Cupo de discapacidad (15 plazas) para grado igual o superior al 33 %. Las categorías concretas y su número de plazas figuran en el Anexo I, que no se incluye en el texto.",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-11-06",
    "publicadoBOE": null,
    "inicioPlazo": "2026-11-07",
@@ -803,6 +749,60 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "3.000–6.000 (≈ 15–30 por plaza)",
     "explicacion": "Estimación orientativa, no basada en datos oficiales de ediciones anteriores. Se apoya en ratios habituales de oposiciones de C2 del SERMAS con un número amplio de plazas, y el resultado real puede diferir."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 23,
+   "puesto": "Técnico/a Superior de la Rama Social",
+   "cuerpo": "Administración Especial, subescala Servicios especiales",
+   "organismo": "ADMINISTRACIÓN LOCAL",
+   "ambito": "ayuntamiento_madrid",
+   "ambitoNombre": "Ayto. Madrid",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "oposicion",
+   "plazas": 20,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica subgrupo ni titulación. La denominación de Técnico Superior en la administración local suele corresponder a subgrupo A1 con título universitario, lo que no sería accesible; hay que verificarlo en las bases.",
+   "titulacion": "No especificada en el anuncio; consultar las bases",
+   "requisitos": "Consultar las bases publicadas en el BOAM número 10154 de 24 de junio de 2026.",
+   "estado": "proxima",
+   "publicado": "2026-11-06",
+   "publicadoBOE": "2026-11-06",
+   "inicioPlazo": "2026-11-09",
+   "finPlazo": "2026-12-04",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.madrid.es/oposiciones",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-23305",
+     "fecha": "2026-11-06",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23305",
+     "titulo": "Resolución de 22 de octubre de 2026, del Ayuntamiento de Madrid, referente a la convocatoria para proveer varias plazas.",
+     "tipo": "extracto"
+    }
+   ],
+   "resumen": "El Ayuntamiento de Madrid convoca 20 plazas de Técnico/a Superior de la Rama Social (Administración Especial, subescala Servicios especiales) por oposición libre. El plazo de solicitudes es de veinte días hábiles desde el día siguiente a la publicación de este anuncio en el BOE, y las bases completas están en el boletín municipal.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Estimación: el temario y los ejercicios no vienen en el anuncio. Si el puesto es de nivel técnico superior, el programa suele ser extenso y las pruebas exigentes."
+   },
+   "aspirantes": {
+    "estimacion": "1.000–2.500 (≈50–125 por plaza)",
+    "explicacion": "Estimación orientativa, no dato oficial. Se basa en que es una convocatoria de 20 plazas en la capital, con ratios habituales en plazas técnicas municipales de Madrid."
    },
    "afin": false,
    "nuevo": true,
