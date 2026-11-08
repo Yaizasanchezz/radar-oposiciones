@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-07 14:35",
- "hoy": "2026-11-07",
+ "actualizado": "2026-11-08 14:53",
+ "hoy": "2026-11-08",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -625,7 +625,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en ediciones anteriores conocidas de esta convocatoria. Se toma como referencia la demanda habitual de plazas laborales de organismos estatales de nivel bajo con requisito de ESO o FP de Técnico, en Madrid."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
