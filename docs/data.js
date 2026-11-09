@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-08 14:53",
- "hoy": "2026-11-08",
+ "actualizado": "2026-11-09 17:53",
+ "hoy": "2026-11-09",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -629,6 +629,60 @@ window.RADAR = {
    "modo": "ia"
   },
   {
+   "id": 23,
+   "puesto": "Técnico/a Superior de la Rama Social",
+   "cuerpo": "Administración Especial, subescala Servicios especiales",
+   "organismo": "ADMINISTRACIÓN LOCAL",
+   "ambito": "ayuntamiento_madrid",
+   "ambitoNombre": "Ayto. Madrid",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "oposicion",
+   "plazas": 20,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica subgrupo ni titulación. La denominación de Técnico Superior en la administración local suele corresponder a subgrupo A1 con título universitario, lo que no sería accesible; hay que verificarlo en las bases.",
+   "titulacion": "No especificada en el anuncio; consultar las bases",
+   "requisitos": "Consultar las bases publicadas en el BOAM número 10154 de 24 de junio de 2026.",
+   "estado": "abierta",
+   "publicado": "2026-11-06",
+   "publicadoBOE": "2026-11-06",
+   "inicioPlazo": "2026-11-09",
+   "finPlazo": "2026-12-04",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.madrid.es/oposiciones",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-23305",
+     "fecha": "2026-11-06",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23305",
+     "titulo": "Resolución de 22 de octubre de 2026, del Ayuntamiento de Madrid, referente a la convocatoria para proveer varias plazas.",
+     "tipo": "extracto"
+    }
+   ],
+   "resumen": "El Ayuntamiento de Madrid convoca 20 plazas de Técnico/a Superior de la Rama Social (Administración Especial, subescala Servicios especiales) por oposición libre. El plazo de solicitudes es de veinte días hábiles desde el día siguiente a la publicación de este anuncio en el BOE, y las bases completas están en el boletín municipal.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Estimación: el temario y los ejercicios no vienen en el anuncio. Si el puesto es de nivel técnico superior, el programa suele ser extenso y las pruebas exigentes."
+   },
+   "aspirantes": {
+    "estimacion": "1.000–2.500 (≈50–125 por plaza)",
+    "explicacion": "Estimación orientativa, no dato oficial. Se basa en que es una convocatoria de 20 plazas en la capital, con ratios habituales en plazas técnicas municipales de Madrid."
+   },
+   "afin": false,
+   "nuevo": false,
+   "modo": "ia"
+  },
+  {
    "id": 21,
    "puesto": "Grupo Administrativo de la Función Administrativa",
    "cuerpo": "Personal estatutario fijo, Grupo Administrativo de la Función Administrativa (Grupo C, Subgrupo C1), SERMAS",
@@ -688,7 +742,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en el volumen de plazas y en la demanda habitual de plazas administrativas del SERMAS; no hay datos de ediciones anteriores en el anuncio."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -751,61 +805,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en datos oficiales de ediciones anteriores. Se apoya en ratios habituales de oposiciones de C2 del SERMAS con un número amplio de plazas, y el resultado real puede diferir."
    },
    "afin": false,
-   "nuevo": true,
-   "modo": "ia"
-  },
-  {
-   "id": 23,
-   "puesto": "Técnico/a Superior de la Rama Social",
-   "cuerpo": "Administración Especial, subescala Servicios especiales",
-   "organismo": "ADMINISTRACIÓN LOCAL",
-   "ambito": "ayuntamiento_madrid",
-   "ambitoNombre": "Ayto. Madrid",
-   "subgrupo": "DESCONOCIDO",
-   "grupoLaboral": null,
-   "personal": "funcionario",
-   "sistema": "oposicion",
-   "plazas": 20,
-   "accesible": "dudoso",
-   "motivoAccesible": "El anuncio no indica subgrupo ni titulación. La denominación de Técnico Superior en la administración local suele corresponder a subgrupo A1 con título universitario, lo que no sería accesible; hay que verificarlo en las bases.",
-   "titulacion": "No especificada en el anuncio; consultar las bases",
-   "requisitos": "Consultar las bases publicadas en el BOAM número 10154 de 24 de junio de 2026.",
-   "estado": "proxima",
-   "publicado": "2026-11-06",
-   "publicadoBOE": "2026-11-06",
-   "inicioPlazo": "2026-11-09",
-   "finPlazo": "2026-12-04",
-   "plazoTexto": "20 días hábiles",
-   "aperturaEstimada": null,
-   "urlInscripcion": "https://www.madrid.es/oposiciones",
-   "tasa": null,
-   "enlaces": [
-    {
-     "fuente": "BOE",
-     "id": "BOE-A-2026-23305",
-     "fecha": "2026-11-06",
-     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23305",
-     "titulo": "Resolución de 22 de octubre de 2026, del Ayuntamiento de Madrid, referente a la convocatoria para proveer varias plazas.",
-     "tipo": "extracto"
-    }
-   ],
-   "resumen": "El Ayuntamiento de Madrid convoca 20 plazas de Técnico/a Superior de la Rama Social (Administración Especial, subescala Servicios especiales) por oposición libre. El plazo de solicitudes es de veinte días hábiles desde el día siguiente a la publicación de este anuncio en el BOE, y las bases completas están en el boletín municipal.",
-   "temario": {
-    "disponible": false,
-    "num_temas": null,
-    "bloques": []
-   },
-   "ejercicios": [],
-   "dificultad": {
-    "nivel": 4,
-    "explicacion": "Estimación: el temario y los ejercicios no vienen en el anuncio. Si el puesto es de nivel técnico superior, el programa suele ser extenso y las pruebas exigentes."
-   },
-   "aspirantes": {
-    "estimacion": "1.000–2.500 (≈50–125 por plaza)",
-    "explicacion": "Estimación orientativa, no dato oficial. Se basa en que es una convocatoria de 20 plazas en la capital, con ratios habituales en plazas técnicas municipales de Madrid."
-   },
-   "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
