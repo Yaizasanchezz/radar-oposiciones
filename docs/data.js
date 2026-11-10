@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-09 17:53",
- "hoy": "2026-11-09",
+ "actualizado": "2026-11-10 16:16",
+ "hoy": "2026-11-10",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -73,60 +73,6 @@ window.RADAR = {
   }
  ],
  "oposiciones": [
-  {
-   "id": 13,
-   "puesto": "Ayudante/a fontanero/a",
-   "cuerpo": "No indicado en el anuncio (puesto de ayudante/a fontanero/a)",
-   "organismo": "Ayuntamiento de Alcorcón",
-   "ambito": "ayuntamiento_alcorcon",
-   "ambitoNombre": "Ayto. Alcorcón",
-   "subgrupo": "DESCONOCIDO",
-   "grupoLaboral": null,
-   "personal": "desconocido",
-   "sistema": "concurso-oposicion",
-   "plazas": 2,
-   "accesible": "dudoso",
-   "motivoAccesible": "El anuncio solo publica la lista provisional de admitidos y excluidos y no indica el grupo ni la titulación exigida, por lo que no se puede confirmar la accesibilidad.",
-   "titulacion": "No indicada en este anuncio",
-   "requisitos": "No indicados en este anuncio; consultar las bases de la convocatoria.",
-   "estado": "abierta",
-   "publicado": "2026-10-23",
-   "publicadoBOE": null,
-   "inicioPlazo": "2026-10-26",
-   "finPlazo": "2026-11-09",
-   "plazoTexto": "10 días hábiles",
-   "aperturaEstimada": null,
-   "urlInscripcion": "https://www.ayto-alcorcon.es/",
-   "tasa": null,
-   "enlaces": [
-    {
-     "fuente": "BOCM",
-     "id": "BOCM-20261023-62",
-     "fecha": "2026-10-23",
-     "url": "https://www.bocm.es/bocm-20261023-62",
-     "titulo": "– Alcorcón. Ofertas de empleo. Proceso selectivo",
-     "tipo": "otro"
-    }
-   ],
-   "resumen": "Lista provisional de aspirantes admitidos y excluidos para 2 plazas de ayudante/a fontanero/a por concurso-oposición libre en el Ayuntamiento de Alcorcón. Quien esté excluido o no aparezca en la lista puede subsanar en 10 días hábiles desde la publicación.",
-   "temario": {
-    "disponible": false,
-    "num_temas": null,
-    "bloques": []
-   },
-   "ejercicios": [],
-   "dificultad": {
-    "nivel": 2,
-    "explicacion": "Estimación: sistema de concurso-oposición para un puesto de oficio con 2 plazas; el temario y los ejercicios no se conocen a partir de este anuncio."
-   },
-   "aspirantes": {
-    "estimacion": "40–120 (≈ 20–60 por plaza)",
-    "explicacion": "Estimación orientativa basada en ratios habituales de plazas sueltas de ayuntamientos de tamaño medio-grande; no hay datos de ediciones anteriores en el anuncio."
-   },
-   "afin": false,
-   "nuevo": false,
-   "modo": "ia"
-  },
   {
    "id": 10,
    "puesto": "Policía Local",
@@ -809,6 +755,95 @@ window.RADAR = {
    "modo": "ia"
   },
   {
+   "id": 24,
+   "puesto": "Técnico/a Superior Oficios, Jefe/a de Taller y Encargado/a",
+   "cuerpo": "Personal estatutario fijo de INGESA: categoría de Técnico/a Superior Oficios, Jefe/a de Taller y Encargado/a",
+   "organismo": "MINISTERIO DE SANIDAD",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "B",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "concurso-oposicion",
+   "plazas": 2,
+   "accesible": "si",
+   "motivoAccesible": "Turno libre con 2 plazas y titulación exigida de Bachiller o FP de Grado Superior, que cumple su perfil. La promoción interna no es accesible para ella salvo que ya sea personal estatutario fijo de INGESA.",
+   "titulacion": "Bachiller o Formación Profesional de Grado Superior, o equivalente, a la fecha de fin del plazo de solicitudes",
+   "requisitos": "Nacionalidad española o de otro Estado de la UE en los supuestos previstos; capacidad funcional; no haber sido separado del servicio; no ser titular de plaza en la misma categoría; abonar la tasa o acreditar exención. Las plazas de promoción interna son solo para personal ya destinado en INGESA como estatutario fijo con al menos dos años en la categoría de procedencia; la persona interesada solo puede concurrir a un sistema.",
+   "estado": "proxima",
+   "publicado": "2026-11-10",
+   "publicadoBOE": "2026-11-10",
+   "inicioPlazo": "2026-11-11",
+   "finPlazo": "2026-12-10",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-23546",
+     "fecha": "2026-11-10",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23546",
+     "titulo": "Resolución de 30 de octubre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo, por concurso oposición, por el sistema general de acceso libre y promoción interna, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Técnico/a Superior Oficios, Jefe/a de Taller y Encargado/a.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "El Instituto Nacional de Gestión Sanitaria convoca por concurso-oposición 2 plazas de acceso libre y 3 de promoción interna de Técnico/a Superior Oficios, Jefe/a de Taller y Encargado/a, para personal estatutario fijo. El plazo de solicitudes es de 20 días hábiles desde el 11 de noviembre de 2026, lo que sitúa el fin estimado en el 9 de diciembre de 2026.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 52,
+    "bloques": [
+     {
+      "nombre": "Parte general (temas 1-15)",
+      "num_temas": 15,
+      "resumen": "Constitución, Unión Europea, asistencia sanitaria, Ceuta y Melilla, estructura del INGESA, Ley General de Sanidad, derechos de personas con discapacidad, igualdad, violencia de género, dependencia y Estatuto Marco del personal estatutario."
+     },
+     {
+      "nombre": "Termodinámica, agua y climatización (temas 16-24)",
+      "num_temas": 9,
+      "resumen": "Calor y temperatura, instalaciones de vapor, calderas y ACS, tratamiento del agua y prevención de legionella, climatización, climatizadores, cámaras frigoríficas y transporte de fluidos."
+     },
+     {
+      "nombre": "Fluidos, gases, mecánica y seguridad contra incendios (temas 25-32)",
+      "num_temas": 8,
+      "resumen": "Eficiencia energética y solar, soldadura, procesos de fabricación, sistemas mecánicos, neumática, gases medicinales e industriales, hidráulica e instalaciones de protección contra incendios."
+     },
+     {
+      "nombre": "Electrotecnia y automatismos (temas 33-43)",
+      "num_temas": 11,
+      "resumen": "Corriente alterna y trifásica, medidas eléctricas, cálculo y reglamentación de baja tensión, alumbrado y fotovoltaica, regulación automática y autómatas, domótica, electrónica analógica y mantenimiento de motores."
+     },
+     {
+      "nombre": "Máquinas, centros especiales, normativa y PRL (temas 44-52)",
+      "num_temas": 9,
+      "resumen": "Transformadores y centros de transformación, grupos electrógenos, revisiones eléctricas en quirófanos, ICT, mantenimiento de lavandería y cocina, representación gráfica, normativa (REBT, CTE, RITE), gestión de calidad y prevención de riesgos laborales."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Fase de oposición: ejercicio único eliminatorio (acceso libre)",
+     "descripcion": "Test de 50 preguntas más 5 de reserva, con 3 respuestas por pregunta y una correcta, y dos supuestos prácticos de 4 preguntas cada uno más 1 de reserva. Tiempo máximo de 120 minutos. Cada error resta un cuarto del valor de la respuesta correcta. Puntuación máxima de 100 puntos y se supera con la mitad."
+    },
+    {
+     "nombre": "Fase de concurso (méritos)",
+     "descripcion": "Se valoran méritos sobre un máximo de 100 puntos, con baremo de experiencia, formación continuada y otros méritos. Solo se valora a quienes superan la oposición. Los puntos del concurso no cuentan para alcanzar la nota mínima de la oposición. Se presenta la documentación en 15 días hábiles desde la publicación de las calificaciones de la oposición."
+    }
+   ],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Temario muy amplio de 52 temas con mucha materia técnica (instalaciones térmicas, electrotecnia, normativa de instalaciones) y test con penalización por error. El examen es único y eliminatorio, con solo 2 plazas libres."
+   },
+   "aspirantes": {
+    "estimacion": "150-400 (aprox. 75-200 por plaza libre)",
+    "explicacion": "Estimación orientativa sin datos de ediciones anteriores de esta categoría. Se basa en que el requisito de Bachiller o FP de Grado Superior es amplio, pero el temario técnico y el número reducido de plazas limitan la participación real. Las plazas de promoción interna no sacadas se acumulan a acceso libre."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
    "id": 14,
    "puesto": "Oficial/a cerrajero/a",
    "cuerpo": "Oficial/a cerrajero/a (Oferta de Empleo Público 2024)",
@@ -1061,6 +1096,14 @@ window.RADAR = {
      "fecha": "2026-10-06",
      "url": "https://www.bocm.es/bocm-20261006-7",
      "titulo": "Canal de Isabel II, S. A., M. P. 7 Convocatoria proceso selectivo – Anuncio de 28 de septiembre del 2026, de Canal de Isabel II, S. A., M. P., por el que hace pública la convocatoria de proceso selectivo para la cobertura de puestos indefinidos por turno libre de 4 plazas",
+     "tipo": "convocatoria"
+    },
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261110-29",
+     "fecha": "2026-11-10",
+     "url": "https://www.bocm.es/bocm-20261110-29",
+     "titulo": "Canal de Isabel II, S. A., M. P. 29 Convocatoria proceso selectivo – Anuncio de 30 de octubre de 2026, de Canal de Isabel II, S. A., M. P., por el que hace pública la convocatoria de proceso selectivo para la cobertura de puestos indefinidos por turno libre de 5 plazas",
      "tipo": "convocatoria"
     }
    ],
@@ -1547,6 +1590,60 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "150–400 (≈75–200 por plaza)",
     "explicacion": "Estimación orientativa basada en que se trata de una categoría de acceso sin titulación elevada y solo 2 plazas. No hay datos de ediciones anteriores, así que es una aproximación."
+   },
+   "afin": false,
+   "nuevo": false,
+   "modo": "ia"
+  },
+  {
+   "id": 13,
+   "puesto": "Ayudante/a fontanero/a",
+   "cuerpo": "No indicado en el anuncio (puesto de ayudante/a fontanero/a)",
+   "organismo": "Ayuntamiento de Alcorcón",
+   "ambito": "ayuntamiento_alcorcon",
+   "ambitoNombre": "Ayto. Alcorcón",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "desconocido",
+   "sistema": "concurso-oposicion",
+   "plazas": 2,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio solo publica la lista provisional de admitidos y excluidos y no indica el grupo ni la titulación exigida, por lo que no se puede confirmar la accesibilidad.",
+   "titulacion": "No indicada en este anuncio",
+   "requisitos": "No indicados en este anuncio; consultar las bases de la convocatoria.",
+   "estado": "cerrada",
+   "publicado": "2026-10-23",
+   "publicadoBOE": null,
+   "inicioPlazo": "2026-10-26",
+   "finPlazo": "2026-11-09",
+   "plazoTexto": "10 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.ayto-alcorcon.es/",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261023-62",
+     "fecha": "2026-10-23",
+     "url": "https://www.bocm.es/bocm-20261023-62",
+     "titulo": "– Alcorcón. Ofertas de empleo. Proceso selectivo",
+     "tipo": "otro"
+    }
+   ],
+   "resumen": "Lista provisional de aspirantes admitidos y excluidos para 2 plazas de ayudante/a fontanero/a por concurso-oposición libre en el Ayuntamiento de Alcorcón. Quien esté excluido o no aparezca en la lista puede subsanar en 10 días hábiles desde la publicación.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Estimación: sistema de concurso-oposición para un puesto de oficio con 2 plazas; el temario y los ejercicios no se conocen a partir de este anuncio."
+   },
+   "aspirantes": {
+    "estimacion": "40–120 (≈ 20–60 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios habituales de plazas sueltas de ayuntamientos de tamaño medio-grande; no hay datos de ediciones anteriores en el anuncio."
    },
    "afin": false,
    "nuevo": false,
