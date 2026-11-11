@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-10 16:16",
- "hoy": "2026-11-10",
+ "actualizado": "2026-11-11 15:44",
+ "hoy": "2026-11-11",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -770,7 +770,7 @@ window.RADAR = {
    "motivoAccesible": "Turno libre con 2 plazas y titulación exigida de Bachiller o FP de Grado Superior, que cumple su perfil. La promoción interna no es accesible para ella salvo que ya sea personal estatutario fijo de INGESA.",
    "titulacion": "Bachiller o Formación Profesional de Grado Superior, o equivalente, a la fecha de fin del plazo de solicitudes",
    "requisitos": "Nacionalidad española o de otro Estado de la UE en los supuestos previstos; capacidad funcional; no haber sido separado del servicio; no ser titular de plaza en la misma categoría; abonar la tasa o acreditar exención. Las plazas de promoción interna son solo para personal ya destinado en INGESA como estatutario fijo con al menos dos años en la categoría de procedencia; la persona interesada solo puede concurrir a un sistema.",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-11-10",
    "publicadoBOE": "2026-11-10",
    "inicioPlazo": "2026-11-11",
