@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-12 16:39",
- "hoy": "2026-11-12",
+ "actualizado": "2026-11-13 15:56",
+ "hoy": "2026-11-13",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -210,6 +210,148 @@ window.RADAR = {
    },
    "afin": false,
    "nuevo": false,
+   "modo": "ia"
+  },
+  {
+   "id": 25,
+   "puesto": "Perfil técnico P01 (área Informática y Técnica)",
+   "cuerpo": "Personal laboral fijo de la Agencia de Ciberseguridad de la Comunidad de Madrid",
+   "organismo": "AGENCIA DE CIBERSEGURIDAD DE LA COMUNIDAD DE MADRID",
+   "ambito": "comunidad_madrid",
+   "ambitoNombre": "Comunidad de Madrid",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Pendiente de Anexo 1 (Grupo I, II o III)",
+   "personal": "laboral",
+   "sistema": "concurso-oposicion",
+   "plazas": null,
+   "accesible": "dudoso",
+   "motivoAccesible": "Depende del grupo asignado a este perfil en el Anexo 1 (no incluido): si es Grupo III, su Técnico Superior sirve; si es Grupo I o II, exige título universitario.",
+   "titulacion": "Según el grupo del perfil: Grupo I, título universitario de Grado, Licenciado, Ingeniero Superior o Arquitecto; Grupo II, Grado, Diplomado o Ingeniería Técnica; Grupo III, Bachiller, FP de segundo grado o Ciclo Formativo de Grado Superior (Técnico superior).",
+   "requisitos": "Experiencia mínima por perfil (detallada en el Anexo 2, no incluido); presencialidad en las pruebas; inglés valorado como mérito; jornada de 37,5 horas semanales.",
+   "estado": "abierta",
+   "publicado": "2026-11-12",
+   "publicadoBOE": null,
+   "inicioPlazo": "2026-11-13",
+   "finPlazo": "2026-11-30",
+   "plazoTexto": "12 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.comunidad.madrid/servicios/empleo/oposiciones-administracion-servicios-comunidad-madrid",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261112-4",
+     "fecha": "2026-11-12",
+     "url": "https://www.bocm.es/bocm-20261112-4",
+     "titulo": "Convocatoria proceso selectivo – Resolución 1101/2026, de 3 de noviembre, del Consejero Delegado de la Agencia de Ciberseguridad de la Comunidad de Madrid, por la que se convoca proceso selectivo para la selección de personal laboral ordinario indefinido (laboral fijo) de perfiles técnicos de ciberseguridad y de perfiles administrativos y de gestión",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria de cinco perfiles (tres técnicos de ciberseguridad y dos administrativos) de personal laboral fijo en la Agencia de Ciberseguridad de la Comunidad de Madrid, por concurso-oposición. El plazo de 12 días hábiles empieza el 13/11/2026 y, según el cómputo del propio texto, terminaría el 30/11/2026 a las 23:59; la accesibilidad de cada perfil depende de su grupo, que figura en el Anexo 1 no incluido en el texto.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [
+    {
+     "nombre": "Fase 1, bloque 1: prueba de conocimientos (eliminatoria)",
+     "descripcion": "Test de 40 preguntas con 4 opciones (1 punto por acierto, -0,25 por error, 0 en blanco): 32 de parte común y 8 de especialidad. Máximo 40 puntos, mínimo 20 para pasar. Tiempo máximo 1 h 20 min, más 15 min por cada perfil técnico adicional. Presencial."
+    },
+    {
+     "nombre": "Fase 1, bloque 2: prueba competencial (no eliminatoria, obligatoria)",
+     "descripcion": "Test escrito de competencias con perfil técnico, 35 minutos, puntuación de 0 a 15. Solo la realizan quienes superan el corte del bloque 1 (n = 5 veces las plazas)."
+    },
+    {
+     "nombre": "Fase 2: valoración de méritos (25 puntos)",
+     "descripcion": "Titulación universitaria específica (hasta 3), formación complementaria (hasta 5), inglés (hasta 2) y experiencia (hasta 15; 1,5 puntos por año en funciones de la especialidad, 0,75 si solo son del tronco común, con mayoración del 10 % por experiencia en el sector público). Plazo de 10 días hábiles tras la relación definitiva."
+    },
+    {
+     "nombre": "Fase 3: entrevista personal (20 puntos)",
+     "descripcion": "Exposición inicial de hasta 10 minutos y preguntas sobre aplicabilidad de la experiencia (6), visión ante situaciones hipotéticas (6), motivación por el servicio público (4) y claridad expositiva (4). Duración máxima de 1 h 30 min."
+    }
+   ],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Test de 40 preguntas con penalización sobre un temario técnico amplio, prueba competencial, méritos con experiencia mínima acreditada y entrevista técnica; la demanda de perfiles de ciberseguridad es alta."
+   },
+   "aspirantes": {
+    "estimacion": "400–1.000 (estimación)",
+    "explicacion": "Estimación orientativa: no hay ediciones anteriores conocidas de esta convocatoria ni el número de plazas en el texto; la demanda de ciberseguridad es alta, pero el requisito de experiencia mínima reduce las solicitudes."
+   },
+   "afin": true,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 26,
+   "puesto": "Perfil administrativo P04 (área Administrativa y de Gestión)",
+   "cuerpo": "Personal laboral fijo de la Agencia de Ciberseguridad de la Comunidad de Madrid",
+   "organismo": "AGENCIA DE CIBERSEGURIDAD DE LA COMUNIDAD DE MADRID",
+   "ambito": "comunidad_madrid",
+   "ambitoNombre": "Comunidad de Madrid",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Pendiente de Anexo 1 (Grupo I, II o III)",
+   "personal": "laboral",
+   "sistema": "concurso-oposicion",
+   "plazas": null,
+   "accesible": "dudoso",
+   "motivoAccesible": "Depende del grupo asignado a este perfil en el Anexo 1 (no incluido): si es Grupo III, su Técnico Superior sirve; si es Grupo I o II, exige título universitario.",
+   "titulacion": "Según el grupo del perfil: Grupo I, título universitario de Grado, Licenciado, Ingeniero Superior o Arquitecto; Grupo II, Grado, Diplomado o Ingeniería Técnica; Grupo III, Bachiller, FP de segundo grado o Ciclo Formativo de Grado Superior (Técnico superior).",
+   "requisitos": "Experiencia mínima por perfil (detallada en el Anexo 2, no incluido); presencialidad en las pruebas; inglés valorado como mérito; jornada de 37,5 horas semanales.",
+   "estado": "abierta",
+   "publicado": "2026-11-12",
+   "publicadoBOE": null,
+   "inicioPlazo": "2026-11-13",
+   "finPlazo": "2026-11-30",
+   "plazoTexto": "12 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.comunidad.madrid/servicios/empleo/oposiciones-administracion-servicios-comunidad-madrid",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261112-4",
+     "fecha": "2026-11-12",
+     "url": "https://www.bocm.es/bocm-20261112-4",
+     "titulo": "Convocatoria proceso selectivo – Resolución 1101/2026, de 3 de noviembre, del Consejero Delegado de la Agencia de Ciberseguridad de la Comunidad de Madrid, por la que se convoca proceso selectivo para la selección de personal laboral ordinario indefinido (laboral fijo) de perfiles técnicos de ciberseguridad y de perfiles administrativos y de gestión",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria de cinco perfiles (tres técnicos de ciberseguridad y dos administrativos) de personal laboral fijo en la Agencia de Ciberseguridad de la Comunidad de Madrid, por concurso-oposición. El plazo de 12 días hábiles empieza el 13/11/2026 y, según el cómputo del propio texto, terminaría el 30/11/2026 a las 23:59; la accesibilidad de cada perfil depende de su grupo, que figura en el Anexo 1 no incluido en el texto.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [
+    {
+     "nombre": "Fase 1, bloque 1: prueba de conocimientos (eliminatoria)",
+     "descripcion": "Test de 40 preguntas con 4 opciones (1 punto por acierto, -0,25 por error, 0 en blanco), al menos 3 preguntas por tema, con 4 de reserva. Puede incluir supuestos prácticos breves. Máximo 40 puntos, mínimo 20 para pasar. Tiempo máximo 1 h 15 min. Presencial."
+    },
+    {
+     "nombre": "Fase 1, bloque 2: prueba competencial (no eliminatoria, obligatoria)",
+     "descripcion": "Test escrito de competencias con perfil administrativo, 35 minutos, puntuación de 0 a 15. Solo la realizan quienes superan el corte del bloque 1 (n = 5 veces las plazas)."
+    },
+    {
+     "nombre": "Fase 2: valoración de méritos (25 puntos)",
+     "descripcion": "Titulación universitaria específica (hasta 3), formación complementaria de los últimos diez años (hasta 5), inglés (hasta 2) y experiencia (hasta 15; 1,5 puntos por año en actividades del objeto del puesto, con mayoración del 10 % por experiencia en el sector público). Plazo de 10 días hábiles tras la relación definitiva."
+    },
+    {
+     "nombre": "Fase 3: entrevista personal (20 puntos)",
+     "descripcion": "Exposición inicial de hasta 10 minutos y preguntas sobre aplicabilidad de la experiencia (6), visión ante situaciones hipotéticas (6), motivación por el servicio público (4) y claridad expositiva (4). Duración máxima de 1 h 30 min."
+    }
+   ],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Test de 40 preguntas con penalización y temario de gestión administrativa, con prueba competencial y entrevista; exige experiencia mínima acreditada, pero es un perfil más generalista que los técnicos."
+   },
+   "aspirantes": {
+    "estimacion": "800–2.000 (estimación)",
+    "explicacion": "Estimación orientativa: no hay ediciones anteriores conocidas ni el número de plazas en el texto; los perfiles administrativos suelen atraer más solicitudes que los técnicos especializados."
+   },
+   "afin": false,
+   "nuevo": true,
    "modo": "ia"
   },
   {
@@ -786,149 +928,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa sin datos de ediciones anteriores de esta categoría. Se basa en que el requisito de Bachiller o FP de Grado Superior es amplio, pero el temario técnico y el número reducido de plazas limitan la participación real. Las plazas de promoción interna no sacadas se acumulan a acceso libre."
    },
    "afin": false,
-   "nuevo": true,
-   "modo": "ia"
-  },
-  {
-   "id": 25,
-   "puesto": "Perfil técnico P01 (área Informática y Técnica)",
-   "cuerpo": "Personal laboral fijo de la Agencia de Ciberseguridad de la Comunidad de Madrid",
-   "organismo": "AGENCIA DE CIBERSEGURIDAD DE LA COMUNIDAD DE MADRID",
-   "ambito": "comunidad_madrid",
-   "ambitoNombre": "Comunidad de Madrid",
-   "subgrupo": "LABORAL",
-   "grupoLaboral": "Pendiente de Anexo 1 (Grupo I, II o III)",
-   "personal": "laboral",
-   "sistema": "concurso-oposicion",
-   "plazas": null,
-   "accesible": "dudoso",
-   "motivoAccesible": "Depende del grupo asignado a este perfil en el Anexo 1 (no incluido): si es Grupo III, su Técnico Superior sirve; si es Grupo I o II, exige título universitario.",
-   "titulacion": "Según el grupo del perfil: Grupo I, título universitario de Grado, Licenciado, Ingeniero Superior o Arquitecto; Grupo II, Grado, Diplomado o Ingeniería Técnica; Grupo III, Bachiller, FP de segundo grado o Ciclo Formativo de Grado Superior (Técnico superior).",
-   "requisitos": "Experiencia mínima por perfil (detallada en el Anexo 2, no incluido); presencialidad en las pruebas; inglés valorado como mérito; jornada de 37,5 horas semanales.",
-   "estado": "proxima",
-   "publicado": "2026-11-12",
-   "publicadoBOE": null,
-   "inicioPlazo": "2026-11-13",
-   "finPlazo": "2026-11-30",
-   "plazoTexto": "12 días hábiles",
-   "aperturaEstimada": null,
-   "urlInscripcion": "https://www.comunidad.madrid/servicios/empleo/oposiciones-administracion-servicios-comunidad-madrid",
-   "tasa": null,
-   "enlaces": [
-    {
-     "fuente": "BOCM",
-     "id": "BOCM-20261112-4",
-     "fecha": "2026-11-12",
-     "url": "https://www.bocm.es/bocm-20261112-4",
-     "titulo": "Convocatoria proceso selectivo – Resolución 1101/2026, de 3 de noviembre, del Consejero Delegado de la Agencia de Ciberseguridad de la Comunidad de Madrid, por la que se convoca proceso selectivo para la selección de personal laboral ordinario indefinido (laboral fijo) de perfiles técnicos de ciberseguridad y de perfiles administrativos y de gestión",
-     "tipo": "convocatoria"
-    }
-   ],
-   "resumen": "Convocatoria de cinco perfiles (tres técnicos de ciberseguridad y dos administrativos) de personal laboral fijo en la Agencia de Ciberseguridad de la Comunidad de Madrid, por concurso-oposición. El plazo de 12 días hábiles empieza el 13/11/2026 y, según el cómputo del propio texto, terminaría el 30/11/2026 a las 23:59; la accesibilidad de cada perfil depende de su grupo, que figura en el Anexo 1 no incluido en el texto.",
-   "temario": {
-    "disponible": false,
-    "num_temas": null,
-    "bloques": []
-   },
-   "ejercicios": [
-    {
-     "nombre": "Fase 1, bloque 1: prueba de conocimientos (eliminatoria)",
-     "descripcion": "Test de 40 preguntas con 4 opciones (1 punto por acierto, -0,25 por error, 0 en blanco): 32 de parte común y 8 de especialidad. Máximo 40 puntos, mínimo 20 para pasar. Tiempo máximo 1 h 20 min, más 15 min por cada perfil técnico adicional. Presencial."
-    },
-    {
-     "nombre": "Fase 1, bloque 2: prueba competencial (no eliminatoria, obligatoria)",
-     "descripcion": "Test escrito de competencias con perfil técnico, 35 minutos, puntuación de 0 a 15. Solo la realizan quienes superan el corte del bloque 1 (n = 5 veces las plazas)."
-    },
-    {
-     "nombre": "Fase 2: valoración de méritos (25 puntos)",
-     "descripcion": "Titulación universitaria específica (hasta 3), formación complementaria (hasta 5), inglés (hasta 2) y experiencia (hasta 15; 1,5 puntos por año en funciones de la especialidad, 0,75 si solo son del tronco común, con mayoración del 10 % por experiencia en el sector público). Plazo de 10 días hábiles tras la relación definitiva."
-    },
-    {
-     "nombre": "Fase 3: entrevista personal (20 puntos)",
-     "descripcion": "Exposición inicial de hasta 10 minutos y preguntas sobre aplicabilidad de la experiencia (6), visión ante situaciones hipotéticas (6), motivación por el servicio público (4) y claridad expositiva (4). Duración máxima de 1 h 30 min."
-    }
-   ],
-   "dificultad": {
-    "nivel": 4,
-    "explicacion": "Test de 40 preguntas con penalización sobre un temario técnico amplio, prueba competencial, méritos con experiencia mínima acreditada y entrevista técnica; la demanda de perfiles de ciberseguridad es alta."
-   },
-   "aspirantes": {
-    "estimacion": "400–1.000 (estimación)",
-    "explicacion": "Estimación orientativa: no hay ediciones anteriores conocidas de esta convocatoria ni el número de plazas en el texto; la demanda de ciberseguridad es alta, pero el requisito de experiencia mínima reduce las solicitudes."
-   },
-   "afin": true,
-   "nuevo": true,
-   "modo": "ia"
-  },
-  {
-   "id": 26,
-   "puesto": "Perfil administrativo P04 (área Administrativa y de Gestión)",
-   "cuerpo": "Personal laboral fijo de la Agencia de Ciberseguridad de la Comunidad de Madrid",
-   "organismo": "AGENCIA DE CIBERSEGURIDAD DE LA COMUNIDAD DE MADRID",
-   "ambito": "comunidad_madrid",
-   "ambitoNombre": "Comunidad de Madrid",
-   "subgrupo": "LABORAL",
-   "grupoLaboral": "Pendiente de Anexo 1 (Grupo I, II o III)",
-   "personal": "laboral",
-   "sistema": "concurso-oposicion",
-   "plazas": null,
-   "accesible": "dudoso",
-   "motivoAccesible": "Depende del grupo asignado a este perfil en el Anexo 1 (no incluido): si es Grupo III, su Técnico Superior sirve; si es Grupo I o II, exige título universitario.",
-   "titulacion": "Según el grupo del perfil: Grupo I, título universitario de Grado, Licenciado, Ingeniero Superior o Arquitecto; Grupo II, Grado, Diplomado o Ingeniería Técnica; Grupo III, Bachiller, FP de segundo grado o Ciclo Formativo de Grado Superior (Técnico superior).",
-   "requisitos": "Experiencia mínima por perfil (detallada en el Anexo 2, no incluido); presencialidad en las pruebas; inglés valorado como mérito; jornada de 37,5 horas semanales.",
-   "estado": "proxima",
-   "publicado": "2026-11-12",
-   "publicadoBOE": null,
-   "inicioPlazo": "2026-11-13",
-   "finPlazo": "2026-11-30",
-   "plazoTexto": "12 días hábiles",
-   "aperturaEstimada": null,
-   "urlInscripcion": "https://www.comunidad.madrid/servicios/empleo/oposiciones-administracion-servicios-comunidad-madrid",
-   "tasa": null,
-   "enlaces": [
-    {
-     "fuente": "BOCM",
-     "id": "BOCM-20261112-4",
-     "fecha": "2026-11-12",
-     "url": "https://www.bocm.es/bocm-20261112-4",
-     "titulo": "Convocatoria proceso selectivo – Resolución 1101/2026, de 3 de noviembre, del Consejero Delegado de la Agencia de Ciberseguridad de la Comunidad de Madrid, por la que se convoca proceso selectivo para la selección de personal laboral ordinario indefinido (laboral fijo) de perfiles técnicos de ciberseguridad y de perfiles administrativos y de gestión",
-     "tipo": "convocatoria"
-    }
-   ],
-   "resumen": "Convocatoria de cinco perfiles (tres técnicos de ciberseguridad y dos administrativos) de personal laboral fijo en la Agencia de Ciberseguridad de la Comunidad de Madrid, por concurso-oposición. El plazo de 12 días hábiles empieza el 13/11/2026 y, según el cómputo del propio texto, terminaría el 30/11/2026 a las 23:59; la accesibilidad de cada perfil depende de su grupo, que figura en el Anexo 1 no incluido en el texto.",
-   "temario": {
-    "disponible": false,
-    "num_temas": null,
-    "bloques": []
-   },
-   "ejercicios": [
-    {
-     "nombre": "Fase 1, bloque 1: prueba de conocimientos (eliminatoria)",
-     "descripcion": "Test de 40 preguntas con 4 opciones (1 punto por acierto, -0,25 por error, 0 en blanco), al menos 3 preguntas por tema, con 4 de reserva. Puede incluir supuestos prácticos breves. Máximo 40 puntos, mínimo 20 para pasar. Tiempo máximo 1 h 15 min. Presencial."
-    },
-    {
-     "nombre": "Fase 1, bloque 2: prueba competencial (no eliminatoria, obligatoria)",
-     "descripcion": "Test escrito de competencias con perfil administrativo, 35 minutos, puntuación de 0 a 15. Solo la realizan quienes superan el corte del bloque 1 (n = 5 veces las plazas)."
-    },
-    {
-     "nombre": "Fase 2: valoración de méritos (25 puntos)",
-     "descripcion": "Titulación universitaria específica (hasta 3), formación complementaria de los últimos diez años (hasta 5), inglés (hasta 2) y experiencia (hasta 15; 1,5 puntos por año en actividades del objeto del puesto, con mayoración del 10 % por experiencia en el sector público). Plazo de 10 días hábiles tras la relación definitiva."
-    },
-    {
-     "nombre": "Fase 3: entrevista personal (20 puntos)",
-     "descripcion": "Exposición inicial de hasta 10 minutos y preguntas sobre aplicabilidad de la experiencia (6), visión ante situaciones hipotéticas (6), motivación por el servicio público (4) y claridad expositiva (4). Duración máxima de 1 h 30 min."
-    }
-   ],
-   "dificultad": {
-    "nivel": 3,
-    "explicacion": "Test de 40 preguntas con penalización y temario de gestión administrativa, con prueba competencial y entrevista; exige experiencia mínima acreditada, pero es un perfil más generalista que los técnicos."
-   },
-   "aspirantes": {
-    "estimacion": "800–2.000 (estimación)",
-    "explicacion": "Estimación orientativa: no hay ediciones anteriores conocidas ni el número de plazas en el texto; los perfiles administrativos suelen atraer más solicitudes que los técnicos especializados."
-   },
-   "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -940,19 +940,19 @@ window.RADAR = {
    "ambitoNombre": "Ayto. Alcorcón",
    "subgrupo": "DESCONOCIDO",
    "grupoLaboral": null,
-   "personal": "desconocido",
+   "personal": "funcionario",
    "sistema": "concurso-oposicion",
    "plazas": 1,
    "accesible": "dudoso",
    "motivoAccesible": "El anuncio no indica la titulación exigida ni el grupo o subgrupo, por lo que hay que revisar las bases en la web municipal.",
    "titulacion": "No indicada en el anuncio; consultar las bases",
    "requisitos": "No indicados en el anuncio; consultar las bases",
-   "estado": "consultar",
+   "estado": "proxima",
    "publicado": "2026-10-28",
-   "publicadoBOE": null,
-   "inicioPlazo": null,
-   "finPlazo": null,
-   "plazoTexto": "",
+   "publicadoBOE": "2026-11-13",
+   "inicioPlazo": "2026-11-14",
+   "finPlazo": "2026-12-03",
+   "plazoTexto": "20 días naturales",
    "aperturaEstimada": null,
    "urlInscripcion": "https://www.ayto-alcorcon.es/",
    "tasa": null,
@@ -964,6 +964,14 @@ window.RADAR = {
      "url": "https://www.bocm.es/bocm-20261028-22",
      "titulo": "– Alcorcón. Ofertas de empleo. Proceso selectivo",
      "tipo": "convocatoria"
+    },
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-23800",
+     "fecha": "2026-11-13",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23800",
+     "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Alcorcón (Madrid), referente a la convocatoria para proveer una plaza.",
+     "tipo": "extracto"
     }
    ],
    "resumen": "El Ayuntamiento de Alcorcón convoca 1 plaza de oficial/a cerrajero/a por concurso-oposición en turno libre (Oferta de Empleo Público 2024). El anuncio no indica titulación, grupo ni plazo; las bases completas están en la web municipal.",
