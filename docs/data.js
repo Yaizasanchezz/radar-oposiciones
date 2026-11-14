@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-13 15:56",
- "hoy": "2026-11-13",
+ "actualizado": "2026-11-14 14:49",
+ "hoy": "2026-11-14",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -663,6 +663,68 @@ window.RADAR = {
    "modo": "ia"
   },
   {
+   "id": 14,
+   "puesto": "Oficial/a cerrajero/a",
+   "cuerpo": "Oficial/a cerrajero/a (Oferta de Empleo Público 2024)",
+   "organismo": "Ayuntamiento de Alcorcón",
+   "ambito": "ayuntamiento_alcorcon",
+   "ambitoNombre": "Ayto. Alcorcón",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "concurso-oposicion",
+   "plazas": 1,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida ni el grupo o subgrupo, por lo que hay que revisar las bases en la web municipal.",
+   "titulacion": "No indicada en el anuncio; consultar las bases",
+   "requisitos": "No indicados en el anuncio; consultar las bases",
+   "estado": "abierta",
+   "publicado": "2026-10-28",
+   "publicadoBOE": "2026-11-13",
+   "inicioPlazo": "2026-11-14",
+   "finPlazo": "2026-12-03",
+   "plazoTexto": "20 días naturales",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.ayto-alcorcon.es/",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261028-22",
+     "fecha": "2026-10-28",
+     "url": "https://www.bocm.es/bocm-20261028-22",
+     "titulo": "– Alcorcón. Ofertas de empleo. Proceso selectivo",
+     "tipo": "convocatoria"
+    },
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-23800",
+     "fecha": "2026-11-13",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23800",
+     "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Alcorcón (Madrid), referente a la convocatoria para proveer una plaza.",
+     "tipo": "extracto"
+    }
+   ],
+   "resumen": "El Ayuntamiento de Alcorcón convoca 1 plaza de oficial/a cerrajero/a por concurso-oposición en turno libre (Oferta de Empleo Público 2024). El anuncio no indica titulación, grupo ni plazo; las bases completas están en la web municipal.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Estimación: concurso-oposición de oficio con una sola plaza; sin datos sobre temario ni ejercicios en el anuncio."
+   },
+   "aspirantes": {
+    "estimacion": "30–80 (≈ 30–80 por plaza)",
+    "explicacion": "Estimación orientativa basada en la oferta de una plaza municipal de oficio; no hay datos de ediciones anteriores en el anuncio."
+   },
+   "afin": false,
+   "nuevo": false,
+   "modo": "ia"
+  },
+  {
    "id": 23,
    "puesto": "Técnico/a Superior de la Rama Social",
    "cuerpo": "Administración Especial, subescala Servicios especiales",
@@ -926,68 +988,6 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "150-400 (aprox. 75-200 por plaza libre)",
     "explicacion": "Estimación orientativa sin datos de ediciones anteriores de esta categoría. Se basa en que el requisito de Bachiller o FP de Grado Superior es amplio, pero el temario técnico y el número reducido de plazas limitan la participación real. Las plazas de promoción interna no sacadas se acumulan a acceso libre."
-   },
-   "afin": false,
-   "nuevo": false,
-   "modo": "ia"
-  },
-  {
-   "id": 14,
-   "puesto": "Oficial/a cerrajero/a",
-   "cuerpo": "Oficial/a cerrajero/a (Oferta de Empleo Público 2024)",
-   "organismo": "Ayuntamiento de Alcorcón",
-   "ambito": "ayuntamiento_alcorcon",
-   "ambitoNombre": "Ayto. Alcorcón",
-   "subgrupo": "DESCONOCIDO",
-   "grupoLaboral": null,
-   "personal": "funcionario",
-   "sistema": "concurso-oposicion",
-   "plazas": 1,
-   "accesible": "dudoso",
-   "motivoAccesible": "El anuncio no indica la titulación exigida ni el grupo o subgrupo, por lo que hay que revisar las bases en la web municipal.",
-   "titulacion": "No indicada en el anuncio; consultar las bases",
-   "requisitos": "No indicados en el anuncio; consultar las bases",
-   "estado": "proxima",
-   "publicado": "2026-10-28",
-   "publicadoBOE": "2026-11-13",
-   "inicioPlazo": "2026-11-14",
-   "finPlazo": "2026-12-03",
-   "plazoTexto": "20 días naturales",
-   "aperturaEstimada": null,
-   "urlInscripcion": "https://www.ayto-alcorcon.es/",
-   "tasa": null,
-   "enlaces": [
-    {
-     "fuente": "BOCM",
-     "id": "BOCM-20261028-22",
-     "fecha": "2026-10-28",
-     "url": "https://www.bocm.es/bocm-20261028-22",
-     "titulo": "– Alcorcón. Ofertas de empleo. Proceso selectivo",
-     "tipo": "convocatoria"
-    },
-    {
-     "fuente": "BOE",
-     "id": "BOE-A-2026-23800",
-     "fecha": "2026-11-13",
-     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23800",
-     "titulo": "Resolución de 6 de noviembre de 2026, del Ayuntamiento de Alcorcón (Madrid), referente a la convocatoria para proveer una plaza.",
-     "tipo": "extracto"
-    }
-   ],
-   "resumen": "El Ayuntamiento de Alcorcón convoca 1 plaza de oficial/a cerrajero/a por concurso-oposición en turno libre (Oferta de Empleo Público 2024). El anuncio no indica titulación, grupo ni plazo; las bases completas están en la web municipal.",
-   "temario": {
-    "disponible": false,
-    "num_temas": null,
-    "bloques": []
-   },
-   "ejercicios": [],
-   "dificultad": {
-    "nivel": 3,
-    "explicacion": "Estimación: concurso-oposición de oficio con una sola plaza; sin datos sobre temario ni ejercicios en el anuncio."
-   },
-   "aspirantes": {
-    "estimacion": "30–80 (≈ 30–80 por plaza)",
-    "explicacion": "Estimación orientativa basada en la oferta de una plaza municipal de oficio; no hay datos de ediciones anteriores en el anuncio."
    },
    "afin": false,
    "nuevo": false,
