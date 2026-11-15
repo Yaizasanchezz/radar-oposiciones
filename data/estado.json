@@ -1,18 +1,6 @@
 {
- "ejecucion": "2026-11-14T14:49",
+ "ejecucion": "2026-11-15T15:19",
  "fuentes": {
-  "BOE": {
-   "ok": 1,
-   "errores": 0,
-   "candidatos": 0,
-   "avisos": []
-  },
-  "BOCM": {
-   "ok": 1,
-   "errores": 0,
-   "candidatos": 0,
-   "avisos": []
-  },
   "BOP Toledo": {
    "ok": 0,
    "errores": 1,

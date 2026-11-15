@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-14 14:49",
- "hoy": "2026-11-14",
+ "actualizado": "2026-11-15 15:19",
+ "hoy": "2026-11-15",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -280,7 +280,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa: no hay ediciones anteriores conocidas de esta convocatoria ni el número de plazas en el texto; la demanda de ciberseguridad es alta, pero el requisito de experiencia mínima reduce las solicitudes."
    },
    "afin": true,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -351,7 +351,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa: no hay ediciones anteriores conocidas ni el número de plazas en el texto; los perfiles administrativos suelen atraer más solicitudes que los técnicos especializados."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
