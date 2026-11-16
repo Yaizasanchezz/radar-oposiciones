@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-15 15:19",
- "hoy": "2026-11-15",
+ "actualizado": "2026-11-16 17:28",
+ "hoy": "2026-11-16",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -991,6 +991,100 @@ window.RADAR = {
    },
    "afin": false,
    "nuevo": false,
+   "modo": "ia"
+  },
+  {
+   "id": 27,
+   "puesto": "Técnico en Informática (interino)",
+   "cuerpo": "Cuerpo Facultativo de Técnicos en Informática, Escala Ejecutiva (Asamblea de Madrid)",
+   "organismo": "ASAMBLEA DE MADRID",
+   "ambito": "comunidad_madrid",
+   "ambitoNombre": "Comunidad de Madrid",
+   "subgrupo": "C1",
+   "grupoLaboral": null,
+   "personal": "interino",
+   "sistema": "concurso-oposicion",
+   "plazas": 2,
+   "accesible": "si",
+   "motivoAccesible": "Exige Bachiller o FP de grado medio, y el Técnico Superior cumple ese requisito. Hay turno libre y no exige título universitario.",
+   "titulacion": "Bachiller, Formación Profesional de grado medio o equivalente, o en condiciones de obtenerla al terminar el plazo de solicitudes",
+   "requisitos": "Ser español, tener 18 años cumplidos, no padecer enfermedad o limitación incompatible con las funciones, y no haber sido separado de la Administración ni inhabilitado. Los requisitos deben cumplirse al terminar el plazo de solicitudes y mantenerse hasta la toma de posesión. Se valoran como mérito la titulación universitaria de Ingeniería Técnica o grado en Informática o Telecomunicaciones (14 puntos) y la experiencia previa en la Asamblea o en otras administraciones.",
+   "estado": "proxima",
+   "publicado": "2026-11-16",
+   "publicadoBOE": null,
+   "inicioPlazo": "2026-11-17",
+   "finPlazo": "2026-11-25",
+   "plazoTexto": "7 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://sede.asambleamadrid.es/catalogoservicios.aspx",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261116-2",
+     "fecha": "2026-11-16",
+     "url": "https://www.bocm.es/bocm-20261116-2",
+     "titulo": "Puesto interino – Resolución de 5 de noviembre de 2026, de la Presidencia de la Asamblea de Madrid, por la que se aprueba la convocatoria para la cobertura interina de dos plazas del cuerpo facultativo de técnicos en Informática/Escala ejecutiva (Grupo C, Subgrupo C1, del artículo 14 del estatuto de personal de la Asamblea de Madrid), así como las bases que han de regir dicha convocatoria",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria para cubrir de forma interina dos plazas de Técnico en Informática (Escala Ejecutiva, Grupo C, Subgrupo C1) en la Asamblea de Madrid, con acceso desde Bachiller o FP de grado medio. El plazo de solicitudes es de siete días hábiles desde el día siguiente a la publicación en el BOCM.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 23,
+    "bloques": [
+     {
+      "nombre": "Hardware, sistemas operativos e informática básica",
+      "num_temas": 4,
+      "resumen": "Arquitectura de ordenadores, componentes microinformáticos, instalación y mantenimiento de Windows y Oracle Linux, y administración de sistemas operativos en red con dominios y usuarios."
+     },
+     {
+      "nombre": "Sistemas de información, seguridad de ficheros y ofimática",
+      "num_temas": 6,
+      "resumen": "Sistemas corporativos Oracle Forms, control de permisos de ficheros, Qlikview, Office 365, correo electrónico Outlook y arquitecturas cliente/servidor y aplicaciones web con Liferay."
+     },
+     {
+      "nombre": "Redes y comunicaciones",
+      "num_temas": 4,
+      "resumen": "Medios de transmisión, redes locales e inalámbricas, DHCP y DNS, e Internet con protocolos HTTP y HTTPS."
+     },
+     {
+      "nombre": "Seguridad informática",
+      "num_temas": 3,
+      "resumen": "Amenazas y criptografía, seguridad activa con firma electrónica, VPN, SSH y cortafuegos, y seguridad perimetral y en el puesto de usuario."
+     },
+     {
+      "nombre": "Atención a usuarios e incidencias",
+      "num_temas": 3,
+      "resumen": "Tipos de mantenimiento y acuerdos de nivel de servicio, gestión de incidencias con SYSAID y gestión de inventario y garantías."
+     },
+     {
+      "nombre": "Accesibilidad, almacenamiento y legislación",
+      "num_temas": 3,
+      "resumen": "Accesibilidad y usabilidad, backup y virtualización de sistemas, y legislación sobre protección de datos y prevención de riesgos laborales."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Prueba práctica",
+     "descripcion": "Cuestionario tipo test de 60 preguntas con respuestas alternativas (una correcta), más 5 de reserva. Tiempo máximo de 60 minutos. Cada error descuenta un tercio del valor de un acierto y las blancas no penalizan. Puntuación de 0 a 60, con mínimo de 30 para superarla. Es eliminatoria."
+    },
+    {
+     "nombre": "Valoración de méritos",
+     "descripcion": "Fase para quienes superen la prueba práctica, con un máximo de 40 puntos. Incluye ejercicios superados en las dos últimas convocatorias, servicios prestados en la Asamblea y en otras administraciones, titulación universitaria y cursos de formación. Se presenta en un plazo de 3 días hábiles tras la calificación."
+    }
+   ],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "El programa es extenso (23 temas) y muy técnico, y la prueba es un test de 60 preguntas en 60 minutos con penalización por error. Las plazas son pocas y el perfil es especializado."
+   },
+   "aspirantes": {
+    "estimacion": "50-150 (≈ 25-75 por plaza)",
+    "explicacion": "Estimación orientativa, no basada en ediciones anteriores del texto. Al ser acceso desde Bachiller o FP de grado medio, atrae a muchos perfiles, pero el temario técnico y la penalización del test reducen la competencia real."
+   },
+   "afin": true,
+   "nuevo": true,
    "modo": "ia"
   },
   {
