@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-17 17:49",
- "hoy": "2026-11-17",
+ "actualizado": "2026-11-18 16:59",
+ "hoy": "2026-11-18",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -73,91 +73,6 @@ window.RADAR = {
   }
  ],
  "oposiciones": [
-  {
-   "id": 8,
-   "puesto": "Cocinero/a",
-   "cuerpo": "Personal estatutario fijo, categoría de Cocinero/a de las Instituciones Sanitarias del INGESA",
-   "organismo": "MINISTERIO DE SANIDAD",
-   "ambito": "estatal",
-   "ambitoNombre": "Estado (AGE)",
-   "subgrupo": "C2",
-   "grupoLaboral": null,
-   "personal": "desconocido",
-   "sistema": "concurso-oposicion",
-   "plazas": 1,
-   "accesible": "si",
-   "motivoAccesible": "Subgrupo C2, turno libre y titulación exigida de Bachiller o FP de grado superior, que coincide con el Técnico Superior que posee la opositora.",
-   "titulacion": "Título de Bachiller o Formación Profesional de grado superior o equivalente, a la fecha de fin del plazo de solicitudes",
-   "requisitos": "Nacionalidad española (con las excepciones para nacionales de la UE y asimilados); tener 18 años y no superar la edad de jubilación; capacidad funcional; no ser titular de plaza en la misma categoría en el SNS; no haber sido separado de la Administración; certificación negativa del Registro Central de delincuentes sexuales; abonar la tasa salvo exención; titulaciones extranjeras con homologación o equivalencia.",
-   "estado": "abierta",
-   "publicado": "2026-10-20",
-   "publicadoBOE": "2026-10-20",
-   "inicioPlazo": "2026-10-21",
-   "finPlazo": "2026-11-17",
-   "plazoTexto": "20 días hábiles",
-   "aperturaEstimada": null,
-   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
-   "tasa": null,
-   "enlaces": [
-    {
-     "fuente": "BOE",
-     "id": "BOE-A-2026-21821",
-     "fecha": "2026-10-20",
-     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21821",
-     "titulo": "Resolución de 7 de octubre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo, por concurso-oposición, por el sistema general de acceso libre, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Cocinero/a.",
-     "tipo": "convocatoria"
-    }
-   ],
-   "resumen": "Convocatoria del INGESA de concurso-oposición libre para 1 plaza de personal estatutario fijo de Cocinero/a en las Instituciones Sanitarias, con examen en Ceuta. El plazo de solicitudes es de 20 días hábiles desde el 21 de octubre de 2026, hasta el 17 de noviembre de 2026.",
-   "temario": {
-    "disponible": true,
-    "num_temas": 45,
-    "bloques": [
-     {
-      "nombre": "Parte general: Constitución, UE y sanidad",
-      "num_temas": 7,
-      "resumen": "Constitución Española, Unión Europea, asistencia sanitaria a extranjeros, Ceuta y Melilla, organización del INGESA, Real Decreto 118/2023 y Ley General de Sanidad."
-     },
-     {
-      "nombre": "Parte general: discapacidad, igualdad y violencia",
-      "num_temas": 6,
-      "resumen": "Derechos de las personas con discapacidad, acceso al empleo público de personas con discapacidad, violencia de género, Ley de igualdad y Ley de dependencia."
-     },
-     {
-      "nombre": "Parte general: Estatuto Marco",
-      "num_temas": 2,
-      "resumen": "Ley 55/2003 del Estatuto Marco: principios, clasificación del personal, derechos y deberes, provisión de plazas y carrera profesional."
-     },
-     {
-      "nombre": "Parte especial: cocina y organización del servicio",
-      "num_temas": 11,
-      "resumen": "Condiciones de la cocina, organización del servicio de hostelería, maquinaria y tecnología culinaria, distribución del trabajo, técnicas culinarias, gestión de materias primas y sistemas de producción."
-     },
-     {
-      "nombre": "Parte especial: seguridad alimentaria, dietética y prevención",
-      "num_temas": 19,
-      "resumen": "Higiene y normativa alimentaria, intoxicaciones, APPCC, comidas testigo, plan de limpieza, alergias, dietas terapéuticas, protección ambiental, plan de emergencia y prevención de riesgos laborales en hostelería."
-     }
-    ]
-   },
-   "ejercicios": [
-    {
-     "nombre": "Ejercicio único de oposición (eliminatorio)",
-     "descripcion": "Test de 50 preguntas más 5 de reserva, con 3 respuestas alternativas cada una, y dos supuestos prácticos de 4 preguntas cada uno más 1 de reserva. Tiempo máximo de 120 minutos. Cada error resta un cuarto del valor de la respuesta correcta. Puntuación máxima de 100 puntos; para superarlo hay que alcanzar al menos 50. Después, fase de concurso de méritos (máximo 100 puntos, con baremo de experiencia, formación y otros méritos) que se suma a la oposición."
-    }
-   ],
-   "dificultad": {
-    "nivel": 3,
-    "explicacion": "Son 45 temas, de los que 15 son de normativa general y sanidad y 30 de cocina y seguridad alimentaria. El test tiene 50 preguntas con penalización por error y 120 minutos, con un ejercicio único y eliminatorio, lo que exige preparación seria pero es asequible para un perfil de FP de grado superior."
-   },
-   "aspirantes": {
-    "estimacion": "150–400 (≈150–400 por plaza)",
-    "explicacion": "Estimación orientativa: no hay datos de ediciones anteriores en el anuncio. Es una plaza única con examen en Ceuta, lo que reduce la afluencia respecto a convocatorias con varias plazas o sedes en la península."
-   },
-   "afin": false,
-   "nuevo": false,
-   "modo": "ia"
-  },
   {
    "id": 27,
    "puesto": "Técnico en Informática (interino)",
@@ -1888,6 +1803,91 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "150–300 (≈ 50–100 por plaza)",
     "explicacion": "Estimación orientativa basada en ratios típicos de convocatorias de Policía Local en municipios medianos de la provincia de Toledo, no en datos oficiales de esta convocatoria."
+   },
+   "afin": false,
+   "nuevo": false,
+   "modo": "ia"
+  },
+  {
+   "id": 8,
+   "puesto": "Cocinero/a",
+   "cuerpo": "Personal estatutario fijo, categoría de Cocinero/a de las Instituciones Sanitarias del INGESA",
+   "organismo": "MINISTERIO DE SANIDAD",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "C2",
+   "grupoLaboral": null,
+   "personal": "desconocido",
+   "sistema": "concurso-oposicion",
+   "plazas": 1,
+   "accesible": "si",
+   "motivoAccesible": "Subgrupo C2, turno libre y titulación exigida de Bachiller o FP de grado superior, que coincide con el Técnico Superior que posee la opositora.",
+   "titulacion": "Título de Bachiller o Formación Profesional de grado superior o equivalente, a la fecha de fin del plazo de solicitudes",
+   "requisitos": "Nacionalidad española (con las excepciones para nacionales de la UE y asimilados); tener 18 años y no superar la edad de jubilación; capacidad funcional; no ser titular de plaza en la misma categoría en el SNS; no haber sido separado de la Administración; certificación negativa del Registro Central de delincuentes sexuales; abonar la tasa salvo exención; titulaciones extranjeras con homologación o equivalencia.",
+   "estado": "cerrada",
+   "publicado": "2026-10-20",
+   "publicadoBOE": "2026-10-20",
+   "inicioPlazo": "2026-10-21",
+   "finPlazo": "2026-11-17",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-21821",
+     "fecha": "2026-10-20",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21821",
+     "titulo": "Resolución de 7 de octubre de 2026, del Instituto Nacional de Gestión Sanitaria, por la que se convoca proceso selectivo, por concurso-oposición, por el sistema general de acceso libre, para acceso a la condición de personal estatutario fijo en plazas de la categoría de Cocinero/a.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del INGESA de concurso-oposición libre para 1 plaza de personal estatutario fijo de Cocinero/a en las Instituciones Sanitarias, con examen en Ceuta. El plazo de solicitudes es de 20 días hábiles desde el 21 de octubre de 2026, hasta el 17 de noviembre de 2026.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 45,
+    "bloques": [
+     {
+      "nombre": "Parte general: Constitución, UE y sanidad",
+      "num_temas": 7,
+      "resumen": "Constitución Española, Unión Europea, asistencia sanitaria a extranjeros, Ceuta y Melilla, organización del INGESA, Real Decreto 118/2023 y Ley General de Sanidad."
+     },
+     {
+      "nombre": "Parte general: discapacidad, igualdad y violencia",
+      "num_temas": 6,
+      "resumen": "Derechos de las personas con discapacidad, acceso al empleo público de personas con discapacidad, violencia de género, Ley de igualdad y Ley de dependencia."
+     },
+     {
+      "nombre": "Parte general: Estatuto Marco",
+      "num_temas": 2,
+      "resumen": "Ley 55/2003 del Estatuto Marco: principios, clasificación del personal, derechos y deberes, provisión de plazas y carrera profesional."
+     },
+     {
+      "nombre": "Parte especial: cocina y organización del servicio",
+      "num_temas": 11,
+      "resumen": "Condiciones de la cocina, organización del servicio de hostelería, maquinaria y tecnología culinaria, distribución del trabajo, técnicas culinarias, gestión de materias primas y sistemas de producción."
+     },
+     {
+      "nombre": "Parte especial: seguridad alimentaria, dietética y prevención",
+      "num_temas": 19,
+      "resumen": "Higiene y normativa alimentaria, intoxicaciones, APPCC, comidas testigo, plan de limpieza, alergias, dietas terapéuticas, protección ambiental, plan de emergencia y prevención de riesgos laborales en hostelería."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único de oposición (eliminatorio)",
+     "descripcion": "Test de 50 preguntas más 5 de reserva, con 3 respuestas alternativas cada una, y dos supuestos prácticos de 4 preguntas cada uno más 1 de reserva. Tiempo máximo de 120 minutos. Cada error resta un cuarto del valor de la respuesta correcta. Puntuación máxima de 100 puntos; para superarlo hay que alcanzar al menos 50. Después, fase de concurso de méritos (máximo 100 puntos, con baremo de experiencia, formación y otros méritos) que se suma a la oposición."
+    }
+   ],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Son 45 temas, de los que 15 son de normativa general y sanidad y 30 de cocina y seguridad alimentaria. El test tiene 50 preguntas con penalización por error y 120 minutos, con un ejercicio único y eliminatorio, lo que exige preparación seria pero es asequible para un perfil de FP de grado superior."
+   },
+   "aspirantes": {
+    "estimacion": "150–400 (≈150–400 por plaza)",
+    "explicacion": "Estimación orientativa: no hay datos de ediciones anteriores en el anuncio. Es una plaza única con examen en Ceuta, lo que reduce la afluencia respecto a convocatorias con varias plazas o sedes en la península."
    },
    "afin": false,
    "nuevo": false,
