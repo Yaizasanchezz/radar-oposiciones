@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-18 16:59",
- "hoy": "2026-11-18",
+ "actualizado": "2026-11-19 17:05",
+ "hoy": "2026-11-19",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -164,7 +164,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en ediciones anteriores del texto. Al ser acceso desde Bachiller o FP de grado medio, atrae a muchos perfiles, pero el temario técnico y la penalización del test reducen la competencia real."
    },
    "afin": true,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
