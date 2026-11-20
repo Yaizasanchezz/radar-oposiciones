@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-19 17:05",
- "hoy": "2026-11-19",
+ "actualizado": "2026-11-20 16:55",
+ "hoy": "2026-11-20",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -1000,6 +1000,2290 @@ window.RADAR = {
    },
    "afin": false,
    "nuevo": false,
+   "modo": "ia"
+  },
+  {
+   "id": 28,
+   "puesto": "Administrativo",
+   "cuerpo": "Cuerpo Ejecutivo, especialidad Administrativa",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "C1",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "desconocido",
+   "plazas": 71,
+   "accesible": "dudoso",
+   "motivoAccesible": "El subgrupo C1 y el turno libre son compatibles con su perfil, pero el texto no indica la titulación exigida, por lo que hay que comprobarla en las bases.",
+   "titulacion": "No especificada en el texto; verificar en las bases.",
+   "requisitos": "No especificados en el texto.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-cuerpo-ejecutivo-administrativos-turno-libre",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-cuerpo-ejecutivo-administrativos-turno-libre",
+     "titulo": "2025-2026 - Cuerpo EJECUTIVO - Administrativos - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de la Junta de Comunidades de Castilla-La Mancha para 71 plazas de Cuerpo Ejecutivo, especialidad Administrativa (C1), turno libre, con temario de 36 temas publicado el 20/11/2026. El texto no indica la titulación exigida ni el plazo de solicitudes.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 36,
+    "bloques": [
+     {
+      "nombre": "Parte común (C1)",
+      "num_temas": 10,
+      "resumen": "Unión Europea, Constitución Española de 1978, Estatuto de Autonomía de Castilla-La Mancha, procedimiento administrativo, contratos del sector público, personal y presupuesto de la Junta, igualdad, transparencia y protección de datos."
+     },
+     {
+      "nombre": "Parte específica: Administración, procedimiento y contratos",
+      "num_temas": 9,
+      "resumen": "Principios y organización de la Administración, relaciones con la ciudadanía y administración electrónica, órganos administrativos, convenios, actos y recursos, procedimiento sancionador y responsabilidad patrimonial, y contratación pública (preparación, adjudicación, efectos y extinción)."
+     },
+     {
+      "nombre": "Parte específica: Personal y Seguridad Social",
+      "num_temas": 6,
+      "resumen": "Régimen del personal funcionario y laboral (derechos, deberes, situaciones administrativas, retribuciones), contrato de trabajo, Convenio Colectivo de la Junta, Seguridad Social, MUFACE y acción protectora."
+     },
+     {
+      "nombre": "Parte específica: Presupuesto y subvenciones",
+      "num_temas": 4,
+      "resumen": "Concepto y estructura del presupuesto de la Junta, ejecución del gasto (fases, ordenación del pago, créditos) y régimen de subvenciones públicas."
+     },
+     {
+      "nombre": "Parte específica: Informática y ofimática",
+      "num_temas": 7,
+      "resumen": "Conceptos de hardware, software y ciberseguridad; Windows 11; Word, Excel, Edge, Chrome, Outlook, OneDrive y Teams (versión 2019 en procesadores y hojas de cálculo)."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Son 36 temas entre parte común y específica, con una parte amplia de ofimática y Windows 11. Hay 71 plazas, lo que suele atraer a muchos aspirantes. El texto no detalla el tipo de ejercicios."
+   },
+   "aspirantes": {
+    "estimacion": "4.000–7.000 (≈ 55–100 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios habituales de cuerpos C1 de comunidades autónomas con plazas numerosas. No se conocen ediciones anteriores de esta convocatoria."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 29,
+   "puesto": "Agente Medioambiental",
+   "cuerpo": "Cuerpo de Agentes Medioambientales (Cuerpo Ejecutivo)",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "C1",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "desconocido",
+   "plazas": 50,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida. Al ser C1 con turno libre, probablemente sea accesible con su Técnico Superior, pero hay que confirmarlo en las bases.",
+   "titulacion": "No consta en el texto del anuncio. El subgrupo C1 exige con carácter general Bachiller o Técnico, lo que sería compatible con su título; confirmar en las bases.",
+   "requisitos": "No consta en el texto del anuncio.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-cuerpo-ejecutivo-cuerpo-de-agentes",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-cuerpo-ejecutivo-cuerpo-de-agentes",
+     "titulo": "2025-2026 - Cuerpo EJECUTIVO - Cuerpo de Agentes Medioambientales - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de la Junta de Castilla-La Mancha para 50 plazas de Agente Medioambiental (Cuerpo Ejecutivo, subgrupo C1) por turno libre, con temario de 55 temas. El texto no indica el plazo de solicitudes ni la titulación exigida.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 55,
+    "bloques": [
+     {
+      "nombre": "Parte común C1",
+      "num_temas": 10,
+      "resumen": "Constitución, procedimiento administrativo, personal y Estatuto de Castilla-La Mancha, prevención de riesgos laborales, Ley 4/2024 de agentes forestales y medioambientales, protección de datos, igualdad y Unión Europea."
+     },
+     {
+      "nombre": "Medio físico, flora y fauna de Castilla-La Mancha",
+      "num_temas": 9,
+      "resumen": "Geografía, suelos, clima, vegetación y fauna de la región, con especies y métodos de inventario."
+     },
+     {
+      "nombre": "Montes, selvicultura y cartografía",
+      "num_temas": 9,
+      "resumen": "Normativa de montes, aprovechamientos madereros y no madereros, maquinaria, dasometría, ordenación y selvicultura, y SIG con GPS."
+     },
+     {
+      "nombre": "Vías pecuarias, sanidad forestal e incendios",
+      "num_temas": 4,
+      "resumen": "Normativa de vías pecuarias, plagas y enfermedades forestales, y prevención y extinción de incendios forestales."
+     },
+     {
+      "nombre": "Conservación de la naturaleza",
+      "num_temas": 6,
+      "resumen": "Erosión del suelo, Ley de Conservación de la Naturaleza de Castilla-La Mancha, Red Natura 2000, espacios protegidos, especies amenazadas y exóticas invasoras."
+     },
+     {
+      "nombre": "Caza, pesca y fauna",
+      "num_temas": 4,
+      "resumen": "Normativa de caza y pesca fluvial de Castilla-La Mancha, especies cinegéticas y piscícolas, y control de planes de caza y pesca."
+     },
+     {
+      "nombre": "Uso público y educación ambiental",
+      "num_temas": 2,
+      "resumen": "Normativa sobre uso recreativo y acampada en el medio natural, y Estrategia de Educación Ambiental Horizonte 2030."
+     },
+     {
+      "nombre": "Evaluación ambiental y contaminación",
+      "num_temas": 5,
+      "resumen": "Evaluación de impacto ambiental, prevención integrada de la contaminación, calidad del aire, dominio público hidráulico y contaminación del suelo."
+     },
+     {
+      "nombre": "Residuos, minería, urbanismo y delitos ambientales",
+      "num_temas": 4,
+      "resumen": "Gestión de residuos, normativa minera, suelo rústico y delitos contra el medio ambiente y los incendios forestales."
+     },
+     {
+      "nombre": "Intervención en incidentes y normativa propia",
+      "num_temas": 2,
+      "resumen": "Toma de muestras, cadena de custodia, actas y partes de denuncia, y normativa específica de los Agentes Medioambientales."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Temario de 55 temas, con una parte específica muy técnica (flora, fauna, selvicultura, normativa sectorial). No se describen los ejercicios en el texto."
+   },
+   "aspirantes": {
+    "estimacion": "1.500–3.000 (≈30–60 por plaza)",
+    "explicacion": "Estimación orientativa, no basada en datos oficiales de ediciones anteriores. Con 50 plazas de turno libre y un temario extenso, la competencia es moderada."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 30,
+   "puesto": "Escala Administrativa de Archivos y Bibliotecas",
+   "cuerpo": "Cuerpo Ejecutivo - Escala Administrativa de Archivos y Bibliotecas",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "C1",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "desconocido",
+   "plazas": 4,
+   "accesible": "dudoso",
+   "motivoAccesible": "Subgrupo C1 y turno libre son compatibles con su perfil, pero el anuncio no indica la titulación exigida; los C1 suelen exigir Bachiller o Técnico, lo que sería accesible, pero hay que confirmarlo en las bases.",
+   "titulacion": "No consta en el texto del anuncio.",
+   "requisitos": "No consta en el texto del anuncio.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-cuerpo-ejecutivo-escala-administrativa-de",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-cuerpo-ejecutivo-escala-administrativa-de",
+     "titulo": "2025-2026 - Cuerpo EJECUTIVO - Escala Administrativa de Archivos y Bibliotecas - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de la Junta de Comunidades de Castilla-La Mancha para la Escala Administrativa de Archivos y Bibliotecas (Cuerpo Ejecutivo, subgrupo C1, funcionariado, turno libre), con 4 plazas y estado abierto. El texto no indica la titulación exigida, las fechas de plazo ni la tasa, así que conviene revisar las bases antes de presentar la solicitud.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 37,
+    "bloques": [
+     {
+      "nombre": "Parte común al subgrupo C1",
+      "num_temas": 10,
+      "resumen": "Derecho y organización: Unión Europea, Constitución Española, Estatuto de Autonomía de Castilla-La Mancha, procedimiento administrativo, contratos del sector público, personal y presupuesto de la Junta, igualdad, transparencia y protección de datos."
+     },
+     {
+      "nombre": "Parte específica I. Archivos",
+      "num_temas": 13,
+      "resumen": "Archivística: concepto de archivo y documento, ciclo vital, gestión documental, valoración y eliminación, organización y descripción, conservación, digitalización, sistema archivístico español y castellano-manchego, acceso y atención al usuario."
+     },
+     {
+      "nombre": "Parte específica II. Bibliotecas",
+      "num_temas": 14,
+      "resumen": "Bibliotecas: tipos de bibliotecas y red de bibliotecas públicas de Castilla-La Mancha, catalogación (ISBD, RDA, MARC21), clasificación CDU, servicios de préstamo y referencia, recursos digitales, actividades culturales y fomento de la lectura."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Son 37 temas entre parte común y parte específica, con dos especialidades (archivos y bibliotecas) y solo 4 plazas. El anuncio no detalla el formato de los ejercicios, lo que impide valorar la dificultad de las pruebas."
+   },
+   "aspirantes": {
+    "estimacion": "300–800 (≈ 75–200 por plaza)",
+    "explicacion": "Estimación orientativa, no basada en ediciones anteriores de esta convocatoria. Al ser una plaza muy especializada con pocas plazas, se espera una competencia alta, aunque por debajo de los grandes procesos del Estado."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 31,
+   "puesto": "Administrativo/a de Informática",
+   "cuerpo": "Cuerpo Ejecutivo - Escala Administrativa de Informática",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "C1",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "desconocido",
+   "plazas": 29,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida para el subgrupo C1; hay que comprobarla en las bases antes de decidir si se puede presentar.",
+   "titulacion": "No consta en el anuncio",
+   "requisitos": "No constan en el anuncio",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-cuerpo-ejecutivo-escala-administrativa-de-0",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-cuerpo-ejecutivo-escala-administrativa-de-0",
+     "titulo": "2025-2026 - Cuerpo EJECUTIVO - Escala Administrativa de Informática - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria de la Junta de Comunidades de Castilla-La Mancha para 29 plazas de turno libre de la Escala Administrativa de Informática (Cuerpo Ejecutivo, subgrupo C1, personal funcionario), con temario de 37 temas. El anuncio no indica la titulación exigida ni el plazo de solicitudes, por lo que hay que consultar las bases.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 37,
+    "bloques": [
+     {
+      "nombre": "Parte común (subgrupo C1)",
+      "num_temas": 10,
+      "resumen": "Unión Europea, Constitución Española de 1978, Estatuto de Autonomía de Castilla-La Mancha, procedimiento administrativo, contratos del sector público, personal de la Junta, presupuestos, igualdad, transparencia y protección de datos."
+     },
+     {
+      "nombre": "Parte específica I: informática básica, hardware y sistemas operativos",
+      "num_temas": 6,
+      "resumen": "Conceptos de datos y sistemas de información, arquitectura de ordenadores, periféricos, ordenadores personales, organización de la información y sistemas operativos (Windows, Unix/Linux, móviles y virtualización)."
+     },
+     {
+      "nombre": "Parte específica II: programación y desarrollo de aplicaciones",
+      "num_temas": 8,
+      "resumen": "Fundamentos de programación, aplicaciones web (HTML, JavaScript, Angular, PHP), aplicaciones móviles multiplataforma, arquitectura cliente/servidor, cloud y microservicios, lenguajes (Java, .NET, Python, PL/SQL), accesibilidad, metodologías ágiles y APIs REST."
+     },
+     {
+      "nombre": "Parte específica III: bases de datos",
+      "num_temas": 4,
+      "resumen": "Diseño de bases de datos relacionales y no relacionales, administración de SGBD, Oracle, SQL Server y MySQL, lenguaje SQL y conexión entre sistemas (ODBC, JDBC)."
+     },
+     {
+      "nombre": "Parte específica IV: seguridad, redes e Internet",
+      "num_temas": 9,
+      "resumen": "Seguridad física y lógica de sistemas, copias de seguridad y firma electrónica, redes de área local, comunicaciones, modelo OSI y TCP/IP, seguridad perimetral y VPN, servicios de Internet y normativa de seguridad y protección de datos, incluido el delito informático."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Son 37 temas, una parte específica técnica y amplia (programación, bases de datos, redes y seguridad) además de la parte común jurídica. Con 29 plazas y un subgrupo C1 muy demandado, la competencia es alta."
+   },
+   "aspirantes": {
+    "estimacion": "1.500–3.000 (≈ 50–100 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de oposiciones de informática de C1 en comunidades autónomas. No se conocen ediciones anteriores de esta convocatoria concreta."
+   },
+   "afin": true,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 32,
+   "puesto": "Escala Administrativa de Prevención de Riesgos Laborales",
+   "cuerpo": "Cuerpo Ejecutivo - Escala Administrativa de Prevención de Riesgos Laborales (2025-2026)",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "C1",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "desconocido",
+   "plazas": 5,
+   "accesible": "dudoso",
+   "motivoAccesible": "Subgrupo C1 con turno libre, pero el anuncio no indica la titulación exigida; hay que confirmarla en las bases antes de presentarse.",
+   "titulacion": "No consta en el anuncio.",
+   "requisitos": "No consta en el anuncio.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-cuerpo-ejecutivo-escala-administrativa-de-1",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-cuerpo-ejecutivo-escala-administrativa-de-1",
+     "titulo": "2025-2026 - Cuerpo EJECUTIVO - Escala Administrativa de Prevención de Riesgos Laborales - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de la Junta de Comunidades de Castilla-La Mancha para 5 plazas de turno libre de la Escala Administrativa de Prevención de Riesgos Laborales (Cuerpo Ejecutivo, subgrupo C1, funcionariado). El anuncio no indica el plazo de solicitudes ni la titulación exigida.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 40,
+    "bloques": [
+     {
+      "nombre": "Parte común C1",
+      "num_temas": 10,
+      "resumen": "Unión Europea, Constitución Española, Estatuto de Autonomía de Castilla-La Mancha, procedimiento administrativo, contratos del sector público, personal de la Junta, presupuesto, igualdad, transparencia y protección de datos."
+     },
+     {
+      "nombre": "Parte específica: marco normativo y organización preventiva",
+      "num_temas": 6,
+      "resumen": "Conceptos básicos de seguridad y salud, especialidades preventivas, Ley 31/1995 (LPRL) y participación de los trabajadores, Reglamento de los Servicios de Prevención, coordinación de actividades empresariales y responsabilidades y sanciones."
+     },
+     {
+      "nombre": "Parte específica: seguridad y riesgos higiénicos",
+      "num_temas": 17,
+      "resumen": "EPI y protección colectiva, investigación de accidentes y notificación (DELT@), señalización, lugares de trabajo, incendios, máquinas, equipos de trabajo, riesgo eléctrico, atmósferas explosivas, obras de construcción, agentes químicos, cancerígenos, amianto, biológicos, ruido, vibraciones y radiaciones."
+     },
+     {
+      "nombre": "Parte específica: ergonomía y psicosociología",
+      "num_temas": 7,
+      "resumen": "Pantallas de visualización, carga física, manipulación manual de cargas, posturas de trabajo, carga mental, factores psicosociales, estrés laboral, acoso y burn out."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Temario muy extenso (40 temas, 10 comunes y 30 específicos) con normativa técnica detallada de prevención de riesgos; no se especifican ejercicios en el anuncio."
+   },
+   "aspirantes": {
+    "estimacion": "150–300 (≈30–60 por plaza)",
+    "explicacion": "Estimación orientativa, no basada en ediciones anteriores. Son 5 plazas con un temario técnico y amplio, por lo que la competencia suele ser moderada frente a oposiciones generalistas."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 33,
+   "puesto": "Auxiliar",
+   "cuerpo": "Cuerpo Auxiliar (Auxiliar, turno libre, 2025-2026)",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "C2",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "desconocido",
+   "plazas": 423,
+   "accesible": "dudoso",
+   "motivoAccesible": "El subgrupo C2 y el turno libre son compatibles con su perfil, pero el anuncio no indica la titulación exigida, así que hay que comprobarla en las bases.",
+   "titulacion": "No consta en el texto del anuncio.",
+   "requisitos": "No constan en el texto del anuncio.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-cuerpo-auxiliar-auxiliar-turno-libre",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-cuerpo-auxiliar-auxiliar-turno-libre",
+     "titulo": "2025-2026 - Cuerpo AUXILIAR - Auxiliar - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de la Junta de Comunidades de Castilla-La Mancha para el Cuerpo Auxiliar (subgrupo C2), turno libre, con 423 plazas de funcionario. El anuncio no indica la titulación exigida ni el plazo de solicitudes, por lo que conviene consultar las bases antes de presentarse.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 24,
+    "bloques": [
+     {
+      "nombre": "I. Organización Administrativa",
+      "num_temas": 12,
+      "resumen": "Constitución Española, Leyes 39/2015 y 40/2015 (procedimiento administrativo y régimen jurídico del sector público), calidad de los servicios, transparencia y archivos, protección de datos, empleo público, presupuesto, Estatuto de Autonomía de Castilla-La Mancha e igualdad efectiva."
+     },
+     {
+      "nombre": "II. Ofimática",
+      "num_temas": 12,
+      "resumen": "Informática básica, Windows 11, procesadores de texto (Word 2019), hojas de cálculo (Excel 2019), Internet (Edge y Chrome), correo electrónico (Outlook 2019) y entorno colaborativo (OneDrive y Teams)."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Son 24 temas, con bloques de normativa administrativa y ofimática práctica. La dificultad es media: la parte legal exige memorización de leyes concretas y la ofimática requiere práctica con versiones específicas de Office y Windows. El número alto de plazas suaviza la competencia relativa. Estimación orientativa, no confirmada por el anuncio."
+   },
+   "aspirantes": {
+    "estimacion": "8.000–15.000 (≈ 20–35 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios habituales de cuerpos auxiliares de comunidades autónomas con muchas plazas. No hay datos de ediciones anteriores en el texto del anuncio."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 34,
+   "puesto": "Auxiliar Técnico Educativo",
+   "cuerpo": "Grupo III - Auxiliar Técnico Educativo",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo III",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 84,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida; debe comprobarse en las bases si basta con ESO, Bachiller o Técnico, o si exige un título concreto.",
+   "titulacion": "No consta en el texto del anuncio",
+   "requisitos": "No constan en el texto del anuncio",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iii-auxiliar-tecnico-educativo-turno-libre",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iii-auxiliar-tecnico-educativo-turno-libre",
+     "titulo": "2025-2026 - Grupo III - Auxiliar Técnico Educativo - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de la Junta de Comunidades de Castilla-La Mancha para 84 plazas de Auxiliar Técnico Educativo (Grupo III, personal laboral, turno libre), abierto según el portal de empleo público. El anuncio no indica la titulación exigida ni el enlace de inscripción, así que hay que comprobarlo en las bases.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 23,
+    "bloques": [
+     {
+      "nombre": "Derechos de las personas con discapacidad",
+      "num_temas": 2,
+      "resumen": "Ley General de Derechos de las personas con discapacidad y su inclusión social, y Ley de Garantía de los Derechos de las personas con discapacidad en Castilla-La Mancha."
+     },
+     {
+      "nombre": "Legislación educativa",
+      "num_temas": 4,
+      "resumen": "Ley de Educación estatal y autonómica, organización de centros en Castilla-La Mancha y legislación sobre inclusión educativa."
+     },
+     {
+      "nombre": "Desarrollo evolutivo y juego infantil",
+      "num_temas": 4,
+      "resumen": "Desarrollo físico, cognitivo, afectivo y social de 0 a 18 años, y el juego infantil como recurso educativo y metodológico."
+     },
+     {
+      "nombre": "Primeros auxilios, salud e higiene",
+      "num_temas": 5,
+      "resumen": "Primeros auxilios, educación para la salud, hábitos de higiene y control de esfínteres, alimentación, alergias e intolerancias, y productos de apoyo."
+     },
+     {
+      "nombre": "Atención al alumnado con necesidades específicas",
+      "num_temas": 6,
+      "resumen": "Trastornos de comunicación y lenguaje, discapacidad motórica, sensorial, intelectual, TEA y TDAH, y alumnado con graves problemas de conducta, con el papel del auxiliar en cada caso."
+     },
+     {
+      "nombre": "Igualdad y prevención de riesgos laborales",
+      "num_temas": 2,
+      "resumen": "Igualdad efectiva de mujeres y hombres y políticas públicas de igualdad; prevención de riesgos laborales y ergonomía en las tareas de auxiliar técnico educativo."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Programa amplio de 23 temas de carácter mayoritariamente práctico y de legislación básica, con un número alto de plazas (84) que suele atraer a muchos aspirantes, pero sin pruebas complejas detalladas en el anuncio."
+   },
+   "aspirantes": {
+    "estimacion": "1.500–3.000 (≈ 18–36 por plaza)",
+    "explicacion": "Estimación orientativa basada en procesos laborales autonómicos de categorías similares con gran número de plazas; no consta en el texto ni hay datos de ediciones anteriores verificados."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 35,
+   "puesto": "Jefatura de Mantenimiento",
+   "cuerpo": "Grupo III - Jefatura de Mantenimiento (2025-2026)",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo III",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 2,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida para el Grupo III, por lo que no se puede confirmar si su título de Técnico Superior es suficiente.",
+   "titulacion": "No consta en el anuncio",
+   "requisitos": "No consta en el anuncio",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iii-jefatura-de-mantenimiento-turno-libre",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iii-jefatura-de-mantenimiento-turno-libre",
+     "titulo": "2025-2026 - Grupo III - Jefatura de Mantenimiento - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de personal laboral de la Junta de Castilla-La Mancha para Jefatura de Mantenimiento (Grupo III), turno libre, con 2 plazas. El anuncio no indica la titulación exigida, así que conviene revisar las bases antes de presentarse.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 29,
+    "bloques": [
+     {
+      "nombre": "Fundamentos de física e hidráulica",
+      "num_temas": 5,
+      "resumen": "Mecánica, termodinámica, hidráulica, medida de caudales y contadores, y electricidad básica (potencia, trifásica, factor de potencia)."
+     },
+     {
+      "nombre": "Calefacción, climatización y calderas",
+      "num_temas": 6,
+      "resumen": "Confort y pérdidas de calor, elementos calefactores, calderas, combustión, regulación automática y climatización, con su normativa."
+     },
+     {
+      "nombre": "Motores, agua y fontanería",
+      "num_temas": 3,
+      "resumen": "Esquemas de maniobra de motores eléctricos, abastecimiento de agua y redes, y fontanería y agua caliente sanitaria."
+     },
+     {
+      "nombre": "Ascensores y construcción",
+      "num_temas": 4,
+      "resumen": "Componentes de ascensores, albañilería (cimentación, forjados, cubiertas), electrificación de viviendas y carpintería."
+     },
+     {
+      "nombre": "Tratamiento de agua y emergencias",
+      "num_temas": 2,
+      "resumen": "Tratamiento de aguas, torres de refrigeración, prevención de Legionella, instalaciones de emergencia y locales de pública concurrencia."
+     },
+     {
+      "nombre": "Reglamentación técnica",
+      "num_temas": 6,
+      "resumen": "Reglamentos de instalaciones térmicas, Código Técnico de la Edificación, reglamento de baja tensión, protección contra incendios, gas y autoprotección."
+     },
+     {
+      "nombre": "Convenio, seguridad laboral e igualdad",
+      "num_temas": 3,
+      "resumen": "Convenio colectivo de la JCCM, seguridad y salud en tareas de mantenimiento, e igualdad efectiva de mujeres y hombres."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Temario extenso (29 temas) con mucha normativa técnica (reglamentos, CTE, REBT) y sin detalle de ejercicios, lo que exige un estudio amplio."
+   },
+   "aspirantes": {
+    "estimacion": "50–150 (≈25–75 por plaza)",
+    "explicacion": "Estimación orientativa basada en plazas laborales técnicas de la Junta con 2 vacantes y temario extenso; no hay datos de ediciones anteriores en el anuncio."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 36,
+   "puesto": "Personal Cocinero",
+   "cuerpo": "2025-2026 - Grupo III - Personal Cocinero",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo III",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 22,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida, por lo que no se puede confirmar si es accesible con un título de Técnico Superior.",
+   "titulacion": "No consta en el texto",
+   "requisitos": "No consta en el texto",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iii-personal-cocinero-turno-libre",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iii-personal-cocinero-turno-libre",
+     "titulo": "2025-2026 - Grupo III - Personal Cocinero - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo abierto para 22 plazas de Personal Cocinero del Grupo III (personal laboral, turno libre) de la Junta de Comunidades de Castilla-La Mancha, con un temario de 22 temas. El texto no indica la titulación exigida ni el plazo de solicitud.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 22,
+    "bloques": [
+     {
+      "nombre": "Instalaciones, higiene y autocontrol",
+      "num_temas": 2,
+      "resumen": "Condiciones del local de cocina, programa de autocontrol, control de aguas, limpieza y desinfección, y normas de higiene para comidas preparadas y comedores colectivos."
+     },
+     {
+      "nombre": "Maquinaria, herramientas y terminología",
+      "num_temas": 2,
+      "resumen": "Generadores de calor y frío, pequeña maquinaria, clases de herramientas de cocina y términos culinarios como abrillantar, brasear o empanar."
+     },
+     {
+      "nombre": "Conservación, almacenamiento y control de existencias",
+      "num_temas": 5,
+      "resumen": "Medios físicos, químicos y biológicos de conservación, inventario, recepción y almacenamiento de mercancías, rotación de caducidades y control de desperdicios."
+     },
+     {
+      "nombre": "Técnicas de cocinado y elaboración de base",
+      "num_temas": 3,
+      "resumen": "Técnicas por vía húmeda y seca, fondos básicos y complementarios, y preparación de verduras, arroz, patatas y legumbres."
+     },
+     {
+      "nombre": "Alimentos básicos",
+      "num_temas": 5,
+      "resumen": "Grasas, aceites, pastas, lácteos, huevos, condimentos, pescados y carnes: composición, conservación y métodos básicos de cocinado."
+     },
+     {
+      "nombre": "Menús, manipulación y gestión de costes",
+      "num_temas": 3,
+      "resumen": "Confección de menús saludables, buenas prácticas de manipulación, alergias e intolerancias, y cálculo del escandallo y consumos diarios."
+     },
+     {
+      "nombre": "Prevención de riesgos laborales e igualdad",
+      "num_temas": 2,
+      "resumen": "Riesgos laborales en cocina, manipulación manual de cargas y trabajo en cámaras frigoríficas, y políticas públicas de igualdad."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "El temario de 22 temas es amplio pero práctico y de carácter general de cocina e higiene; no constan ejercicios y el número de plazas es moderado."
+   },
+   "aspirantes": {
+    "estimacion": "200–500 (≈ 9–23 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de plazas laborales de cocina en administraciones autonómicas; no se dispone de datos de ediciones anteriores en el texto."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 37,
+   "puesto": "Personal Encargado Agrario y Medioambiental",
+   "cuerpo": "Grupo III - Personal Encargado Agrario y Medioambiental",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo III",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 4,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida, por lo que no se puede confirmar si es compatible con un Técnico Superior de FP.",
+   "titulacion": "No consta en el anuncio",
+   "requisitos": "No consta en el anuncio",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iii-personal-encargado-agrario-y",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iii-personal-encargado-agrario-y",
+     "titulo": "2025-2026 - Grupo III - Personal Encargado Agrario y Medioambiental - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de personal laboral del Grupo III (Personal Encargado Agrario y Medioambiental) de la Junta de Comunidades de Castilla-La Mancha, turno libre, con 4 plazas. El anuncio figura como abierto, pero no indica la titulación exigida ni el plazo de solicitud.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 27,
+    "bloques": [
+     {
+      "nombre": "Suelo, riego y fertilización",
+      "num_temas": 2,
+      "resumen": "Suelo y su morfología, erosión, fertilidad; sistemas de riego, abonos orgánicos y químicos, fertirrigación."
+     },
+     {
+      "nombre": "Cultivos herbáceos, hortícolas y leñosos",
+      "num_temas": 4,
+      "resumen": "Cereales y leguminosas, cultivo de la vid, olivar y cultivos hortícolas y forrajeros, con siembra, poda, recolección y protección sanitaria."
+     },
+     {
+      "nombre": "Maquinaria agraria y costes",
+      "num_temas": 2,
+      "resumen": "Tractores y maquinaria de laboreo, siembra y recolección; cálculo de costes, mantenimiento y prevención de riesgos laborales."
+     },
+     {
+      "nombre": "Vid, vino y enología",
+      "num_temas": 3,
+      "resumen": "Maduración y vendimia de la uva, fermentación alcohólica, técnicas de vinificación, crianza, embotellado y control de calidad."
+     },
+     {
+      "nombre": "Ganadería y sanidad animal",
+      "num_temas": 2,
+      "resumen": "Sistemas de explotación bovino, ovino, caprino y porcino; alimentación, instalaciones, sanidad animal y desinfección."
+     },
+     {
+      "nombre": "Viveros y propagación de plantas",
+      "num_temas": 5,
+      "resumen": "Multiplicación sexual y vegetativa (semillas, estacas, acodos, injertos), viveros forestales, cultivo y poda de plantas."
+     },
+     {
+      "nombre": "Masas forestales, caza, piscicultura y fauna",
+      "num_temas": 5,
+      "resumen": "Masas forestales de Castilla-La Mancha y sus plagas; granjas cinegéticas de perdiz y mamíferos; centros de recuperación de fauna y cultivos piscícolas."
+     },
+     {
+      "nombre": "Espacios naturales, almacenes, cambio climático e igualdad",
+      "num_temas": 4,
+      "resumen": "Espacios naturales protegidos y centros de interpretación; almacenes y gestión de residuos; efectos del cambio climático en la agricultura; igualdad efectiva de mujeres y hombres."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Programa muy amplio (27 temas) y heterogéneo, que abarca agricultura, viticultura, ganadería, viveros, fauna y gestión de espacios naturales. Hay pocas plazas (4), lo que aumenta la exigencia relativa."
+   },
+   "aspirantes": {
+    "estimacion": "40–120 (≈ 10–30 por plaza)",
+    "explicacion": "Estimación orientativa, no basada en ediciones anteriores conocidas. Es una plaza laboral de un cuerpo técnico agrario con pocas plazas, por lo que la competencia suele ser moderada."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 38,
+   "puesto": "Personal Encargado de Servicios",
+   "cuerpo": "Grupo III - Personal Encargado de Servicios",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo III",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 5,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida, así que no se puede confirmar si es compatible con Técnico Superior; hay que revisar las bases.",
+   "titulacion": "No consta en el texto del anuncio.",
+   "requisitos": "No consta en el texto del anuncio.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iii-personal-encargado-de-servicios-turno",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iii-personal-encargado-de-servicios-turno",
+     "titulo": "2025-2026 - Grupo III - Personal Encargado de Servicios - Turno Libre",
+     "tipo": "convocatoria"
+    },
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iii-personal-encargado-general-de",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iii-personal-encargado-general-de",
+     "titulo": "2025-2026 - Grupo III - Personal Encargado General de Servicios - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de la Junta de Comunidades de Castilla-La Mancha para 5 plazas de Personal Encargado de Servicios (Grupo III, personal laboral, turno libre). El anuncio no indica plazo de solicitudes ni la titulación exigida, por lo que hay que verificarlo en las bases.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 29,
+    "bloques": [
+     {
+      "nombre": "Administración y atención al público",
+      "num_temas": 2,
+      "resumen": "Organización administrativa básica, archivo, informática de usuario (Word y Excel) y técnicas de atención al público."
+     },
+     {
+      "nombre": "Compras, almacén y control de mercancías",
+      "num_temas": 4,
+      "resumen": "Entradas y salidas de mercancías, albaranes y facturas, inventario manual e informático, y recepción y almacenamiento de productos como alimentos o material de oficina, con control de rotación y caducidad."
+     },
+     {
+      "nombre": "Alimentación, dietética y restauración",
+      "num_temas": 8,
+      "resumen": "Manipulación y conservación de alimentos, escandallo, dietética equilibrada, control de puntos críticos (Salmonella y Legionella), y montaje, servicio y limpieza del comedor."
+     },
+     {
+      "nombre": "Lavandería, limpieza y lencería",
+      "num_temas": 3,
+      "resumen": "Procesos de lavado y planchado, organización de lavandería y lencería, y útiles y productos de limpieza y tratamiento."
+     },
+     {
+      "nombre": "Mantenimiento e instalaciones",
+      "num_temas": 8,
+      "resumen": "Consumos y mantenimiento de maquinaria, reglamentos de instalaciones eléctricas, de gas y de equipos de emergencia, control de empresas contratadas, vigilancia de instalaciones externas, plan de emergencia y evacuación, y red de incendios."
+     },
+     {
+      "nombre": "Organización del trabajo, convenio, prevención e igualdad",
+      "num_temas": 4,
+      "resumen": "Planificación de turnos y cuadrantes, Convenio Colectivo de la Junta de Comunidades de Castilla-La Mancha, seguridad y salud laboral en tareas de encargado, e igualdad efectiva de mujeres y hombres."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Son 29 temas muy prácticos y de carácter técnico (alimentación, instalaciones, reglamentos), con un programa amplio aunque sin ejercicios detallados en el anuncio."
+   },
+   "aspirantes": {
+    "estimacion": "50-150 (aprox. 10-30 por plaza)",
+    "explicacion": "Estimación orientativa, no basada en datos oficiales ni en ediciones anteriores conocidas. Las plazas laborales de grupo III con pocas plazas suelen tener menos aspirantes que las de funcionario de Estado."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 39,
+   "puesto": "Personal Encargado de Obras Públicas",
+   "cuerpo": "Grupo III - Personal Encargado de Obras Públicas",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo III",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 6,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida, por lo que no se puede confirmar si es accesible con un Técnico Superior; revisar las bases.",
+   "titulacion": "No consta en el anuncio",
+   "requisitos": "No consta en el anuncio",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iii-personal-encargado-obras-publicas",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iii-personal-encargado-obras-publicas",
+     "titulo": "2025-2026 - Grupo III - Personal Encargado Obras Públicas - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de la Junta de Castilla-La Mancha para 6 plazas de Personal Encargado de Obras Públicas (Grupo III, personal laboral, turno libre), con temario de 23 temas sobre carreteras, obras y conservación. El anuncio no indica la titulación exigida ni el plazo de solicitudes, así que hay que comprobarlos en las bases.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 23,
+    "bloques": [
+     {
+      "nombre": "Legislación y planificación de carreteras",
+      "num_temas": 2,
+      "resumen": "Ley de Carreteras de Castilla-La Mancha, Reglamento General de Carreteras, Planes Regionales y Red regional de carreteras (temas 1-2)."
+     },
+     {
+      "nombre": "Proyectos, trazado y topografía",
+      "num_temas": 5,
+      "resumen": "Memoria, anejos, planos y presupuestos de proyectos; trazado en planta, perfil y secciones; topografía, nivelación y replanteos; servicios afectados y expropiaciones (temas 3-6)."
+     },
+     {
+      "nombre": "Ejecución de obras de firmes y explanadas",
+      "num_temas": 6,
+      "resumen": "Excavaciones, terraplenes, explanadas, bases granulares, materiales estabilizados, mezclas bituminosas, tratamientos superficiales y lechadas, con su maquinaria y puesta en obra (temas 7-12)."
+     },
+     {
+      "nombre": "Señalización, drenaje y estructuras",
+      "num_temas": 4,
+      "resumen": "Señalización horizontal y vertical, balizamiento, barreras de seguridad, desvíos provisionales, drenaje transversal, longitudinal y profundo, hormigones, encofrados y armaduras (temas 13-16)."
+     },
+     {
+      "nombre": "Conservación y explotación de carreteras",
+      "num_temas": 4,
+      "resumen": "Conservación preventiva, bacheos, brigadas, vialidad invernal, emergencias e inspección y reparación de obras de fábrica (temas 17-20)."
+     },
+     {
+      "nombre": "Prevención, calidad e igualdad",
+      "num_temas": 2,
+      "resumen": "Prevención de riesgos laborales en conservación de carreteras y rol del encargado; control de calidad en obras civiles (temas 21-22). Igualdad efectiva de mujeres y hombres (tema 23)."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "23 temas de contenido técnico y aplicado, aunque sin ejercicios detallados en el anuncio; el número de plazas es reducido."
+   },
+   "aspirantes": {
+    "estimacion": "200–400 (≈ 35–65 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de plazas laborales de la Junta con 6 plazas; no se conocen ediciones anteriores de este proceso."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 40,
+   "puesto": "Personal Monitor Jefatura de Taller",
+   "cuerpo": "Grupo III - Personal Monitor Jefatura de Taller",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo III",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 3,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida, así que no se puede confirmar si es compatible con un Técnico Superior de FP.",
+   "titulacion": "No consta en el texto del anuncio.",
+   "requisitos": "No consta en el texto del anuncio. El portal indica proceso abierto.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iii-personal-monitor-jefatura-de-taller",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iii-personal-monitor-jefatura-de-taller",
+     "titulo": "2025-2026 - Grupo III - Personal Monitor Jefatura de Taller - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso de personal laboral del Grupo III (Personal Monitor Jefatura de Taller) de la Junta de Comunidades de Castilla-La Mancha, turno libre, con 3 plazas. El anuncio no indica la titulación exigida ni el plazo de solicitudes, así que conviene verificar las bases antes de presentarse.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 30,
+    "bloques": [
+     {
+      "nombre": "Marco de la acción social, servicios sociales y colectivos",
+      "num_temas": 6,
+      "resumen": "Modelos de intervención social, organización de los servicios sociales, exclusión social, ámbitos de intervención, colectivos específicos (tercera edad, familia, inmigración, mujeres) e igualdad efectiva de mujeres y hombres."
+     },
+     {
+      "nombre": "Discapacidad, paradigma de apoyos y calidad de vida",
+      "num_temas": 9,
+      "resumen": "Paradigma de los apoyos y Escala SIS, calidad de vida (Schalock y Verdugo), discapacidad intelectual y envejecimiento, maltrato, marco legislativo, recursos como centros especiales de empleo o CADIG, y planificación centrada en la persona."
+     },
+     {
+      "nombre": "Inserción laboral y empleo con apoyo",
+      "num_temas": 4,
+      "resumen": "Empleo con apoyo y metodología del preparador laboral, búsqueda activa de empleo, contrato de trabajo y Seguridad Social, e integración laboral en empleo ordinario, con apoyo o protegido."
+     },
+     {
+      "nombre": "Habilidades, comunicación y conducta",
+      "num_temas": 9,
+      "resumen": "Programas de entrenamiento en habilidades de autonomía, habilidades sociales, conducta problemática (ICAP), Apoyo Conductual Positivo, comunicación y sistemas aumentativos, actividades de la vida diaria y dinamización de grupos."
+     },
+     {
+      "nombre": "Organización del taller",
+      "num_temas": 2,
+      "resumen": "Organización del taller, accesibilidad, seguridad e higiene, y concepto de unidades de convivencia con diseño de proyectos de intervención."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Temario extenso de 30 temas, muy específico de intervención social y discapacidad, sin detalle de los ejercicios en el anuncio. Competencia moderada para una plaza laboral de 3 plazas."
+   },
+   "aspirantes": {
+    "estimacion": "100–300 (≈30–100 por plaza)",
+    "explicacion": "Estimación orientativa basada en procesos laborales autonómicos de categorías similares con pocas plazas. No consta ninguna edición anterior de esta convocatoria en el texto."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 41,
+   "puesto": "Operador de Maquinaria Pesada",
+   "cuerpo": "2025-2026 - Grupo III - Personal Operador Maquinaria Pesada",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo III",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 5,
+   "accesible": "dudoso",
+   "motivoAccesible": "El texto no indica la titulación exigida ni otros requisitos, por lo que hay que comprobarlos en las bases antes de decidir si es accesible.",
+   "titulacion": "No consta en el anuncio",
+   "requisitos": "No consta en el anuncio",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iii-personal-operador-maquinaria-pesada",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iii-personal-operador-maquinaria-pesada",
+     "titulo": "2025-2026 - Grupo III - Personal Operador Maquinaria Pesada - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de personal laboral del Grupo III, categoría de Operador de Maquinaria Pesada, turno libre, con 5 plazas en la Junta de Comunidades de Castilla-La Mancha. El anuncio no indica la titulación exigida, así que hay que comprobarla en las bases.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 21,
+    "bloques": [
+     {
+      "nombre": "Carreteras, firmes y pavimentos",
+      "num_temas": 5,
+      "resumen": "Legislación de carreteras en Castilla-La Mancha, contratos, proyectos, topografía, movimientos de tierras, firmes granulares y mezclas bituminosas."
+     },
+     {
+      "nombre": "Maquinaria de movimiento de tierras y compactación",
+      "num_temas": 6,
+      "resumen": "Funcionamiento, método de trabajo y mantenimiento de palas cargadoras, retroexcavadoras, retropalas, motoniveladoras, compactadores y bulldozer/angledozer."
+     },
+     {
+      "nombre": "Plantas y equipos de mezcla y extendido",
+      "num_temas": 3,
+      "resumen": "Plantas de áridos y de mezclas bituminosas, y equipos de extendido y compactación de asfalto: tipos, puesta en marcha y mantenimiento."
+     },
+     {
+      "nombre": "Transporte, conservación y señalización",
+      "num_temas": 4,
+      "resumen": "Camiones, dumpers y mototraillas; conservación y bacheo de carreteras; vialidad invernal con sales fundentes; señalización, barreras y control de vegetación."
+     },
+     {
+      "nombre": "Control de calidad y prevención de riesgos",
+      "num_temas": 2,
+      "resumen": "Control de calidad en obras civiles y prevención de riesgos laborales en el uso de maquinaria pesada, incluida la protección contra el vuelco."
+     },
+     {
+      "nombre": "Igualdad",
+      "num_temas": 1,
+      "resumen": "Igualdad efectiva de mujeres y hombres y políticas públicas de igualdad."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Son 21 temas de contenido técnico muy específico sobre maquinaria y obras, aunque el número de plazas es reducido y no se describen pruebas que puedan ser más exigentes."
+   },
+   "aspirantes": {
+    "estimacion": "100–300 (≈20–60 por plaza)",
+    "explicacion": "Estimación orientativa, no un dato oficial. Se basa en que se trata de 5 plazas de personal laboral en la Junta, con un temario técnico que reduce la concurrencia habitual."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 42,
+   "puesto": "Personal Técnico Especialista en Interpretación de la Lengua de Signos",
+   "cuerpo": "Grupo III - Personal Técnico Especialista en Interpretación de la Lengua de Signos",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo III",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 5,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida, así que no se puede comprobar si coincide con el Técnico Superior. Hay que consultar las bases.",
+   "titulacion": "No especificada en el anuncio",
+   "requisitos": "No se indican en el anuncio. Probablemente se exija acreditar el dominio de la lengua de signos española; consultar las bases.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iii-personal-tecnico-especialista-en",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iii-personal-tecnico-especialista-en",
+     "titulo": "2025-2026 - Grupo III - Personal Técnico Especialista en Interpretación de la Lengua de Signos - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria de 5 plazas de personal laboral del Grupo III (Técnico Especialista en Interpretación de la Lengua de Signos), turno libre, de la Junta de Comunidades de Castilla-La Mancha. El anuncio no indica la titulación exigida, el plazo de solicitud ni las bases completas, por lo que hay que consultarlos antes de presentarse.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 26,
+    "bloques": [
+     {
+      "nombre": "Legislación sobre discapacidad y marco educativo",
+      "num_temas": 3,
+      "resumen": "Ley General de derechos de las personas con discapacidad, legislación educativa estatal y autonómica de Castilla-La Mancha (temas 1 a 3)."
+     },
+     {
+      "nombre": "Organización del centro y funciones del técnico",
+      "num_temas": 5,
+      "resumen": "Documentos programáticos del centro, autonomía, coordinación docente, trabajo con el claustro, juegos, ocio, recreos, excursiones y servicios complementarios (temas 4 a 8)."
+     },
+     {
+      "nombre": "Alumnado con necesidades educativas especiales y familias",
+      "num_temas": 5,
+      "resumen": "Familias del alumnado con discapacidad auditiva, alumnado con necesidad específica de apoyo, discapacidad auditiva y sordoceguera, con sus modalidades de escolarización y recursos materiales (temas 9 a 13)."
+     },
+     {
+      "nombre": "Lengua, comunicación e historia de la lengua de signos",
+      "num_temas": 4,
+      "resumen": "Lenguaje y sistemas aumentativos o alternativos de comunicación, historia y situación actual de la lengua de signos y expresión corporal aplicada al signo (temas 14 a 17)."
+     },
+     {
+      "nombre": "Técnicas y teoría de la interpretación",
+      "num_temas": 4,
+      "resumen": "Técnicas y metodología de la interpretación, interpretación en lengua de signos española y terminología del intérprete educativo (temas 18, 19, 22 y 24)."
+     },
+     {
+      "nombre": "Gramática y uso de la lengua de signos española",
+      "num_temas": 3,
+      "resumen": "Terminología lingüística, dactilología, gramática y funciones comunicativas básicas como saludos, descripciones e intercambio de información personal (temas 20, 21 y 23)."
+     },
+     {
+      "nombre": "Guía para personas sordociegas",
+      "num_temas": 1,
+      "resumen": "Técnicas de guía e interpretación para personas sordociegas (tema 25)."
+     },
+     {
+      "nombre": "Igualdad",
+      "num_temas": 1,
+      "resumen": "Igualdad efectiva de mujeres y hombres y políticas públicas de igualdad (tema 26)."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Temario extenso de 26 temas, con una parte jurídica y otra específica de lengua de signos y técnicas de interpretación. No hay ejercicios detallados en el anuncio, así que no se puede valorar la parte práctica."
+   },
+   "aspirantes": {
+    "estimacion": "150–400 (≈30–80 por plaza)",
+    "explicacion": "Estimación orientativa, no dato oficial. Se basa en que la plaza exige conocer la lengua de signos española, lo que reduce el número de candidatos, pero el turno libre de una comunidad autónoma puede atraer bastantes solicitudes."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 43,
+   "puesto": "Personal Técnico Superior de Laboratorio",
+   "cuerpo": "Grupo III - Personal Técnico Superior de Laboratorio",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo III",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 3,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida; hay que comprobarla en las bases antes de presentarse.",
+   "titulacion": "No consta en el anuncio",
+   "requisitos": "No consta en el anuncio",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iii-personal-tecnico-superior-de",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iii-personal-tecnico-superior-de",
+     "titulo": "2025-2026 - Grupo III - Personal Técnico Superior de Laboratorio - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo por turno libre para 3 plazas de Personal Técnico Superior de Laboratorio (Grupo III, personal laboral) de la Junta de Comunidades de Castilla-La Mancha. El anuncio no indica la titulación exigida ni el plazo de solicitudes, y el portal lo muestra como abierto.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 30,
+    "bloques": [
+     {
+      "nombre": "Química, bioquímica y química analítica",
+      "num_temas": 3,
+      "resumen": "Temas 1 a 3: estructura de la materia y formulación, principios inmediatos (glúcidos, lípidos y proteínas), masa molecular, concentraciones, equilibrios ácido-base y redox."
+     },
+     {
+      "nombre": "Microbiología, zoonosis y diagnóstico serológico",
+      "num_temas": 5,
+      "resumen": "Temas 4, 5, 19, 20 y 21: clasificación de bacterias, zoonosis de animales de producción, diagnóstico serológico (Rosa de Bengala), tinciones (Gram, Ziehl-Neelsen) y medios de cultivo."
+     },
+     {
+      "nombre": "Análisis de alimentos, agua y técnicas moleculares",
+      "num_temas": 4,
+      "resumen": "Temas 22 a 25: análisis físico-químico y microbiológico de alimentos, análisis del agua y PCR y RT-PCR."
+     },
+     {
+      "nombre": "Estadística, metrología y manejo de muestras",
+      "num_temas": 4,
+      "resumen": "Temas 6, 8, 9 y 10: conceptos de estadística, valores de referencia, Sistema Internacional de unidades, sensibilidad y especificidad, obtención y conservación de muestras, pesada y balanzas."
+     },
+     {
+      "nombre": "Técnicas instrumentales y de separación",
+      "num_temas": 8,
+      "resumen": "Temas 11 a 18: microscopia, nefelometría, espectrofotometría (Lambert-Beer), absorción atómica, cromatografía en papel, capa fina, gases y HPLC, e inmunoanálisis (ELISA, Western blot, AGID)."
+     },
+     {
+      "nombre": "Organización, calidad, seguridad y residuos",
+      "num_temas": 5,
+      "resumen": "Temas 7, 26, 27, 28 y 29: funciones del técnico y estructura del laboratorio, residuos de riesgo, calidad y acreditación, estructura de los laboratorios de Sanidad y Agricultura de Castilla-La Mancha, y prevención de riesgos laborales."
+     },
+     {
+      "nombre": "Igualdad",
+      "num_temas": 1,
+      "resumen": "Tema 30: igualdad efectiva de mujeres y hombres y políticas públicas de igualdad."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "El temario tiene 30 temas extensos y mezcla química, microbiología, instrumentación y prevención de riesgos. Son solo 3 plazas, pero el perfil es técnico y específico de laboratorio. El anuncio no detalla los ejercicios."
+   },
+   "aspirantes": {
+    "estimacion": "150-300 (aprox. 50-100 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de plazas laborales técnicas de la Junta con pocas plazas. No se han consultado ediciones anteriores."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 44,
+   "puesto": "Personal Técnico Superior en Educación Infantil",
+   "cuerpo": "Personal Laboral Grupo III - Personal Técnico Superior en Educación Infantil",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo III",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 30,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida. El puesto parece requerir un título específico de Técnico Superior en Educación Infantil, que no es ninguno de los suyos (DAM o Marketing y Publicidad); conviene revisar las bases.",
+   "titulacion": "No consta en el anuncio",
+   "requisitos": "No consta en el texto del anuncio.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iii-personal-tecnico-superior-en-educacion",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iii-personal-tecnico-superior-en-educacion",
+     "titulo": "2025-2026 - Grupo III - Personal Técnico Superior en Educación Infantil - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de personal laboral del Grupo III de la Junta de Comunidades de Castilla-La Mancha para 30 plazas de Personal Técnico Superior en Educación Infantil, turno libre. El anuncio no indica la titulación exigida ni el plazo de solicitudes, así que hay que consultar las bases.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 34,
+    "bloques": [
+     {
+      "nombre": "Marco normativo e institucional",
+      "num_temas": 4,
+      "resumen": "Normativa internacional, estatal y autonómica de la etapa infantil, la Escuela Infantil en Castilla-La Mancha, protección del menor e igualdad efectiva de mujeres y hombres."
+     },
+     {
+      "nombre": "Desarrollo infantil de 0 a 3 años",
+      "num_temas": 8,
+      "resumen": "Características y desarrollo psicomotor, afectivo, social, cognitivo y del lenguaje del niño de 0 a 3 años, además de las necesidades educativas especiales y las alteraciones del desarrollo."
+     },
+     {
+      "nombre": "Programación, metodología y evaluación",
+      "num_temas": 8,
+      "resumen": "Programación del primer ciclo, principios metodológicos y globalizadores, corrientes psicopedagógicas, atención a la diversidad, organización de espacios y tiempos, evaluación, observación e innovación educativa."
+     },
+     {
+      "nombre": "Juego, recursos y materiales",
+      "num_temas": 6,
+      "resumen": "Psicomotricidad, recursos didácticos, el juego y sus tipos, juguetes, literatura infantil y cuentos, y fomento de la creatividad."
+     },
+     {
+      "nombre": "Familia, equipo educativo y rol profesional",
+      "num_temas": 5,
+      "resumen": "La familia como agente socializador, hábitos y rutinas, periodo de adaptación, papel del técnico en el equipo educativo y trabajo en equipo."
+     },
+     {
+      "nombre": "Salud, alimentación y prevención de riesgos",
+      "num_temas": 3,
+      "resumen": "Alimentación y nutrición infantil, educación para la salud y primeros auxilios, y prevención de riesgos laborales y ergonómicos del puesto."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Temario amplio de 34 temas con un fuerte componente psicopedagógico, pero sin ejercicios detallados en el anuncio. El número de plazas (30) y la competencia habitual de personal laboral en Castilla-La Mancha lo hacen moderado."
+   },
+   "aspirantes": {
+    "estimacion": "200–600 (≈7–20 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de plazas laborales autonómicas de nivel medio; no se dispone de datos de ediciones anteriores en el anuncio."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 45,
+   "puesto": "Auxiliar de Enfermería",
+   "cuerpo": "Grupo IV - Auxiliar de Enfermería",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo IV",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 78,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida, por lo que no puede confirmarse si es compatible con un Técnico Superior en DAM o en Marketing y Publicidad; hay que consultar las bases completas.",
+   "titulacion": "No consta en el anuncio",
+   "requisitos": "No constan en el texto proporcionado",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iv-auxiliar-de-enfermeria-turno-libre",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iv-auxiliar-de-enfermeria-turno-libre",
+     "titulo": "2025-2026 - Grupo IV - Auxiliar de Enfermería - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de personal laboral de la Junta de Comunidades de Castilla-La Mancha para 78 plazas de Auxiliar de Enfermería (Grupo IV, turno libre), con temario de 16 temas. El texto no indica la titulación exigida, el plazo de solicitudes ni el enlace de inscripción.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 16,
+    "bloques": [
+     {
+      "nombre": "Marco sanitario y relación asistencial",
+      "num_temas": 4,
+      "resumen": "Organización del Sistema Sanitario público (Ley General de Sanidad y Ley de Ordenación Sanitaria de Castilla-La Mancha), papel del auxiliar y proceso de atención de enfermería, documentación clínica y protección de datos, y comunicación con paciente y familia."
+     },
+     {
+      "nombre": "Cuidados técnicos al paciente",
+      "num_temas": 5,
+      "resumen": "Higiene y aseo del paciente dependiente, cuidados del paciente encamado (cambios posturales, úlceras por presión, movilización y sujeción), preparación para exploraciones y muestras biológicas, constantes vitales, sondas y oxigenoterapia, y alimentación y administración de medicamentos."
+     },
+     {
+      "nombre": "Higiene, desinfección e infecciones",
+      "num_temas": 2,
+      "resumen": "Limpieza, desinfección y esterilización de instrumental, residuos sanitarios, epidemiología de enfermedades transmisibles e infecciones nosocomiales."
+     },
+     {
+      "nombre": "Atención a personas mayores, salud mental y paciente crónico o terminal",
+      "num_temas": 3,
+      "resumen": "Cambios físicos y patologías frecuentes en personas mayores, demencia y Alzheimer, principales patologías de salud mental y cuidados al paciente crónico y terminal, incluidos los cuidados post-mortem."
+     },
+     {
+      "nombre": "Prevención de riesgos laborales",
+      "num_temas": 1,
+      "resumen": "Riesgos biológicos y uso de equipos de protección individual, y prevención de trastornos musculoesqueléticos en la movilización de pacientes."
+     },
+     {
+      "nombre": "Igualdad",
+      "num_temas": 1,
+      "resumen": "Igualdad efectiva de mujeres y hombres y políticas públicas de igualdad."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Temario extenso de 16 temas con contenido mayoritariamente práctico y de cuidados, sin ejercicios detallados en el anuncio; la dificultad depende sobre todo del volumen de temario y del tipo de prueba, que no consta."
+   },
+   "aspirantes": {
+    "estimacion": "3.000–6.000 (≈ 40–75 por plaza)",
+    "explicacion": "Estimación orientativa, no basada en datos de convocatorias anteriores de esta oposición. Las plazas de Auxiliar de Enfermería en la sanidad pública de Castilla-La Mancha suelen atraer muchos aspirantes, por lo que se usa un rango de ratio alto."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 46,
+   "puesto": "Auxiliar de Laboratorio",
+   "cuerpo": "Grupo IV - Auxiliar de Laboratorio",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo IV",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 6,
+   "accesible": "dudoso",
+   "motivoAccesible": "El texto no indica la titulación exigida; hay que comprobar en las bases si se admite Técnico Superior o un título de Bachiller/Técnico.",
+   "titulacion": "No consta en el texto aportado",
+   "requisitos": "No consta en el texto aportado",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iv-auxiliar-de-laboratorio-turno-libre",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iv-auxiliar-de-laboratorio-turno-libre",
+     "titulo": "2025-2026 - Grupo IV - Auxiliar de Laboratorio\t - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo abierto de la Junta de Castilla-La Mancha para 6 plazas de Auxiliar de Laboratorio (Grupo IV, personal laboral, turno libre). El anuncio no indica la titulación exigida, así que hay que revisar las bases antes de presentarse.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 13,
+    "bloques": [
+     {
+      "nombre": "Laboratorio y sistema de calidad",
+      "num_temas": 2,
+      "resumen": "Tipos de laboratorios de ensayo, sus áreas de trabajo y las funciones del auxiliar de laboratorio dentro del sistema de calidad."
+     },
+     {
+      "nombre": "Métodos, equipos y muestras",
+      "num_temas": 2,
+      "resumen": "Métodos cualitativos y cuantitativos (cromatografía, inmunología, físico-química), equipos, reactivos y tratamiento de muestras."
+     },
+     {
+      "nombre": "Material, pesada, temperatura y operaciones básicas",
+      "num_temas": 4,
+      "resumen": "Material volumétrico y su calibración, instrumentos de pesada, equipos de temperatura (microscopios, pHmetros) y operaciones como disolución, destilación o filtración."
+     },
+     {
+      "nombre": "Estadística y aseguramiento de la calidad",
+      "num_temas": 2,
+      "resumen": "Medidas de dispersión y centralización, precisión y exactitud, regresión, controles internos e intercomparaciones de ensayos."
+     },
+     {
+      "nombre": "Limpieza, seguridad y residuos",
+      "num_temas": 2,
+      "resumen": "Limpieza, desinfección y esterilización del material, prevención de riesgos laborales en el laboratorio y gestión de residuos peligrosos."
+     },
+     {
+      "nombre": "Igualdad",
+      "num_temas": 1,
+      "resumen": "Igualdad efectiva de mujeres y hombres y políticas públicas de igualdad."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Temario amplio de 13 temas de contenido técnico de laboratorio, sin detalle de ejercicios en el anuncio. La dificultad real dependerá de las pruebas que fijen las bases."
+   },
+   "aspirantes": {
+    "estimacion": "150–300 (≈25–50 por plaza)",
+    "explicacion": "Estimación orientativa, no basada en ediciones anteriores conocidas. Las plazas de personal laboral del Grupo IV de la Junta suelen atraer bastantes candidatos por el bajo requisito de titulación."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 47,
+   "puesto": "Ayudante de Cocina",
+   "cuerpo": "Grupo IV - Ayudante de Cocina (personal laboral, turno libre)",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo IV",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 24,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida para el Grupo IV, por lo que no se puede confirmar si es accesible con un Técnico Superior; hay que revisar las bases.",
+   "titulacion": "No consta en el texto del anuncio; debe comprobarse en las bases.",
+   "requisitos": "No constan en el texto. Revisar las bases para requisitos de acceso y documentación.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iv-ayudante-de-cocina-turno-libre",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iv-ayudante-de-cocina-turno-libre",
+     "titulo": "2025-2026 - Grupo IV - Ayudante de Cocina - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de personal laboral del Grupo IV, categoría Ayudante de Cocina, turno libre, con 24 plazas en la Junta de Comunidades de Castilla-La Mancha. El portal indica el proceso como abierto, pero el texto no especifica la titulación exigida ni el plazo de solicitud.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 17,
+    "bloques": [
+     {
+      "nombre": "Conceptos generales y normas de higiene",
+      "num_temas": 3,
+      "resumen": "Funciones del ayudante de cocina, condiciones del local, limpieza, proveedores, trazabilidad y normas de higiene para comidas preparadas (incluye comidas-testigo)."
+     },
+     {
+      "nombre": "Equipamiento, batería y herramientas de cocina",
+      "num_temas": 5,
+      "resumen": "Materiales y conservación de la batería de cocina, maquinaria y generadores de calor y frío, herramientas de cocina, terminología culinaria y conservación de géneros (medios físicos, químicos y biológicos)."
+     },
+     {
+      "nombre": "Preparación y técnicas de cocinado",
+      "num_temas": 4,
+      "resumen": "Tratamiento inicial de alimentos (lavado, corte, descongelación, contaminación cruzada), guarniciones, organización del comedor y técnicas de cocción por vía húmeda y seca."
+     },
+     {
+      "nombre": "Alimentos y manipulación",
+      "num_temas": 2,
+      "resumen": "Clases de alimentos (hidratos, grasas, proteínas), alergias e intolerancias, higienización de dependencias y menaje, buenas prácticas de manipulación y análisis de peligros."
+     },
+     {
+      "nombre": "Prevención de riesgos laborales",
+      "num_temas": 1,
+      "resumen": "Riesgos específicos en cocina, manipulación manual de cargas, uso de utensilios y trabajos en cámaras frigoríficas o de congelación."
+     },
+     {
+      "nombre": "Igualdad",
+      "num_temas": 1,
+      "resumen": "Igualdad efectiva de mujeres y hombres y políticas públicas de igualdad."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "El temario de 17 temas es de carácter práctico y de nivel básico-medio, con contenidos de cocina, higiene y prevención. Se desconoce el sistema de pruebas, por lo que la valoración es orientativa."
+   },
+   "aspirantes": {
+    "estimacion": "200–500 (≈ 8–20 por plaza)",
+    "explicacion": "Estimación orientativa, no basada en datos oficiales de ediciones anteriores. Los procesos laborales de cocina en administraciones autonómicas suelen atraer bastantes aspirantes por plaza, aunque el requisito de titulación puede reducir el número de candidatos."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 48,
+   "puesto": "Personal Conductor",
+   "cuerpo": "Personal Laboral - Grupo IV - Personal Conductor",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo IV",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 14,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida; hay que comprobarla en las bases para confirmar si se puede acceder con un Técnico Superior.",
+   "titulacion": "No consta en el anuncio",
+   "requisitos": "No consta en el anuncio",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iv-personal-conductor-turno-libre",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iv-personal-conductor-turno-libre",
+     "titulo": "2025-2026 - Grupo IV - Personal Conductor - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria de la Junta de Comunidades de Castilla-La Mancha para 14 plazas de Personal Conductor (Grupo IV, personal laboral, turno libre), con temario de 16 temas sobre tráfico, mecánica, transporte y convenio. El texto no indica la titulación exigida, así que conviene revisar las bases antes de presentarse.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 16,
+    "bloques": [
+     {
+      "nombre": "Tráfico y seguridad vial",
+      "num_temas": 3,
+      "resumen": "Ley de Tráfico y Seguridad Vial (autorizaciones, régimen sancionador, seguro obligatorio) y Reglamento General de Conductores (permisos, licencias, pérdida de vigencia)."
+     },
+     {
+      "nombre": "Reglamento de circulación y de vehículos",
+      "num_temas": 3,
+      "resumen": "Normas generales de comportamiento en la circulación, límites de velocidad y distancias, y clasificación de vehículos, accesorios y herramientas."
+     },
+     {
+      "nombre": "Mecánica, inspección y seguridad",
+      "num_temas": 5,
+      "resumen": "Motores, alumbrado, neumáticos y mantenimiento; inspección técnica de vehículos; seguridad activa y pasiva; factores de riesgo, frenado y obligaciones en accidente; conducción eficiente y emisiones."
+     },
+     {
+      "nombre": "Transporte por carretera y tacógrafos",
+      "num_temas": 2,
+      "resumen": "Régimen legal del transporte de mercancías y viajeros, autorizaciones y sanciones; uso del tacógrafo, tiempos de conducción y descanso."
+     },
+     {
+      "nombre": "Parque Móvil y convenio colectivo",
+      "num_temas": 2,
+      "resumen": "Organización y gestión de la flota del Parque Móvil de la Junta y de los Parques de Servicios Generales; convenio colectivo del personal laboral, aspectos del conductor."
+     },
+     {
+      "nombre": "Igualdad",
+      "num_temas": 1,
+      "resumen": "Igualdad efectiva de mujeres y hombres y políticas públicas de igualdad."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Temario extenso (16 temas) con mucha normativa de tráfico, aunque de carácter práctico y sin exigencias académicas altas. Estimación orientativa basada en el tipo de prueba habitual para plazas de conductor."
+   },
+   "aspirantes": {
+    "estimacion": "300–800 (≈20–55 por plaza)",
+    "explicacion": "Estimación orientativa, no basada en datos oficiales. No constan ediciones anteriores en el anuncio. Se usa la ratio típica de plazas laborales de conductor de la Junta, que suele atraer bastantes candidatos."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 49,
+   "puesto": "Personal Oficial Primera Agrario y Medioambiental",
+   "cuerpo": "Grupo IV - Personal Oficial Primera Agrario y Medioambiental",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo IV",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 10,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida; debe comprobarse en las bases si basta con Graduado en ESO, Bachiller o ninguna, o si se pide un título concreto.",
+   "titulacion": "No consta en el anuncio.",
+   "requisitos": "No consta en el anuncio.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iv-personal-oficial-primera-agrario-y",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iv-personal-oficial-primera-agrario-y",
+     "titulo": "2025-2026 - Grupo IV - Personal Oficial Primera Agrario y Medioambiental - Turno Libre",
+     "tipo": "convocatoria"
+    },
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iv-personal-oficial-segunda-agrario-y",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iv-personal-oficial-segunda-agrario-y",
+     "titulo": "2025-2026 - Grupo IV - Personal Oficial Segunda Agrario y Medioambiental - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de turno libre para 10 plazas de Personal Oficial Primera Agrario y Medioambiental (Grupo IV, personal laboral) de la Junta de Comunidades de Castilla-La Mancha. El anuncio no indica la titulación exigida ni la fecha de fin de solicitudes, por lo que conviene verificarlo en las bases.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 22,
+    "bloques": [
+     {
+      "nombre": "Suelos, nutrición y fertilización",
+      "num_temas": 3,
+      "resumen": "Temas 1-3: propiedades y laboreo del suelo, erosión, nutrición de plantas, sistema radicular, abonos orgánicos y minerales y técnicas de fertilización."
+     },
+     {
+      "nombre": "Cultivos agrícolas, leñosos, hortícolas y pastos",
+      "num_temas": 4,
+      "resumen": "Temas 4-7: cereales y leguminosas, vid (poda, injerto, plantación), olivar (multiplicación, técnicas culturales) y cultivos hortícolas y forrajeros."
+     },
+     {
+      "nombre": "Protección de cultivos, riego y maquinaria",
+      "num_temas": 3,
+      "resumen": "Temas 8-10: productos fitosanitarios y protección frente a temperaturas, sistemas de riego (superficie, aspersión, goteo) y maquinaria agraria y forestal."
+     },
+     {
+      "nombre": "Ganadería",
+      "num_temas": 3,
+      "resumen": "Temas 11-13: ganado ovino, bovino, caprino y porcino en Castilla-La Mancha, sistemas de explotación, instalaciones, alimentación, limpieza, gestión de residuos y sanidad."
+     },
+     {
+      "nombre": "Viveros e injerto",
+      "num_temas": 3,
+      "resumen": "Temas 14-16: tipos de vivero, sistemas de riego, siembra, semilleros, trasplante, herramientas de injerto, estaquillas y poda."
+     },
+     {
+      "nombre": "Granjas cinegéticas, piscifactorías y fauna",
+      "num_temas": 3,
+      "resumen": "Temas 17-19: granjas cinegéticas e incubadoras, piscifactorías y reproducción artificial, centros de recuperación de fauna y espacios naturales protegidos."
+     },
+     {
+      "nombre": "Almacenes, prevención de riesgos e igualdad",
+      "num_temas": 3,
+      "resumen": "Temas 20-22: ordenación de almacenes, carga y descarga, gestión de residuos, prevención de riesgos laborales y EPI, e igualdad efectiva de mujeres y hombres."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "El temario de 22 temas es amplio y mezcla agricultura, ganadería y viveros, pero los contenidos son prácticos y de nivel medio. Con solo 2 plazas, la exigencia es moderada. No se describen ejercicios en el texto."
+   },
+   "aspirantes": {
+    "estimacion": "300-800 (aprox. 30-80 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de plazas laborales autonómicas de grupo bajo con 10 plazas; no se dispone de datos de ediciones anteriores de este proceso."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 50,
+   "puesto": "Personal Oficial Primera de Mantenimiento",
+   "cuerpo": "Grupo IV - Personal Oficial Primera de Mantenimiento",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo IV",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 8,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida, así que no se puede confirmar si es accesible; revisar las bases.",
+   "titulacion": "No consta en el anuncio; hay que revisar las bases.",
+   "requisitos": "No consta en el anuncio.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iv-personal-oficial-primera-de",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iv-personal-oficial-primera-de",
+     "titulo": "2025-2026 - Grupo IV - Personal Oficial Primera de Mantenimiento - Turno Libre",
+     "tipo": "convocatoria"
+    },
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iv-personal-oficial-segunda-de",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iv-personal-oficial-segunda-de",
+     "titulo": "2025-2026 - Grupo IV - Personal Oficial Segunda de Mantenimiento - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo laboral de la Junta de Comunidades de Castilla-La Mancha para 8 plazas de Personal Oficial Primera de Mantenimiento (Grupo IV, turno libre), con temario de 19 temas. El anuncio no indica la titulación exigida ni el plazo de solicitudes, por lo que hay que consultar las bases.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 19,
+    "bloques": [
+     {
+      "nombre": "Edificación, obra y acabados",
+      "num_temas": 6,
+      "resumen": "Temas 1, 4, 5, 6, 7 y 16: mantenimiento de edificios, hormigones y encofrados, cimientos, materiales de construcción, pintura y carpintería."
+     },
+     {
+      "nombre": "Fontanería, climatización, electricidad y gas",
+      "num_temas": 5,
+      "resumen": "Temas 8, 9, 10, 11 y 17: calderas y calefacción, agua fría y caliente, aire acondicionado, electricidad e iluminación, protección contra incendios y gas."
+     },
+     {
+      "nombre": "Mecánica, ascensores y soldadura",
+      "num_temas": 4,
+      "resumen": "Temas 12, 13, 14 y 15: motores de gasolina, diésel y eléctricos, mantenimiento de ascensores y escaleras mecánicas, y soldaduras."
+     },
+     {
+      "nombre": "Jardinería y herramientas",
+      "num_temas": 2,
+      "resumen": "Temas 2 y 3: herramientas, maquinaria y utillaje, y trabajos de jardinería como plantación, poda y plantas de interior."
+     },
+     {
+      "nombre": "Seguridad y igualdad",
+      "num_temas": 2,
+      "resumen": "Temas 18 y 19: prevención de riesgos en mantenimiento y políticas de igualdad efectiva entre mujeres y hombres."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Temario de 17 temas de carácter práctico y de oficio, sin ejercicios descritos en el anuncio. La dificultad se estima como asequible, aunque depende del formato de la prueba que se publique en las bases."
+   },
+   "aspirantes": {
+    "estimacion": "150–400 (≈ 20–50 por plaza)",
+    "explicacion": "Estimación orientativa, no un dato oficial. Las plazas laborales de oficios en la Junta suelen atraer bastantes solicitudes por plaza, pero con 8 plazas el número depende del nivel de exigencia de la prueba y de la titulación requerida."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 51,
+   "puesto": "Vigilante de Carreteras",
+   "cuerpo": "Grupo IV - Vigilante de Carreteras (personal laboral)",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo IV",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 4,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida ni otros requisitos, por lo que no puede confirmarse que sea accesible con un Técnico Superior; hay que revisar las bases.",
+   "titulacion": "No consta en el anuncio",
+   "requisitos": "No consta en el anuncio; consultar las bases de la convocatoria.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-iv-vigilante-de-carreteras-turno-libre",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-iv-vigilante-de-carreteras-turno-libre",
+     "titulo": "2025-2026 - Grupo IV - Vigilante de Carreteras - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo abierto para 4 plazas de Vigilante de Carreteras (Grupo IV, personal laboral, turno libre) de la Junta de Comunidades de Castilla-La Mancha. El anuncio incluye temario de 16 temas, pero no indica la titulación exigida, el sistema selectivo, los ejercicios ni el plazo de solicitudes.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 16,
+    "bloques": [
+     {
+      "nombre": "Legislación y expedientes de carreteras",
+      "num_temas": 4,
+      "resumen": "Ley y Reglamento de Carreteras de Castilla-La Mancha, catálogo de carreteras, nociones de urbanismo, expedientes sancionadores y planificación de proyectos."
+     },
+     {
+      "nombre": "Firmes, obras de fábrica y drenaje",
+      "num_temas": 5,
+      "resumen": "Explanaciones y firmes, mezclas bituminosas y patologías, obras de drenaje y de paso, inspección de obras de fábrica, aforos e inventario de carreteras."
+     },
+     {
+      "nombre": "Señalización, conservación y seguridad vial",
+      "num_temas": 5,
+      "resumen": "Señalización horizontal y vertical, balizamiento, señalización de obras, accidentabilidad y prevención, conservación preventiva y vialidad invernal con PLATECAM."
+     },
+     {
+      "nombre": "Materias transversales",
+      "num_temas": 2,
+      "resumen": "Control de calidad en obras civiles, prevención de riesgos laborales y políticas de igualdad efectiva de mujeres y hombres."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Temario extenso de 16 temas con contenido técnico de carreteras, pero sin ejercicios detallados publicados y con solo 4 plazas de personal laboral."
+   },
+   "aspirantes": {
+    "estimacion": "100–300 (≈ 25–75 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de plazas laborales de la Junta con pocas plazas y temario amplio; no hay datos de ediciones anteriores en el anuncio."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 52,
+   "puesto": "Ordenanza",
+   "cuerpo": "Grupo V - Ordenanza (personal laboral)",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo V",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 44,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida; para un puesto de ordenanza suele pedirse graduado escolar o equivalente, pero hay que confirmarlo en las bases antes de decidir.",
+   "titulacion": "No consta en el anuncio",
+   "requisitos": "No consta en el anuncio",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-v-ordenanza-turno-libre",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-v-ordenanza-turno-libre",
+     "titulo": "2025-2026 - Grupo V - Ordenanza - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de personal laboral del Grupo V (Ordenanza) de la Junta de Comunidades de Castilla-La Mancha, turno libre, con 44 plazas. El anuncio no indica la titulación exigida ni las fechas de solicitud, que habrá que comprobar en las bases.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 11,
+    "bloques": [
+     {
+      "nombre": "Organización y derechos de la ciudadanía",
+      "num_temas": 4,
+      "resumen": "Órganos y funcionamiento de la Junta de Comunidades de Castilla-La Mancha, estatuto del personal, derechos ciudadanos, sede electrónica, transparencia y protección de datos."
+     },
+     {
+      "nombre": "Procedimiento administrativo y archivo",
+      "num_temas": 1,
+      "resumen": "Concepto de documento, registro y archivo, eficacia de los actos administrativos y Ley de Archivos Públicos de Castilla-La Mancha."
+     },
+     {
+      "nombre": "Prevención de riesgos laborales",
+      "num_temas": 1,
+      "resumen": "Objeto, derechos y obligaciones, tareas de ordenanza, señalización, emergencias y evacuación."
+     },
+     {
+      "nombre": "Funciones de ordenanza y material de oficina",
+      "num_temas": 3,
+      "resumen": "Control de entradas, apertura y cierre de edificios, atención telefónica, traslados de documentación y apoyo a reuniones; manejo de máquinas de oficina y servicios postales."
+     },
+     {
+      "nombre": "Ofimática y correo electrónico",
+      "num_temas": 1,
+      "resumen": "Correo electrónico y Microsoft Outlook 2019: mensajes, reglas, libreta de direcciones y calendario."
+     },
+     {
+      "nombre": "Igualdad",
+      "num_temas": 1,
+      "resumen": "Igualdad efectiva de mujeres y hombres y políticas públicas de igualdad."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Temario corto (11 temas) y de carácter práctico y general, sin ejercicios detallados en el anuncio. La dificultad dependerá de las pruebas, que no se indican."
+   },
+   "aspirantes": {
+    "estimacion": "800–2.000 (≈ 20–45 por plaza)",
+    "explicacion": "Estimación orientativa, no dato oficial. Las plazas de ordenanza de la Junta con requisitos básicos suelen tener mucha demanda, pero no se conocen ediciones anteriores de este proceso."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 53,
+   "puesto": "Persona de Limpieza y Servicios Domésticos",
+   "cuerpo": "Grupo V - Persona de Limpieza y Servicios Domésticos",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo V",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 248,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida; el Grupo V suele exigir solo titulación básica, pero debe comprobarse en las bases.",
+   "titulacion": "No consta en el anuncio",
+   "requisitos": "No consta en el anuncio",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-v-persona-de-limpieza-y-servicios",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-v-persona-de-limpieza-y-servicios",
+     "titulo": "2025-2026 - Grupo V - Persona de Limpieza y Servicios Domésticos - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de personal laboral del Grupo V (Persona de Limpieza y Servicios Domésticos) de la Junta de Comunidades de Castilla-La Mancha, turno libre, con 248 plazas y estado abierto. El anuncio no detalla la titulación exigida, así que conviene revisar las bases antes de inscribirse.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 10,
+    "bloques": [
+     {
+      "nombre": "Trabajos generales de limpieza y prevención",
+      "num_temas": 2,
+      "resumen": "Técnicas generales de limpieza, materiales y herramientas, y seguridad y salud en el trabajo (temas 1 y 9)."
+     },
+     {
+      "nombre": "Limpieza de instalaciones, superficies y mobiliario",
+      "num_temas": 5,
+      "resumen": "Limpieza de aseos, paredes, suelos, cristales, comedores y cocinas, muebles de madera, cuero y tapizados, y lavandería y plancha (temas 2 a 7)."
+     },
+     {
+      "nombre": "Residuos",
+      "num_temas": 1,
+      "resumen": "Tipos de residuos, identificación, tratamiento, recogida, evacuación y reciclaje (tema 8)."
+     },
+     {
+      "nombre": "Igualdad",
+      "num_temas": 1,
+      "resumen": "Igualdad efectiva de mujeres y hombres y políticas públicas de igualdad (tema 10)."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Temario de 10 temas de carácter práctico y sin requisito de titulación especializada; la dificultad principal es el volumen de plazas y la competencia."
+   },
+   "aspirantes": {
+    "estimacion": "2.000–4.000 (≈ 8–16 por plaza)",
+    "explicacion": "Estimación orientativa, no basada en datos oficiales de ediciones anteriores. Los procesos de personal laboral de grupos básicos con acceso sin titulación suelen tener muchos aspirantes."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 54,
+   "puesto": "Peón Especialista",
+   "cuerpo": "Grupo V - Personal Peón Especialista",
+   "organismo": "Junta de Comunidades de Castilla-La Mancha",
+   "ambito": "castilla_la_mancha",
+   "ambitoNombre": "Castilla-La Mancha",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo V",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 50,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida; hay que comprobarla en las bases para saber si un Técnico Superior puede acceder.",
+   "titulacion": "No indicada en el anuncio",
+   "requisitos": "No se indican en el anuncio.",
+   "estado": "consultar",
+   "publicado": "2026-11-20",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://empleopublico.castillalamancha.es/aviso/enlace-para-la-presentacion-de-solicitudes",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "JCCM",
+     "id": "JCCM-2025-2026-grupo-v-personal-peon-especialista-turno-libre",
+     "fecha": "2026-11-20",
+     "url": "https://empleopublico.castillalamancha.es/procesos-selectivos/abiertos/turno-libre/2025-2026-grupo-v-personal-peon-especialista-turno-libre",
+     "titulo": "2025-2026 - Grupo V - Personal Peón Especialista - Turno Libre",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Proceso selectivo de la Junta de Comunidades de Castilla-La Mancha para 50 plazas de Peón Especialista (Grupo V, personal laboral, turno libre), con temario de 12 temas sobre carreteras, mantenimiento y oficios básicos. El anuncio no indica la titulación exigida ni el plazo de solicitudes, así que conviene revisar las bases.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 12,
+    "bloques": [
+     {
+      "nombre": "Carreteras, señalización y materiales",
+      "num_temas": 3,
+      "resumen": "Construcción de carreteras, movimiento de tierras, firmes y hormigones; señalización vertical y horizontal, seguridad vial y señalización de obras; materiales de conservación de carreteras."
+     },
+     {
+      "nombre": "Conservación, jardinería y maquinaria",
+      "num_temas": 3,
+      "resumen": "Trabajos de conservación y parques de maquinaria; nociones de jardinería; maquinaria y utillaje."
+     },
+     {
+      "nombre": "Oficios básicos e instalaciones",
+      "num_temas": 4,
+      "resumen": "Fontanería, electricidad y albañilería con reparaciones simples; climatización y agua; técnicas de limpieza manual y mecánica; productos de limpieza, dosificación y etiquetado de peligrosidad."
+     },
+     {
+      "nombre": "Prevención de riesgos e igualdad",
+      "num_temas": 2,
+      "resumen": "Riesgos laborales específicos en conservación y explotación de carreteras y su prevención; igualdad efectiva de mujeres y hombres y políticas públicas de igualdad."
+     }
+    ]
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Son 12 temas de carácter práctico y bastante general, sin ejercicios detallados en el anuncio. Para un perfil con formación de Técnico Superior la preparación es asequible."
+   },
+   "aspirantes": {
+    "estimacion": "1.000–2.000 (≈ 20–40 por plaza)",
+    "explicacion": "Es una estimación orientativa, no basada en datos oficiales ni en ediciones anteriores conocidas. Las plazas de peón laboral de la Junta suelen tener bastante demanda por su accesibilidad."
+   },
+   "afin": false,
+   "nuevo": true,
    "modo": "ia"
   },
   {

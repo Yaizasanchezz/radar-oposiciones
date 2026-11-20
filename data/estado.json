@@ -1,10 +1,10 @@
 {
- "ejecucion": "2026-11-19T17:05",
+ "ejecucion": "2026-11-20T16:55",
  "fuentes": {
   "BOE": {
    "ok": 1,
    "errores": 0,
-   "candidatos": 3,
+   "candidatos": 2,
    "avisos": []
   },
   "BOCM": {
@@ -25,7 +25,7 @@
   "JCCM": {
    "ok": 1,
    "errores": 0,
-   "candidatos": 0,
+   "candidatos": 30,
    "avisos": []
   }
  }
