@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-20 16:55",
- "hoy": "2026-11-20",
+ "actualizado": "2026-11-21 16:16",
+ "hoy": "2026-11-21",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -1000,6 +1000,90 @@ window.RADAR = {
    },
    "afin": false,
    "nuevo": false,
+   "modo": "ia"
+  },
+  {
+   "id": 55,
+   "puesto": "Oficial de Arsenales (11 programas: construcción-albañil, construcción-pintor, calefactor-fontanero, composición, ebanista-carpintero, electricidad del automóvil, electrónico I, electrónico II, instalador-montador, mecánico del automóvil, soldador-chapista y tornero-fresador)",
+   "cuerpo": "Cuerpo de Oficiales de Arsenales de la Armada (código 0424)",
+   "organismo": "MINISTERIO DE DEFENSA",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "oposicion",
+   "plazas": 116,
+   "accesible": "dudoso",
+   "motivoAccesible": "La titulación exigida es la ESO, compatible con su perfil y hay turno libre, pero el texto no indica el subgrupo del cuerpo, que debe verificarse antes de presentarse.",
+   "titulacion": "Graduado en Educación Secundaria Obligatoria (ESO), o en condiciones de obtenerlo a la fecha de fin de plazo",
+   "requisitos": "Nacionalidad española (con excepciones para nacionales UE y familiares); capacidad funcional; tener 16 años y no exceder la edad de jubilación; no estar inhabilitado ni separado de la Administración. Hay 14 plazas para discapacidad (grado igual o superior al 33 %) y 77 plazas de reserva para militares profesionales de tropa y marinería, reservistas y militares de complemento con requisitos específicos; quien opte por reserva militar no puede optar a discapacidad a la vez. Los programas de destino son orientativos y la distribución provincial es estimada.",
+   "estado": "proxima",
+   "publicado": "2026-11-21",
+   "publicadoBOE": "2026-11-21",
+   "inicioPlazo": "2026-11-23",
+   "finPlazo": "2026-12-21",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": 11.66,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-24459",
+     "fecha": "2026-11-21",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24459",
+     "titulo": "Resolución 430/38456/2026, de 13 de noviembre, de la Subsecretaría, por la que se convoca proceso selectivo para acceso, por el sistema general de acceso libre, en el Cuerpo de Oficiales de Arsenales de la Armada.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "El Ministerio de Defensa convoca 116 plazas de acceso libre en el Cuerpo de Oficiales de Arsenales de la Armada (código 0424), exigiendo solo el título de ESO, con oposición de dos ejercicios tipo test y un plazo de 20 días hábiles que termina el 21 de diciembre de 2026.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 29,
+    "bloques": [
+     {
+      "nombre": "Temas comunes",
+      "num_temas": 4,
+      "resumen": "Constitución de 1978 (derechos y deberes), régimen jurídico del personal al servicio de las Administraciones Públicas, gobierno abierto y transparencia (Ley 19/2013), y políticas de igualdad de género (LO 3/2007 y Ley 4/2023 LGTBI)."
+     },
+     {
+      "nombre": "Programas de construcción y acabados (albañil, pintor, calefactor-fontanero, ebanista-carpintero)",
+      "num_temas": 25,
+      "resumen": "Cada programa tiene 25 temas. Incluyen lectura de planos, cotas y escalas, instalaciones de fontanería, electricidad y climatización, pintura y materiales, carpintería, prevención de riesgos y valoración de partidas de obra."
+     },
+     {
+      "nombre": "Programas de electricidad y electrónica (electricidad del automóvil, electrónico I, electrónico II, instalador-montador)",
+      "num_temas": 25,
+      "resumen": "Cada programa tiene 25 temas. Incluyen fundamentos de electricidad y circuitos, componentes electrónicos, sistemas de carga y arranque, redes de telecomunicaciones (ICT, IP, fibra óptica), motores eléctricos y riesgo eléctrico."
+     },
+     {
+      "nombre": "Programas de mecánica, industria y artes gráficas (composición, mecánico del automóvil, soldador-chapista, tornero-fresador)",
+      "num_temas": 25,
+      "resumen": "Cada programa tiene 25 temas. Incluyen motores y sistemas auxiliares, soldadura y ensayos, interpretación de planos de taller, mecanizado y control numérico, y procesos de preimpresión y tipografía en el caso de composición."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Primer ejercicio",
+     "descripcion": "Cuestionario escrito de 50 preguntas con 4 respuestas alternativas (una correcta), sobre el programa común y el específico. Duración 75 minutos. Puntuación de 0 a 50, con mínimo de 25 para superarlo. Eliminatorio. Cada respuesta errónea resta un 25 % del valor; las preguntas en blanco no penalizan. Pueden añadirse 3 preguntas de reserva."
+    },
+    {
+     "nombre": "Segundo ejercicio",
+     "descripcion": "Cuestionario escrito teórico-práctico de 30 preguntas con 4 respuestas alternativas (una correcta), sobre el programa específico. Duración 60 minutos. Puntuación de 0 a 60, con mínimo de 30 para superarlo. Eliminatorio. Mismas penalizaciones que el primero. Puede celebrarse el mismo día que el primero."
+    }
+   ],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Son 29 temas por programa, con dos tests de respuesta alternativa penalizados y mínimos del 50 %. Los temas específicos son técnicos, pero el tipo de examen es asequible con buen estudio."
+   },
+   "aspirantes": {
+    "estimacion": "2.000–4.000 (≈ 17–34 por plaza)",
+    "explicacion": "Estimación orientativa sin ediciones anteriores conocidas. Al exigir solo ESO, puede atraer a muchas personas, aunque la especialización técnica de los programas la reduce. Es una estimación, no un dato oficial."
+   },
+   "afin": false,
+   "nuevo": true,
    "modo": "ia"
   },
   {
