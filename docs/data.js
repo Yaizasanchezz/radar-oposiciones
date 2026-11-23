@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-22 15:54",
- "hoy": "2026-11-22",
+ "actualizado": "2026-11-23 19:47",
+ "hoy": "2026-11-23",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -1018,7 +1018,7 @@ window.RADAR = {
    "motivoAccesible": "La titulación exigida es la ESO, compatible con su perfil y hay turno libre, pero el texto no indica el subgrupo del cuerpo, que debe verificarse antes de presentarse.",
    "titulacion": "Graduado en Educación Secundaria Obligatoria (ESO), o en condiciones de obtenerlo a la fecha de fin de plazo",
    "requisitos": "Nacionalidad española (con excepciones para nacionales UE y familiares); capacidad funcional; tener 16 años y no exceder la edad de jubilación; no estar inhabilitado ni separado de la Administración. Hay 14 plazas para discapacidad (grado igual o superior al 33 %) y 77 plazas de reserva para militares profesionales de tropa y marinería, reservistas y militares de complemento con requisitos específicos; quien opte por reserva militar no puede optar a discapacidad a la vez. Los programas de destino son orientativos y la distribución provincial es estimada.",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-11-21",
    "publicadoBOE": "2026-11-21",
    "inicioPlazo": "2026-11-23",
@@ -1081,6 +1081,246 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "2.000–4.000 (≈ 17–34 por plaza)",
     "explicacion": "Estimación orientativa sin ediciones anteriores conocidas. Al exigir solo ESO, puede atraer a muchas personas, aunque la especialización técnica de los programas la reduce. Es una estimación, no un dato oficial."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 56,
+   "puesto": "Auxiliar de Archivos (acceso libre)",
+   "cuerpo": "Escala Auxiliar de Archivos, Bibliotecas y Museos de Organismos Autónomos del Ministerio de Cultura, sección Archivos (código 5431L)",
+   "organismo": "MINISTERIO DE CULTURA",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "C2",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "oposicion",
+   "plazas": 30,
+   "accesible": "si",
+   "motivoAccesible": "Turno libre con titulación de Bachiller o Técnico, que tu Técnico Superior cumple. El subgrupo C2 se infiere de los requisitos de promoción interna del propio texto, ya que el anuncio no lo indica expresamente.",
+   "titulacion": "Título de Bachiller o Técnico (o estar en condiciones de obtenerlo a la fecha de fin de plazo)",
+   "requisitos": "Nacionalidad española o de otro Estado con los requisitos de la base 3.2; capacidad funcional; tener 16 años cumplidos y no superar la edad de jubilación; no estar inhabilitado; se puede optar por el cupo de discapacidad (33% o más) solo si se concurre únicamente por él.",
+   "estado": "proxima",
+   "publicado": "2026-11-23",
+   "publicadoBOE": "2026-11-23",
+   "inicioPlazo": "2026-11-24",
+   "finPlazo": "2026-12-23",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": 15.57,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-24535",
+     "fecha": "2026-11-23",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24535",
+     "titulo": "Resolución de 17 de noviembre de 2026, de la Subsecretaría, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en la Escala Auxiliar de Archivos, Bibliotecas y Museos de Organismos Autónomos del Ministerio de Cultura, y para el cambio de régimen jurídico del personal laboral fijo incluido en el anexo II del IV Convenio Único para el personal laboral de la Administración General del Estado.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del Ministerio de Cultura para 86 plazas de acceso libre (79 generales y 7 de discapacidad) en la Escala Auxiliar de Archivos, Bibliotecas y Museos de OOAA, en las secciones Archivos, Bibliotecas y Museos, con plazo de 20 días hábiles desde el día siguiente a la publicación en el BOE. La promoción interna y el cambio de régimen jurídico no son accesibles para tu perfil.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 45,
+    "bloques": [
+     {
+      "nombre": "Bloque I. Legislación",
+      "num_temas": 11,
+      "resumen": "Constitución, organización del Estado, Administración General del Estado, procedimiento administrativo, EBEP, igualdad, transparencia y normativa de archivos (Ley 16/1985 y RD 1708/2011)."
+     },
+     {
+      "nombre": "Bloque II. Historia cultural",
+      "num_temas": 7,
+      "resumen": "Cultura y sociedad de la Edad Media, Renacimiento, Barroco, Ilustración, siglo XIX y siglo XX en España."
+     },
+     {
+      "nombre": "Bloque III. Específico de Archivos",
+      "num_temas": 27,
+      "resumen": "Archivística (ciclo vital, clasificación, valoración, descripción, CNEDA y PARES), conservación y digitalización, instalaciones y archivos históricos y del Estado."
+     },
+     {
+      "nombre": "Bloque IV. Parte práctica",
+      "num_temas": null,
+      "resumen": "Ordenación y conservación de fondos, atención a investigadores y apoyo a procesos técnicos (se evalúa en la segunda parte del ejercicio)."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único (oposición)",
+     "descripcion": "Eliminatorio. Primera parte: test de 100 preguntas con 4 respuestas (más 10 de reserva) sobre bloques I-III, valorado de 0 a 50 con mínimo 25; penaliza 1/3 del valor de cada error. Segunda parte: dos supuestos prácticos de 15 preguntas cada uno (30 en total, con 5 de reserva) sobre el bloque IV, valorada de 0 a 50 con mínimo 25. Tiempo máximo conjunto: 150 minutos."
+    }
+   ],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Son 45 temas más un bloque práctico, 100 + 30 preguntas tipo test con penalización de error en 150 minutos, y un examen eliminatorio en dos partes con mínimos de 25 puntos en cada una."
+   },
+   "aspirantes": {
+    "estimacion": "1.500–3.000 (≈ 50–100 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios habituales de escalas auxiliares estatales con temario extenso. No se dispone de datos de ediciones anteriores de esta escala."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 57,
+   "puesto": "Auxiliar de Bibliotecas (acceso libre)",
+   "cuerpo": "Escala Auxiliar de Archivos, Bibliotecas y Museos de Organismos Autónomos del Ministerio de Cultura, sección Bibliotecas (código 5431J)",
+   "organismo": "MINISTERIO DE CULTURA",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "C2",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "oposicion",
+   "plazas": 39,
+   "accesible": "si",
+   "motivoAccesible": "Turno libre con titulación de Bachiller o Técnico, que tu Técnico Superior cumple. El subgrupo C2 se infiere de los requisitos de promoción interna del propio texto, ya que el anuncio no lo indica expresamente.",
+   "titulacion": "Título de Bachiller o Técnico (o estar en condiciones de obtenerlo a la fecha de fin de plazo)",
+   "requisitos": "Nacionalidad española o de otro Estado con los requisitos de la base 3.2; capacidad funcional; tener 16 años cumplidos y no superar la edad de jubilación; no estar inhabilitado; se puede optar por el cupo de discapacidad (33% o más) solo si se concurre únicamente por él.",
+   "estado": "proxima",
+   "publicado": "2026-11-23",
+   "publicadoBOE": "2026-11-23",
+   "inicioPlazo": "2026-11-24",
+   "finPlazo": "2026-12-23",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": 15.57,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-24535",
+     "fecha": "2026-11-23",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24535",
+     "titulo": "Resolución de 17 de noviembre de 2026, de la Subsecretaría, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en la Escala Auxiliar de Archivos, Bibliotecas y Museos de Organismos Autónomos del Ministerio de Cultura, y para el cambio de régimen jurídico del personal laboral fijo incluido en el anexo II del IV Convenio Único para el personal laboral de la Administración General del Estado.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del Ministerio de Cultura para 86 plazas de acceso libre (79 generales y 7 de discapacidad) en la Escala Auxiliar de Archivos, Bibliotecas y Museos de OOAA, en las secciones Archivos, Bibliotecas y Museos, con plazo de 20 días hábiles desde el día siguiente a la publicación en el BOE. La promoción interna y el cambio de régimen jurídico no son accesibles para tu perfil.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 45,
+    "bloques": [
+     {
+      "nombre": "Bloque I. Legislación",
+      "num_temas": 11,
+      "resumen": "Constitución, organización del Estado, Administración General del Estado, procedimiento administrativo, EBEP, igualdad, transparencia y legislación bibliotecaria (Ley 10/2007 y Ley 1/2015 de la BNE)."
+     },
+     {
+      "nombre": "Bloque II. Historia cultural",
+      "num_temas": 4,
+      "resumen": "La imprenta y los incunables, el libro y las bibliotecas en los siglos XVI a XX, y la industria editorial actual."
+     },
+     {
+      "nombre": "Bloque III. Específico de Bibliotecas",
+      "num_temas": 30,
+      "resumen": "Tipos de bibliotecas, proceso técnico (catalogación, MARC 21, ISBN, CDU), servicios al lector, préstamo, sistemas integrados, catálogos colectivos y bibliotecas digitales."
+     },
+     {
+      "nombre": "Bloque IV. Parte práctica",
+      "num_temas": null,
+      "resumen": "Ordenación y conservación de fondos, atención a investigadores y usuarios, y apoyo a procesos técnicos (se evalúa en la segunda parte del ejercicio)."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único (oposición)",
+     "descripcion": "Eliminatorio. Primera parte: test de 100 preguntas con 4 respuestas (más 10 de reserva) sobre bloques I-III, valorado de 0 a 50 con mínimo 25; penaliza 1/3 del valor de cada error. Segunda parte: dos supuestos prácticos de 15 preguntas cada uno (30 en total, con 5 de reserva) sobre el bloque IV, valorada de 0 a 50 con mínimo 25. Tiempo máximo conjunto: 150 minutos."
+    }
+   ],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Son 45 temas más un bloque práctico, 100 + 30 preguntas tipo test con penalización de error en 150 minutos, y un examen eliminatorio en dos partes con mínimos de 25 puntos en cada una."
+   },
+   "aspirantes": {
+    "estimacion": "2.000–4.000 (≈ 50–100 por plaza)",
+    "explicacion": "Estimación orientativa. Es la sección con más plazas y puede atraer más aspirantes. No se dispone de datos de ediciones anteriores de esta escala."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 58,
+   "puesto": "Auxiliar de Museos (acceso libre)",
+   "cuerpo": "Escala Auxiliar de Archivos, Bibliotecas y Museos de Organismos Autónomos del Ministerio de Cultura, sección Museos (código 5431M)",
+   "organismo": "MINISTERIO DE CULTURA",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "C2",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "oposicion",
+   "plazas": 17,
+   "accesible": "si",
+   "motivoAccesible": "Turno libre con titulación de Bachiller o Técnico, que tu Técnico Superior cumple. El subgrupo C2 se infiere de los requisitos de promoción interna del propio texto, ya que el anuncio no lo indica expresamente.",
+   "titulacion": "Título de Bachiller o Técnico (o estar en condiciones de obtenerlo a la fecha de fin de plazo)",
+   "requisitos": "Nacionalidad española o de otro Estado con los requisitos de la base 3.2; capacidad funcional; tener 16 años cumplidos y no superar la edad de jubilación; no estar inhabilitado; se puede optar por el cupo de discapacidad (33% o más) solo si se concurre únicamente por él.",
+   "estado": "proxima",
+   "publicado": "2026-11-23",
+   "publicadoBOE": "2026-11-23",
+   "inicioPlazo": "2026-11-24",
+   "finPlazo": "2026-12-23",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": 15.57,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-24535",
+     "fecha": "2026-11-23",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24535",
+     "titulo": "Resolución de 17 de noviembre de 2026, de la Subsecretaría, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en la Escala Auxiliar de Archivos, Bibliotecas y Museos de Organismos Autónomos del Ministerio de Cultura, y para el cambio de régimen jurídico del personal laboral fijo incluido en el anexo II del IV Convenio Único para el personal laboral de la Administración General del Estado.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del Ministerio de Cultura para 86 plazas de acceso libre (79 generales y 7 de discapacidad) en la Escala Auxiliar de Archivos, Bibliotecas y Museos de OOAA, en las secciones Archivos, Bibliotecas y Museos, con plazo de 20 días hábiles desde el día siguiente a la publicación en el BOE. La promoción interna y el cambio de régimen jurídico no son accesibles para tu perfil.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 45,
+    "bloques": [
+     {
+      "nombre": "Bloque I. Legislación",
+      "num_temas": 11,
+      "resumen": "Constitución, organización del Estado, Administración General del Estado, procedimiento administrativo, EBEP, igualdad, transparencia y normativa de museos (Patrimonio Histórico y Reglamento de Museos de Titularidad Estatal)."
+     },
+     {
+      "nombre": "Bloque II. Historia cultural",
+      "num_temas": 10,
+      "resumen": "Culturas prerromanas, Hispania romana, arte islámico, románico, gótico, Renacimiento, siglo XVII, Ilustración, siglo XIX y vanguardias del siglo XX."
+     },
+     {
+      "nombre": "Bloque III. Específico de Museos",
+      "num_temas": 24,
+      "resumen": "Historia y colecciones de los grandes museos estatales (Prado, Reina Sofía, Sorolla, Arqueológico Nacional, Altamira), concepto de museo, fondos, conservación preventiva, DOMUS y discurso expositivo."
+     },
+     {
+      "nombre": "Bloque IV. Parte práctica",
+      "num_temas": null,
+      "resumen": "Adaptación de la documentación a DOMUS, movimiento y control de fondos, y control de la instalación expositiva (se evalúa en la segunda parte del ejercicio)."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Ejercicio único (oposición)",
+     "descripcion": "Eliminatorio. Primera parte: test de 100 preguntas con 4 respuestas (más 10 de reserva) sobre bloques I-III, valorado de 0 a 50 con mínimo 25; penaliza 1/3 del valor de cada error. Segunda parte: dos supuestos prácticos de 15 preguntas cada uno (30 en total, con 5 de reserva) sobre el bloque IV, valorada de 0 a 50 con mínimo 25. Tiempo máximo conjunto: 150 minutos."
+    }
+   ],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Son 45 temas más un bloque práctico, 100 + 30 preguntas tipo test con penalización de error en 150 minutos, y un examen eliminatorio en dos partes con mínimos de 25 puntos en cada una."
+   },
+   "aspirantes": {
+    "estimacion": "700–1.500 (≈ 40–90 por plaza)",
+    "explicacion": "Estimación orientativa. Al haber menos plazas que en Archivos o Bibliotecas, el número de aspirantes absolutos suele ser menor. No se dispone de datos de ediciones anteriores de esta escala."
    },
    "afin": false,
    "nuevo": true,
@@ -1163,7 +1403,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios habituales de cuerpos C1 de comunidades autónomas con plazas numerosas. No se conocen ediciones anteriores de esta convocatoria."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -1268,7 +1508,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en datos oficiales de ediciones anteriores. Con 50 plazas de turno libre y un temario extenso, la competencia es moderada."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -1338,7 +1578,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en ediciones anteriores de esta convocatoria. Al ser una plaza muy especializada con pocas plazas, se espera una competencia alta, aunque por debajo de los grandes procesos del Estado."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -1418,7 +1658,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios típicos de oposiciones de informática de C1 en comunidades autónomas. No se conocen ediciones anteriores de esta convocatoria concreta."
    },
    "afin": true,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -1493,7 +1733,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en ediciones anteriores. Son 5 plazas con un temario técnico y amplio, por lo que la competencia suele ser moderada frente a oposiciones generalistas."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -1558,7 +1798,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios habituales de cuerpos auxiliares de comunidades autónomas con muchas plazas. No hay datos de ediciones anteriores en el texto del anuncio."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -1643,7 +1883,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en procesos laborales autonómicos de categorías similares con gran número de plazas; no consta en el texto ni hay datos de ediciones anteriores verificados."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -1733,7 +1973,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en plazas laborales técnicas de la Junta con 2 vacantes y temario extenso; no hay datos de ediciones anteriores en el anuncio."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -1823,7 +2063,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios típicos de plazas laborales de cocina en administraciones autonómicas; no se dispone de datos de ediciones anteriores en el texto."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -1918,7 +2158,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en ediciones anteriores conocidas. Es una plaza laboral de un cuerpo técnico agrario con pocas plazas, por lo que la competencia suele ser moderada."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -2011,7 +2251,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en datos oficiales ni en ediciones anteriores conocidas. Las plazas laborales de grupo III con pocas plazas suelen tener menos aspirantes que las de funcionario de Estado."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -2096,7 +2336,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios típicos de plazas laborales de la Junta con 6 plazas; no se conocen ediciones anteriores de este proceso."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -2176,7 +2416,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en procesos laborales autonómicos de categorías similares con pocas plazas. No consta ninguna edición anterior de esta convocatoria en el texto."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -2261,7 +2501,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no un dato oficial. Se basa en que se trata de 5 plazas de personal laboral en la Junta, con un temario técnico que reduce la concurrencia habitual."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -2356,7 +2596,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no dato oficial. Se basa en que la plaza exige conocer la lengua de signos española, lo que reduce el número de candidatos, pero el turno libre de una comunidad autónoma puede atraer bastantes solicitudes."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -2446,7 +2686,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios típicos de plazas laborales técnicas de la Junta con pocas plazas. No se han consultado ediciones anteriores."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -2531,7 +2771,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios típicos de plazas laborales autonómicas de nivel medio; no se dispone de datos de ediciones anteriores en el anuncio."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -2616,7 +2856,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en datos de convocatorias anteriores de esta oposición. Las plazas de Auxiliar de Enfermería en la sanidad pública de Castilla-La Mancha suelen atraer muchos aspirantes, por lo que se usa un rango de ratio alto."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -2701,7 +2941,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en ediciones anteriores conocidas. Las plazas de personal laboral del Grupo IV de la Junta suelen atraer bastantes candidatos por el bajo requisito de titulación."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -2786,7 +3026,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en datos oficiales de ediciones anteriores. Los procesos laborales de cocina en administraciones autonómicas suelen atraer bastantes aspirantes por plaza, aunque el requisito de titulación puede reducir el número de candidatos."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -2871,7 +3111,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en datos oficiales. No constan ediciones anteriores en el anuncio. Se usa la ratio típica de plazas laborales de conductor de la Junta, que suele atraer bastantes candidatos."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -2969,7 +3209,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios típicos de plazas laborales autonómicas de grupo bajo con 10 plazas; no se dispone de datos de ediciones anteriores de este proceso."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -3057,7 +3297,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no un dato oficial. Las plazas laborales de oficios en la Junta suelen atraer bastantes solicitudes por plaza, pero con 8 plazas el número depende del nivel de exigencia de la prueba y de la titulación requerida."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -3132,7 +3372,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios típicos de plazas laborales de la Junta con pocas plazas y temario amplio; no hay datos de ediciones anteriores en el anuncio."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -3217,7 +3457,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no dato oficial. Las plazas de ordenanza de la Junta con requisitos básicos suelen tener mucha demanda, pero no se conocen ediciones anteriores de este proceso."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -3292,7 +3532,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en datos oficiales de ediciones anteriores. Los procesos de personal laboral de grupos básicos con acceso sin titulación suelen tener muchos aspirantes."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -3367,7 +3607,7 @@ window.RADAR = {
     "explicacion": "Es una estimación orientativa, no basada en datos oficiales ni en ediciones anteriores conocidas. Las plazas de peón laboral de la Junta suelen tener bastante demanda por su accesibilidad."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
