@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-23 19:47",
- "hoy": "2026-11-23",
+ "actualizado": "2026-11-24 19:21",
+ "hoy": "2026-11-24",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -1083,7 +1083,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa sin ediciones anteriores conocidas. Al exigir solo ESO, puede atraer a muchas personas, aunque la especialización técnica de los programas la reduce. Es una estimación, no un dato oficial."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -1102,7 +1102,7 @@ window.RADAR = {
    "motivoAccesible": "Turno libre con titulación de Bachiller o Técnico, que tu Técnico Superior cumple. El subgrupo C2 se infiere de los requisitos de promoción interna del propio texto, ya que el anuncio no lo indica expresamente.",
    "titulacion": "Título de Bachiller o Técnico (o estar en condiciones de obtenerlo a la fecha de fin de plazo)",
    "requisitos": "Nacionalidad española o de otro Estado con los requisitos de la base 3.2; capacidad funcional; tener 16 años cumplidos y no superar la edad de jubilación; no estar inhabilitado; se puede optar por el cupo de discapacidad (33% o más) solo si se concurre únicamente por él.",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-11-23",
    "publicadoBOE": "2026-11-23",
    "inicioPlazo": "2026-11-24",
@@ -1182,7 +1182,7 @@ window.RADAR = {
    "motivoAccesible": "Turno libre con titulación de Bachiller o Técnico, que tu Técnico Superior cumple. El subgrupo C2 se infiere de los requisitos de promoción interna del propio texto, ya que el anuncio no lo indica expresamente.",
    "titulacion": "Título de Bachiller o Técnico (o estar en condiciones de obtenerlo a la fecha de fin de plazo)",
    "requisitos": "Nacionalidad española o de otro Estado con los requisitos de la base 3.2; capacidad funcional; tener 16 años cumplidos y no superar la edad de jubilación; no estar inhabilitado; se puede optar por el cupo de discapacidad (33% o más) solo si se concurre únicamente por él.",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-11-23",
    "publicadoBOE": "2026-11-23",
    "inicioPlazo": "2026-11-24",
@@ -1262,7 +1262,7 @@ window.RADAR = {
    "motivoAccesible": "Turno libre con titulación de Bachiller o Técnico, que tu Técnico Superior cumple. El subgrupo C2 se infiere de los requisitos de promoción interna del propio texto, ya que el anuncio no lo indica expresamente.",
    "titulacion": "Título de Bachiller o Técnico (o estar en condiciones de obtenerlo a la fecha de fin de plazo)",
    "requisitos": "Nacionalidad española o de otro Estado con los requisitos de la base 3.2; capacidad funcional; tener 16 años cumplidos y no superar la edad de jubilación; no estar inhabilitado; se puede optar por el cupo de discapacidad (33% o más) solo si se concurre únicamente por él.",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-11-23",
    "publicadoBOE": "2026-11-23",
    "inicioPlazo": "2026-11-24",
