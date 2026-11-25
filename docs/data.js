@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-24 19:21",
- "hoy": "2026-11-24",
+ "actualizado": "2026-11-25 18:39",
+ "hoy": "2026-11-25",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -1321,6 +1321,60 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "700–1.500 (≈ 40–90 por plaza)",
     "explicacion": "Estimación orientativa. Al haber menos plazas que en Archivos o Bibliotecas, el número de aspirantes absolutos suele ser menor. No se dispone de datos de ediciones anteriores de esta escala."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 59,
+   "puesto": "Operario/a de Instalaciones",
+   "cuerpo": "No consta en el anuncio",
+   "organismo": "Ayuntamiento de Alcorcón",
+   "ambito": "ayuntamiento_alcorcon",
+   "ambitoNombre": "Ayto. Alcorcón",
+   "subgrupo": "DESCONOCIDO",
+   "grupoLaboral": null,
+   "personal": "desconocido",
+   "sistema": "concurso",
+   "plazas": 3,
+   "accesible": "dudoso",
+   "motivoAccesible": "El sistema es concurso de méritos, que puede ser de provisión interna, y el anuncio no indica turno libre ni titulación; hay que revisar las bases.",
+   "titulacion": "No consta en el anuncio; figura en las bases de la web municipal",
+   "requisitos": "No consta en el anuncio",
+   "estado": "proxima",
+   "publicado": "2026-11-25",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": "El plazo de presentación se abrirá cuando se publique el extracto en el BOE, según indica el anuncio. La fecha exacta no consta.",
+   "urlInscripcion": "https://www.ayto-alcorcon.es/",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261125-45",
+     "fecha": "2026-11-25",
+     "url": "https://www.bocm.es/bocm-20261125-45",
+     "titulo": "– Alcorcón. Ofertas de empleo. Proceso selectivo",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "El Ayuntamiento de Alcorcón aprueba la convocatoria de 3 plazas de Operario/a de Instalaciones por concurso de méritos. El plazo de solicitudes aún no está abierto: se publicará en el BOE y las bases completas están en la web municipal.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Sistema de concurso de méritos, sin temario ni ejercicios publicados en el anuncio. La dificultad depende de los méritos valorados en las bases."
+   },
+   "aspirantes": {
+    "estimacion": "Desconocido (estimación orientativa: 10-30 por plaza)",
+    "explicacion": "Estimación sin datos oficiales. Si el concurso está restringido a personal municipal, el número de aspirantes sería muy bajo; si está abierto a externos, la cifra subiría."
    },
    "afin": false,
    "nuevo": true,
