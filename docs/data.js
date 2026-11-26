@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-25 18:39",
- "hoy": "2026-11-25",
+ "actualizado": "2026-11-26 18:22",
+ "hoy": "2026-11-26",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -73,100 +73,6 @@ window.RADAR = {
   }
  ],
  "oposiciones": [
-  {
-   "id": 27,
-   "puesto": "Técnico en Informática (interino)",
-   "cuerpo": "Cuerpo Facultativo de Técnicos en Informática, Escala Ejecutiva (Asamblea de Madrid)",
-   "organismo": "ASAMBLEA DE MADRID",
-   "ambito": "comunidad_madrid",
-   "ambitoNombre": "Comunidad de Madrid",
-   "subgrupo": "C1",
-   "grupoLaboral": null,
-   "personal": "interino",
-   "sistema": "concurso-oposicion",
-   "plazas": 2,
-   "accesible": "si",
-   "motivoAccesible": "Exige Bachiller o FP de grado medio, y el Técnico Superior cumple ese requisito. Hay turno libre y no exige título universitario.",
-   "titulacion": "Bachiller, Formación Profesional de grado medio o equivalente, o en condiciones de obtenerla al terminar el plazo de solicitudes",
-   "requisitos": "Ser español, tener 18 años cumplidos, no padecer enfermedad o limitación incompatible con las funciones, y no haber sido separado de la Administración ni inhabilitado. Los requisitos deben cumplirse al terminar el plazo de solicitudes y mantenerse hasta la toma de posesión. Se valoran como mérito la titulación universitaria de Ingeniería Técnica o grado en Informática o Telecomunicaciones (14 puntos) y la experiencia previa en la Asamblea o en otras administraciones.",
-   "estado": "abierta",
-   "publicado": "2026-11-16",
-   "publicadoBOE": null,
-   "inicioPlazo": "2026-11-17",
-   "finPlazo": "2026-11-25",
-   "plazoTexto": "7 días hábiles",
-   "aperturaEstimada": null,
-   "urlInscripcion": "https://sede.asambleamadrid.es/catalogoservicios.aspx",
-   "tasa": null,
-   "enlaces": [
-    {
-     "fuente": "BOCM",
-     "id": "BOCM-20261116-2",
-     "fecha": "2026-11-16",
-     "url": "https://www.bocm.es/bocm-20261116-2",
-     "titulo": "Puesto interino – Resolución de 5 de noviembre de 2026, de la Presidencia de la Asamblea de Madrid, por la que se aprueba la convocatoria para la cobertura interina de dos plazas del cuerpo facultativo de técnicos en Informática/Escala ejecutiva (Grupo C, Subgrupo C1, del artículo 14 del estatuto de personal de la Asamblea de Madrid), así como las bases que han de regir dicha convocatoria",
-     "tipo": "convocatoria"
-    }
-   ],
-   "resumen": "Convocatoria para cubrir de forma interina dos plazas de Técnico en Informática (Escala Ejecutiva, Grupo C, Subgrupo C1) en la Asamblea de Madrid, con acceso desde Bachiller o FP de grado medio. El plazo de solicitudes es de siete días hábiles desde el día siguiente a la publicación en el BOCM.",
-   "temario": {
-    "disponible": true,
-    "num_temas": 23,
-    "bloques": [
-     {
-      "nombre": "Hardware, sistemas operativos e informática básica",
-      "num_temas": 4,
-      "resumen": "Arquitectura de ordenadores, componentes microinformáticos, instalación y mantenimiento de Windows y Oracle Linux, y administración de sistemas operativos en red con dominios y usuarios."
-     },
-     {
-      "nombre": "Sistemas de información, seguridad de ficheros y ofimática",
-      "num_temas": 6,
-      "resumen": "Sistemas corporativos Oracle Forms, control de permisos de ficheros, Qlikview, Office 365, correo electrónico Outlook y arquitecturas cliente/servidor y aplicaciones web con Liferay."
-     },
-     {
-      "nombre": "Redes y comunicaciones",
-      "num_temas": 4,
-      "resumen": "Medios de transmisión, redes locales e inalámbricas, DHCP y DNS, e Internet con protocolos HTTP y HTTPS."
-     },
-     {
-      "nombre": "Seguridad informática",
-      "num_temas": 3,
-      "resumen": "Amenazas y criptografía, seguridad activa con firma electrónica, VPN, SSH y cortafuegos, y seguridad perimetral y en el puesto de usuario."
-     },
-     {
-      "nombre": "Atención a usuarios e incidencias",
-      "num_temas": 3,
-      "resumen": "Tipos de mantenimiento y acuerdos de nivel de servicio, gestión de incidencias con SYSAID y gestión de inventario y garantías."
-     },
-     {
-      "nombre": "Accesibilidad, almacenamiento y legislación",
-      "num_temas": 3,
-      "resumen": "Accesibilidad y usabilidad, backup y virtualización de sistemas, y legislación sobre protección de datos y prevención de riesgos laborales."
-     }
-    ]
-   },
-   "ejercicios": [
-    {
-     "nombre": "Prueba práctica",
-     "descripcion": "Cuestionario tipo test de 60 preguntas con respuestas alternativas (una correcta), más 5 de reserva. Tiempo máximo de 60 minutos. Cada error descuenta un tercio del valor de un acierto y las blancas no penalizan. Puntuación de 0 a 60, con mínimo de 30 para superarla. Es eliminatoria."
-    },
-    {
-     "nombre": "Valoración de méritos",
-     "descripcion": "Fase para quienes superen la prueba práctica, con un máximo de 40 puntos. Incluye ejercicios superados en las dos últimas convocatorias, servicios prestados en la Asamblea y en otras administraciones, titulación universitaria y cursos de formación. Se presenta en un plazo de 3 días hábiles tras la calificación."
-    }
-   ],
-   "dificultad": {
-    "nivel": 4,
-    "explicacion": "El programa es extenso (23 temas) y muy técnico, y la prueba es un test de 60 preguntas en 60 minutos con penalización por error. Las plazas son pocas y el perfil es especializado."
-   },
-   "aspirantes": {
-    "estimacion": "50-150 (≈ 25-75 por plaza)",
-    "explicacion": "Estimación orientativa, no basada en ediciones anteriores del texto. Al ser acceso desde Bachiller o FP de grado medio, atrae a muchos perfiles, pero el temario técnico y la penalización del test reducen la competencia real."
-   },
-   "afin": true,
-   "nuevo": false,
-   "modo": "ia"
-  },
   {
    "id": 15,
    "puesto": "Administrativo/a de Obra y Mantenimiento",
@@ -1163,7 +1069,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios habituales de escalas auxiliares estatales con temario extenso. No se dispone de datos de ediciones anteriores de esta escala."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -1243,7 +1149,7 @@ window.RADAR = {
     "explicacion": "Estimación orientativa. Es la sección con más plazas y puede atraer más aspirantes. No se dispone de datos de ediciones anteriores de esta escala."
    },
    "afin": false,
-   "nuevo": true,
+   "nuevo": false,
    "modo": "ia"
   },
   {
@@ -1323,6 +1229,203 @@ window.RADAR = {
     "explicacion": "Estimación orientativa. Al haber menos plazas que en Archivos o Bibliotecas, el número de aspirantes absolutos suele ser menor. No se dispone de datos de ediciones anteriores de esta escala."
    },
    "afin": false,
+   "nuevo": false,
+   "modo": "ia"
+  },
+  {
+   "id": 60,
+   "puesto": "Cuerpo General Auxiliar de la Administración del Estado (ingreso libre)",
+   "cuerpo": "Cuerpo General Auxiliar de la Administración del Estado (código 1146)",
+   "organismo": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "C2",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "oposicion",
+   "plazas": 1450,
+   "accesible": "si",
+   "motivoAccesible": "Subgrupo C2, turno libre y titulación de ESO, por debajo de su Técnico Superior.",
+   "titulacion": "Graduado en ESO o equivalente (Orden EDU/1603/2009). Se admite acreditar un título superior, como el de Técnico Superior.",
+   "requisitos": "Nacionalidad española o de otro Estado con derecho de libre circulación; capacidad funcional; no haber sido separado del servicio; no pertenecer ya al mismo cuerpo; ser mayor de 16 años y no superar la edad de jubilación.",
+   "estado": "proxima",
+   "publicado": "2026-11-26",
+   "publicadoBOE": "2026-11-26",
+   "inicioPlazo": "2026-11-27",
+   "finPlazo": "2026-12-29",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": 11.66,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-24839",
+     "fecha": "2026-11-26",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24839",
+     "titulo": "Resolución de 24 de noviembre de 2026, de la Secretaría de Estado de Función Pública, por la que se convocan procesos selectivos para el ingreso y el acceso en Cuerpos de la Administración General del Estado, y se encarga su realización a la Comisión Permanente de Selección.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del INAP (Secretaría de Estado de Función Pública) de ingreso libre y promoción interna en el Cuerpo General Auxiliar (C2), el Cuerpo General Administrativo (C1) y el Cuerpo de Técnicos Auxiliares de Informática (C1), con plazo de 20 días hábiles desde el 27/11/2026. Los cuerpos A2 de Gestión quedan fuera por exigir título universitario.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 28,
+    "bloques": [
+     {
+      "nombre": "Bloque I. Organización pública",
+      "num_temas": 16,
+      "resumen": "Constitución, Cortes, Gobierno, Administración General del Estado, organización territorial, Unión Europea, procedimiento administrativo, protección de datos, función pública, presupuesto e igualdad y discapacidad."
+     },
+     {
+      "nombre": "Bloque II. Actividad administrativa y ofimática",
+      "num_temas": 12,
+      "resumen": "Atención al público, registro y archivo, administración electrónica, informática básica, Windows 11, Word, Excel, Access, Outlook y Teams, internet e inteligencia artificial en el puesto de trabajo."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Primera parte (ejercicio único)",
+     "descripcion": "Cuestionario tipo test de hasta 60 preguntas: 30 del bloque I y 30 psicotécnicas, más 5 de reserva. Eliminatoria, mínimo 25 de 50 puntos. Cada error resta un tercio del valor de un acierto."
+    },
+    {
+     "nombre": "Segunda parte (ejercicio único)",
+     "descripcion": "Cuestionario tipo test de hasta 50 preguntas del bloque II, más 5 de reserva. Eliminatoria, mínimo 25 de 50 puntos. Cada error resta un tercio. Las preguntas de Windows y Office se refieren a Windows 11 y Microsoft 365 de escritorio. Tiempo total del ejercicio: 110 minutos."
+    }
+   ],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Programa amplio de 28 temas y dos partes test con penalización de un tercio, aunque el psicotécnico es entrenable. Tiene muchas plazas (1.450), lo que facilita el acceso relativo."
+   },
+   "aspirantes": {
+    "estimacion": "80.000–130.000 (≈ 55–90 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de los cuerpos generales del Estado de nivel C2; no se dispone de datos de convocatorias anteriores en el texto."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 61,
+   "puesto": "Cuerpo General Administrativo de la Administración del Estado (ingreso libre)",
+   "cuerpo": "Cuerpo General Administrativo de la Administración del Estado (código 1135)",
+   "organismo": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "C1",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "oposicion",
+   "plazas": 2300,
+   "accesible": "si",
+   "motivoAccesible": "Subgrupo C1, turno libre y titulación de Bachiller o Técnico, que su Técnico Superior supera.",
+   "titulacion": "Bachiller o Técnico (Orden EDU/1603/2009). Se admite acreditar un título superior, como el de Técnico Superior.",
+   "requisitos": "Nacionalidad española o de otro Estado con derecho de libre circulación; capacidad funcional; no haber sido separado del servicio; mayor de 16 años.",
+   "estado": "proxima",
+   "publicado": "2026-11-26",
+   "publicadoBOE": "2026-11-26",
+   "inicioPlazo": "2026-11-27",
+   "finPlazo": "2026-12-29",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": 15.57,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-24839",
+     "fecha": "2026-11-26",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24839",
+     "titulo": "Resolución de 24 de noviembre de 2026, de la Secretaría de Estado de Función Pública, por la que se convocan procesos selectivos para el ingreso y el acceso en Cuerpos de la Administración General del Estado, y se encarga su realización a la Comisión Permanente de Selección.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del INAP (Secretaría de Estado de Función Pública) de ingreso libre y promoción interna en el Cuerpo General Auxiliar (C2), el Cuerpo General Administrativo (C1) y el Cuerpo de Técnicos Auxiliares de Informática (C1), con plazo de 20 días hábiles desde el 27/11/2026. Los cuerpos A2 de Gestión quedan fuera por exigir título universitario.",
+   "temario": {
+    "disponible": true,
+    "num_temas": null,
+    "bloques": [
+     {
+      "nombre": "Bloque I. Organización del Estado y de la Administración pública",
+      "num_temas": 11,
+      "resumen": "Constitución, Corona, Cortes Generales, Poder Judicial, Gobierno, Gobierno Abierto, transparencia, Administración General del Estado, organización territorial y Unión Europea. El texto recibido está truncado y solo permite identificar con seguridad este bloque; el resto del programa (bloques II a VI) no aparece completo."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Primera parte",
+     "descripcion": "Cuestionario tipo test de hasta 70 preguntas: 40 de los bloques I a V y 30 del bloque VI (ofimática), más 5 de reserva. Eliminatoria, mínimo 25 de 50 puntos. Cada error resta un tercio."
+    },
+    {
+     "nombre": "Segunda parte",
+     "descripcion": "Supuesto práctico a elegir entre dos propuestos, con 20 preguntas tipo test. Eliminatoria, mínimo 25 de 50 puntos. Si no se marca el supuesto o se marcan los dos, no se corrige. Tiempo total de ambas partes: 100 minutos."
+    }
+   ],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "Programa muy extenso (seis bloques), 70 preguntas más un supuesto práctico y penalización de un tercio. El número de plazas es alto, pero la competencia también lo es."
+   },
+   "aspirantes": {
+    "estimacion": "50.000–90.000 (≈ 20–40 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios habituales de los cuerpos C1 generales del Estado; no hay datos de ediciones anteriores en el texto."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 62,
+   "puesto": "Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado (ingreso libre)",
+   "cuerpo": "Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado",
+   "organismo": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "C1",
+   "grupoLaboral": null,
+   "personal": "funcionario",
+   "sistema": "oposicion",
+   "plazas": 1103,
+   "accesible": "si",
+   "motivoAccesible": "Subgrupo C1, turno libre y titulación de Bachiller o Técnico, que su Técnico Superior supera. Conviene revisar el anexo V porque no aparece completo.",
+   "titulacion": "Bachiller o Técnico (base 3.7.2). Se admite acreditar un título superior, como el de Técnico Superior.",
+   "requisitos": "Requisitos generales de la convocatoria. El anexo V, con programa y ejercicios, no aparece completo en el texto recibido.",
+   "estado": "proxima",
+   "publicado": "2026-11-26",
+   "publicadoBOE": "2026-11-26",
+   "inicioPlazo": "2026-11-27",
+   "finPlazo": "2026-12-29",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://ips.redsara.es/IPSC/secure/buscarConvocatorias",
+   "tasa": 15.57,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-24839",
+     "fecha": "2026-11-26",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24839",
+     "titulo": "Resolución de 24 de noviembre de 2026, de la Secretaría de Estado de Función Pública, por la que se convocan procesos selectivos para el ingreso y el acceso en Cuerpos de la Administración General del Estado, y se encarga su realización a la Comisión Permanente de Selección.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria del INAP (Secretaría de Estado de Función Pública) de ingreso libre y promoción interna en el Cuerpo General Auxiliar (C2), el Cuerpo General Administrativo (C1) y el Cuerpo de Técnicos Auxiliares de Informática (C1), con plazo de 20 días hábiles desde el 27/11/2026. Los cuerpos A2 de Gestión quedan fuera por exigir título universitario.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "El programa y los ejercicios del anexo V no están completos en el texto recibido. La estimación de dificultad es provisional, dado que el perfil técnico informático puede suponer ventaja."
+   },
+   "aspirantes": {
+    "estimacion": "30.000–60.000 (≈ 27–55 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios de cuerpos técnicos del Estado de nivel C1; no hay datos de ediciones anteriores en el texto."
+   },
+   "afin": true,
    "nuevo": true,
    "modo": "ia"
   },
@@ -4552,6 +4655,100 @@ window.RADAR = {
     "explicacion": "Estimación orientativa: no hay datos de ediciones anteriores en el anuncio. Es una plaza única con examen en Ceuta, lo que reduce la afluencia respecto a convocatorias con varias plazas o sedes en la península."
    },
    "afin": false,
+   "nuevo": false,
+   "modo": "ia"
+  },
+  {
+   "id": 27,
+   "puesto": "Técnico en Informática (interino)",
+   "cuerpo": "Cuerpo Facultativo de Técnicos en Informática, Escala Ejecutiva (Asamblea de Madrid)",
+   "organismo": "ASAMBLEA DE MADRID",
+   "ambito": "comunidad_madrid",
+   "ambitoNombre": "Comunidad de Madrid",
+   "subgrupo": "C1",
+   "grupoLaboral": null,
+   "personal": "interino",
+   "sistema": "concurso-oposicion",
+   "plazas": 2,
+   "accesible": "si",
+   "motivoAccesible": "Exige Bachiller o FP de grado medio, y el Técnico Superior cumple ese requisito. Hay turno libre y no exige título universitario.",
+   "titulacion": "Bachiller, Formación Profesional de grado medio o equivalente, o en condiciones de obtenerla al terminar el plazo de solicitudes",
+   "requisitos": "Ser español, tener 18 años cumplidos, no padecer enfermedad o limitación incompatible con las funciones, y no haber sido separado de la Administración ni inhabilitado. Los requisitos deben cumplirse al terminar el plazo de solicitudes y mantenerse hasta la toma de posesión. Se valoran como mérito la titulación universitaria de Ingeniería Técnica o grado en Informática o Telecomunicaciones (14 puntos) y la experiencia previa en la Asamblea o en otras administraciones.",
+   "estado": "cerrada",
+   "publicado": "2026-11-16",
+   "publicadoBOE": null,
+   "inicioPlazo": "2026-11-17",
+   "finPlazo": "2026-11-25",
+   "plazoTexto": "7 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://sede.asambleamadrid.es/catalogoservicios.aspx",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261116-2",
+     "fecha": "2026-11-16",
+     "url": "https://www.bocm.es/bocm-20261116-2",
+     "titulo": "Puesto interino – Resolución de 5 de noviembre de 2026, de la Presidencia de la Asamblea de Madrid, por la que se aprueba la convocatoria para la cobertura interina de dos plazas del cuerpo facultativo de técnicos en Informática/Escala ejecutiva (Grupo C, Subgrupo C1, del artículo 14 del estatuto de personal de la Asamblea de Madrid), así como las bases que han de regir dicha convocatoria",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria para cubrir de forma interina dos plazas de Técnico en Informática (Escala Ejecutiva, Grupo C, Subgrupo C1) en la Asamblea de Madrid, con acceso desde Bachiller o FP de grado medio. El plazo de solicitudes es de siete días hábiles desde el día siguiente a la publicación en el BOCM.",
+   "temario": {
+    "disponible": true,
+    "num_temas": 23,
+    "bloques": [
+     {
+      "nombre": "Hardware, sistemas operativos e informática básica",
+      "num_temas": 4,
+      "resumen": "Arquitectura de ordenadores, componentes microinformáticos, instalación y mantenimiento de Windows y Oracle Linux, y administración de sistemas operativos en red con dominios y usuarios."
+     },
+     {
+      "nombre": "Sistemas de información, seguridad de ficheros y ofimática",
+      "num_temas": 6,
+      "resumen": "Sistemas corporativos Oracle Forms, control de permisos de ficheros, Qlikview, Office 365, correo electrónico Outlook y arquitecturas cliente/servidor y aplicaciones web con Liferay."
+     },
+     {
+      "nombre": "Redes y comunicaciones",
+      "num_temas": 4,
+      "resumen": "Medios de transmisión, redes locales e inalámbricas, DHCP y DNS, e Internet con protocolos HTTP y HTTPS."
+     },
+     {
+      "nombre": "Seguridad informática",
+      "num_temas": 3,
+      "resumen": "Amenazas y criptografía, seguridad activa con firma electrónica, VPN, SSH y cortafuegos, y seguridad perimetral y en el puesto de usuario."
+     },
+     {
+      "nombre": "Atención a usuarios e incidencias",
+      "num_temas": 3,
+      "resumen": "Tipos de mantenimiento y acuerdos de nivel de servicio, gestión de incidencias con SYSAID y gestión de inventario y garantías."
+     },
+     {
+      "nombre": "Accesibilidad, almacenamiento y legislación",
+      "num_temas": 3,
+      "resumen": "Accesibilidad y usabilidad, backup y virtualización de sistemas, y legislación sobre protección de datos y prevención de riesgos laborales."
+     }
+    ]
+   },
+   "ejercicios": [
+    {
+     "nombre": "Prueba práctica",
+     "descripcion": "Cuestionario tipo test de 60 preguntas con respuestas alternativas (una correcta), más 5 de reserva. Tiempo máximo de 60 minutos. Cada error descuenta un tercio del valor de un acierto y las blancas no penalizan. Puntuación de 0 a 60, con mínimo de 30 para superarla. Es eliminatoria."
+    },
+    {
+     "nombre": "Valoración de méritos",
+     "descripcion": "Fase para quienes superen la prueba práctica, con un máximo de 40 puntos. Incluye ejercicios superados en las dos últimas convocatorias, servicios prestados en la Asamblea y en otras administraciones, titulación universitaria y cursos de formación. Se presenta en un plazo de 3 días hábiles tras la calificación."
+    }
+   ],
+   "dificultad": {
+    "nivel": 4,
+    "explicacion": "El programa es extenso (23 temas) y muy técnico, y la prueba es un test de 60 preguntas en 60 minutos con penalización por error. Las plazas son pocas y el perfil es especializado."
+   },
+   "aspirantes": {
+    "estimacion": "50-150 (≈ 25-75 por plaza)",
+    "explicacion": "Estimación orientativa, no basada en ediciones anteriores del texto. Al ser acceso desde Bachiller o FP de grado medio, atrae a muchos perfiles, pero el temario técnico y la penalización del test reducen la competencia real."
+   },
+   "afin": true,
    "nuevo": false,
    "modo": "ia"
   }
