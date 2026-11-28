@@ -1,6 +1,6 @@
 window.RADAR = {
- "actualizado": "2026-11-26 18:22",
- "hoy": "2026-11-26",
+ "actualizado": "2026-11-28 16:52",
+ "hoy": "2026-11-28",
  "ambitos": {
   "estatal": "Estado (AGE)",
   "comunidad_madrid": "Comunidad de Madrid",
@@ -73,60 +73,6 @@ window.RADAR = {
   }
  ],
  "oposiciones": [
-  {
-   "id": 15,
-   "puesto": "Administrativo/a de Obra y Mantenimiento",
-   "cuerpo": "Personal laboral fijo, Grupo IV (Técnicos, Administrativos y Recepción), nivel 4-A",
-   "organismo": "MINISTERIO DE HACIENDA",
-   "ambito": "estatal",
-   "ambitoNombre": "Estado (AGE)",
-   "subgrupo": "LABORAL",
-   "grupoLaboral": "Grupo IV, nivel 4-A",
-   "personal": "laboral",
-   "sistema": "desconocido",
-   "plazas": 2,
-   "accesible": "dudoso",
-   "motivoAccesible": "El anuncio no indica la titulación exigida; hay que comprobarla en las bases para confirmar si es compatible con un Técnico Superior.",
-   "titulacion": "No consta en el anuncio; figura en las bases de la convocatoria.",
-   "requisitos": "Presentar el Modelo de Solicitud de Admisión (anexo III) y el Modelo de Alegación de Méritos (anexo IV), disponibles en la web de la entidad y en la sede social del Consorcio (Ronda de Vigilancia s/n, recinto interior de la Zona Franca de Cádiz).",
-   "estado": "abierta",
-   "publicado": "2026-10-28",
-   "publicadoBOE": "2026-10-28",
-   "inicioPlazo": "2026-10-29",
-   "finPlazo": "2026-11-26",
-   "plazoTexto": "20 días hábiles",
-   "aperturaEstimada": null,
-   "urlInscripcion": "https://www.zonafrancacadiz.com/convocatoria-empleo-publico/",
-   "tasa": null,
-   "enlaces": [
-    {
-     "fuente": "BOE",
-     "id": "BOE-A-2026-22556",
-     "fecha": "2026-10-28",
-     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22556",
-     "titulo": "Resolución de 19 de octubre de 2026, de la Delegación Especial del Estado en el Consorcio Zona Franca de Cádiz, por la que se convoca proceso selectivo, por el sistema general de acceso libre, para la provisión de plazas de personal laboral fijo, Administrativo/a de Obra y Mantenimiento.",
-     "tipo": "convocatoria"
-    }
-   ],
-   "resumen": "El Consorcio Zona Franca de Cádiz convoca por acceso libre dos plazas de personal laboral fijo de Administrativo/a de Obra y Mantenimiento (Grupo IV, nivel 4-A, OEP 2026). El plazo de solicitudes es de veinte días hábiles desde la publicación en el BOE, y las bases están en la web de la entidad.",
-   "temario": {
-    "disponible": false,
-    "num_temas": null,
-    "bloques": []
-   },
-   "ejercicios": [],
-   "dificultad": {
-    "nivel": 2,
-    "explicacion": "Plazas de personal laboral de nivel medio-bajo, sin temario ni ejercicios publicados en el anuncio; la dificultad dependerá de las pruebas que fijen las bases."
-   },
-   "aspirantes": {
-    "estimacion": "100–300 (≈50–150 por plaza)",
-    "explicacion": "Estimación orientativa basada en el tipo de puesto y en el carácter de la entidad; no se dispone de datos de ediciones anteriores."
-   },
-   "afin": false,
-   "nuevo": false,
-   "modo": "ia"
-  },
   {
    "id": 25,
    "puesto": "Perfil técnico P01 (área Informática y Técnica)",
@@ -1248,7 +1194,7 @@ window.RADAR = {
    "motivoAccesible": "Subgrupo C2, turno libre y titulación de ESO, por debajo de su Técnico Superior.",
    "titulacion": "Graduado en ESO o equivalente (Orden EDU/1603/2009). Se admite acreditar un título superior, como el de Técnico Superior.",
    "requisitos": "Nacionalidad española o de otro Estado con derecho de libre circulación; capacidad funcional; no haber sido separado del servicio; no pertenecer ya al mismo cuerpo; ser mayor de 16 años y no superar la edad de jubilación.",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-11-26",
    "publicadoBOE": "2026-11-26",
    "inicioPlazo": "2026-11-27",
@@ -1322,7 +1268,7 @@ window.RADAR = {
    "motivoAccesible": "Subgrupo C1, turno libre y titulación de Bachiller o Técnico, que su Técnico Superior supera.",
    "titulacion": "Bachiller o Técnico (Orden EDU/1603/2009). Se admite acreditar un título superior, como el de Técnico Superior.",
    "requisitos": "Nacionalidad española o de otro Estado con derecho de libre circulación; capacidad funcional; no haber sido separado del servicio; mayor de 16 años.",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-11-26",
    "publicadoBOE": "2026-11-26",
    "inicioPlazo": "2026-11-27",
@@ -1391,7 +1337,7 @@ window.RADAR = {
    "motivoAccesible": "Subgrupo C1, turno libre y titulación de Bachiller o Técnico, que su Técnico Superior supera. Conviene revisar el anexo V porque no aparece completo.",
    "titulacion": "Bachiller o Técnico (base 3.7.2). Se admite acreditar un título superior, como el de Técnico Superior.",
    "requisitos": "Requisitos generales de la convocatoria. El anexo V, con programa y ejercicios, no aparece completo en el texto recibido.",
-   "estado": "proxima",
+   "estado": "abierta",
    "publicado": "2026-11-26",
    "publicadoBOE": "2026-11-26",
    "inicioPlazo": "2026-11-27",
@@ -1426,6 +1372,60 @@ window.RADAR = {
     "explicacion": "Estimación orientativa basada en ratios de cuerpos técnicos del Estado de nivel C1; no hay datos de ediciones anteriores en el texto."
    },
    "afin": true,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 63,
+   "puesto": "Auxiliar de Archivos, Bibliotecas y Museos (acceso libre)",
+   "cuerpo": "Cuerpo de Técnicos Auxiliares, Escala de Auxiliares de Archivos, Bibliotecas y Museos, Administración Especial",
+   "organismo": "CONSEJERÍA DE ECONOMÍA, HACIENDA Y EMPLEO",
+   "ambito": "comunidad_madrid",
+   "ambitoNombre": "Comunidad de Madrid",
+   "subgrupo": "C1",
+   "grupoLaboral": "Grupo Profesional III",
+   "personal": "funcionario",
+   "sistema": "oposicion",
+   "plazas": 29,
+   "accesible": "si",
+   "motivoAccesible": "Es turno libre y la titulación exigida es Bachiller o Técnico de FP, que cumple su Técnico Superior.",
+   "titulacion": "Bachiller, Técnico de Formación Profesional o titulación equivalente",
+   "requisitos": "Ausencia de condena firme por delitos contra la libertad e indemnidad sexual si hay contacto habitual con menores o con personas con discapacidad o en situación de dependencia. Dos plazas reservadas para discapacidad igual o superior al 33 %. Certificado negativo de delitos sexuales al tomar posesión si el puesto implica contacto con menores.",
+   "estado": "proxima",
+   "publicado": "2026-11-27",
+   "publicadoBOE": null,
+   "inicioPlazo": "2026-11-30",
+   "finPlazo": "2026-12-30",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "http://www.comunidad.madrid/servicios/empleo/oposiciones-administracion-servicios-comunidad-madrid",
+   "tasa": 21.11,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261127-1",
+     "fecha": "2026-11-27",
+     "url": "https://www.bocm.es/bocm-20261127-1",
+     "titulo": "Convocatoria proceso selectivo – Orden 2534/2026, de 12 de noviembre, de la Consejería de Economía, Hacienda y Empleo, por la que se convocan pruebas selectivas para el ingreso, por el sistema general de acceso libre y por promoción interna, en el Cuerpo de Técnicos Auxiliares, Escala de Auxiliares de Archivos, Bibliotecas y Museos, de Administración Especial, Grupo C, Subgrupo C1, de la Comunidad de Madrid",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "Convocatoria de 29 plazas por acceso libre (oposición, C1) y 4 por promoción interna (concurso-oposición) para Auxiliares de Archivos, Bibliotecas y Museos de la Comunidad de Madrid. El plazo es de 20 días hábiles desde el 28 de noviembre de 2026; según un cálculo orientativo termina hacia el 29 de diciembre de 2026.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "El texto no incluye el programa ni el detalle de los ejercicios (están en los Anexos III y I), por lo que la valoración es orientativa. Se trata de una oposición de C1 con 29 plazas y temario probablemente amplio."
+   },
+   "aspirantes": {
+    "estimacion": "1.500–3.000 (≈ 50–100 por plaza)",
+    "explicacion": "Estimación orientativa basada en ratios típicos de los cuerpos C1 de la Comunidad de Madrid con requisito de Bachiller o FP. No se dispone de datos de ediciones anteriores de esta escala."
+   },
+   "afin": false,
    "nuevo": true,
    "modo": "ia"
   },
@@ -1478,6 +1478,114 @@ window.RADAR = {
    "aspirantes": {
     "estimacion": "Desconocido (estimación orientativa: 10-30 por plaza)",
     "explicacion": "Estimación sin datos oficiales. Si el concurso está restringido a personal municipal, el número de aspirantes sería muy bajo; si está abierto a externos, la cifra subiría."
+   },
+   "afin": false,
+   "nuevo": false,
+   "modo": "ia"
+  },
+  {
+   "id": 64,
+   "puesto": "Controller económico, proyectos públicos",
+   "cuerpo": "Titulado/a Superior Senior, Grupo II, Área 3",
+   "organismo": "HOSPITAL UNIVERSITARIO DE “LA PRINCESA”",
+   "ambito": "comunidad_madrid",
+   "ambitoNombre": "Comunidad de Madrid",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo II",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 1,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida; la denominación Titulado/a Superior sugiere título universitario, que no sería accesible para esta opositora.",
+   "titulacion": "No indicada en el anuncio. La denominación Titulado/a Superior suele implicar titulación universitaria, lo que debe comprobarse en las bases.",
+   "requisitos": "No indicados en el anuncio; consultar la web de la Fundación.",
+   "estado": "consultar",
+   "publicado": "2026-11-27",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.comunidad.madrid/servicios/empleo/oposiciones-administracion-servicios-comunidad-madrid",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261127-10",
+     "fecha": "2026-11-27",
+     "url": "https://www.bocm.es/bocm-20261127-10",
+     "titulo": "Convocatoria proceso selectivo – Resolución de 18 de noviembre de 2026, de la Directora de la Fundación de Investigación Biomédica del Hospital Universitario “La Princesa”, por la que se anuncia la cobertura mediante convocatoria pública de dos plazas de personal laboral fijo, en la categoría “Titulado/a Superior Senior, Grupo II, Área 3, Controller económico, proyectos públicos” y “Titulado/a Superior, Grupo II, Área 2, Gestor de Innovación”",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "La Fundación de Investigación Biomédica del Hospital Universitario La Princesa convoca dos plazas de personal laboral fijo, de Titulado/a Superior (Grupo II): Controller económico de proyectos públicos y Gestor de Innovación. El anuncio no indica requisitos, plazos ni sistema selectivo, que deben consultarse en la web de la Fundación (www.iis-princesa.org).",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Estimación: al no constar temario ni ejercicios, la dificultad depende de las bases. Al tratarse de un puesto de controller económico en una fundación de investigación, es probable que se valore experiencia específica en gestión económica de proyectos públicos."
+   },
+   "aspirantes": {
+    "estimacion": "50-150 (orientativo, por plaza)",
+    "explicacion": "Estimación orientativa: las convocatorias de personal laboral de fundaciones sanitarias con perfil técnico-económico suelen recibir decenas de candidaturas por plaza. No hay datos de ediciones anteriores en el anuncio."
+   },
+   "afin": false,
+   "nuevo": true,
+   "modo": "ia"
+  },
+  {
+   "id": 65,
+   "puesto": "Gestor de Innovación",
+   "cuerpo": "Titulado/a Superior, Grupo II, Área 2",
+   "organismo": "HOSPITAL UNIVERSITARIO DE “LA PRINCESA”",
+   "ambito": "comunidad_madrid",
+   "ambitoNombre": "Comunidad de Madrid",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo II",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 1,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida; la denominación Titulado/a Superior sugiere título universitario, que no sería accesible para esta opositora.",
+   "titulacion": "No indicada en el anuncio. La denominación Titulado/a Superior suele implicar titulación universitaria, lo que debe comprobarse en las bases.",
+   "requisitos": "No indicados en el anuncio; consultar la web de la Fundación.",
+   "estado": "consultar",
+   "publicado": "2026-11-27",
+   "publicadoBOE": null,
+   "inicioPlazo": null,
+   "finPlazo": null,
+   "plazoTexto": "",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.comunidad.madrid/servicios/empleo/oposiciones-administracion-servicios-comunidad-madrid",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOCM",
+     "id": "BOCM-20261127-10",
+     "fecha": "2026-11-27",
+     "url": "https://www.bocm.es/bocm-20261127-10",
+     "titulo": "Convocatoria proceso selectivo – Resolución de 18 de noviembre de 2026, de la Directora de la Fundación de Investigación Biomédica del Hospital Universitario “La Princesa”, por la que se anuncia la cobertura mediante convocatoria pública de dos plazas de personal laboral fijo, en la categoría “Titulado/a Superior Senior, Grupo II, Área 3, Controller económico, proyectos públicos” y “Titulado/a Superior, Grupo II, Área 2, Gestor de Innovación”",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "La Fundación de Investigación Biomédica del Hospital Universitario La Princesa convoca dos plazas de personal laboral fijo, de Titulado/a Superior (Grupo II): Controller económico de proyectos públicos y Gestor de Innovación. El anuncio no indica requisitos, plazos ni sistema selectivo, que deben consultarse en la web de la Fundación (www.iis-princesa.org).",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 3,
+    "explicacion": "Estimación: al no constar temario ni ejercicios, la dificultad depende de las bases. Al tratarse de un puesto de gestión de innovación en un entorno de investigación, es probable que se valoren méritos específicos."
+   },
+   "aspirantes": {
+    "estimacion": "50-150 (orientativo, por plaza)",
+    "explicacion": "Estimación orientativa: las convocatorias de personal laboral de fundaciones sanitarias con perfil técnico suelen recibir decenas de candidaturas por plaza. No hay datos de ediciones anteriores en el anuncio."
    },
    "afin": false,
    "nuevo": true,
@@ -4749,6 +4857,60 @@ window.RADAR = {
     "explicacion": "Estimación orientativa, no basada en ediciones anteriores del texto. Al ser acceso desde Bachiller o FP de grado medio, atrae a muchos perfiles, pero el temario técnico y la penalización del test reducen la competencia real."
    },
    "afin": true,
+   "nuevo": false,
+   "modo": "ia"
+  },
+  {
+   "id": 15,
+   "puesto": "Administrativo/a de Obra y Mantenimiento",
+   "cuerpo": "Personal laboral fijo, Grupo IV (Técnicos, Administrativos y Recepción), nivel 4-A",
+   "organismo": "MINISTERIO DE HACIENDA",
+   "ambito": "estatal",
+   "ambitoNombre": "Estado (AGE)",
+   "subgrupo": "LABORAL",
+   "grupoLaboral": "Grupo IV, nivel 4-A",
+   "personal": "laboral",
+   "sistema": "desconocido",
+   "plazas": 2,
+   "accesible": "dudoso",
+   "motivoAccesible": "El anuncio no indica la titulación exigida; hay que comprobarla en las bases para confirmar si es compatible con un Técnico Superior.",
+   "titulacion": "No consta en el anuncio; figura en las bases de la convocatoria.",
+   "requisitos": "Presentar el Modelo de Solicitud de Admisión (anexo III) y el Modelo de Alegación de Méritos (anexo IV), disponibles en la web de la entidad y en la sede social del Consorcio (Ronda de Vigilancia s/n, recinto interior de la Zona Franca de Cádiz).",
+   "estado": "cerrada",
+   "publicado": "2026-10-28",
+   "publicadoBOE": "2026-10-28",
+   "inicioPlazo": "2026-10-29",
+   "finPlazo": "2026-11-26",
+   "plazoTexto": "20 días hábiles",
+   "aperturaEstimada": null,
+   "urlInscripcion": "https://www.zonafrancacadiz.com/convocatoria-empleo-publico/",
+   "tasa": null,
+   "enlaces": [
+    {
+     "fuente": "BOE",
+     "id": "BOE-A-2026-22556",
+     "fecha": "2026-10-28",
+     "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22556",
+     "titulo": "Resolución de 19 de octubre de 2026, de la Delegación Especial del Estado en el Consorcio Zona Franca de Cádiz, por la que se convoca proceso selectivo, por el sistema general de acceso libre, para la provisión de plazas de personal laboral fijo, Administrativo/a de Obra y Mantenimiento.",
+     "tipo": "convocatoria"
+    }
+   ],
+   "resumen": "El Consorcio Zona Franca de Cádiz convoca por acceso libre dos plazas de personal laboral fijo de Administrativo/a de Obra y Mantenimiento (Grupo IV, nivel 4-A, OEP 2026). El plazo de solicitudes es de veinte días hábiles desde la publicación en el BOE, y las bases están en la web de la entidad.",
+   "temario": {
+    "disponible": false,
+    "num_temas": null,
+    "bloques": []
+   },
+   "ejercicios": [],
+   "dificultad": {
+    "nivel": 2,
+    "explicacion": "Plazas de personal laboral de nivel medio-bajo, sin temario ni ejercicios publicados en el anuncio; la dificultad dependerá de las pruebas que fijen las bases."
+   },
+   "aspirantes": {
+    "estimacion": "100–300 (≈50–150 por plaza)",
+    "explicacion": "Estimación orientativa basada en el tipo de puesto y en el carácter de la entidad; no se dispone de datos de ediciones anteriores."
+   },
+   "afin": false,
    "nuevo": false,
    "modo": "ia"
   }
